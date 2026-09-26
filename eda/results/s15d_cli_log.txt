@@ -1,0 +1,17 @@
+[    1s] queries 441,365 from train_source1; pool files ['artifacts/preprocessed/fold0\\train_source2.parquet', 'artifacts/preprocessed/fold0\\train_source3.parquet']
+[    9s]   exact_name_core_cap200       pairs=   8,895,298  [9s]
+[   17s]   exact_name_core_sorted_cap200 pairs=   8,926,535  [17s]
+[   24s]   exact_name_compact_cap200    pairs=   9,182,949  [24s]
+[   32s]   exact_name_translit_core_sorted_cap200 pairs=  10,092,531  [32s]
+[   38s]   state_house_street           pairs=   1,255,658  [38s]
+[   45s]   state_name_sorted            pairs=   2,228,451  [45s]
+[   52s]   city_name_first_cap100       pairs=   4,175,964  [52s]
+[   58s]   sn_name_compact_w3           pairs=   2,648,190  [58s]
+[   64s]   sn_addr_sorted_w3            pairs=   2,648,190  [64s]
+[  145s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 462,371 features -> 3,530,656 pairs
+[  249s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 437,089 features -> 3,531,610 pairs
+[  402s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 292,625 features -> 5,294,533 pairs
+[  594s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 301,339 features -> 5,294,540 pairs
+[  594s]   name_addr_retrieval_top20    pairs=  17,651,339  [594s]
+[  601s]   union: 35,911,531 pairs, mean 81.4, p95 233, max 689, 0 entities without candidates
+[  632s]   wrote artifacts/candidates/fold0/candidate_pairs_cli.tsv: {'rows': 441365, 'ids': 35911531, 'empty_rows': 0, 'problems': [], 'valid': True, 'path': 'artifacts/candidates/fold0/candidate_pairs_cli.tsv'}

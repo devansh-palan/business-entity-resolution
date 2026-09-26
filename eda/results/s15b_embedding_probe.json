@@ -1,0 +1,126 @@
+{
+ "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "device": "cuda",
+ "results": {
+  "missed": {
+   "n": 10708,
+   "raw name": {
+    "India": {
+     "n": 4399,
+     "embed_rate_names_per_s": 3043.0,
+     "sample": 300000,
+     "scale_to_full_pool": 13.8,
+     "true_cosine_median": 0.6931,
+     "retrievable_top20_full_pool": 0.0473,
+     "retrievable_top50_full_pool": 0.0834,
+     "retrievable_top200_full_pool": 0.1573
+    },
+    "US": {
+     "n": 6309,
+     "embed_rate_names_per_s": 3072.0,
+     "sample": 300000,
+     "scale_to_full_pool": 20.6,
+     "true_cosine_median": 0.7104,
+     "retrievable_top20_full_pool": 0.0365,
+     "retrievable_top50_full_pool": 0.0808,
+     "retrievable_top200_full_pool": 0.1566
+    }
+   },
+   "transliterated core": {
+    "India": {
+     "n": 4399,
+     "embed_rate_names_per_s": 4363.0,
+     "sample": 300000,
+     "scale_to_full_pool": 13.8,
+     "true_cosine_median": 0.6198,
+     "retrievable_top20_full_pool": 0.023,
+     "retrievable_top50_full_pool": 0.0316,
+     "retrievable_top200_full_pool": 0.0675
+    },
+    "US": {
+     "n": 6309,
+     "embed_rate_names_per_s": 3996.0,
+     "sample": 300000,
+     "scale_to_full_pool": 20.6,
+     "true_cosine_median": 0.712,
+     "retrievable_top20_full_pool": 0.022,
+     "retrievable_top50_full_pool": 0.0501,
+     "retrievable_top200_full_pool": 0.0995
+    }
+   },
+   "by_category_top50": {
+    "address missing on a side": {
+     "n": 5265,
+     "true_cosine_median": 0.7517
+    },
+    "similar name, different address": {
+     "n": 1147,
+     "true_cosine_median": 0.6904
+    },
+    "similar name and similar address": {
+     "n": 2466,
+     "true_cosine_median": 0.6792
+    },
+    "different name and different address": {
+     "n": 465,
+     "true_cosine_median": 0.2739
+    },
+    "different name, similar address": {
+     "n": 1365,
+     "true_cosine_median": 0.2919
+    }
+   }
+  },
+  "found_control": {
+   "n": 5000,
+   "raw name": {
+    "India": {
+     "n": 2051,
+     "embed_rate_names_per_s": 3005.0,
+     "sample": 300000,
+     "scale_to_full_pool": 13.8,
+     "true_cosine_median": 0.8312,
+     "retrievable_top20_full_pool": 0.4052,
+     "retrievable_top50_full_pool": 0.4647,
+     "retrievable_top200_full_pool": 0.5407
+    },
+    "US": {
+     "n": 2949,
+     "embed_rate_names_per_s": 3029.0,
+     "sample": 300000,
+     "scale_to_full_pool": 20.6,
+     "true_cosine_median": 0.8723,
+     "retrievable_top20_full_pool": 0.4768,
+     "retrievable_top50_full_pool": 0.609,
+     "retrievable_top200_full_pool": 0.6904
+    }
+   },
+   "transliterated core": {
+    "India": {
+     "n": 2051,
+     "embed_rate_names_per_s": 4303.0,
+     "sample": 300000,
+     "scale_to_full_pool": 13.8,
+     "true_cosine_median": 1.0,
+     "retrievable_top20_full_pool": 0.6431,
+     "retrievable_top50_full_pool": 0.6743,
+     "retrievable_top200_full_pool": 0.765
+    },
+    "US": {
+     "n": 2949,
+     "embed_rate_names_per_s": 3975.0,
+     "sample": 300000,
+     "scale_to_full_pool": 20.6,
+     "true_cosine_median": 1.0,
+     "retrievable_top20_full_pool": 0.5944,
+     "retrievable_top50_full_pool": 0.6965,
+     "retrievable_top200_full_pool": 0.7575
+    }
+   }
+  }
+ },
+ "full_scale_cost": {
+  "names_to_embed_train": 12527040,
+  "minutes_at_measured_rate": 68.6
+ }
+}

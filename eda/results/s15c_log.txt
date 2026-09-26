@@ -1,0 +1,31 @@
+[    0s] coverage (1527650, 32), strategies: ['1_exact_name_core', '1_exact_name_core_sorted', '1_exact_name_compact', '1_exact_name_translit_core_sorted', '1_exact_name_any_cap50', '1_exact_name_any_cap200', '2_name_token_df200_rarest2', '2_name_token_df500_rarest2', '2_name_token_df1000_rarest2', '3_name_ngram_top20', '4_addr_token_df100_rarest3', '4_addr_token_df200_rarest3', '4_addr_token_df500_rarest3', '5_state_name_sorted', '5_city_name_first', '5_city_name_first_cap100', '5_city_house_number', '5_state_house_street', '5_postal_name_first', '5u_rawlast_name_sorted', '8_sn_name_core_sorted_w3', '8_sn_name_compact_w3', '8_acronym_city', '9_numsig', '9_sn_addr_sorted_w3', '9_addr_token_top20', '9_name_addr_token_top20']
+[   33s] single strategies measured
+[   38s] 3_name_ngram_top20 {'recall@1': 0.21238, 'recall@3': 0.42443, 'recall@5': 0.49466, 'recall@10': 0.56065, 'recall@15': 0.59079, 'recall@20': 0.61015}
+[   42s] 9_addr_token_top20 {'recall@1': 0.36161, 'recall@3': 0.69656, 'recall@5': 0.77004, 'recall@10': 0.81759, 'recall@15': 0.83657, 'recall@20': 0.8473}
+[   47s] 9_name_addr_token_top20 {'recall@1': 0.43652, 'recall@3': 0.84854, 'recall@5': 0.92211, 'recall@10': 0.9465, 'recall@15': 0.95511, 'recall@20': 0.96009}
+[   86s] greedy order ['5_state_house_street', '1_exact_name_any_cap50', '9_sn_addr_sorted_w3', '5_city_name_first_cap100', '5_state_name_sorted', '8_sn_name_compact_w3', '9_name_addr_token_top20', '1_exact_name_any_cap200', '8_acronym_city']
+[   86s] greedy 1: +5_state_house_street         recall=0.45055 mean=2.8 p95=8 max=450
+[   86s] greedy 2: +1_exact_name_any_cap50       recall=0.72974 mean=6.6 p95=22 max=460
+[   87s] greedy 3: +9_sn_addr_sorted_w3          recall=0.80918 mean=11.2 p95=26 max=466
+[   87s] greedy 4: +5_city_name_first_cap100     recall=0.88521 mean=18.8 p95=60 max=492
+[   88s] greedy 5: +5_state_name_sorted          recall=0.89945 mean=21.6 p95=68 max=629
+[   89s] greedy 6: +8_sn_name_compact_w3         recall=0.91221 mean=25.2 p95=72 max=634
+[   91s] greedy 7: +9_name_addr_token_top20      recall=0.97989 mean=59.2 p95=106 max=669
+[   94s] greedy 8: +1_exact_name_any_cap200      recall=0.98520 mean=81.4 p95=233 max=689
+[   98s] greedy 9: +8_acronym_city               recall=0.98697 mean=110.5 p95=348 max=1,132
+[  101s] retrieval_only                               recall=0.97246 (US 0.9827 IN 0.9572) all-found=0.9201 mean=97.5 p95=111 max=120 pairs=43,035,242
+[  106s] retrieval_plus_cheap_keys                    recall=0.98099 (US 0.9890 IN 0.9691) all-found=0.9410 mean=110.5 p95=134 max=727 pairs=48,757,787
+[  116s] retrieval_cheap_exactname                    recall=0.98931 (US 0.9908 IN 0.9872) all-found=0.9635 mean=166.3 p95=383 max=1,454 pairs=73,409,374
+[  127s] retrieval_cheap_exactname_cityfirst          recall=0.99124 (US 0.9919 IN 0.9902) all-found=0.9696 mean=205.0 p95=730 max=2,188 pairs=90,493,528
+[  139s] retrieval_cheap_exactname_acronym_cityhouse  recall=0.99084 (US 0.9916 IN 0.9897) all-found=0.9684 mean=221.9 p95=746 max=2,548 pairs=97,955,588
+[  150s] retrieval_cheap_exactname_addrtok200         recall=0.98969 (US 0.9910 IN 0.9877) all-found=0.9648 mean=202.7 p95=481 max=1,602 pairs=89,457,807
+[  162s] retrieval_cheap_exactname_nametok500         recall=0.98990 (US 0.9909 IN 0.9884) all-found=0.9655 mean=227.7 p95=559 max=1,454 pairs=100,496,668
+[  165s] core7                                        recall=0.98108 (US 0.9863 IN 0.9732) all-found=0.9383 mean=84.3 p95=264 max=984 pairs=37,196,416
+[  168s] core7_exactcap50                             recall=0.98273 (US 0.9874 IN 0.9758) all-found=0.9436 mean=85.4 p95=265 max=984 pairs=37,697,956
+[  172s] core7_exactcap50_addrretr                    recall=0.98426 (US 0.9892 IN 0.9769) all-found=0.9486 mean=108.0 p95=284 max=1,009 pairs=47,669,565
+[  177s] core7_exactcap200_addrretr                   recall=0.98771 (US 0.9896 IN 0.9849) all-found=0.9587 mean=129.6 p95=350 max=1,149 pairs=57,193,342
+[  182s] core7_exactcap50_addrretr_cityfirst100       recall=0.98506 (US 0.9897 IN 0.9781) all-found=0.9512 mean=114.5 p95=295 max=1,014 pairs=50,527,049
+[  187s] core7_exactcap50_addrretr_ngram              recall=0.98558 (US 0.9902 IN 0.9788) all-found=0.9529 mean=140.1 p95=317 max=1,039 pairs=61,815,450
+[  201s] bounded                                      recall=0.99228 (US 0.9928 IN 0.9915) all-found=0.9730 mean=305.8 p95=939 max=3,425 pairs=134,947,354
+[  205s] greedy_selection                             recall=0.98697 (US 0.9884 IN 0.9849) all-found=0.9560 mean=110.5 p95=348 max=1,132 pairs=48,754,770
+[  205s] saved eda/results/s15c_union_selection.json

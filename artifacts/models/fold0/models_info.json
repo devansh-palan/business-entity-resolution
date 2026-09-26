@@ -1,0 +1,350 @@
+{
+ "logistic_regression": {
+  "rows": 1500000,
+  "seconds": 20.6,
+  "iterations": 82,
+  "top_coefficients": [
+   [
+    "addr_num_jaccard",
+    -2.6262
+   ],
+   [
+    "addr_num_overlap",
+    2.3166
+   ],
+   [
+    "name_tok_jaccard",
+    2.2589
+   ],
+   [
+    "p_domain_style",
+    -2.0266
+   ],
+   [
+    "cos_name_ngram",
+    1.9779
+   ],
+   [
+    "addr_token_set",
+    1.8894
+   ],
+   [
+    "addr_numsig_eq",
+    1.7835
+   ],
+   [
+    "ident_x_name",
+    1.7773
+   ],
+   [
+    "name_exact_core",
+    -1.7463
+   ],
+   [
+    "name_common_prefix_rel",
+    -1.656
+   ],
+   [
+    "legal_conflict",
+    -1.5249
+   ],
+   [
+    "name_first_tok_eq",
+    1.4617
+   ],
+   [
+    "name_compact_lev_sim",
+    1.4594
+   ],
+   [
+    "gap_name_q",
+    1.4028
+   ],
+   [
+    "name_translit_lev_sim",
+    1.3689
+   ],
+   [
+    "name_lev_dist",
+    -1.275
+   ],
+   [
+    "name_tok_overlap",
+    -1.1903
+   ],
+   [
+    "house_digits_eq",
+    1.1878
+   ],
+   [
+    "name_exact_compact",
+    1.1771
+   ],
+   [
+    "cos_addr",
+    1.0108
+   ],
+   [
+    "addr_tok_count_min",
+    -1.0091
+   ],
+   [
+    "house_eq",
+    -0.8783
+   ],
+   [
+    "name_acronym_eq",
+    0.8664
+   ],
+   [
+    "addr_tok_jaccard",
+    -0.8379
+   ],
+   [
+    "addr_partial",
+    0.7972
+   ]
+  ]
+ },
+ "lightgbm": {
+  "rows": 3022385,
+  "seconds": 167.7,
+  "best_iteration": 1056,
+  "params": {
+   "objective": "binary",
+   "learning_rate": 0.05,
+   "num_leaves": 127,
+   "min_child_samples": 100,
+   "feature_fraction": 0.8,
+   "bagging_fraction": 0.8,
+   "bagging_freq": 1,
+   "lambda_l2": 1.0,
+   "num_threads": 12,
+   "seed": 0,
+   "verbose": -1
+  },
+  "val_logloss": 0.017216302876045825,
+  "val_auc": 0.9997944872036125,
+  "top_gain": [
+   [
+    "rank_cos_q",
+    0.5392
+   ],
+   [
+    "cos_name_x_addr",
+    0.0712
+   ],
+   [
+    "cos_name_addr",
+    0.0683
+   ],
+   [
+    "rank_cos_qs",
+    0.051
+   ],
+   [
+    "name_x_addr",
+    0.0461
+   ],
+   [
+    "name_translit_jw",
+    0.0243
+   ],
+   [
+    "cos_name_ngram",
+    0.0199
+   ],
+   [
+    "name_pool_freq_2",
+    0.0129
+   ],
+   [
+    "addr_token_set",
+    0.0105
+   ],
+   [
+    "gap_cos_q",
+    0.0104
+   ],
+   [
+    "addr_numsig_eq",
+    0.009
+   ],
+   [
+    "cos_addr",
+    0.0089
+   ],
+   [
+    "house_digits_eq",
+    0.0085
+   ],
+   [
+    "legal_conflict",
+    0.0068
+   ],
+   [
+    "cos_name",
+    0.0066
+   ],
+   [
+    "addr_num_overlap",
+    0.0063
+   ],
+   [
+    "addr_partial",
+    0.0057
+   ],
+   [
+    "name_len_diff",
+    0.0043
+   ],
+   [
+    "name_len_min",
+    0.0043
+   ],
+   [
+    "legal_2",
+    0.0041
+   ],
+   [
+    "name_pool_freq_1",
+    0.004
+   ],
+   [
+    "name_common_prefix_rel",
+    0.0039
+   ],
+   [
+    "name_acronym_eq",
+    0.0039
+   ],
+   [
+    "street_jw",
+    0.0038
+   ],
+   [
+    "gap_cos_qs",
+    0.0038
+   ]
+  ]
+ },
+ "xgboost": {
+  "rows": 3022385,
+  "seconds": 715.0,
+  "best_iteration": 1509,
+  "params": {
+   "objective": "binary:logistic",
+   "eta": 0.05,
+   "max_depth": 8,
+   "min_child_weight": 20,
+   "subsample": 0.8,
+   "colsample_bytree": 0.8,
+   "reg_lambda": 1.0,
+   "tree_method": "hist",
+   "nthread": 12,
+   "seed": 0
+  },
+  "top_gain": [
+   [
+    "rank_cos_q",
+    0.5806
+   ],
+   [
+    "cos_name_x_addr",
+    0.0795
+   ],
+   [
+    "rank_cos_qs",
+    0.0581
+   ],
+   [
+    "name_x_addr",
+    0.0303
+   ],
+   [
+    "cos_name_addr",
+    0.0261
+   ],
+   [
+    "cos_name_ngram",
+    0.0241
+   ],
+   [
+    "name_translit_jw",
+    0.0237
+   ],
+   [
+    "name_pool_freq_2",
+    0.0124
+   ],
+   [
+    "cos_addr",
+    0.0117
+   ],
+   [
+    "sim_min",
+    0.0107
+   ],
+   [
+    "addr_token_set",
+    0.0104
+   ],
+   [
+    "addr_numsig_eq",
+    0.0091
+   ],
+   [
+    "house_digits_eq",
+    0.0086
+   ],
+   [
+    "cos_name",
+    0.0071
+   ],
+   [
+    "addr_partial",
+    0.0068
+   ],
+   [
+    "legal_conflict",
+    0.0068
+   ],
+   [
+    "addr_num_overlap",
+    0.0063
+   ],
+   [
+    "name_len_min",
+    0.0045
+   ],
+   [
+    "gap_cos_qs",
+    0.0041
+   ],
+   [
+    "name_common_prefix_rel",
+    0.0039
+   ],
+   [
+    "name_pool_freq_1",
+    0.0039
+   ],
+   [
+    "name_len_diff",
+    0.0038
+   ],
+   [
+    "legal_2",
+    0.0038
+   ],
+   [
+    "street_jw",
+    0.0037
+   ],
+   [
+    "addr_num_jaccard",
+    0.0034
+   ]
+  ]
+ }
+}

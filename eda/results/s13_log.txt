@@ -1,0 +1,5 @@
+[  233s] vocab built {'seconds': 116.2, 'states_aliases': {'US': 91, 'India': 56}, 'cities': {'US': 10493, 'India': 3333}, 'compatible': {'India': {'telangana': ['andhra pradesh'], 'andhra pradesh': ['telangana']}, 'US': {'dc': ['wa'], 'wa': ['dc']}}}
+[  235s] samples 300000 200000 1164
+[  289s] positives parsed
+[  320s] hard negatives parsed
+[  334s] DONE

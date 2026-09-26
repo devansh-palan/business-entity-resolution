@@ -1,0 +1,141 @@
+{
+ "source1: exact (name,addr,country) rows of TEST also in TRAIN": 0,
+ "source1: TEST rows whose (name_core_sorted,country) appears in TRAIN": 746685,
+ "source1: TEST rows whose (name_core_sorted, addr_sorted, country) appears in TRAIN": 4,
+ "source1: test rows": 1732544,
+ "source2: exact (name,addr,country) rows of TEST also in TRAIN": 0,
+ "source2: TEST rows whose (name_core_sorted,country) appears in TRAIN": 1307258,
+ "source2: TEST rows whose (name_core_sorted, addr_sorted, country) appears in TRAIN": 11324,
+ "source2: test rows": 4887273,
+ "source3: exact (name,addr,country) rows of TEST also in TRAIN": 0,
+ "source3: TEST rows whose (name_core_sorted,country) appears in TRAIN": 1335541,
+ "source3: TEST rows whose (name_core_sorted, addr_sorted, country) appears in TRAIN": 12809,
+ "source3: test rows": 5082316,
+ "train source2: pct of records whose core name exists in S1 (same country)": [
+  {
+   "country": "India",
+   "n": 2017799,
+   "hit": 730670,
+   "pct_name_in_S1": 36.21
+  },
+  {
+   "country": "US",
+   "n": 3016817,
+   "hit": 1545221,
+   "pct_name_in_S1": 51.22
+  }
+ ],
+ "train source3: pct of records whose core name exists in S1 (same country)": [
+  {
+   "country": "India",
+   "n": 2115547,
+   "hit": 839216,
+   "pct_name_in_S1": 39.67
+  },
+  {
+   "country": "US",
+   "n": 3170056,
+   "hit": 1543361,
+   "pct_name_in_S1": 48.69
+  }
+ ],
+ "test source2: pct of records whose core name exists in S1 (same country)": [
+  {
+   "country": "France",
+   "n": 703378,
+   "hit": 386279,
+   "pct_name_in_S1": 54.92
+  },
+  {
+   "country": "India",
+   "n": 2312565,
+   "hit": 722725,
+   "pct_name_in_S1": 31.25
+  },
+  {
+   "country": "US",
+   "n": 1871330,
+   "hit": 855183,
+   "pct_name_in_S1": 45.7
+  }
+ ],
+ "test source3: pct of records whose core name exists in S1 (same country)": [
+  {
+   "country": "France",
+   "n": 731615,
+   "hit": 388103,
+   "pct_name_in_S1": 53.05
+  },
+  {
+   "country": "India",
+   "n": 2405000,
+   "hit": 835616,
+   "pct_name_in_S1": 34.74
+  },
+  {
+   "country": "US",
+   "n": 1945701,
+   "hit": 854063,
+   "pct_name_in_S1": 43.89
+  }
+ ],
+ "train S1 [India]: pct of entities sharing core name with >=1 other S1 entity": 54.18,
+ "train S1 [India]: pct in groups >=10": 33.24,
+ "train S1 [India]: distinct core names": 476930,
+ "train S1 [US]: pct of entities sharing core name with >=1 other S1 entity": 46.38,
+ "train S1 [US]: pct in groups >=10": 18.54,
+ "train S1 [US]: distinct core names": 843802,
+ "test S1 [India]: pct of entities sharing core name with >=1 other S1 entity": 53.42,
+ "test S1 [India]: pct in groups >=10": 33.01,
+ "test S1 [India]: distinct core names": 442841,
+ "test S1 [US]: pct of entities sharing core name with >=1 other S1 entity": 38.64,
+ "test S1 [US]: pct in groups >=10": 16.35,
+ "test S1 [US]: distinct core names": 466498,
+ "test S1 [France]: pct of entities sharing core name with >=1 other S1 entity": 48.73,
+ "test S1 [France]: pct in groups >=10": 20.3,
+ "test S1 [France]: distinct core names": 159685,
+ "train: records per S1 entity by country": [
+  {
+   "country": "India",
+   "s1": 883188,
+   "s2": 2017799,
+   "s3": 2115547,
+   "s2_per_s1": 2.285,
+   "s3_per_s1": 2.395
+  },
+  {
+   "country": "US",
+   "s1": 1323633,
+   "s2": 3016817,
+   "s3": 3170056,
+   "s2_per_s1": 2.279,
+   "s3_per_s1": 2.395
+  }
+ ],
+ "test: records per S1 entity by country": [
+  {
+   "country": "France",
+   "s1": 259452,
+   "s2": 703378,
+   "s3": 731615,
+   "s2_per_s1": 2.711,
+   "s3_per_s1": 2.82
+  },
+  {
+   "country": "India",
+   "s1": 809986,
+   "s2": 2312565,
+   "s3": 2405000,
+   "s2_per_s1": 2.855,
+   "s3_per_s1": 2.969
+  },
+  {
+   "country": "US",
+   "s1": 663106,
+   "s2": 1871330,
+   "s3": 1945701,
+   "s2_per_s1": 2.822,
+   "s3_per_s1": 2.934
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+[    2s] samples 400000 300000
+[   19s] legal forms done
+[   25s] substitutions done
+[   41s] ladder done
+[   62s] typos done
+[   62s] transliteration done
+[   67s] unicode done
+[   72s] repeats done
+[   98s] country done
+[  106s] source patterns done
+[  725s] collisions done
+
+## 1_raw_last_token_top
+{"S1": {"US": [["llc", 355725], ["inc", 190223], ["inc.", 48083], ["corp", 26928], ["group", 26754], ["pc", 25821], ["p.c.", 22040], ["l.l.c.", 21843], ["pllc", 20531], ["center", 19066], ["associates", 17585], ["lp", 16477], ["partners", 14787], ["clinic", 13329], ["care", 13090], ["co", 8225], ["corporation", 6770], ["holdings", 5915], ["company", 5398], ["church", 5113], ["medicine", 4467], ["health", 3871], ["specialists", 3565], ["physicians", 3291], ["association", 3141]], "India": [["limited", 521776], ["ltd", 119398], ["llp", 38639], ["ltd.", 26539], ["co", 16953], ["trust", 7130], ["company", 6918], ["corp", 6833], ["corporation", 6770], ["group", 5924], ["society", 4869], ["clinic", 4778], ["associates", 4580], ["partners", 4564], ["care", 3755], ["school", 3404], ["center", 3203], ["foundation", 3198], ["technology", 2456], ["sangh", 2420], ["holdings", 2394], ["samiti", 2319], ["consultants", 2100], ["consultancy", 1991], ["institute", 1835]]}, "S2": {"US": [["llc", 372222], ["inc", 212936], ["corp", 88355], ["center", 87403], ["inc.", 76077], ["co", 74861], ["ltd", 70966], ["partners", 69776], ["group", 64985], ["services", 54665], ["l.l.c.", 50025], ["holdings", 49797], ["lp", 39040], ["corporation", 33950], ["service", 26384], ["incorporated", 21349], ["pc", 20439], ["associates", 17038], ["p.c.", 15671], ["pllc", 15491], ["care", 14250], ["[llc]", 13817], ["(llc)", 13724], ["clinic", 10800], ["ínc", 8366]], "India": [["limited", 379578], ["ltd", 210895], ["लिमिटेड", 190091], ["private", 109655], ["center", 45887], ["llp", 44522], ["लि.", 35416], ["services", 35361], ["ltd.", 34705], ["లిమిటెడ్", 33008], ["ಲಿಮಿಟೆಡ್", 31320], ["லிமிடெட்", 28346], ["লিমিটেড", 25814], ["pvt", 24808], ["લિમિટેડ", 21800], ["co", 21738], ["company", 16092], ["corporation", 15925], ["ലിമിറ്റഡ്", 15859], ["(limited)", 15856], ["एलएलपी", 15684], ["corp", 15651], ["[limited]", 15505], ["service", 15280], ["partners", 14360]]}, "S3": {"India": [["limited", 483892], ["ltd", 234037], ["private", 114453], ["लिमिटेड", 106538], ["center", 60962], ["llp", 53001], ["services", 46341], ["ltd.", 37088], ["pvt", 26103], ["co", 23068], ["(limited)", 20431], ["service", 20328], ["[limited]", 20227], ["लि.", 19977], ["partners", 18922], ["లిమిటెడ్", 18477], ["ಲಿಮಿಟೆಡ್", 17648], ["límited", 16713], ["லிமிடெட்", 15853], ["company", 15681], ["corporation", 15621], ["corp", 15507], ["লিমিটেড", 14534], ["લિમિટેડ", 12110], ["group", 10204]], "US": [["llc", 406426], ["inc", 229981], ["center", 95369], ["corp", 86837], ["partners", 74559], ["inc.", 73408], ["co", 72355], ["group", 67519], ["ltd", 66238], ["services", 58726], ["holdings", 50607], ["l.l.c.", 46998], ["lp", 36585], ["corporation", 29858], ["service", 28688], ["pc", 24007], ["associates", 18741], ["p.c.", 18366], ["pllc", 18191], ["incorporated", 17744], ["care", 15741], ["(llc)", 15381], ["[llc]", 15374], ["clinic", 12489], ["[inc]", 8992]]}}
+
+## 1_raw_legal_form_spellings
+[["limited", 135449], ["private", 124423], ["llc", 107113], ["inc", 58812], ["ltd", 56013], ["pvt", 30472], ["corp", 19774], ["co", 18579], ["inc.", 16954], ["llp", 12988], ["l.l.c.", 9913], ["pvt.", 9155], ["ltd.", 9018], ["corporation", 8457], ["pc", 7698], ["lp", 7368], ["p.c.", 6385], ["company", 5296], ["incorporated", 2649], ["(limited)", 2196], ["[limited]", 2177], ["[llc]", 1926], ["(llc)", 1921], ["l.l.p.", 1341], ["[ltd]", 1200], ["[inc]", 1185], ["(ltd)", 1170], ["(inc)", 1094], ["co.", 625], ["corp.", 617], ["(private)", 463], ["[co]", 424], ["[private]", 422], ["[corp]", 420], ["(corp)", 412], ["(co)", 383], ["(inc.)", 377], ["[inc.]", 375], ["[llp]", 245], ["(llp)", 243], ["(l.l.c.)", 228], ["(corporation)", 213], ["[l.l.c.]", 210], ["[corporation]", 191], ["[ltd.]", 191]]
+
+## 1_legal_form_behaviour_positives
+{"same forms": [149917, 37.48], "neither has a legal form": [111051, 27.76], "form dropped in S2/S3": [89543, 22.39], "form added in S2/S3": [25692, 6.42], "different forms": [19528, 4.88], "same forms, different order": [4269, 1.07]}
+
+## 1_legal_form_examples_positives
+{"neither has a legal form": [], "form dropped in S2/S3": [["B+ Retail Inc", "B+ Retail"], ["Cascade Allied Telecom LLC", "catelecom.com"], ["Shiva Management Private Limited", "శివ మేనేజ్‌మెంట్ ప్రైవేట్ లిమిటెడ్"], ["Horizon LLC", "horizon.com"]], "same forms": [], "different forms": [["Smart Healthcare Private Limited", "Smart Healthcare Limited Services"], ["Maa Research Private Limited", "Maa Research Pivoate Limited"], ["Bally Jagachha Management Private Limited", "Bally Jagachha Management Private"], ["ZX Chit Private Limited", "ZX Chit Private"]], "form added in S2/S3": [["Perry Oaktree", "Perry Oaktree LLC"], ["Summit Associates", "Summit Associates Inc"], ["Urban Projects", "URBAN PROJECTS CO"], ["Garware Educational Society", "Garware Educational Society Company | www.garwareed.com"]], "same forms, different order": [["Maharathi Televisions Pvt Ltd", "MAHARATHI TECVGENISIONS PVT PVT LTD"], ["Madurai- 14 Seeds Private Limited", "Limited Madurai- Seeds Private Services"], ["Chiropractic Care of Talladega Inc", "Chiropractic Care Of Talladega Incorporated Incorporated"], ["Aditya Best International Private Limited", "Aditya Berst International Private Private Limited"]]}
+
+## 1_legal_form_behaviour_hard_negatives
+{"different forms": [79268, 26.42], "form added in S2/S3": [65357, 21.79], "form dropped in S2/S3": [55970, 18.66], "neither has a legal form": [50391, 16.8], "same forms": [46850, 15.62], "same forms, different order": [2164, 0.72]}
+
+## 1_legal_form_substitutions_positives_top
+[["pvt ltd", "pvt", 12012], ["pvt ltd", "ltd", 5907], ["pc", "llc", 254], ["pc", "inc", 251], ["lp", "inc", 182], ["lp", "llc", 162], ["pvt ltd", "pvt pvt", 126], ["pvt ltd", "co pvt ltd", 58], ["llc", "co llc", 55], ["pvt ltd", "ltd ltd", 45], ["inc", "co inc", 43], ["pvt ltd", "co", 26], ["co llc", "co", 24], ["corp llc", "corp", 22], ["co pvt ltd", "co pvt", 19], ["llp", "inc", 14], ["co pvt ltd", "co ltd", 14], ["co inc", "co", 14], ["ltd", "co ltd", 12], ["ltd llc", "ltd", 12], ["co ltd", "co", 11], ["corp inc", "corp", 10], ["co pvt ltd", "co", 10], ["llp", "llc", 10], ["co corp", "co", 8]]
+
+## 2_single_token_substitutions_top
+[["india", "lndia", 142, "typo (edit 1)"], ["india", "center", 119, "other"], ["services", "center", 88, "other"], ["trading", "center", 87, "other"], ["center", "centre", 86, "vowel-dropped abbreviation"], ["and", "center", 83, "other"], ["associates", "center", 83, "other"], ["india", "services", 80, "other"], ["partners", "center", 79, "other"], ["care", "center", 78, "other"], ["solutions", "center", 78, "other"], ["associates", "services", 67, "other"], ["services", "5ervices", 66, "digit-for-letter"], ["and", "com", 64, "other"], ["ventures", "center", 63, "other"], ["partners", "services", 62, "other"], ["clinic", "center", 61, "other"], ["india", "service", 60, "other"], ["brothers", "center", 59, "other"], ["and", "services", 58, "other"], ["brothers", "services", 58, "other"], ["trading", "services", 56, "other"], ["center", "services", 55, "other"], ["industries", "center", 55, "other"], ["care", "services", 53, "other"], ["associates", "ass0ciates", 51, "digit-for-letter"], ["enterprises", "center", 51, "other"], ["technologies", "center", 50, "other"], ["technologies", "services", 49, "other"], ["foundation", "center", 49, "other"], ["trust", "center", 47, "other"], ["traders", "center", 47, "other"], ["s", "5", 45, "digit-for-letter"], ["care", "ce", 45, "typo (edit 2)"], ["trust", "services", 44, "other"], ["foundation", "services", 44, "other"], ["traders", "services", 44, "other"], ["consultants", "center", 44, "other"], ["delhi", "de1hi", 43, "digit-for-letter"], ["enterprises", "services", 42, "other"], ["consultants", "services", 41, "other"], ["global", "center", 41, "other"], ["consultancy", "center", 41, "other"], ["clinic", "services", 40, "other"], ["solutions", "services", 40, "other"], ["brothers", "8rothers", 40, "digit-for-letter"], ["foundation", "f0undation", 39, "digit-for-letter"], ["services", "service", 38, "truncation/prefix"], ["international", "center", 38, "other"], ["management", "center", 38, "other"], ["investments", "center", 37, "other"], ["systems", "services", 37, "other"], ["brothers", "br0thers", 37, "digit-for-letter"], ["industries", "services", 37, "other"], ["india", "partners", 36, "other"], ["institute", "lnstitute", 36, "typo (edit 1)"], ["producer", "center", 36, "other"], ["systems", "center", 36, "other"], ["solutions", "5olutions", 36, "digit-for-letter"], ["industries", "lndustries", 35, "typo (edit 1)"], ["products", "center", 35, "other"], ["systems", "5ystems", 34, "digit-for-letter"], ["technologies", "techn0logies", 33, "digit-for-letter"], ["capital", "capita1", 33, "digit-for-letter"], ["technology", "center", 33, "other"], ["dental", "denta1", 32, "digit-for-letter"], ["developers", "center", 32, "other"], ["software", "center", 32, "other"], ["ventures", "services", 32, "other"], ["power", "center", 32, "other"], ["bright", "8right", 32, "digit-for-letter"], ["builders", "center", 31, "other"], ["summit", "5ummit", 31, "digit-for-letter"], ["technologies", "techno1ogies", 31, "d
+
+## 2_substitution_classes
+{"other": [36845, 58.24], "digit-for-letter": [8725, 13.79], "typo (edit 2)": [8707, 13.76], "typo (edit 1)": [4377, 6.92], "vowel-dropped abbreviation": [3870, 6.12], "truncation/prefix": [732, 1.16], "punct/digit": [4, 0.01]}
+
+## 2_tokens_added_in_S23_top
+[["l", 9360], ["center", 5232], ["c", 4015], ["services", 3710], ["a", 3603], ["the", 3457], ["s", 2013], ["m", 1946], ["dr", 1902], ["mr", 1888], ["sri", 1878], ["shri", 1860], ["smt", 1859], ["service", 1715], ["partners", 1694], ["dba", 1609], ["formerly", 1597], ["as", 1436], ["k", 1370], ["p", 1310], ["com", 1276], ["d", 1141], ["b", 1109], ["id", 974], ["www", 971], ["f", 812], ["and", 669], ["trading", 613], ["t", 581], ["business", 565], ["doing", 547], ["aka", 533], ["ट", 483], ["fka", 425], ["known", 406], ["nee", 381], ["enterprises", 373], ["associates", 336], ["labs", 328], ["ल", 314]]
+
+## 2_tokens_dropped_from_S1_top
+[["c", 3114], ["and", 3069], ["l", 2991], ["group", 2116], ["p", 1594], ["associates", 1082], ["center", 855], ["partners", 848], ["care", 815], ["clinic", 616], ["of", 573], ["d", 555], ["holdings", 497], ["india", 448], ["health", 335], ["medicine", 283], ["school", 263], ["services", 219], ["specialists", 218], ["society", 217], ["trust", 210], ["solutions", 192], ["physicians", 189], ["church", 179], ["s", 172], ["m", 171], ["public", 164], ["international", 148], ["technology", 147], ["works", 145], ["industries", 142], ["brothers", 138], ["dds", 138], ["global", 137], ["technologies", 134], ["union", 132], ["o", 131], ["enterprises", 131], ["sons", 121], ["service", 118]]
+
+## 3_recovery_ladder_positives
+{"L0 raw equal": [18535, 4.63], "L4 legal forms removed": [77717, 19.43], "not equal after all rules": [185893, 46.47], "L2 punctuation and '&'->'and'": [24993, 6.25], "L1 case/accents/spaces": [59002, 14.75], "L3 legal forms canonicalised": [11362, 2.84], "L5 token order": [9737, 2.43], "L7 repeated word": [4815, 1.2], "L6 honorific prefix": [6426, 1.61], "L8 spacing (compact)": [1520, 0.38]}
+
+## 3_recovery_ladder_hard_negatives
+{"L4 legal forms removed": [204009, 68.0], "L2 punctuation and '&'->'and'": [19135, 6.38], "L0 raw equal": [26841, 8.95], "L1 case/accents/spaces": [29249, 9.75], "L3 legal forms canonicalised": [10142, 3.38], "L5 token order": [8467, 2.82], "not equal after all rules": [2116, 0.71], "L7 repeated word": [41, 0.01]}
+
+## 4_positives_amp_vs_and_pct
+0.369
+
+## 4_S1_names_with_amp_pct
+5.07
+
+## 4_S1_names_with_word_and_pct
+2.6
+
+## 3_apostrophe_examples
+[["Binnie's Metal Works", "Kelonex"], ["Luke's Grand Tax", "lukesgrandtax.com"], ["Highley's Coffee Inc", "highleyscoffee.com"], ["Pepita's Pub", "Pepltaabs  Pub"], ["Dang's Trusted Jewelers", "DANGSJEWELERSTRUSTED.COM"], ["Angelle's Pub Care", "apcare.com"], ["Rojas's Cascade Family Practice", "CASCADEROJASSFAMILY.COM - 6670506828"], ["Bobine's Cleaning Service", "bobinescleaningservice.com"]]
+
+## 3_apostrophe_S1_pct
+2.11
+
+## 3_apostrophe_dropped_as_joined_vs_spaced
+{"joined (orelees)": 0, "spaced (orelee s)": 0, "n": 700}
+
+## 3_punctuation_chars_in_S23_sample_500k
+[[".", 58895], [",", 34205], ["-", 27282], ["(", 25309], [")", 25287], ["&", 20580], ["्", 19802], ["ि", 18631], ["े", 18018], ["ा", 17143], ["[", 14684], ["]", 14683], ["ं", 9855], ["'", 9489], ["ी", 7547], ["/", 6055], ["ो", 5706], ["ॉ", 4052], ["ू", 3468], ["#", 3357], ["్", 3015], ["್", 2859], ["+", 2765], ["ె", 2725], ["ಿ", 2712], ["ి", 2693], ["்", 2586], ["ೆ", 2569], [":", 2495], ["ி", 2462]]
+
+## 3_punctuation_chars_in_S1_sample_500k
+[[",", 38126], [".", 34027], ["&", 25164], ["'", 10557], ["(", 10394], [")", 10388], ["-", 3044], ["!", 1640], ["/", 1145], ["+", 753], ["#", 330], ["@", 112], [">", 27], ["<", 27], [":", 6], ["]", 2], ["[", 1]]
+
+## 6_edit_distance_of_unequal_cores
+{"1": [12849, 3.21], "2": [10511, 2.63], "3-4": [32175, 8.04], "5-8": [47245, 11.81], "9+": [67212, 16.8], "indic script": [28649, 7.16]}
+
+## 6_typo_examples
+[["Christ Chapel", "Christ [Chape1]"], ["DBC Agricultural LLC", "D8C Agricultural LLC"], ["Swastik Hospitality Private Limited", "swastik h0spitality private limited"], ["Cozy Pub", "Ctooy Pub"], ["Tulsa Pediatric Dentistry Continental Medicine", "Tulsa Pediaric Dentistry Continental Medicine"], ["Gulf Network Inc", "GULF NETORK INC"], ["Brown & Martinez", "Br0wn & Martinez"], ["Choice Rate", "Choice Rnie"], ["Authentic Electro Ltd", "Authentic Elbtro Ltd"], ["Mcleod Cardiology", "Mdeod Cárdiology"], ["Schiller Interprivate Partners", "Schiller Interprviate Partners"], ["Steele Express Bhav LLC", "LLC Steele Expries Bhav"]]
+
+## 6_digit_letter_substitutions
+[["o", "0", 4019], ["l", "1", 2875], ["s", "5", 1663], ["b", "8", 775], ["g", "6", 556], ["n", "0", 18], ["a", "0", 14], ["r", "1", 10], ["i", "1", 9], ["a", "5", 9], ["i", "0", 8], ["a", "6", 8], ["a", "7", 8], ["a", "1", 8], ["e", "0", 8], ["r", "5", 8], ["n", "1", 7], ["e", "1", 7], ["o", "1", 7], ["s", "1", 6]]
+
+## 6_S1_legit_mixed_alnum_tokens_top
+[["24hr", 425], ["2nd", 33], ["3rd", 26], ["1st", 23], ["4th", 11], ["5th", 6], ["8th", 5], ["7th", 5], ["12th", 4], ["6th", 4], ["9th", 3], ["1a", 3], ["24th", 2], ["11th", 2], ["30th", 2], ["28th", 2], ["1b", 2], ["13th", 2], ["no88bhosur", 1], ["hassan573", 1], ["15kg", 1], ["17th", 1], ["17b", 1], ["a2", 1], ["12race", 1]]
+
+## 6_S1_pct_names_with_digit
+1.613
+
+## 7_positives_with_indic_name2_pct
+7.16
+
+## 7_positives_mixed_script_name2_pct
+0.517
+
+## 7_mixed_script_examples
+[["Smart Trading Private Limited", "ಸ್ಮಾರ್ಟ್ Trading ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್"], ["Golden North Construction", "ગોલ્ડન નોર્થ Construction"], ["Smart Industries Private Limited", "स्मार्ट Industries Private Limited"], ["Black It Private Limited", "Black આઈટી Private Limited"], ["Apex Media Private Limited", "एपेक्स Media Private Limited"], ["Black Consultancy Private Limited", "Black ಕನ್ಸಲ್ಟೆನ್ಸಿ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್"], ["Perfect Products Limited", "परफेक्ट प्रोडक्ट्स Limited"], ["Bright Technology Private Limited", "బ్రైట్ Technology ప్రైవేట్ లిమిటెడ్"]]
+
+## 7_indic_examples
+[["Shiva Management Private Limited", "శివ మేనేజ్‌మెంట్ ప్రైవేట్ లిమిటెడ్"], ["Aditya Sun Consultants Private Limited", "ఆదిత్య సన్ కన్సల్టెంట్స్ ప్రైవేట్ లిమిటెడ్"], ["City It Limited", "सिटी आईटी लिमिटेड"], ["Shakti Consulting Limited", "शक्ति कंसल्टिंग लिमिटेड"], ["Al Trading Private Limited", "अल ट्रेडिंग प्राइवेट लिमिटेड"], ["International Vision Technologies Pvt Ltd", "ઇન્ટરનેશનલ વિઝન ટેક્નોલોજીસ પ્રા. લિ."], ["Jai Producer Private Limited", "জয় প্রডিউসার প্রাইভেট লিমিটেড"], ["Prime Food Private Limited", "प्राइम फूड प्राइवेट लिमिटेड"], ["Swastik Shyam Enterprises Private Limited", "स्वस्तिक श्याम एंटरप्राइजेज प्राइवेट लिमिटेड"], ["Real Alpha Media Private Limited", "रियल अल्फा मीडिया प्राइवेट लिमिटेड"]]
+
+## 7_indic_pairs_train_folds
+22786
+
+## 7_indic_pairs_with_equal_token_count_pct
+0.25
+
+## 7_dictionary_size
+30
+
+## 7_dictionary_examples
+[["આઈટ", "it"], ["Private", "private"], ["Limited", "limited"], ["वन", "one"], ["It", "it"], ["Projects", "projects"], ["Pvt", "pvt"], ["Ltd", "ltd"], ["ஹ", "high"], ["ஆல", "all"], ["ஐட", "it"], ["सन", "sun"], ["आईट", "it"], ["एलएलप", "llp"], ["हर", "hari"]]
+
+## 7_heldout_fold0_token_coverage_pct
+1.61
+
+## 7_heldout_fold0_name_exact_after_dictionary_pct
+0.02
+
+## 8_unicode_S1
+{}
+
+## 8_nonascii_chars_S1
+[]
+
+## 8_unicode_S23
+{"indic": [28690, 7.173], "accented/other letter": [23783, 5.946], "format/control": [1476, 0.369]}
+
+## 8_nonascii_chars_S23
+[["í", 4415], ["é", 4271], ["ó", 4258], ["á", 3681], ["Í", 2530], ["Á", 1843], ["É", 1222], ["ú", 1073], ["Ó", 817], ["Ú", 259]]
+
+## 8_case
+{"S1": {"all_caps_pct": 0.0, "all_lower_pct": 0.0}, "S2": {"all_caps_pct": 18.9, "all_lower_pct": 5.75}, "S3": {"all_caps_pct": 2.96, "all_lower_pct": 6.25}}
+
+## 9_repeated_word_S1
+1.371
+
+## 9_repeated_word_S1_examples
+["N N Barreto Properties", "Lambert Enterprises L.L.C.", "Proque L.L.C.", "Eyrich, Barrera and Long L.L.C.", "Ebony N. Kraus, D.D.S., DDS PC", "Linear (India) India Limited"]
+
+## 9_repeated_word_S23
+4.813
+
+## 9_repeated_word_S23_examples
+["கிரியேட்டிவ் மார்க்கெட்டிங் மருந்தகம் பிரைவேட் லிமிடெட்", "20/20 Eye  Care", "Shri INTELLECT CLINIC CLINIC", "Ermengarde's Eye Care P.L.L.C.", "బాంబే ఎనర్జీ", "Karjat Karjat Services"]
+
+## 10_S1_number_examples
+["E 8 X Properties", "O 5 Total Live LLC", "I 8 A Williams", "656-657 North Owners Corp", "879-880 West Owners Corp", "2195 Jefferson Place Partners", "Q 9 Quality Care Inc", "72 Hour Massage", "1642 Second Plaza Company", "Studio 38 Barbershop LLC", "499 Union Apartments", "Ironworkers Local 661"]
+
+## 10_positives_numbers_in_S1_kept_in_match_pct
+{"n": 6474, "kept_pct": 92.32}
+
+## 10_pct_names_with_digit
+{"S1": 1.613, "S2": 5.08, "S3": 5.12}
+
+## 11_honorific_first_token_pct_US
+{"S1": 0.089, "S2": 0.079, "S3": 0.084}
+
+## 11_honorific_first_token_pct_India
+{"S1": 0.844, "S2": 8.044, "S3": 8.815}
+
+## 11_positives_honorific_added_pct
+3.131
+
+## 11_US_S1_trailing_professional_designations
+[["llc", 41732], ["inc", 24877], ["pc", 10569], ["do", 3371], ["md", 3363], ["dds", 3219], ["dpm", 1741], ["lcsw", 1738], ["phd", 1709], ["pa", 1691], ["dc", 1673], ["dmd", 1644], ["cpa", 1626], ["esq", 1625], ["od", 1600]]
+
+## 11_India_S1_and_co_sons_bros_pct
+2.32
+
+## 11_France_test_unsupervised
+{"last_tokens_top": [["sarl", 55542], ["sas", 37580], ["eurl", 15102], ["sa", 12416], ["sasu", 11074], ["sci", 9558], ["com", 8705], ["france", 6978], ["club", 4832], ["groupe", 4664], ["fils", 4572], ["s", 4391], ["developpement", 4159], ["l", 3676], ["ecole", 2989], ["cie", 2839], ["comite", 2774], ["amicale", 2745], ["ei", 2679], ["international", 2492], ["holding", 2483], ["participations", 2406], ["distribution", 2371], ["sportive", 2114], ["snc", 2066], ["services", 2055], ["associes", 1838], ["amis", 1812], ["centre", 1580], ["parents", 1363]], "first_tokens_top": [["maison", 7182], ["sarl", 5253], ["ets", 5193], ["bordeaux", 5069], ["etablissements", 5068], ["nantes", 4489], ["ecole", 4436], ["centre", 4267], ["club", 4248], ["comite", 4247], ["lille", 4237], ["amicale", 4165], ["association", 3991], ["federation", 3983], ["union", 3943]], "pct_with_article": 14.19, "pct_amp": 5.79, "pct_et": 0.86}
+
+## 12_source_pattern_rates_pct
+{"alias marker (fka/formerly/dba/t/a/aka)": {"S1": 0.001, "S2": 0.001, "S3": 2.099}, "domain style (.com etc, #tag, c0m)": {"S1": 0.0, "S2": 4.315, "S3": 4.315}, "2-3 letter acronym only": {"S1": 0.0, "S2": 0.025, "S3": 0.239}, "leading noise punctuation": {"S1": 0.022, "S2": 0.603, "S3": 0.598}, "trailing punctuation": {"S1": 0.212, "S2": 3.975, "S3": 4.049}, "parenthesised form e.g. (Limited)": {"S1": 0.002, "S2": 0.011, "S3": 0.013}, "double space": {"S1": 0.0, "S2": 11.012, "S3": 10.89}, "all caps": {"S1": 0.0, "S2": 27.957, "S3": 7.573}, "generic word appended (service/center/partners/group/holdings)": {"S1": 3.842, "S2": 7.906, "S3": 8.37}}
+
+## 12_alias_marker_positives
+{"S1 equals segment after marker": 5914, "S1 equals segment before marker": 0, "neither (noisy)": 413}
+
+## 12_alias_examples
+[["Bay Pinnacle Horizon LP", "Deltahalo D.B.A. Bay Pinnacle Horizon LP"], ["Kestrel PLLC", "Zetafluxonyx Sys aka Kestrel PLLC"], ["Golden Wellness International LLC", "Ectoevocira fka Golden Wellness International LLC"], ["Lucky Pilates Inc", "Fayecira t/a Lucky Pilates Inc"], ["Monarch, Inc", "Brixonyx formerly: Monarch, Inc"], ["Reed, Edyth N., D.D.S.", "Viosyn fka Reed, Edyth N., D.D.S."], ["Corner Barbershop", "Solzeph D.B.A. Corner Barbershop"], ["Colonial Capital", "Ectojax One formerly known as Colonial Capital"]]
+
+## 12_domain_style_positives
+{"n": 23496, "pct_of_positives": 5.87, "recovered_by_compact_compare_pct": 55.56, "examples": [["Helios", "Helios.Com"], ["Cascade Allied Telecom LLC", "catelecom.com"], ["Horizon LLC", "horizon.com"], ["Clair Sprott Inc", "CLAIRSPROTT.COM"], ["Steffane Dale Clean Eaton", "steffanedaleclean.com"], ["Rajendranagar Agro Private Limited", "Rajendranagar Arcog Private Limited | www.rajendrana.com"], ["Indu Trust", "Indu-Trust | www.indutrust.com"], ["Garware Educational Society", "Garware Educational Society Company | www.garwareed.com"]]}
+
+## 12_acronym_positives
+{"n": 807, "pct_of_positives": 0.202, "initials_of_core_match_pct": 74.5, "initials_incl_legal_forms_match_pct": 18.3, "examples": [["Adroit Advisors Group", "AAG"], ["Bureau of Sanitation", "BS"], ["Sumeet Institute of Technology", "SIOT"], ["Isar Consultancy", "IC"], ["Vaayuva Dealtrade", "VD"], ["Southern Media", "SM"], ["Vaidehi Distribution Private Limited", "VD"], ["Eye Associates L.L.C.", "EA"]]}
+
+## collision_cost_on_S1
+{"raw": {"distinct": 1539885, "pct_entities_sharing_key": 38.278}, "L1 case/accents/spaces": {"distinct": 1539470, "pct_entities_sharing_key": 38.309}, "L2 punctuation, &->and": {"distinct": 1522832, "pct_entities_sharing_key": 39.167}, "L3 legal forms canonicalised": {"distinct": 1506433, "pct_entities_sharing_key": 39.912}, "L4 legal forms removed": {"distinct": 1327242, "pct_entities_sharing_key": 49.078}, "L5 sorted tokens": {"distinct": 1323017, "pct_entities_sharing_key": 49.389}, "L6 honorific removed": {"distinct": 1322053, "pct_entities_sharing_key": 49.43}, "L7 repeated word collapsed": {"distinct": 1320215, "pct_entities_sharing_key": 49.519}, "L8 compact (no spaces)": {"distinct": 1321889, "pct_entities_sharing_key": 49.441}, "L9 + stopwords removed (NOT recommended)": {"distinct": 1318589, "pct_entities_sharing_key": 49.605}, "acronym key (initials)": {"distinct": 178828, "pct_entities_sharing_key": 95.163}}
+
+## typo_tolerant_collision_S1_sample
+{"sampled": 6000, "pct_with_other_S1_within_edit1": 16.55, "pct_within_edit2": 36.57}
+[  725s] DONE

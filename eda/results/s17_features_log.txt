@@ -1,0 +1,41 @@
+[    0s] 40,233,392 pairs; pool 10,320,219 records; 32 bucket(s) of 32, 1 worker process(es)
+[stats   19s]   token vocabulary name_addr: 2,641,115  [16s] rss 2.30 GB peak 4.19 GB
+[stats   31s]   token vocabulary addr: 1,421,432  [27s] rss 2.37 GB peak 4.19 GB
+[stats   38s]   token vocabulary name: 1,329,579  [34s] rss 2.42 GB peak 4.19 GB
+[stats   64s]   name 3-gram features 28,239  [61s] rss 2.55 GB peak 4.19 GB
+[stats   66s]   pool frequencies: 5,177,771 names, 8,724,107 addresses  [63s] rss 3.48 GB peak 4.19 GB
+[   69s]   pool statistics fitted in 67s (child peak 4.19 GB): name_addr 2,641,115, addr 1,421,432, name 1,329,579, name_ngram 28,239
+[  114s]   bucket  0: 1,254,403 pairs, 157 features, 47,287 positives  [44s, child peak 5.0 GB, total 114s, 1/32 done]
+[  158s]   bucket  1: 1,264,533 pairs, 157 features, 47,261 positives  [44s, child peak 5.05 GB, total 158s, 2/32 done]
+[  200s]   bucket  2: 1,261,534 pairs, 157 features, 47,175 positives  [41s, child peak 5.13 GB, total 200s, 3/32 done]
+[  241s]   bucket  3: 1,261,278 pairs, 157 features, 47,258 positives  [41s, child peak 5.0 GB, total 241s, 4/32 done]
+[  284s]   bucket  4: 1,264,230 pairs, 157 features, 46,994 positives  [41s, child peak 5.06 GB, total 284s, 5/32 done]
+[  325s]   bucket  5: 1,264,530 pairs, 157 features, 47,119 positives  [41s, child peak 5.12 GB, total 325s, 6/32 done]
+[  366s]   bucket  6: 1,255,397 pairs, 157 features, 47,239 positives  [40s, child peak 4.99 GB, total 366s, 7/32 done]
+[  408s]   bucket  7: 1,259,059 pairs, 157 features, 47,407 positives  [41s, child peak 5.03 GB, total 408s, 8/32 done]
+[  449s]   bucket  8: 1,241,764 pairs, 157 features, 47,298 positives  [40s, child peak 5.06 GB, total 449s, 9/32 done]
+[  490s]   bucket  9: 1,254,772 pairs, 157 features, 47,415 positives  [41s, child peak 5.06 GB, total 490s, 10/32 done]
+[  533s]   bucket 10: 1,263,773 pairs, 157 features, 47,336 positives  [42s, child peak 5.16 GB, total 533s, 11/32 done]
+[  573s]   bucket 11: 1,242,950 pairs, 157 features, 47,288 positives  [40s, child peak 4.95 GB, total 573s, 12/32 done]
+[  614s]   bucket 12: 1,248,008 pairs, 157 features, 47,088 positives  [40s, child peak 5.07 GB, total 614s, 13/32 done]
+[  656s]   bucket 13: 1,261,059 pairs, 157 features, 47,489 positives  [41s, child peak 4.91 GB, total 656s, 14/32 done]
+[  699s]   bucket 14: 1,258,006 pairs, 157 features, 46,966 positives  [42s, child peak 5.0 GB, total 699s, 15/32 done]
+[  741s]   bucket 15: 1,252,389 pairs, 157 features, 47,296 positives  [42s, child peak 5.06 GB, total 741s, 16/32 done]
+[  785s]   bucket 16: 1,259,479 pairs, 157 features, 47,069 positives  [43s, child peak 5.0 GB, total 785s, 17/32 done]
+[  831s]   bucket 17: 1,251,931 pairs, 157 features, 47,464 positives  [44s, child peak 5.02 GB, total 831s, 18/32 done]
+[  874s]   bucket 18: 1,261,692 pairs, 157 features, 47,159 positives  [43s, child peak 5.17 GB, total 874s, 19/32 done]
+[  915s]   bucket 19: 1,248,780 pairs, 157 features, 47,282 positives  [40s, child peak 5.11 GB, total 915s, 20/32 done]
+[  957s]   bucket 20: 1,260,663 pairs, 157 features, 47,171 positives  [41s, child peak 4.87 GB, total 957s, 21/32 done]
+[  998s]   bucket 21: 1,260,894 pairs, 157 features, 47,509 positives  [41s, child peak 5.03 GB, total 998s, 22/32 done]
+[ 1052s]   bucket 22: 1,258,525 pairs, 157 features, 47,324 positives  [53s, child peak 4.97 GB, total 1052s, 23/32 done]
+[ 1104s]   bucket 23: 1,255,946 pairs, 157 features, 46,692 positives  [52s, child peak 4.93 GB, total 1104s, 24/32 done]
+[ 1159s]   bucket 24: 1,263,522 pairs, 157 features, 47,464 positives  [54s, child peak 4.95 GB, total 1159s, 25/32 done]
+[ 1208s]   bucket 25: 1,260,891 pairs, 157 features, 47,375 positives  [48s, child peak 4.86 GB, total 1208s, 26/32 done]
+[ 1266s]   bucket 26: 1,258,860 pairs, 157 features, 47,508 positives  [57s, child peak 5.02 GB, total 1266s, 27/32 done]
+[ 1335s]   bucket 27: 1,268,345 pairs, 157 features, 47,293 positives  [68s, child peak 4.96 GB, total 1335s, 28/32 done]
+[ 1403s]   bucket 28: 1,251,758 pairs, 157 features, 47,098 positives  [67s, child peak 5.03 GB, total 1403s, 29/32 done]
+[ 1474s]   bucket 29: 1,256,600 pairs, 157 features, 47,132 positives  [70s, child peak 5.13 GB, total 1474s, 30/32 done]
+[ 1527s]   bucket 30: 1,254,959 pairs, 157 features, 47,100 positives  [51s, child peak 5.01 GB, total 1527s, 31/32 done]
+[ 1582s]   bucket 31: 1,252,862 pairs, 157 features, 47,055 positives  [54s, child peak 4.95 GB, total 1582s, 32/32 done]
+[ 1583s] done: 157 features, 40,233,392 pairs in 1583s -> artifacts/features/fold0
+exit 0

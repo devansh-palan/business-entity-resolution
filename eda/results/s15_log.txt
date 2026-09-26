@@ -1,0 +1,50 @@
+[     3s] fold-0 queries 441,365, positives 1,527,650, pool 10,320,219 {'S2': 5034616, 'S3': 5285603}
+[    15s] 1_exact_name_core                  pairs= 21,804,564 recall=0.5646 (S2 0.5594 S3 0.5695 | US 0.5867 IN 0.5316) mean=49.4 p50=4 p95=213 max=1,240 RR=0.999995 [8.7s]
+[    27s] 6_exact_name_core_without_country  pairs= 22,012,251 recall=0.5646 (S2 0.5594 S3 0.5695 | US 0.5867 IN 0.5316) mean=49.9 p50=4 p95=213 max=1,244 RR=0.999995 [8.6s]
+[    38s] 1_exact_name_core_sorted           pairs= 22,391,136 recall=0.5898 (S2 0.5853 S3 0.5940 | US 0.6212 IN 0.5429) mean=50.7 p50=4 p95=221 max=1,272 RR=0.999995 [8.3s]
+[    50s] 1_exact_name_compact               pairs= 22,802,606 recall=0.5964 (S2 0.5912 S3 0.6012 | US 0.6190 IN 0.5626) mean=51.7 p50=4 p95=223 max=1,302 RR=0.999995 [8.5s]
+[    64s] 1_exact_name_translit_core_sorted  pairs= 29,533,388 recall=0.6613 (S2 0.6780 S3 0.6457 | US 0.6212 IN 0.7213) mean=66.9 p50=4 p95=282 max=1,272 RR=0.999994 [8.9s]
+[   100s] 1_exact_name_any_cap50             pairs=  2,011,079 recall=0.5168 (S2 0.5254 S3 0.5088 | US 0.5393 IN 0.4831) mean=4.6 p50=3 p95=17 max=54 RR=1.000000 [33.7s]
+[   141s] 1_exact_name_any_cap200            pairs= 12,873,527 recall=0.6297 (S2 0.6383 S3 0.6217 | US 0.5957 IN 0.6806) mean=29.2 p50=4 p95=181 max=219 RR=0.999997 [38.3s]
+[   173s] 2_name_token_df200_rarest2         pairs= 14,201,790 recall=0.3162 (S2 0.3169 S3 0.3157 | US 0.3138 IN 0.3199) mean=32.2 p50=0 p95=169 max=396 RR=0.999997 [21.2s]
+[   198s] 2_name_token_df500_rarest2         pairs= 32,764,405 recall=0.4060 (S2 0.4073 S3 0.4048 | US 0.3866 IN 0.4349) mean=74.2 p50=0 p95=365 max=989 RR=0.999993 [20.8s]
+[   229s] 2_name_token_df1000_rarest2        pairs= 58,363,025 recall=0.4488 (S2 0.4502 S3 0.4475 | US 0.4194 IN 0.4928) mean=132.2 p50=0 p95=702 max=1,962 RR=0.999987 [23.0s]
+[   237s] 3_name_ngram_top20                 pairs= 17,432,120 recall=0.6101 (S2 0.6177 S3 0.6031 | US 0.6627 IN 0.5315) mean=39.5 p50=40 p95=40 max=40 RR=0.999996 [loaded]
+[   298s] 4_addr_token_df100_rarest3         pairs=  8,470,914 recall=0.3975 (S2 0.4078 S3 0.3878 | US 0.2653 IN 0.5950) mean=19.2 p50=0 p95=90 max=269 RR=0.999998 [45.1s]
+[   348s] 4_addr_token_df200_rarest3         pairs= 21,475,266 recall=0.4878 (S2 0.4990 S3 0.4773 | US 0.3703 IN 0.6633) mean=48.7 p50=8 p95=191 max=534 RR=0.999995 [46.6s]
+[   416s] 4_addr_token_df500_rarest3         pairs= 72,651,016 recall=0.6224 (S2 0.6342 S3 0.6113 | US 0.5399 IN 0.7456) mean=164.6 p50=83 p95=535 max=1,405 RR=0.999984 [57.5s]
+[   428s] 5_state_name_sorted                pairs=  2,228,451 recall=0.5383 (S2 0.5416 S3 0.5353 | US 0.5900 IN 0.4612) mean=5.0 p50=3 p95=19 max=286 RR=1.000000 [8.4s]
+[   438s] 5_city_name_first                  pairs= 18,681,064 recall=0.5888 (S2 0.5454 S3 0.6293 | US 0.6922 IN 0.4342) mean=42.3 p50=5 p95=269 max=1,724 RR=0.999996 [8.4s]
+[   448s] 5_city_name_first_cap100           pairs=  4,175,964 recall=0.5486 (S2 0.5152 S3 0.5797 | US 0.6813 IN 0.3502) mean=9.5 p50=4 p95=47 max=100 RR=0.999999 [8.3s]
+[   456s] 5_city_house_number                pairs= 13,349,399 recall=0.4588 (S2 0.4349 S3 0.4812 | US 0.5792 IN 0.2788) mean=30.2 p50=3 p95=111 max=1,763 RR=0.999997 [6.1s]
+[   462s] 5_state_house_street               pairs=  1,255,658 recall=0.4506 (S2 0.4503 S3 0.4508 | US 0.6283 IN 0.1848) mean=2.8 p50=1 p95=8 max=450 RR=1.000000 [5.3s]
+[   463s] 5_postal_name_first                pairs=          6 recall=0.0000 (S2 0.0000 S3 0.0000 | US 0.0000 IN 0.0000) mean=0.0 p50=0 p95=0 max=1 RR=1.000000 [0.0s]
+[   472s] 5u_rawlast_name_sorted             pairs=    793,542 recall=0.1971 (S2 0.3799 S3 0.0261 | US 0.2311 IN 0.1462) mean=1.8 p50=1 p95=6 max=106 RR=1.000000 [8.2s]
+[   482s] 8_sn_name_core_sorted_w3           pairs=  2,648,190 recall=0.3694 (S2 0.3727 S3 0.3663 | US 0.3910 IN 0.3371) mean=6.0 p50=6 p95=6 max=6 RR=0.999999 [7.2s]
+[   488s] 8_sn_name_compact_w3               pairs=  2,648,190 recall=0.4021 (S2 0.4056 S3 0.3987 | US 0.4194 IN 0.3762) mean=6.0 p50=6 p95=6 max=6 RR=0.999999 [5.6s]
+[   499s] 8_acronym_city                     pairs= 13,912,558 recall=0.4979 (S2 0.4818 S3 0.5128 | US 0.5304 IN 0.4492) mean=31.5 p50=3 p95=206 max=500 RR=0.999997 [7.9s]
+[   516s] 9_numsig                           pairs= 22,451,967 recall=0.3469 (S2 0.3293 S3 0.3634 | US 0.3545 IN 0.3356) mean=50.9 p50=1 p95=331 max=500 RR=0.999995 [5.9s]
+[   522s] 9_sn_addr_sorted_w3                pairs=  2,648,190 recall=0.4381 (S2 0.4498 S3 0.4271 | US 0.4157 IN 0.4716) mean=6.0 p50=6 p95=6 max=6 RR=0.999999 [5.7s]
+[   575s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 422,394 features -> 3,520,779 pairs
+[   641s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 391,803 features -> 3,523,914 pairs
+[   707s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 213,973 features -> 5,294,447 pairs
+[   808s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 220,612 features -> 5,294,447 pairs
+[   820s] 9_addr_token_top20                 pairs= 17,633,587 recall=0.8473 (S2 0.8629 S3 0.8327 | US 0.8522 IN 0.8399) mean=40.0 p50=40 p95=40 max=40 RR=0.999996 [287.6s]
+[   904s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 462,371 features -> 3,530,656 pairs
+[  1013s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 437,089 features -> 3,531,610 pairs
+[  1168s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 292,625 features -> 5,294,533 pairs
+[  1358s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 301,339 features -> 5,294,540 pairs
+[  1370s] 9_name_addr_token_top20            pairs= 17,651,339 recall=0.9601 (S2 0.9662 S3 0.9544 | US 0.9739 IN 0.9395) mean=40.0 p50=40 p95=40 max=40 RR=0.999996 [539.3s]
+[  1411s] coverage table (1527650, 30)
+[  1417s] U_exact_name_any             pairs=  30,531,428 recall=0.6931 (S2 0.7098 S3 0.6774 | US 0.6534 IN 0.7523) all-found=0.3251 mean=69.2 p50=5 p95=289 p99=849 max=1,334 [6s]
+[  1427s] U_exact_keys                 pairs=  95,583,961 recall=0.9441 (S2 0.9432 S3 0.9450 | US 0.9534 IN 0.9304) all-found=0.8252 mean=216.6 p50=79 p95=862 p99=1357 max=3,334 [10s]
+[  1431s] U_retrieval_only             pairs=  43,035,242 recall=0.9725 (S2 0.9763 S3 0.9689 | US 0.9827 IN 0.9572) all-found=0.9201 mean=97.5 p50=98 p95=111 p99=115 max=120 [4s]
+[  1446s] U_bounded                    pairs= 134,947,354 recall=0.9923 (S2 0.9930 S3 0.9916 | US 0.9928 IN 0.9915) all-found=0.9730 mean=305.8 p50=168 p95=939 p99=1438 max=3,425 [16s]
+[  1463s] U_bounded_plus_tokens_small  pairs= 149,629,353 recall=0.9926 (S2 0.9933 S3 0.9919 | US 0.9929 IN 0.9920) all-found=0.9741 mean=339.0 p50=234 p95=957 p99=1465 max=3,477 [17s]
+[  1482s] U_bounded_plus_tokens_mid    pairs= 175,381,192 recall=0.9929 (S2 0.9936 S3 0.9922 | US 0.9931 IN 0.9925) all-found=0.9750 mean=397.4 p50=305 p95=1007 p99=1539 max=3,477 [19s]
+[  1506s] U_all_selected               pairs= 239,702,821 recall=0.9932 (S2 0.9939 S3 0.9926 | US 0.9933 IN 0.9930) all-found=0.9762 mean=543.1 p50=446 p95=1312 p99=1859 max=3,945 [24s]
+[  1510s] U_final                      pairs=  35,911,531 recall=0.9852 (S2 0.9859 S3 0.9845 | US 0.9883 IN 0.9806) all-found=0.9512 mean=81.4 p50=51 p95=233 p99=279 max=689
+[  1510s] coverage {"true_pairs": 1527650, "found": 1505042, "missed": 22608, "found_by_exactly_one_strategy": 95842}
+[  1515s] misses {"n": 22608, "by_category": {"similar name and similar address": 8252, "address missing on a side": 7286, "similar name, different address": 3542, "different name, similar address": 2888, "different name and different address": 640}, "by_country": {"US": 10740, "India": 11868}, "by_source": {"S2": 10409, "S3": 12199}, "name_ratio_quartiles": [62.068965911865234, 80.0, 94.46969604492188], "addr_jaccard_quartiles": [0.0, 0.1875, 0.3333333333333333], "pool_name_script": {"latin": 19104, "devanagari": 1954, "kannada": 319, "telugu": 231, "mixed": 225, "bengali": 215}}
+[  1551s] final {"path": "artifacts/candidates/fold0\\candidate_pairs.tsv", "rows": 441365, "bytes": 468556613, "ids": 35911531, "empty_rows": 0, "problems": [], "valid": true}
+[  1551s] saved eda/results/s15_candidates.json

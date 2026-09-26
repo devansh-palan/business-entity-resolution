@@ -1,0 +1,1129 @@
+{
+ "vocab_excl_fold0": {
+  "seconds": 116.2,
+  "states_aliases": {
+   "US": 91,
+   "India": 56
+  },
+  "cities": {
+   "US": 10493,
+   "India": 3333
+  },
+  "compatible": {
+   "India": {
+    "telangana": [
+     "andhra pradesh"
+    ],
+    "andhra pradesh": [
+     "telangana"
+    ]
+   },
+   "US": {
+    "dc": [
+     "wa"
+    ],
+    "wa": [
+     "dc"
+    ]
+   }
+  }
+ },
+ "vocab_examples": {
+  "US aliases of tx": [
+   "texas",
+   "tx"
+  ],
+  "India aliases of maharashtra": [
+   "maharashtra",
+   "mh",
+   "महाराष्ट्र"
+  ],
+  "India aliases of orissa": [
+   "od",
+   "odisha",
+   "orisha",
+   "orissa",
+   "ଓଡ଼ିଶା"
+  ]
+ },
+ "positives": {
+  "n": 300000,
+  "addresses_per_second": 12253,
+  "feature_rate_pct": {
+   "city_both": 95.29,
+   "city_conflict": 14.19,
+   "city_equal": 74.43,
+   "city_fuzzy_ge_85": 78.84,
+   "either_missing": 4.4,
+   "landmark_both": 2.72,
+   "landmark_overlap": 2.7,
+   "locality_overlap": 23.29,
+   "number_absdiff_le10": 1.18,
+   "number_both": 72.77,
+   "number_conflict": 7.02,
+   "number_digits_equal": 60.54,
+   "number_edit1": 5.2,
+   "number_exact": 56.39,
+   "number_in_other_numbers": 58.95,
+   "number_one_side_only": 15.36,
+   "numbers_set_disjoint": 11.82,
+   "numbers_set_jaccard_ge_0.5": 70.06,
+   "postal_both": 0.0,
+   "state_both": 95.57,
+   "state_conflict": 0.02,
+   "state_equal_or_compatible": 92.09,
+   "street_both": 73.39,
+   "street_conflict": 4.51,
+   "street_exact": 63.42,
+   "street_fuzzy_ge_85": 65.7,
+   "street_jaccard_ge_0.5": 67.31,
+   "street_type_both": 60.77,
+   "street_type_equal": 60.66,
+   "tokens_jaccard_ge_0.3": 84.92,
+   "tokens_jaccard_ge_0.5": 65.31,
+   "unit_both": 11.56,
+   "unit_conflict": 1.51,
+   "unit_equal": 10.05
+  },
+  "presence_pct": {
+   "S1 care_of": 2.37,
+   "S1 city": 99.93,
+   "S1 house_number": 86.07,
+   "S1 landmark": 3.84,
+   "S1 locality": 37.64,
+   "S1 po_box": 0.0,
+   "S1 postal_code": 0.01,
+   "S1 state": 99.99,
+   "S1 state_recognised": 94.57,
+   "S1 street": 81.05,
+   "S1 street_type": 69.61,
+   "S1 unit": 20.67,
+   "match care_of": 1.9,
+   "match city": 95.31,
+   "match house_number": 74.83,
+   "match landmark": 2.72,
+   "match locality": 34.08,
+   "match missing": 4.4,
+   "match po_box": 1.85,
+   "match postal_code": 0.0,
+   "match state": 95.58,
+   "match state_recognised": 90.37,
+   "match street": 75.96,
+   "match street_type": 61.42,
+   "match unit": 12.0
+  }
+ },
+ "hard_negatives": {
+  "n": 200000,
+  "addresses_per_second": 14283,
+  "feature_rate_pct": {
+   "city_both": 97.01,
+   "city_conflict": 94.8,
+   "city_equal": 1.71,
+   "city_fuzzy_ge_85": 1.78,
+   "either_missing": 2.77,
+   "landmark_both": 0.15,
+   "landmark_overlap": 0.0,
+   "locality_overlap": 0.11,
+   "number_absdiff_le10": 1.29,
+   "number_both": 76.84,
+   "number_conflict": 75.16,
+   "number_digits_equal": 0.07,
+   "number_edit1": 1.61,
+   "number_exact": 0.05,
+   "number_in_other_numbers": 0.11,
+   "number_one_side_only": 20.25,
+   "numbers_set_disjoint": 88.3,
+   "numbers_set_jaccard_ge_0.5": 0.08,
+   "state_both": 97.21,
+   "state_conflict": 85.01,
+   "state_equal_or_compatible": 6.93,
+   "street_both": 80.86,
+   "street_conflict": 80.01,
+   "street_exact": 0.41,
+   "street_fuzzy_ge_85": 0.44,
+   "street_jaccard_ge_0.5": 0.45,
+   "street_type_both": 65.35,
+   "street_type_equal": 10.47,
+   "tokens_jaccard_ge_0.3": 0.42,
+   "tokens_jaccard_ge_0.5": 0.2,
+   "unit_both": 2.12,
+   "unit_conflict": 2.04,
+   "unit_equal": 0.08
+  },
+  "presence_pct": {
+   "S1 care_of": 1.22,
+   "S1 city": 99.95,
+   "S1 house_number": 92.16,
+   "S1 landmark": 2.13,
+   "S1 locality": 21.35,
+   "S1 po_box": 0.0,
+   "S1 postal_code": 0.01,
+   "S1 state": 99.99,
+   "S1 state_recognised": 96.65,
+   "S1 street": 89.52,
+   "S1 street_type": 80.19,
+   "S1 unit": 18.76,
+   "match care_of": 0.83,
+   "match city": 97.05,
+   "match house_number": 81.78,
+   "match landmark": 1.53,
+   "match locality": 20.56,
+   "match missing": 2.77,
+   "match po_box": 2.54,
+   "match postal_code": 0.01,
+   "match state": 97.22,
+   "match state_recognised": 94.08,
+   "match street": 86.05,
+   "match street_type": 73.51,
+   "match unit": 8.53
+  }
+ },
+ "near_miss_negatives": {
+  "n": 1164,
+  "addresses_per_second": 14163,
+  "feature_rate_pct": {
+   "city_both": 99.83,
+   "city_conflict": 9.88,
+   "city_equal": 86.51,
+   "city_fuzzy_ge_85": 88.14,
+   "landmark_both": 2.49,
+   "landmark_overlap": 2.49,
+   "locality_overlap": 19.59,
+   "number_absdiff_le10": 51.29,
+   "number_both": 86.94,
+   "number_conflict": 51.98,
+   "number_digits_equal": 3.87,
+   "number_edit1": 31.1,
+   "number_exact": 3.87,
+   "number_in_other_numbers": 4.9,
+   "number_one_side_only": 6.1,
+   "numbers_set_disjoint": 70.7,
+   "numbers_set_jaccard_ge_0.5": 6.7,
+   "state_both": 100.0,
+   "state_equal_or_compatible": 96.82,
+   "street_both": 84.79,
+   "street_conflict": 3.95,
+   "street_exact": 76.12,
+   "street_fuzzy_ge_85": 78.61,
+   "street_jaccard_ge_0.5": 80.24,
+   "street_type_both": 71.39,
+   "street_type_equal": 71.39,
+   "tokens_jaccard_ge_0.3": 99.31,
+   "tokens_jaccard_ge_0.5": 95.7,
+   "unit_both": 11.94,
+   "unit_conflict": 3.61,
+   "unit_equal": 8.33
+  },
+  "presence_pct": {
+   "S1 care_of": 2.32,
+   "S1 city": 100.0,
+   "S1 house_number": 90.38,
+   "S1 landmark": 2.49,
+   "S1 locality": 27.75,
+   "S1 state": 100.0,
+   "S1 state_recognised": 95.88,
+   "S1 street": 86.25,
+   "S1 street_type": 74.48,
+   "S1 unit": 17.1,
+   "match care_of": 0.17,
+   "match city": 99.83,
+   "match house_number": 89.6,
+   "match landmark": 2.49,
+   "match locality": 27.66,
+   "match po_box": 0.34,
+   "match state": 100.0,
+   "match state_recognised": 95.88,
+   "match street": 87.89,
+   "match street_type": 71.91,
+   "match unit": 12.2
+  }
+ },
+ "positives_US": {
+  "n": 179844,
+  "feature_rate_pct": {
+   "city_both": 95.2,
+   "city_conflict": 7.01,
+   "city_equal": 80.24,
+   "city_fuzzy_ge_85": 86.62,
+   "either_missing": 4.71,
+   "landmark_both": 0.01,
+   "landmark_overlap": 0.01,
+   "locality_overlap": 0.26,
+   "number_absdiff_le10": 1.2,
+   "number_both": 84.47,
+   "number_conflict": 7.44,
+   "number_digits_equal": 71.57,
+   "number_edit1": 5.45,
+   "number_exact": 66.47,
+   "number_in_other_numbers": 69.12,
+   "number_one_side_only": 15.04,
+   "numbers_set_disjoint": 13.12,
+   "numbers_set_jaccard_ge_0.5": 70.81,
+   "postal_both": 0.0,
+   "state_both": 95.29,
+   "state_conflict": 0.03,
+   "state_equal_or_compatible": 95.27,
+   "street_both": 94.39,
+   "street_conflict": 4.51,
+   "street_exact": 83.1,
+   "street_fuzzy_ge_85": 85.3,
+   "street_jaccard_ge_0.5": 87.43,
+   "street_type_both": 85.64,
+   "street_type_equal": 85.61,
+   "tokens_jaccard_ge_0.3": 84.59,
+   "tokens_jaccard_ge_0.5": 58.43,
+   "unit_both": 4.31,
+   "unit_conflict": 0.84,
+   "unit_equal": 3.47
+  }
+ },
+ "positives_India": {
+  "n": 120156,
+  "feature_rate_pct": {
+   "city_both": 95.42,
+   "city_conflict": 24.93,
+   "city_equal": 65.74,
+   "city_fuzzy_ge_85": 67.21,
+   "either_missing": 3.95,
+   "landmark_both": 6.77,
+   "landmark_overlap": 6.73,
+   "locality_overlap": 57.77,
+   "number_absdiff_le10": 1.16,
+   "number_both": 55.27,
+   "number_conflict": 6.39,
+   "number_digits_equal": 44.04,
+   "number_edit1": 4.83,
+   "number_exact": 41.31,
+   "number_in_other_numbers": 43.72,
+   "number_one_side_only": 15.85,
+   "numbers_set_disjoint": 9.87,
+   "numbers_set_jaccard_ge_0.5": 68.94,
+   "state_both": 95.98,
+   "state_conflict": 0.0,
+   "state_equal_or_compatible": 87.35,
+   "street_both": 41.96,
+   "street_conflict": 4.5,
+   "street_exact": 33.96,
+   "street_fuzzy_ge_85": 36.36,
+   "street_jaccard_ge_0.5": 37.21,
+   "street_type_both": 23.54,
+   "street_type_equal": 23.31,
+   "tokens_jaccard_ge_0.3": 85.41,
+   "tokens_jaccard_ge_0.5": 75.61,
+   "unit_both": 22.41,
+   "unit_conflict": 2.5,
+   "unit_equal": 19.91
+  }
+ },
+ "positives_S2": {
+  "n": 144694,
+  "feature_rate_pct": {
+   "city_both": 95.11,
+   "city_conflict": 17.29,
+   "city_equal": 70.21,
+   "city_fuzzy_ge_85": 75.04,
+   "either_missing": 4.52,
+   "landmark_both": 3.14,
+   "landmark_overlap": 3.12,
+   "locality_overlap": 25.27,
+   "number_absdiff_le10": 1.2,
+   "number_both": 72.67,
+   "number_conflict": 7.04,
+   "number_digits_equal": 60.23,
+   "number_edit1": 5.4,
+   "number_exact": 55.94,
+   "number_in_other_numbers": 58.44,
+   "number_one_side_only": 15.54,
+   "numbers_set_disjoint": 12.35,
+   "numbers_set_jaccard_ge_0.5": 69.7,
+   "postal_both": 0.0,
+   "state_both": 95.45,
+   "state_conflict": 0.02,
+   "state_equal_or_compatible": 93.39,
+   "street_both": 74.3,
+   "street_conflict": 4.6,
+   "street_exact": 64.02,
+   "street_fuzzy_ge_85": 66.39,
+   "street_jaccard_ge_0.5": 68.06,
+   "street_type_both": 61.29,
+   "street_type_equal": 61.21,
+   "tokens_jaccard_ge_0.3": 91.92,
+   "tokens_jaccard_ge_0.5": 79.14,
+   "unit_both": 9.73,
+   "unit_conflict": 1.11,
+   "unit_equal": 8.62
+  }
+ },
+ "positives_S3": {
+  "n": 155306,
+  "feature_rate_pct": {
+   "city_both": 95.45,
+   "city_conflict": 11.3,
+   "city_equal": 78.37,
+   "city_fuzzy_ge_85": 82.38,
+   "either_missing": 4.3,
+   "landmark_both": 2.32,
+   "landmark_overlap": 2.31,
+   "locality_overlap": 21.45,
+   "number_absdiff_le10": 1.16,
+   "number_both": 72.87,
+   "number_conflict": 7.01,
+   "number_digits_equal": 60.84,
+   "number_edit1": 5.02,
+   "number_exact": 56.81,
+   "number_in_other_numbers": 59.42,
+   "number_one_side_only": 15.2,
+   "numbers_set_disjoint": 11.33,
+   "numbers_set_jaccard_ge_0.5": 70.4,
+   "state_both": 95.68,
+   "state_conflict": 0.02,
+   "state_equal_or_compatible": 90.89,
+   "street_both": 72.55,
+   "street_conflict": 4.42,
+   "street_exact": 62.86,
+   "street_fuzzy_ge_85": 65.05,
+   "street_jaccard_ge_0.5": 66.62,
+   "street_type_both": 60.28,
+   "street_type_equal": 60.15,
+   "tokens_jaccard_ge_0.3": 78.39,
+   "tokens_jaccard_ge_0.5": 52.42,
+   "unit_both": 13.26,
+   "unit_conflict": 1.88,
+   "unit_equal": 11.39
+  }
+ },
+ "likelihood_ratios": {
+  "city_both": {
+   "pos_pct": 95.29,
+   "hardneg_pct": 97.01,
+   "nearmiss_pct": 99.83,
+   "LR_pos_vs_hardneg": 1.0
+  },
+  "city_conflict": {
+   "pos_pct": 14.19,
+   "hardneg_pct": 94.8,
+   "nearmiss_pct": 9.88,
+   "LR_pos_vs_hardneg": 0.1
+  },
+  "city_equal": {
+   "pos_pct": 74.43,
+   "hardneg_pct": 1.71,
+   "nearmiss_pct": 86.51,
+   "LR_pos_vs_hardneg": 43.5
+  },
+  "city_fuzzy_ge_85": {
+   "pos_pct": 78.84,
+   "hardneg_pct": 1.78,
+   "nearmiss_pct": 88.14,
+   "LR_pos_vs_hardneg": 44.3
+  },
+  "either_missing": {
+   "pos_pct": 4.4,
+   "hardneg_pct": 2.77,
+   "nearmiss_pct": 0.0,
+   "LR_pos_vs_hardneg": 1.6
+  },
+  "landmark_both": {
+   "pos_pct": 2.72,
+   "hardneg_pct": 0.15,
+   "nearmiss_pct": 2.49,
+   "LR_pos_vs_hardneg": 18.1
+  },
+  "landmark_overlap": {
+   "pos_pct": 2.7,
+   "hardneg_pct": 0.0,
+   "nearmiss_pct": 2.49,
+   "LR_pos_vs_hardneg": Infinity
+  },
+  "locality_overlap": {
+   "pos_pct": 23.29,
+   "hardneg_pct": 0.11,
+   "nearmiss_pct": 19.59,
+   "LR_pos_vs_hardneg": 211.7
+  },
+  "number_absdiff_le10": {
+   "pos_pct": 1.18,
+   "hardneg_pct": 1.29,
+   "nearmiss_pct": 51.29,
+   "LR_pos_vs_hardneg": 0.9
+  },
+  "number_both": {
+   "pos_pct": 72.77,
+   "hardneg_pct": 76.84,
+   "nearmiss_pct": 86.94,
+   "LR_pos_vs_hardneg": 0.9
+  },
+  "number_conflict": {
+   "pos_pct": 7.02,
+   "hardneg_pct": 75.16,
+   "nearmiss_pct": 51.98,
+   "LR_pos_vs_hardneg": 0.1
+  },
+  "number_digits_equal": {
+   "pos_pct": 60.54,
+   "hardneg_pct": 0.07,
+   "nearmiss_pct": 3.87,
+   "LR_pos_vs_hardneg": 864.9
+  },
+  "number_edit1": {
+   "pos_pct": 5.2,
+   "hardneg_pct": 1.61,
+   "nearmiss_pct": 31.1,
+   "LR_pos_vs_hardneg": 3.2
+  },
+  "number_exact": {
+   "pos_pct": 56.39,
+   "hardneg_pct": 0.05,
+   "nearmiss_pct": 3.87,
+   "LR_pos_vs_hardneg": 1127.8
+  },
+  "number_in_other_numbers": {
+   "pos_pct": 58.95,
+   "hardneg_pct": 0.11,
+   "nearmiss_pct": 4.9,
+   "LR_pos_vs_hardneg": 535.9
+  },
+  "number_one_side_only": {
+   "pos_pct": 15.36,
+   "hardneg_pct": 20.25,
+   "nearmiss_pct": 6.1,
+   "LR_pos_vs_hardneg": 0.8
+  },
+  "numbers_set_disjoint": {
+   "pos_pct": 11.82,
+   "hardneg_pct": 88.3,
+   "nearmiss_pct": 70.7,
+   "LR_pos_vs_hardneg": 0.1
+  },
+  "numbers_set_jaccard_ge_0.5": {
+   "pos_pct": 70.06,
+   "hardneg_pct": 0.08,
+   "nearmiss_pct": 6.7,
+   "LR_pos_vs_hardneg": 875.8
+  },
+  "postal_both": {
+   "pos_pct": 0.0,
+   "hardneg_pct": 0.0,
+   "nearmiss_pct": 0.0,
+   "LR_pos_vs_hardneg": null
+  },
+  "state_both": {
+   "pos_pct": 95.57,
+   "hardneg_pct": 97.21,
+   "nearmiss_pct": 100.0,
+   "LR_pos_vs_hardneg": 1.0
+  },
+  "state_conflict": {
+   "pos_pct": 0.02,
+   "hardneg_pct": 85.01,
+   "nearmiss_pct": 0.0,
+   "LR_pos_vs_hardneg": 0.0
+  },
+  "state_equal_or_compatible": {
+   "pos_pct": 92.09,
+   "hardneg_pct": 6.93,
+   "nearmiss_pct": 96.82,
+   "LR_pos_vs_hardneg": 13.3
+  },
+  "street_both": {
+   "pos_pct": 73.39,
+   "hardneg_pct": 80.86,
+   "nearmiss_pct": 84.79,
+   "LR_pos_vs_hardneg": 0.9
+  },
+  "street_conflict": {
+   "pos_pct": 4.51,
+   "hardneg_pct": 80.01,
+   "nearmiss_pct": 3.95,
+   "LR_pos_vs_hardneg": 0.1
+  },
+  "street_exact": {
+   "pos_pct": 63.42,
+   "hardneg_pct": 0.41,
+   "nearmiss_pct": 76.12,
+   "LR_pos_vs_hardneg": 154.7
+  },
+  "street_fuzzy_ge_85": {
+   "pos_pct": 65.7,
+   "hardneg_pct": 0.44,
+   "nearmiss_pct": 78.61,
+   "LR_pos_vs_hardneg": 149.3
+  },
+  "street_jaccard_ge_0.5": {
+   "pos_pct": 67.31,
+   "hardneg_pct": 0.45,
+   "nearmiss_pct": 80.24,
+   "LR_pos_vs_hardneg": 149.6
+  },
+  "street_type_both": {
+   "pos_pct": 60.77,
+   "hardneg_pct": 65.35,
+   "nearmiss_pct": 71.39,
+   "LR_pos_vs_hardneg": 0.9
+  },
+  "street_type_equal": {
+   "pos_pct": 60.66,
+   "hardneg_pct": 10.47,
+   "nearmiss_pct": 71.39,
+   "LR_pos_vs_hardneg": 5.8
+  },
+  "tokens_jaccard_ge_0.3": {
+   "pos_pct": 84.92,
+   "hardneg_pct": 0.42,
+   "nearmiss_pct": 99.31,
+   "LR_pos_vs_hardneg": 202.2
+  },
+  "tokens_jaccard_ge_0.5": {
+   "pos_pct": 65.31,
+   "hardneg_pct": 0.2,
+   "nearmiss_pct": 95.7,
+   "LR_pos_vs_hardneg": 326.6
+  },
+  "unit_both": {
+   "pos_pct": 11.56,
+   "hardneg_pct": 2.12,
+   "nearmiss_pct": 11.94,
+   "LR_pos_vs_hardneg": 5.5
+  },
+  "unit_conflict": {
+   "pos_pct": 1.51,
+   "hardneg_pct": 2.04,
+   "nearmiss_pct": 3.61,
+   "LR_pos_vs_hardneg": 0.7
+  },
+  "unit_equal": {
+   "pos_pct": 10.05,
+   "hardneg_pct": 0.08,
+   "nearmiss_pct": 8.33,
+   "LR_pos_vs_hardneg": 125.6
+  }
+ },
+ "examples": {
+  "positive with number conflict": [
+   [
+    "259 Cavalier Way, Unit 103, Burlington, NC",
+    "259 1/2 CAVALIER WAY, BURLINGTON, NC",
+    "259",
+    "259 1/2"
+   ],
+   [
+    "1406 Mills Street, Sandusky, OH",
+    "458 MILLS STREET, SANDUSKY, OH",
+    "1406",
+    "458"
+   ],
+   [
+    "1791 Tanner Way, Flagstaff, AZ",
+    "1791 1/2 TANNER WAY, FLAGSTAFF, AZ",
+    "1791",
+    "1791 1/2"
+   ],
+   [
+    "Plot No.48, Sy 310, Jivika At Rajeshwara, Hyderabad, Hyd, Telangana, Villa No.48",
+    "DOOR NO 456 VILLA NO.48, PLOT NO.48, SY 310, JIVIKA AT RAJESHWARA, HYD, HYDERABAD, Telangana",
+    "48",
+    "456"
+   ],
+   [
+    "75 Northgate Road, Burlington, VT",
+    "VT, #1 NORTHGATE ROAD, BURLINGTON CITY",
+    "75",
+    "1"
+   ],
+   [
+    "8 Th Floor, Synergy Tower Plot No. 88/1 & 88/2, Vejalpur, Gujarat, Office No. 805, Ahmedabad",
+    "OFIFCE NO. 805, 8 TH FLOOR, SYNERGY TOWER PLOT NO. 88/1 & 88/2, VEJALPUR, AHMEDABAD, Gujarat",
+    "88/1",
+    "805"
+   ]
+  ],
+  "positive with city conflict": [
+   [
+    "AR, Jacksonville, 1993 Arnold Drive",
+    "AR, LITTLE ROCK AIR FORCE BASE, 1993 ARNOLD DR",
+    "jacksonville",
+    "little rock air force base"
+   ],
+   [
+    "4388 Highland Drive, Unit 4, Millcreek, UT",
+    "5388 HIGHLAND DRIVE, SALT LAKE CITY, UT",
+    "millcreek",
+    "salt lake"
+   ],
+   [
+    "1081 Macedonia Lane, Westmoreland County, VA",
+    "1081  MACEDONIA LN, COLONIAL BEACH, VA",
+    "westmoreland",
+    "colonial beach"
+   ],
+   [
+    "Rs No 1030/1/1A 1031/2, Plot No A-76 Malaxmi Ngr, Karvir, Kolhapur, Maharashtra",
+    "RS NO G-1030/1/1A 1031/2, PLOT NO A-76 MALAXMI NGR, KARIR, महाराष्ट्र",
+    "kolhapur",
+    "karir"
+   ],
+   [
+    "H No D-169 Ward No-26, Palwal, Faridabad, Haryana",
+    "Haryana, FARIDABAD, PALWAL, H NO D-169 WARD NO-26",
+    "faridabad",
+    "palwal"
+   ],
+   [
+    "Plot No. 6, Flat No. S-1, Second Floor George Rathinam St, Golden George Nagar, Nerkundram, Chennai, Tamil Nadu",
+    "PLOT NO. B3/6 , FLAT NO. S-1, SECOND FLOOR GEORGE RATHINAM ST, GOLDEN GEORGE NAGAR, NERKUNDRAM, Tamil Nadu",
+    "chennai",
+    "nerkundram"
+   ]
+  ],
+  "match without city": [
+   "219, IIND FLOOR VIPUL TRADE CENTRE SOHNA ROAD SECTOR-48, हरियाणा",
+   "##36. THIRUMALA STREETAYANAVARAM CHENNAI-23, CHENNAI-23, Tamil Nadu",
+   "C/O NANDADATTATRAYPHOPASE, AHMED NAGAR, Maharashtra",
+   "Karnataka, 339/36, TANK BUND ROAD, 17TH CROSS MALLESWARAM WEST, BANGALORE-55",
+   "Tamil Nadu, ##65, ROYAPETTAH HIGH ROADMADRAS 14 MADRAS 14",
+   "808, SANKARANKOIL ROADRAJAPALAYAM-626 117. TAMILNADU, null, Tamil Nadu"
+  ],
+  "S1 without house number": [
+   "Mannat Heights, Bangalore South, Karnataka, # 5, 4Th Main Road, Balaji Layout, Opposite Dee Sportz, Bangalore",
+   "36. Thirumala Streetayanavaram Chennai-23, Chennai-23, Chennai, Tamil Nadu",
+   "34/C-8 Sector-8, Rohini, New Delhi, West Delhi, Delhi",
+   "Haritha Priya Restaurant, Near Pondurthi X Road, Narasannapally Mandal, Kamareddy District, Nizamabad, Telangana",
+   "Sundargarh, Orissa, Civil Township, Rourkela, Ff/2",
+   "K Jacob Thomas Memorial Sahrudaya Public Library, Hospital Jn, Kerala, Mannarkkad, Palakkad"
+  ],
+  "positive with state conflict": [
+   [
+    "619 Gompers Avenue, Unit 5, Indiana, PA",
+    "PA, INDIANA, GOMPERS AVE, N/A",
+    "pa",
+    "in"
+   ],
+   [
+    "MN, 111 8 1/2 Street, Virginia",
+    "111 8 1/2 ST, VIRGINIA, MN",
+    "va",
+    "mn"
+   ],
+   [
+    "OH, Delaware, 152 Lofton Circle",
+    "152 LOFTON CIR, DELAWARE, OH",
+    "de",
+    "oh"
+   ],
+   [
+    "Plot No 36 H No 1 4 218/36 Blk 4 Panchasheel Encla Ve Lakshmi Deavva Nilayam, Vampuguda, Ka, Pra, Hyderabad, Telangana",
+    "Telangana, VAMPUGUDA, KA, PRA, DOOR NO 36  H NO 1 4 218/36 BLK 4 PANCHASHEEL ENCLA VE LAKSHMI DEAVVA NILAYAM, HYDERABAD",
+    "telangana",
+    "karnataka"
+   ],
+   [
+    "Gujarat, Ahmedabad, B/H, Nilkanth Estate, Nr. Shivam Estate, Ring Road, Od, Hav, Ahmedabad, 60/1 - Marutinandan Ind. Estate",
+    "NO 60/1 - MARUTINANDAN IND. ESTATE, B/H, NILKANTH ESTTAE, NR. SHIVAM ESTATE, RING ROAD, OD, HAV, AHMEDABAD, Gujarat",
+    "orissa",
+    "gujarat"
+   ],
+   [
+    "1982 Horseshoe Road, OH, Delaware",
+    "1982C HORSESHOE ROAD, DELAWARE, OH",
+    "de",
+    "oh"
+   ]
+  ],
+  "hard negative with same number and street": [
+   [
+    "Sy No.1043 Qand 1048 3Rd Floor Nsl Centrum, Serene Estate Kukatpally, Hyderabad, Telangana",
+    "SY NO.1043 QAND 1048 8RD FLOOR NSL CENTRUM, SERENE ESTATE KUKATPALLY, HYDERABAD, Telangana"
+   ],
+   [
+    "Vijaya Pride, E17, Panchavathi Colony, Manikonda, Hyderabad, Telangana",
+    "71 VIJAYA PRIDE, E17, PANCHAVATHI COLONY, MANIKONDA, HYDERABAD, తెలంగాణ"
+   ],
+   [
+    "Ff-03, Plot No 43A Shakti Khand-2, Indirapuram, Ghaziabad, Uttar Pradesh",
+    "NO. ##281 FF-16, PLOT NO 43A SHAKTI KHAND-2, Uttar Pradesh, INDIRAPURAM, GHAZIABAD"
+   ],
+   [
+    "Ward No 01, Farukh Nagar Rural 35 Near High School, Gurgaon, Haryana",
+    "Ward No 1, Arwal, BR"
+   ],
+   [
+    "2Nd Floor, Snehi Chs Ltd, Plot No 75 Ambivali, Lokhandwala Rd, Andheri West, Mumbai City, Mumbai, Fl B - 6, Maharashtra",
+    "Fl B - ##19, 2Nd Floor, Snehi Chs Ltd, Plot No 75 Ambivali, Lokhandwala Rd, Andheri West, Mumbai City, Mumbai, महाराष्ट्र"
+   ],
+   [
+    "Pvt No-301, 3Rd, Floor, Kundeywalan, Darya Ganj, Ajmer Gate, Del, Hi, Delhi, 751-52, Central Delhi",
+    "751-59, Pvt No-301, 3Rd, Floor, Kundeywalan, Darya Ganj, Ajmer Gate, Del, Hi, Delhi, Central Delhi, दिल्ली"
+   ]
+  ]
+ },
+ "parse_samples": [
+  {
+   "original": "1795 Westchester Drive, High Point, NC",
+   "country": "US",
+   "house_number": "1795",
+   "street": "westchester",
+   "street_type": "drive",
+   "unit": null,
+   "city": "high point",
+   "city_norm": "high point",
+   "state": "nc",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "1795"
+   ],
+   "digit_runs": [
+    "1795"
+   ],
+   "tokens": [
+    "1795",
+    "westchester",
+    "drive",
+    "high",
+    "point",
+    "nc"
+   ],
+   "components": [
+    "1795 westchester drive",
+    "high point",
+    "nc"
+   ],
+   "missing": false,
+   "flags": {}
+  },
+  {
+   "original": "<NULL>, IL, 17814. TANGLEWOOD COURT, HAZEL CREST",
+   "country": "US",
+   "house_number": "17814",
+   "street": "tanglewood",
+   "street_type": "court",
+   "unit": null,
+   "city": "hazel crest",
+   "city_norm": "hazel crest",
+   "state": "il",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "17814"
+   ],
+   "digit_runs": [
+    "17814"
+   ],
+   "tokens": [
+    "il",
+    "17814",
+    "tanglewood",
+    "court",
+    "hazel",
+    "crest"
+   ],
+   "components": [
+    "il",
+    "17814 tanglewood court",
+    "hazel crest"
+   ],
+   "missing": false,
+   "flags": {
+    "null_token": true,
+    "reordered": true
+   }
+  },
+  {
+   "original": "0286 ELMWOOD DRIVE, PO BOX 5961, RADCLIFF, KY",
+   "country": "US",
+   "house_number": "286",
+   "street": "elmwood",
+   "street_type": "drive",
+   "unit": null,
+   "city": "radcliff",
+   "city_norm": "radcliff",
+   "state": "ky",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [],
+   "po_box": "5961",
+   "care_of": null,
+   "numbers": [
+    "286"
+   ],
+   "digit_runs": [
+    "286"
+   ],
+   "tokens": [
+    "0286",
+    "elmwood",
+    "drive",
+    "radcliff",
+    "ky"
+   ],
+   "components": [
+    "0286 elmwood drive",
+    "radcliff",
+    "ky"
+   ],
+   "missing": false,
+   "flags": {
+    "po_box": true
+   }
+  },
+  {
+   "original": "Plot No.9904/13157, Erabang, Nimapara, Puri, Orissa",
+   "country": "India",
+   "house_number": "9904/13157",
+   "street": null,
+   "street_type": null,
+   "unit": null,
+   "city": "puri",
+   "city_norm": "puri",
+   "state": "orissa",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [
+    "erabang",
+    "nimapara"
+   ],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "9904/13157"
+   ],
+   "digit_runs": [
+    "9904",
+    "13157"
+   ],
+   "tokens": [
+    "plot",
+    "no",
+    "9904/13157",
+    "erabang",
+    "nimapara",
+    "puri",
+    "orissa"
+   ],
+   "components": [
+    "plot no 9904/13157",
+    "erabang",
+    "nimapara",
+    "puri",
+    "orissa"
+   ],
+   "missing": false,
+   "flags": {}
+  },
+  {
+   "original": "316, 3Rd Floor, Ratnanjali Square, Near Gloriya Restaurant, Prenatirth Derasar Road, Satellite, Ahmedabad, Gujarat",
+   "country": "India",
+   "house_number": "316",
+   "street": "prenatirth derasar",
+   "street_type": "road",
+   "unit": "3 floor",
+   "city": "ahmedabad",
+   "city_norm": "ahmedabad",
+   "state": "gujarat",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [
+    "gloriya restaurant"
+   ],
+   "locality": [
+    "ratnanjali square",
+    "satellite"
+   ],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "316",
+    "3rd"
+   ],
+   "digit_runs": [
+    "316",
+    "3"
+   ],
+   "tokens": [
+    "316",
+    "3rd",
+    "floor",
+    "ratnanjali",
+    "square",
+    "near",
+    "gloriya",
+    "restaurant",
+    "prenatirth",
+    "derasar",
+    "road",
+    "satellite",
+    "ahmedabad",
+    "gujarat"
+   ],
+   "components": [
+    "316",
+    "3rd floor",
+    "ratnanjali square",
+    "near gloriya restaurant",
+    "prenatirth derasar road",
+    "satellite",
+    "ahmedabad",
+    "gujarat"
+   ],
+   "missing": false,
+   "flags": {
+    "landmark": true,
+    "unit": true
+   }
+  },
+  {
+   "original": "D/1200 B, 28TH MAIN, 35TH C, CROSS RD, 4TH T BLOCK, BANGALORE SOUTH, BANGALORE, ಕರ್ನಾಟಕ",
+   "country": "India",
+   "house_number": "d/1200 b",
+   "street": "28th",
+   "street_type": "main",
+   "unit": null,
+   "city": "bangalore",
+   "city_norm": "bangalore",
+   "state": "karnataka",
+   "state_recognised": true,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [
+    "35th c",
+    "cross rd",
+    "4th t block",
+    "bangalore south"
+   ],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "d/1200",
+    "28th",
+    "35th",
+    "4th"
+   ],
+   "digit_runs": [
+    "1200",
+    "28",
+    "35",
+    "4"
+   ],
+   "tokens": [
+    "d/1200",
+    "b",
+    "28th",
+    "main",
+    "35th",
+    "c",
+    "cross",
+    "rd",
+    "4th",
+    "t",
+    "block",
+    "bangalore",
+    "south",
+    "bangalore",
+    "karnatak"
+   ],
+   "components": [
+    "d/1200 b",
+    "28th main",
+    "35th c",
+    "cross rd",
+    "4th t block",
+    "bangalore south",
+    "bangalore",
+    "ಕರ್ನಾಟಕ"
+   ],
+   "missing": false,
+   "flags": {
+    "indic": true
+   }
+  },
+  {
+   "original": "175 Boulevard du Président Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine",
+   "country": "France",
+   "house_number": "175",
+   "street": "du president franklin roosevelt",
+   "street_type": "boulevard",
+   "unit": null,
+   "city": "bordeaux",
+   "city_norm": "bordeaux",
+   "state": "nouvelle-aquitaine",
+   "state_recognised": false,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "175"
+   ],
+   "digit_runs": [
+    "175"
+   ],
+   "tokens": [
+    "175",
+    "boulevard",
+    "du",
+    "president",
+    "franklin",
+    "roosevelt",
+    "bordeaux",
+    "nouvelle-aquitaine"
+   ],
+   "components": [
+    "175 boulevard du president franklin roosevelt",
+    "bordeaux",
+    "nouvelle-aquitaine"
+   ],
+   "missing": false,
+   "flags": {}
+  },
+  {
+   "original": "63 R. DE DIEPPE, LILLE, Hauts-de-France",
+   "country": "France",
+   "house_number": "63",
+   "street": "de dieppe",
+   "street_type": "rue",
+   "unit": null,
+   "city": "lille",
+   "city_norm": "lille",
+   "state": "hauts-de-france",
+   "state_recognised": false,
+   "postal_code": null,
+   "landmark": [],
+   "locality": [],
+   "po_box": null,
+   "care_of": null,
+   "numbers": [
+    "63"
+   ],
+   "digit_runs": [
+    "63"
+   ],
+   "tokens": [
+    "63",
+    "r",
+    "de",
+    "dieppe",
+    "lille",
+    "hauts-de-france"
+   ],
+   "components": [
+    "63 r de dieppe",
+    "lille",
+    "hauts-de-france"
+   ],
+   "missing": false,
+   "flags": {}
+  }
+ ]
+}

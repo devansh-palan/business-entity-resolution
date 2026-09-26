@@ -1,0 +1,17 @@
+[    4s] pairs: tune 5,021,353, report 5,020,256
+[    5s] entity tables: tune 55,171, report 55,170
+[    7s] singleton-detection AUC of the entity signals: top1 0.9982, n_ge_90 0.9933, n_ge_50 0.9921, top2 0.9776, best_cos_name_addr 0.8929, gap 0.7867, best_addr_sim 0.7656, best_name_sim 0.663, any_exact_name 0.6604, any_exact_addr 0.6202, n_cand 0.5836, ident_agreement 0.5398
+[   10s]   A. global threshold                              tune 0.9700 | report 0.9698 | singleton score 0.945 (173 FPs) | one 0.9142 multi 0.9749 | false merges 1,926
+[   16s]   B. top-1 only                                    tune 0.6874 | report 0.6886 | singleton score 0.945 (173 FPs) | one 0.9258 multi 0.6573 | false merges 219
+[   35s]   C. threshold + top-K                             tune 0.9700 | report 0.9698 | singleton score 0.945 (173 FPs) | one 0.9142 multi 0.9749 | false merges 1,926
+[   75s]   D1. gap cut (stop at the first big drop)         tune 0.9701 | report 0.9700 | singleton score 0.945 (173 FPs) | one 0.9119 multi 0.9752 | false merges 2,449
+[   80s]   D2. threshold + relative gate (p >= g * top-1)   tune 0.9700 | report 0.9698 | singleton score 0.945 (173 FPs) | one 0.9142 multi 0.9749 | false merges 1,926
+[   82s]   E. auto (name+address) + ML threshold            tune 0.9700 | report 0.9698 | singleton score 0.945 (173 FPs) | one 0.9142 multi 0.9749 | false merges 1,926
+[   85s]   E. auto (name+house+street/city) + ML threshold  tune 0.9692 | report 0.9693 | singleton score 0.942 (183 FPs) | one 0.9138 multi 0.9745 | false merges 2,068
+[   98s]   F1. two thresholds by the entity's top-1 probability tune 0.9698 | report 0.9700 | singleton score 0.954 (146 FPs) | one 0.9060 multi 0.9750 | false merges 2,179
+[   99s] singleton model: OOF AUC 0.9982, report AUC 0.9983
+[  104s]   F2. singleton model gates a higher threshold     tune 0.9702 | report 0.9697 | singleton score 0.948 (165 FPs) | one 0.9109 multi 0.9748 | false merges 1,918
+[  108s]   F3. lower threshold for entities with many strong candidates tune 0.9700 | report 0.9698 | singleton score 0.945 (173 FPs) | one 0.9142 multi 0.9749 | false merges 1,933
+[  108s] saved eda/results/s20_decision_rules.json
+[  108s] wrote eda/decision_rules.md
+exit 0

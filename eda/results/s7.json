@@ -1,0 +1,125 @@
+{
+ "same_name_candidates_by_singleton_status": [
+  {
+   "singleton": false,
+   "n": 2083574,
+   "mean_same_name_cands": 42.4,
+   "median": 4.0,
+   "pct_zero_same_name_cands": 0.0489,
+   "pct_ge10": 0.3217
+  },
+  {
+   "singleton": true,
+   "n": 123247,
+   "mean_same_name_cands": 40.4,
+   "median": 1.0,
+   "pct_zero_same_name_cands": 0.3513,
+   "pct_ge10": 0.2986
+  }
+ ],
+ "nonsingleton_same_name_distractors_mean": 1794948141.1,
+ "noise_rates_train_source2": [
+  {
+   "country": "India",
+   "name_honorific_prefix(mr/smt/dr/sri/shri/m/s)": 0.0763,
+   "name_alias_marker(fka/formerly/dba/t/a/aka)": 0.0,
+   "name_domain_style(.com etc or no-space concat)": 0.0366,
+   "name_digit_for_letter_typo(0 for o,1 for l)": 0.0121,
+   "name_leading_noise_punct(--,<<,***,##)": 0.0047,
+   "name_two_letter_acronym_only": 0.0001,
+   "name_single_token": 0.0439,
+   "name_extra_generic_token(service/center/partners appended)": 0.0472,
+   "addr_null_token(NULL/<NULL>/None/N A)": 0.0304,
+   "addr_leading_zero_number": 0.0419,
+   "addr_hash_prefix(#)": 0.1111,
+   "addr_pobox_or_pmb_inserted": 0.0,
+   "addr_incorporated_or_llc_token_inserted": 0.0,
+   "addr_state_first_component": 0.0003,
+   "addr_local_script_state": 0.2367,
+   "addr_door_no_prefix": 0.1197,
+   "addr_city_suffix_noise(CITY/CDP/Township)": 0.0485,
+   "addr_number_with_trailing_dot(17814.)": 0.0109
+  },
+  {
+   "country": "US",
+   "name_honorific_prefix(mr/smt/dr/sri/shri/m/s)": 0.0001,
+   "name_alias_marker(fka/formerly/dba/t/a/aka)": 0.0,
+   "name_domain_style(.com etc or no-space concat)": 0.0475,
+   "name_digit_for_letter_typo(0 for o,1 for l)": 0.018,
+   "name_leading_noise_punct(--,<<,***,##)": 0.007,
+   "name_two_letter_acronym_only": 0.0004,
+   "name_single_token": 0.0741,
+   "name_extra_generic_token(service/center/partners appended)": 0.1004,
+   "addr_null_token(NULL/<NULL>/None/N A)": 0.0386,
+   "addr_leading_zero_number": 0.0498,
+   "addr_hash_prefix(#)": 0.0522,
+   "addr_pobox_or_pmb_inserted": 0.0333,
+   "addr_incorporated_or_llc_token_inserted": 0.0012,
+   "addr_state_first_component": 0.0631,
+   "addr_local_script_state": 0.0,
+   "addr_door_no_prefix": 0.0,
+   "addr_city_suffix_noise(CITY/CDP/Township)": 0.0934,
+   "addr_number_with_trailing_dot(17814.)": 0.0195
+  }
+ ],
+ "noise_rates_train_source3": [
+  {
+   "country": "India",
+   "name_honorific_prefix(mr/smt/dr/sri/shri/m/s)": 0.0832,
+   "name_alias_marker(fka/formerly/dba/t/a/aka)": 0.0157,
+   "name_domain_style(.com etc or no-space concat)": 0.0393,
+   "name_digit_for_letter_typo(0 for o,1 for l)": 0.0138,
+   "name_leading_noise_punct(--,<<,***,##)": 0.0049,
+   "name_two_letter_acronym_only": 0.0045,
+   "name_single_token": 0.0666,
+   "name_extra_generic_token(service/center/partners appended)": 0.057,
+   "addr_null_token(NULL/<NULL>/None/N A)": 0.0283,
+   "addr_leading_zero_number": 0.0385,
+   "addr_hash_prefix(#)": 0.1045,
+   "addr_pobox_or_pmb_inserted": 0.0,
+   "addr_incorporated_or_llc_token_inserted": 0.0,
+   "addr_state_first_component": 0.0316,
+   "addr_local_script_state": 0.2249,
+   "addr_door_no_prefix": 0.1096,
+   "addr_city_suffix_noise(CITY/CDP/Township)": 0.0672,
+   "addr_number_with_trailing_dot(17814.)": 0.0086
+  },
+  {
+   "country": "US",
+   "name_honorific_prefix(mr/smt/dr/sri/shri/m/s)": 0.0001,
+   "name_alias_marker(fka/formerly/dba/t/a/aka)": 0.0245,
+   "name_domain_style(.com etc or no-space concat)": 0.0457,
+   "name_digit_for_letter_typo(0 for o,1 for l)": 0.0188,
+   "name_leading_noise_punct(--,<<,***,##)": 0.0067,
+   "name_two_letter_acronym_only": 0.0009,
+   "name_single_token": 0.0807,
+   "name_extra_generic_token(service/center/partners appended)": 0.1015,
+   "addr_null_token(NULL/<NULL>/None/N A)": 0.0368,
+   "addr_leading_zero_number": 0.0477,
+   "addr_hash_prefix(#)": 0.1016,
+   "addr_pobox_or_pmb_inserted": 0.0315,
+   "addr_incorporated_or_llc_token_inserted": 0.0011,
+   "addr_state_first_component": 0.003,
+   "addr_local_script_state": 0.0,
+   "addr_door_no_prefix": 0.0,
+   "addr_city_suffix_noise(CITY/CDP/Township)": 0.092,
+   "addr_number_with_trailing_dot(17814.)": 0.0187
+  }
+ ],
+ "positives_addr_num_overlap_by_country": [
+  {
+   "country_1": "India",
+   "addr_num_overlap": 0.827,
+   "addr_missing_2": 0.0392,
+   "len": 346168
+  },
+  {
+   "country_1": "US",
+   "addr_num_overlap": 0.7806,
+   "addr_missing_2": 0.0473,
+   "len": 519278
+  }
+ ],
+ "positives_no_num_overlap_and_addr_present_pct": 15.68,
+ "S1_entities_sharing_exact_addr_norm_with_other_S1": 117160
+}

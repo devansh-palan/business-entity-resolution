@@ -1,0 +1,1230 @@
+{
+ "strategies": {
+  "1_exact_name_core": {
+   "pairs": 8968,
+   "recall": 0.56011,
+   "true_pairs_found": 5712,
+   "true_pairs_missed": 4486,
+   "entity_all_matches_found": 0.19421,
+   "recall_by_source": {
+    "S2": 0.55715,
+    "S3": 0.56284
+   },
+   "recall_by_country": {
+    "India": 0.52011,
+    "US": 0.58517
+   },
+   "mean": 2.989,
+   "median": 2.0,
+   "p95": 8.0,
+   "max": 32,
+   "entities_with_candidates": 2631,
+   "reduction_ratio": 0.999986,
+   "pairs_by_source": {
+    "S2": 4178,
+    "S3": 4790
+   },
+   "note": ""
+  },
+  "6_exact_name_core_without_country": {
+   "pairs": 8999,
+   "recall": 0.56011,
+   "true_pairs_found": 5712,
+   "true_pairs_missed": 4486,
+   "entity_all_matches_found": 0.19421,
+   "recall_by_source": {
+    "S2": 0.55715,
+    "S3": 0.56284
+   },
+   "recall_by_country": {
+    "India": 0.52011,
+    "US": 0.58517
+   },
+   "mean": 3.0,
+   "median": 2.0,
+   "p95": 8.0,
+   "max": 32,
+   "entities_with_candidates": 2634,
+   "reduction_ratio": 0.999986,
+   "pairs_by_source": {
+    "S2": 4191,
+    "S3": 4808
+   },
+   "note": "cross-country blocks add volume and no true pairs (all 7,638,365 true pairs share the country string)"
+  },
+  "1_exact_name_core_sorted": {
+   "pairs": 9331,
+   "recall": 0.58727,
+   "true_pairs_found": 5989,
+   "true_pairs_missed": 4209,
+   "entity_all_matches_found": 0.21209,
+   "recall_by_source": {
+    "S2": 0.58618,
+    "S3": 0.58828
+   },
+   "recall_by_country": {
+    "India": 0.53539,
+    "US": 0.61978
+   },
+   "mean": 3.11,
+   "median": 2.0,
+   "p95": 8.0,
+   "max": 32,
+   "entities_with_candidates": 2677,
+   "reduction_ratio": 0.999986,
+   "pairs_by_source": {
+    "S2": 4361,
+    "S3": 4970
+   },
+   "note": ""
+  },
+  "1_exact_name_compact": {
+   "pairs": 9484,
+   "recall": 0.59453,
+   "true_pairs_found": 6063,
+   "true_pairs_missed": 4135,
+   "entity_all_matches_found": 0.23355,
+   "recall_by_source": {
+    "S2": 0.5917,
+    "S3": 0.59714
+   },
+   "recall_by_country": {
+    "India": 0.55601,
+    "US": 0.61866
+   },
+   "mean": 3.161,
+   "median": 2.0,
+   "p95": 9.0,
+   "max": 35,
+   "entities_with_candidates": 2649,
+   "reduction_ratio": 0.999985,
+   "pairs_by_source": {
+    "S2": 4448,
+    "S3": 5036
+   },
+   "note": ""
+  },
+  "1_exact_name_translit_core_sorted": {
+   "pairs": 11163,
+   "recall": 0.65552,
+   "true_pairs_found": 6685,
+   "true_pairs_missed": 3513,
+   "entity_all_matches_found": 0.27575,
+   "recall_by_source": {
+    "S2": 0.67675,
+    "S3": 0.63595
+   },
+   "recall_by_country": {
+    "India": 0.71258,
+    "US": 0.61978
+   },
+   "mean": 3.721,
+   "median": 3.0,
+   "p95": 12.0,
+   "max": 32,
+   "entities_with_candidates": 2717,
+   "reduction_ratio": 0.999983,
+   "pairs_by_source": {
+    "S2": 5516,
+    "S3": 5647
+   },
+   "note": ""
+  },
+  "2_name_token_df200_rarest2": {
+   "pairs": 123403,
+   "recall": 0.63787,
+   "true_pairs_found": 6505,
+   "true_pairs_missed": 3693,
+   "entity_all_matches_found": 0.47425,
+   "recall_by_source": {
+    "S2": 0.63259,
+    "S3": 0.64274
+   },
+   "recall_by_country": {
+    "India": 0.54277,
+    "US": 0.69745
+   },
+   "mean": 41.134,
+   "median": 16.0,
+   "p95": 173.0,
+   "max": 366,
+   "entities_with_candidates": 2189,
+   "reduction_ratio": 0.99981,
+   "pairs_by_source": {
+    "S2": 60083,
+    "S3": 63320
+   },
+   "note": "two rarest name tokens of the query with pool df <= 200"
+  },
+  "2_name_token_df500_rarest2": {
+   "pairs": 528425,
+   "recall": 0.83359,
+   "true_pairs_found": 8501,
+   "true_pairs_missed": 1697,
+   "entity_all_matches_found": 0.64199,
+   "recall_by_source": {
+    "S2": 0.83643,
+    "S3": 0.83098
+   },
+   "recall_by_country": {
+    "India": 0.85362,
+    "US": 0.82105
+   },
+   "mean": 176.142,
+   "median": 71.0,
+   "p95": 527.0499999999997,
+   "max": 985,
+   "entities_with_candidates": 2797,
+   "reduction_ratio": 0.999186,
+   "pairs_by_source": {
+    "S2": 258318,
+    "S3": 270107
+   },
+   "note": "two rarest name tokens of the query with pool df <= 500"
+  },
+  "2_name_token_df1000_rarest2": {
+   "pairs": 1214603,
+   "recall": 0.90743,
+   "true_pairs_found": 9254,
+   "true_pairs_missed": 944,
+   "entity_all_matches_found": 0.72389,
+   "recall_by_source": {
+    "S2": 0.91127,
+    "S3": 0.9039
+   },
+   "recall_by_country": {
+    "India": 0.91675,
+    "US": 0.90159
+   },
+   "mean": 404.868,
+   "median": 279.0,
+   "p95": 1202.0,
+   "max": 1832,
+   "entities_with_candidates": 2975,
+   "reduction_ratio": 0.998129,
+   "pairs_by_source": {
+    "S2": 600627,
+    "S3": 613976
+   },
+   "note": "two rarest name tokens of the query with pool df <= 1000"
+  },
+  "3_name_ngram_top20": {
+   "pairs": 118355,
+   "recall": 0.85968,
+   "true_pairs_found": 8767,
+   "true_pairs_missed": 1431,
+   "entity_all_matches_found": 0.67382,
+   "recall_by_source": {
+    "S2": 0.86383,
+    "S3": 0.85585
+   },
+   "recall_by_country": {
+    "India": 0.83478,
+    "US": 0.87528
+   },
+   "mean": 39.452,
+   "median": 40.0,
+   "p95": 40.0,
+   "max": 40,
+   "entities_with_candidates": 2966,
+   "reduction_ratio": 0.999818,
+   "pairs_by_source": {
+    "S2": 59128,
+    "S3": 59227
+   },
+   "note": "cosine top-20 per (country, source); 3-grams with df > 1% dropped",
+   "by_rank": {
+    "recall@1": 0.37301,
+    "recall@3": 0.69347,
+    "recall@5": 0.76564,
+    "recall@10": 0.81889,
+    "recall@20": 0.85968
+   }
+  },
+  "4_addr_token_df100_rarest3": {
+   "pairs": 144016,
+   "recall": 0.87233,
+   "true_pairs_found": 8896,
+   "true_pairs_missed": 1302,
+   "entity_all_matches_found": 0.70422,
+   "recall_by_source": {
+    "S2": 0.88755,
+    "S3": 0.8583
+   },
+   "recall_by_country": {
+    "India": 0.85438,
+    "US": 0.88357
+   },
+   "mean": 48.005,
+   "median": 37.0,
+   "p95": 130.0,
+   "max": 255,
+   "entities_with_candidates": 2947,
+   "reduction_ratio": 0.999778,
+   "pairs_by_source": {
+    "S2": 70619,
+    "S3": 73397
+   },
+   "note": "three rarest address tokens of the query with pool df <= 100"
+  },
+  "4_addr_token_df200_rarest3": {
+   "pairs": 273737,
+   "recall": 0.9041,
+   "true_pairs_found": 9220,
+   "true_pairs_missed": 978,
+   "entity_all_matches_found": 0.74714,
+   "recall_by_source": {
+    "S2": 0.92026,
+    "S3": 0.8892
+   },
+   "recall_by_country": {
+    "India": 0.87144,
+    "US": 0.92456
+   },
+   "mean": 91.246,
+   "median": 63.5,
+   "p95": 256.0,
+   "max": 481,
+   "entities_with_candidates": 2991,
+   "reduction_ratio": 0.999578,
+   "pairs_by_source": {
+    "S2": 132822,
+    "S3": 140915
+   },
+   "note": "three rarest address tokens of the query with pool df <= 200"
+  },
+  "4_addr_token_df500_rarest3": {
+   "pairs": 463023,
+   "recall": 0.91665,
+   "true_pairs_found": 9348,
+   "true_pairs_missed": 850,
+   "entity_all_matches_found": 0.76788,
+   "recall_by_source": {
+    "S2": 0.93171,
+    "S3": 0.90277
+   },
+   "recall_by_country": {
+    "India": 0.87729,
+    "US": 0.94131
+   },
+   "mean": 154.341,
+   "median": 100.0,
+   "p95": 484.0,
+   "max": 1009,
+   "entities_with_candidates": 2998,
+   "reduction_ratio": 0.999287,
+   "pairs_by_source": {
+    "S2": 225538,
+    "S3": 237485
+   },
+   "note": "three rarest address tokens of the query with pool df <= 500"
+  },
+  "5_state_name_sorted": {
+   "pairs": 5714,
+   "recall": 0.54001,
+   "true_pairs_found": 5507,
+   "true_pairs_missed": 4691,
+   "entity_all_matches_found": 0.17775,
+   "recall_by_source": {
+    "S2": 0.54508,
+    "S3": 0.53533
+   },
+   "recall_by_country": {
+    "India": 0.46054,
+    "US": 0.58979
+   },
+   "mean": 1.905,
+   "median": 2.0,
+   "p95": 4.0,
+   "max": 12,
+   "entities_with_candidates": 2476,
+   "reduction_ratio": 0.999991,
+   "pairs_by_source": {
+    "S2": 2750,
+    "S3": 2964
+   },
+   "note": ""
+  },
+  "5_city_name_first": {
+   "pairs": 17220,
+   "recall": 0.59914,
+   "true_pairs_found": 6110,
+   "true_pairs_missed": 4088,
+   "entity_all_matches_found": 0.29041,
+   "recall_by_source": {
+    "S2": 0.55674,
+    "S3": 0.63821
+   },
+   "recall_by_country": {
+    "India": 0.4641,
+    "US": 0.68373
+   },
+   "mean": 5.74,
+   "median": 2.0,
+   "p95": 9.0,
+   "max": 412,
+   "entities_with_candidates": 2597,
+   "reduction_ratio": 0.999973,
+   "pairs_by_source": {
+    "S2": 8129,
+    "S3": 9091
+   },
+   "note": "blocks over 2,000 pool records dropped"
+  },
+  "5_city_house_number": {
+   "pairs": 6716,
+   "recall": 0.44823,
+   "true_pairs_found": 4571,
+   "true_pairs_missed": 5627,
+   "entity_all_matches_found": 0.19671,
+   "recall_by_source": {
+    "S2": 0.42527,
+    "S3": 0.46938
+   },
+   "recall_by_country": {
+    "India": 0.28819,
+    "US": 0.54848
+   },
+   "mean": 2.239,
+   "median": 1.0,
+   "p95": 6.0,
+   "max": 89,
+   "entities_with_candidates": 2031,
+   "reduction_ratio": 0.99999,
+   "pairs_by_source": {
+    "S2": 3062,
+    "S3": 3654
+   },
+   "note": ""
+  },
+  "5_state_house_street": {
+   "pairs": 4525,
+   "recall": 0.43656,
+   "true_pairs_found": 4452,
+   "true_pairs_missed": 5746,
+   "entity_all_matches_found": 0.19957,
+   "recall_by_source": {
+    "S2": 0.44326,
+    "S3": 0.43037
+   },
+   "recall_by_country": {
+    "India": 0.17592,
+    "US": 0.59984
+   },
+   "mean": 1.508,
+   "median": 1.0,
+   "p95": 4.0,
+   "max": 10,
+   "entities_with_candidates": 1792,
+   "reduction_ratio": 0.999993,
+   "pairs_by_source": {
+    "S2": 2201,
+    "S3": 2324
+   },
+   "note": ""
+  },
+  "5_postal_name_first": {
+   "pairs": 0,
+   "recall": 0.0,
+   "true_pairs_found": 0,
+   "true_pairs_missed": 10198,
+   "entity_all_matches_found": 0.0,
+   "recall_by_source": {
+    "S2": 0.0,
+    "S3": 0.0
+   },
+   "recall_by_country": {
+    "India": 0.0,
+    "US": 0.0
+   },
+   "mean": 0.0,
+   "median": 0.0,
+   "p95": 0.0,
+   "max": 0,
+   "entities_with_candidates": 0,
+   "reduction_ratio": 1.0,
+   "pairs_by_source": {
+    "S2": 0,
+    "S3": 0
+   },
+   "note": "postal codes exist in 0.007% of records"
+  },
+  "5u_rawlast_name_sorted": {
+   "pairs": 2054,
+   "recall": 0.19533,
+   "true_pairs_found": 1992,
+   "true_pairs_missed": 8206,
+   "entity_all_matches_found": 0.02003,
+   "recall_by_source": {
+    "S2": 0.37865,
+    "S3": 0.02638
+   },
+   "recall_by_country": {
+    "India": 0.13824,
+    "US": 0.2311
+   },
+   "mean": 0.685,
+   "median": 0.0,
+   "p95": 2.0,
+   "max": 4,
+   "entities_with_candidates": 1428,
+   "reduction_ratio": 0.999997,
+   "pairs_by_source": {
+    "S2": 1908,
+    "S3": 146
+   },
+   "note": "unseen-country simulation: the raw last address component replaces the learned state"
+  },
+  "8_sn_name_core_sorted_w3": {
+   "pairs": 18000,
+   "recall": 0.56021,
+   "true_pairs_found": 5713,
+   "true_pairs_missed": 4485,
+   "entity_all_matches_found": 0.21817,
+   "recall_by_source": {
+    "S2": 0.55817,
+    "S3": 0.56209
+   },
+   "recall_by_country": {
+    "India": 0.52546,
+    "US": 0.58198
+   },
+   "mean": 6.0,
+   "median": 6.0,
+   "p95": 6.0,
+   "max": 6,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999972,
+   "pairs_by_source": {
+    "S2": 8520,
+    "S3": 9480
+   },
+   "note": ""
+  },
+  "8_sn_name_compact_w3": {
+   "pairs": 18000,
+   "recall": 0.63405,
+   "true_pairs_found": 6466,
+   "true_pairs_missed": 3732,
+   "entity_all_matches_found": 0.31903,
+   "recall_by_source": {
+    "S2": 0.62952,
+    "S3": 0.63821
+   },
+   "recall_by_country": {
+    "India": 0.60642,
+    "US": 0.65136
+   },
+   "mean": 6.0,
+   "median": 6.0,
+   "p95": 6.0,
+   "max": 6,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999972,
+   "pairs_by_source": {
+    "S2": 8501,
+    "S3": 9499
+   },
+   "note": ""
+  },
+  "8_acronym_city": {
+   "pairs": 10406,
+   "recall": 0.52461,
+   "true_pairs_found": 5350,
+   "true_pairs_missed": 4848,
+   "entity_all_matches_found": 0.19564,
+   "recall_by_source": {
+    "S2": 0.50583,
+    "S3": 0.54193
+   },
+   "recall_by_country": {
+    "India": 0.52877,
+    "US": 0.52201
+   },
+   "mean": 3.469,
+   "median": 2.0,
+   "p95": 12.0,
+   "max": 97,
+   "entities_with_candidates": 2459,
+   "reduction_ratio": 0.999984,
+   "pairs_by_source": {
+    "S2": 4808,
+    "S3": 5598
+   },
+   "note": "acronym of the core tokens (>= 2 tokens) + city"
+  },
+  "9_numsig": {
+   "pairs": 47055,
+   "recall": 0.54236,
+   "true_pairs_found": 5531,
+   "true_pairs_missed": 4667,
+   "entity_all_matches_found": 0.31044,
+   "recall_by_source": {
+    "S2": 0.51503,
+    "S3": 0.56755
+   },
+   "recall_by_country": {
+    "India": 0.45418,
+    "US": 0.59761
+   },
+   "mean": 15.685,
+   "median": 4.0,
+   "p95": 79.04999999999973,
+   "max": 198,
+   "entities_with_candidates": 2288,
+   "reduction_ratio": 0.999928,
+   "pairs_by_source": {
+    "S2": 23254,
+    "S3": 23801
+   },
+   "note": "sorted set of all digit runs of the address (at least 3 digits in total); blocks over 500 dropped"
+  },
+  "9_sn_addr_sorted_w3": {
+   "pairs": 18000,
+   "recall": 0.48431,
+   "true_pairs_found": 4939,
+   "true_pairs_missed": 5259,
+   "entity_all_matches_found": 0.1917,
+   "recall_by_source": {
+    "S2": 0.49867,
+    "S3": 0.47108
+   },
+   "recall_by_country": {
+    "India": 0.50789,
+    "US": 0.46954
+   },
+   "mean": 6.0,
+   "median": 6.0,
+   "p95": 6.0,
+   "max": 6,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999972,
+   "pairs_by_source": {
+    "S2": 8866,
+    "S3": 9134
+   },
+   "note": ""
+  },
+  "9_addr_token_top20": {
+   "pairs": 117523,
+   "recall": 0.90802,
+   "true_pairs_found": 9260,
+   "true_pairs_missed": 938,
+   "entity_all_matches_found": 0.74535,
+   "recall_by_source": {
+    "S2": 0.91781,
+    "S3": 0.899
+   },
+   "recall_by_country": {
+    "India": 0.89638,
+    "US": 0.91531
+   },
+   "mean": 39.174,
+   "median": 40.0,
+   "p95": 40.0,
+   "max": 40,
+   "entities_with_candidates": 2998,
+   "reduction_ratio": 0.999819,
+   "pairs_by_source": {
+    "S2": 58185,
+    "S3": 59338
+   },
+   "note": "cosine top-20 per (country, source) on address tokens; tokens in > 1% of addresses dropped",
+   "by_rank": {
+    "recall@1": 0.43273,
+    "recall@3": 0.81261,
+    "recall@5": 0.86674,
+    "recall@10": 0.89057,
+    "recall@20": 0.90802
+   }
+  },
+  "9_name_addr_token_top20": {
+   "pairs": 115702,
+   "recall": 0.98715,
+   "true_pairs_found": 10067,
+   "true_pairs_missed": 131,
+   "entity_all_matches_found": 0.96102,
+   "recall_by_source": {
+    "S2": 0.99019,
+    "S3": 0.98436
+   },
+   "recall_by_country": {
+    "India": 0.9748,
+    "US": 0.9949
+   },
+   "mean": 38.567,
+   "median": 40.0,
+   "p95": 40.0,
+   "max": 40,
+   "entities_with_candidates": 2999,
+   "reduction_ratio": 0.999822,
+   "pairs_by_source": {
+    "S2": 57724,
+    "S3": 57978
+   },
+   "note": "cosine top-20 per (country, source) on name + address tokens",
+   "by_rank": {
+    "recall@1": 0.4901,
+    "recall@3": 0.91832,
+    "recall@5": 0.97127,
+    "recall@10": 0.98166,
+    "recall@20": 0.98715
+   }
+  }
+ },
+ "timing_s": {
+  "1_exact_name_core": 0.0,
+  "6_exact_name_core_without_country": 0.0,
+  "1_exact_name_core_sorted": 0.0,
+  "1_exact_name_compact": 0.0,
+  "1_exact_name_translit_core_sorted": 0.0,
+  "2_name_token_df200_rarest2": 0.1,
+  "2_name_token_df500_rarest2": 0.1,
+  "2_name_token_df1000_rarest2": 0.2,
+  "3_name_ngram_top20": 4.5,
+  "4_addr_token_df100_rarest3": 0.4,
+  "4_addr_token_df200_rarest3": 0.3,
+  "4_addr_token_df500_rarest3": 0.4,
+  "5_state_name_sorted": 0.0,
+  "5_city_name_first": 0.0,
+  "5_city_house_number": 0.0,
+  "5_state_house_street": 0.0,
+  "5_postal_name_first": 0.0,
+  "5u_rawlast_name_sorted": 0.0,
+  "8_sn_name_core_sorted_w3": 0.1,
+  "8_sn_name_compact_w3": 0.1,
+  "8_acronym_city": 0.0,
+  "9_numsig": 0.0,
+  "9_sn_addr_sorted_w3": 0.1,
+  "9_addr_token_top20": 5.5,
+  "9_name_addr_token_top20": 6.3
+ },
+ "buckets": 16,
+ "unions": {
+  "U_exact_name_any": {
+   "pairs": 11679,
+   "recall": 0.68994,
+   "true_pairs_found": 7036,
+   "true_pairs_missed": 3162,
+   "entity_all_matches_found": 0.3226,
+   "recall_by_source": {
+    "S2": 0.71131,
+    "S3": 0.67025
+   },
+   "recall_by_country": {
+    "India": 0.74847,
+    "US": 0.65327
+   },
+   "mean": 3.893,
+   "median": 3.0,
+   "p95": 12.0,
+   "p99": 23.0,
+   "max": 35,
+   "entities_with_candidates": 2728,
+   "reduction_ratio": 0.999982,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted"
+   ]
+  },
+  "U_exact_keys": {
+   "pairs": 73399,
+   "recall": 0.9493,
+   "true_pairs_found": 9681,
+   "true_pairs_missed": 517,
+   "entity_all_matches_found": 0.83941,
+   "recall_by_source": {
+    "S2": 0.95195,
+    "S3": 0.94686
+   },
+   "recall_by_country": {
+    "India": 0.94297,
+    "US": 0.95327
+   },
+   "mean": 24.466,
+   "median": 9.0,
+   "p95": 99.04999999999973,
+   "p99": 197.0,
+   "max": 456,
+   "entities_with_candidates": 2956,
+   "reduction_ratio": 0.999887,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted",
+    "5_state_name_sorted",
+    "5_city_name_first",
+    "5_city_house_number",
+    "5_state_house_street",
+    "9_numsig",
+    "8_acronym_city"
+   ]
+  },
+  "U_retrieval_only": {
+   "pairs": 274926,
+   "recall": 0.9948,
+   "true_pairs_found": 10145,
+   "true_pairs_missed": 53,
+   "entity_all_matches_found": 0.98176,
+   "recall_by_source": {
+    "S2": 0.9955,
+    "S3": 0.99416
+   },
+   "recall_by_country": {
+    "India": 0.99109,
+    "US": 0.99713
+   },
+   "mean": 91.642,
+   "median": 92.0,
+   "p95": 103.0,
+   "p99": 108.0,
+   "max": 116,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999577,
+   "members": [
+    "3_name_ngram_top20",
+    "9_addr_token_top20",
+    "9_name_addr_token_top20"
+   ]
+  },
+  "U_bounded": {
+   "pairs": 346559,
+   "recall": 0.99784,
+   "true_pairs_found": 10176,
+   "true_pairs_missed": 22,
+   "entity_all_matches_found": 0.99213,
+   "recall_by_source": {
+    "S2": 0.99755,
+    "S3": 0.99812
+   },
+   "recall_by_country": {
+    "India": 0.99695,
+    "US": 0.99841
+   },
+   "mean": 115.52,
+   "median": 106.0,
+   "p95": 185.0,
+   "p99": 283.00999999999976,
+   "max": 514,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999466,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted",
+    "5_state_name_sorted",
+    "5_city_name_first",
+    "5_city_house_number",
+    "5_state_house_street",
+    "9_numsig",
+    "8_acronym_city",
+    "8_sn_name_core_sorted_w3",
+    "8_sn_name_compact_w3",
+    "9_sn_addr_sorted_w3",
+    "3_name_ngram_top20",
+    "9_addr_token_top20",
+    "9_name_addr_token_top20"
+   ]
+  },
+  "U_bounded_plus_tokens_small": {
+   "pairs": 493867,
+   "recall": 0.99794,
+   "true_pairs_found": 10177,
+   "true_pairs_missed": 21,
+   "entity_all_matches_found": 0.99249,
+   "recall_by_source": {
+    "S2": 0.99755,
+    "S3": 0.9983
+   },
+   "recall_by_country": {
+    "India": 0.9972,
+    "US": 0.99841
+   },
+   "mean": 164.622,
+   "median": 145.0,
+   "p95": 295.0499999999997,
+   "p99": 398.0199999999995,
+   "max": 588,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.999239,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted",
+    "5_state_name_sorted",
+    "5_city_name_first",
+    "5_city_house_number",
+    "5_state_house_street",
+    "9_numsig",
+    "8_acronym_city",
+    "8_sn_name_core_sorted_w3",
+    "8_sn_name_compact_w3",
+    "9_sn_addr_sorted_w3",
+    "3_name_ngram_top20",
+    "9_addr_token_top20",
+    "9_name_addr_token_top20",
+    "2_name_token_df200_rarest2",
+    "4_addr_token_df100_rarest3"
+   ]
+  },
+  "U_bounded_plus_tokens_mid": {
+   "pairs": 961113,
+   "recall": 0.99833,
+   "true_pairs_found": 10181,
+   "true_pairs_missed": 17,
+   "entity_all_matches_found": 0.99392,
+   "recall_by_source": {
+    "S2": 0.99836,
+    "S3": 0.9983
+   },
+   "recall_by_country": {
+    "India": 0.99771,
+    "US": 0.99872
+   },
+   "mean": 320.371,
+   "median": 263.5,
+   "p95": 700.0999999999995,
+   "p99": 897.0199999999995,
+   "max": 1288,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.998519,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted",
+    "5_state_name_sorted",
+    "5_city_name_first",
+    "5_city_house_number",
+    "5_state_house_street",
+    "9_numsig",
+    "8_acronym_city",
+    "8_sn_name_core_sorted_w3",
+    "8_sn_name_compact_w3",
+    "9_sn_addr_sorted_w3",
+    "3_name_ngram_top20",
+    "9_addr_token_top20",
+    "9_name_addr_token_top20",
+    "2_name_token_df500_rarest2",
+    "4_addr_token_df200_rarest3"
+   ]
+  },
+  "U_all_selected": {
+   "pairs": 1795062,
+   "recall": 0.99892,
+   "true_pairs_found": 10187,
+   "true_pairs_missed": 11,
+   "entity_all_matches_found": 0.99607,
+   "recall_by_source": {
+    "S2": 0.99939,
+    "S3": 0.99849
+   },
+   "recall_by_country": {
+    "India": 0.99796,
+    "US": 0.99952
+   },
+   "mean": 598.354,
+   "median": 511.0,
+   "p95": 1364.0499999999997,
+   "p99": 1684.0099999999998,
+   "max": 2027,
+   "entities_with_candidates": 3000,
+   "reduction_ratio": 0.997235,
+   "members": [
+    "1_exact_name_core",
+    "1_exact_name_core_sorted",
+    "1_exact_name_compact",
+    "1_exact_name_translit_core_sorted",
+    "5_state_name_sorted",
+    "5_city_name_first",
+    "5_city_house_number",
+    "5_state_house_street",
+    "9_numsig",
+    "8_acronym_city",
+    "8_sn_name_core_sorted_w3",
+    "8_sn_name_compact_w3",
+    "9_sn_addr_sorted_w3",
+    "3_name_ngram_top20",
+    "9_addr_token_top20",
+    "9_name_addr_token_top20",
+    "2_name_token_df1000_rarest2",
+    "4_addr_token_df500_rarest3"
+   ]
+  }
+ },
+ "coverage": {
+  "final_members": [
+   "1_exact_name_core",
+   "1_exact_name_core_sorted",
+   "1_exact_name_compact",
+   "1_exact_name_translit_core_sorted",
+   "5_state_name_sorted",
+   "5_city_name_first",
+   "5_city_house_number",
+   "5_state_house_street",
+   "9_numsig",
+   "8_acronym_city",
+   "8_sn_name_core_sorted_w3",
+   "8_sn_name_compact_w3",
+   "9_sn_addr_sorted_w3",
+   "3_name_ngram_top20",
+   "9_addr_token_top20",
+   "9_name_addr_token_top20",
+   "2_name_token_df1000_rarest2",
+   "4_addr_token_df500_rarest3"
+  ],
+  "true_pairs": 10198,
+  "found": 10187,
+  "missed": 11,
+  "found_by_exactly_one_strategy": 18,
+  "unique_contribution": {
+   "1_exact_name_core": 0,
+   "1_exact_name_core_sorted": 0,
+   "1_exact_name_compact": 0,
+   "1_exact_name_translit_core_sorted": 0,
+   "5_state_name_sorted": 0,
+   "5_city_name_first": 0,
+   "5_city_house_number": 0,
+   "5_state_house_street": 1,
+   "9_numsig": 3,
+   "8_acronym_city": 1,
+   "8_sn_name_core_sorted_w3": 0,
+   "8_sn_name_compact_w3": 0,
+   "9_sn_addr_sorted_w3": 0,
+   "3_name_ngram_top20": 1,
+   "9_addr_token_top20": 0,
+   "9_name_addr_token_top20": 1,
+   "2_name_token_df1000_rarest2": 9,
+   "4_addr_token_df500_rarest3": 2
+  },
+  "recall_without": {
+   "1_exact_name_core": 0.99892,
+   "1_exact_name_core_sorted": 0.99892,
+   "1_exact_name_compact": 0.99892,
+   "1_exact_name_translit_core_sorted": 0.99892,
+   "5_state_name_sorted": 0.99892,
+   "5_city_name_first": 0.99892,
+   "5_city_house_number": 0.99892,
+   "5_state_house_street": 0.99882,
+   "9_numsig": 0.99863,
+   "8_acronym_city": 0.99882,
+   "8_sn_name_core_sorted_w3": 0.99892,
+   "8_sn_name_compact_w3": 0.99892,
+   "9_sn_addr_sorted_w3": 0.99892,
+   "3_name_ngram_top20": 0.99882,
+   "9_addr_token_top20": 0.99892,
+   "9_name_addr_token_top20": 0.99882,
+   "2_name_token_df1000_rarest2": 0.99804,
+   "4_addr_token_df500_rarest3": 0.99873
+  }
+ },
+ "misses": {
+  "n": 11,
+  "by_category": {
+   "different name and different address": 4,
+   "address missing on a side": 3,
+   "similar name and similar address": 2,
+   "different name, similar address": 2
+  },
+  "by_country": {
+   "US": 3,
+   "India": 8
+  },
+  "by_source": {
+   "S2": 3,
+   "S3": 8
+  },
+  "name_ratio_quartiles": [
+   32.129032135009766,
+   40.0,
+   71.32132339477539
+  ],
+  "addr_jaccard_quartiles": [
+   0.041666666666666664,
+   0.14285714285714285,
+   0.2
+  ],
+  "pool_name_script": {
+   "latin": 11
+  },
+  "examples": [
+   {
+    "source1_entity_id": "S1-245017573",
+    "business_name_1": "Health Charities",
+    "business_address_1": "3080 8th Street, Unit APARTMENT 310, Waukegan, IL",
+    "matched_id": "S2-25559470",
+    "business_name_2": "Health Coaifegrtiees",
+    "business_address_2": null,
+    "name_ratio": 77.77777862548828,
+    "addr_jac": 0.0,
+    "category": "address missing on a side"
+   },
+   {
+    "source1_entity_id": "S1-967810690",
+    "business_name_1": "Good Consultancy Ltd",
+    "business_address_1": "Flat No. 602, Building - 'E' Konark Indrayu Enclave - Ii, Nibm - Undr, I Road, Pune, Maharashtra",
+    "matched_id": "S3-74345479",
+    "business_name_2": "Deltaaria",
+    "business_address_2": "Flat No. 604, Pune, MH",
+    "name_ratio": 32.0,
+    "addr_jac": 0.21428571428571427,
+    "category": "different name, similar address"
+   },
+   {
+    "source1_entity_id": "S1-13837614",
+    "business_name_1": "United Construction LLP",
+    "business_address_1": "C/O Saroj Kumar, Vill. Bajitpur Majhauli At - Jagai Majhauli, Pops - Bochahan, Muzaffarpur, Bihar",
+    "matched_id": "S3-430501452",
+    "business_name_2": "Zephsyn",
+    "business_address_2": "C/o Saroj Kumar, Muzzafarpur, बिहार",
+    "name_ratio": 23.076923370361328,
+    "addr_jac": 0.125,
+    "category": "different name and different address"
+   },
+   {
+    "source1_entity_id": "S1-42972432",
+    "business_name_1": "Pediatric Dental Care Inc.",
+    "business_address_1": "3090 Tiffany Lane, Bend, OR",
+    "matched_id": "S2-746148871",
+    "business_name_2": "Pediatric  Dental Care lnc.",
+    "business_address_2": null,
+    "name_ratio": 91.3043441772461,
+    "addr_jac": 0.0,
+    "category": "address missing on a side"
+   },
+   {
+    "source1_entity_id": "S1-763299391",
+    "business_name_1": "Global Tech Private Limited",
+    "business_address_1": "At Post Mudeti, Taluka Idar, Dist. Sabarkantha, Idar, Sabar Kantha, Gujarat",
+    "matched_id": "S3-337785414",
+    "business_name_2": "Global Tdch Private Limited",
+    "business_address_2": null,
+    "name_ratio": 90.90908813476562,
+    "addr_jac": 0.0,
+    "category": "address missing on a side"
+   },
+   {
+    "source1_entity_id": "S1-611296079",
+    "business_name_1": "Cardiology Clear Partners, LLC",
+    "business_address_1": "993 4th Avenue, Unit Apartment B, Eugene, OR",
+    "matched_id": "S3-653234405",
+    "business_name_2": "cpdear.com",
+    "business_address_2": "#993 Fourth Ave, # Apartment B, Eugee, Oregon",
+    "name_ratio": 32.25806427001953,
+    "addr_jac": 0.14285714285714285,
+    "category": "different name and different address"
+   },
+   {
+    "source1_entity_id": "S1-637461858",
+    "business_name_1": "Hyderabad Television Private Limited",
+    "business_address_1": "Shop No.53, D.No 5-9-253 1St Floor, Unity House, Abids, Hyderabad, Telangana",
+    "matched_id": "S2-29197329",
+    "business_name_2": "privatetelevision.com",
+    "business_address_2": "SHOP NO.G-53, HYDERABAD, Andhra Pradesh",
+    "name_ratio": 64.8648681640625,
+    "addr_jac": 0.2,
+    "category": "similar name and similar address"
+   },
+   {
+    "source1_entity_id": "S1-471179514",
+    "business_name_1": "Foundation & Co",
+    "business_address_1": "C/O Markand Shankar Maruti 00Fl 5 Sn 54/5 Wadgaon Bk Naka Pune, Pune, Maharashtra",
+    "matched_id": "S3-828227392",
+    "business_name_2": "Beloariazeph née Foundation & Co",
+    "business_address_2": "C/O Markand Shankar Maruti 00Fl 5 Sn 54/5 Wadgaon Bk Naka Pune, Pune, Maharashtra",
+    "name_ratio": 62.22222137451172,
+    "addr_jac": 1.0,
+    "category": "similar name and similar address"
+   },
+   {
+    "source1_entity_id": "S1-3571057",
+    "business_name_1": "Chhabra Traders Private Limited",
+    "business_address_1": "Flat-6A, Madhu Parag, 69, Swastik Chs, Ville Parle, Mumbai, Maharashtra",
+    "matched_id": "S3-413157210",
+    "business_name_2": "Veoumbra",
+    "business_address_2": "Flat-006a, Mumbai, MH",
+    "name_ratio": 26.086956024169922,
+    "addr_jac": 0.08333333333333333,
+    "category": "different name and different address"
+   },
+   {
+    "source1_entity_id": "S1-713926560",
+    "business_name_1": "Srv Leasing Ltd",
+    "business_address_1": "Shop No. 329, 3Rd Floor, Maharani Trade Centre, Maharana Talkies, Bhilwara, Rajasthan",
+    "matched_id": "S3-25625187",
+    "business_name_2": "Sri Pyrazeph",
+    "business_address_2": "राजस्थान, Bhilwara, Tehsil- Bhilwara, ##329",
+    "name_ratio": 33.33333206176758,
+    "addr_jac": 0.14285714285714285,
+    "category": "different name and different address"
+   },
+   {
+    "source1_entity_id": "S1-681942514",
+    "business_name_1": "Swastik Impex Private Limited",
+    "business_address_1": "Swaran Park, Udyog Nagar Mundka, Delhi, A-44, New Delhi",
+    "matched_id": "S3-886424706",
+    "business_name_2": "impexprivate.com",
+    "business_address_2": "A-044, <NULL>, New Delhi, DL",
+    "name_ratio": 40.0,
+    "addr_jac": 0.2,
+    "category": "different name, similar address"
+   }
+  ]
+ },
+ "final": {
+  "pairs": 1795062,
+  "recall": 0.99892,
+  "true_pairs_found": 10187,
+  "true_pairs_missed": 11,
+  "entity_all_matches_found": 0.99607,
+  "recall_by_source": {
+   "S2": 0.99939,
+   "S3": 0.99849
+  },
+  "recall_by_country": {
+   "India": 0.99796,
+   "US": 0.99952
+  },
+  "mean": 598.354,
+  "median": 511.0,
+  "p95": 1364.0499999999997,
+  "p99": 1684.0099999999998,
+  "max": 2027,
+  "entities_with_candidates": 3000,
+  "reduction_ratio": 0.997235,
+  "members": [
+   "1_exact_name_core",
+   "1_exact_name_core_sorted",
+   "1_exact_name_compact",
+   "1_exact_name_translit_core_sorted",
+   "5_state_name_sorted",
+   "5_city_name_first",
+   "5_city_house_number",
+   "5_state_house_street",
+   "9_numsig",
+   "8_acronym_city",
+   "8_sn_name_core_sorted_w3",
+   "8_sn_name_compact_w3",
+   "9_sn_addr_sorted_w3",
+   "3_name_ngram_top20",
+   "9_addr_token_top20",
+   "9_name_addr_token_top20",
+   "2_name_token_df1000_rarest2",
+   "4_addr_token_df500_rarest3"
+  ],
+  "file": {
+   "path": "artifacts/candidates/fold0\\smoke\\candidate_pairs.tsv",
+   "rows": 3000,
+   "bytes": 23177667,
+   "ids": 1795062,
+   "empty_rows": 0,
+   "problems": [],
+   "valid": true
+  }
+ }
+}

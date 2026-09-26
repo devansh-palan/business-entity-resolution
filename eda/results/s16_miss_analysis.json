@@ -1,0 +1,1068 @@
+{
+ "n_missed": 22608,
+ "by_cause": {
+  "missing address": 7286,
+  "retrieval failure": 829,
+  "candidate limit too small": 5530,
+  "name variation": 2113,
+  "typo": 53,
+  "abbreviation": 1463,
+  "transliteration": 5,
+  "address variation": 1123,
+  "blocking collision": 3356,
+  "missing name": 0,
+  "country variation": 0,
+  "other": 850
+ },
+ "by_cause_country": {
+  "missing address": {
+   "India": 2830,
+   "US": 4456
+  },
+  "retrieval failure": {
+   "US": 468,
+   "India": 361
+  },
+  "candidate limit too small": {
+   "India": 3116,
+   "US": 2414
+  },
+  "name variation": {
+   "US": 1099,
+   "India": 1014
+  },
+  "typo": {
+   "India": 5,
+   "US": 48
+  },
+  "abbreviation": {
+   "US": 896,
+   "India": 567
+  },
+  "transliteration": {
+   "US": 5
+  },
+  "address variation": {
+   "India": 440,
+   "US": 683
+  },
+  "blocking collision": {
+   "India": 3097,
+   "US": 259
+  },
+  "missing name": {},
+  "country variation": {},
+  "other": {
+   "India": 438,
+   "US": 412
+  }
+ },
+ "by_cause_source": {
+  "missing address": {
+   "S2": 3375,
+   "S3": 3911
+  },
+  "retrieval failure": {
+   "S2": 438,
+   "S3": 391
+  },
+  "candidate limit too small": {
+   "S3": 2943,
+   "S2": 2587
+  },
+  "name variation": {
+   "S3": 1055,
+   "S2": 1058
+  },
+  "typo": {
+   "S3": 24,
+   "S2": 29
+  },
+  "abbreviation": {
+   "S3": 772,
+   "S2": 691
+  },
+  "transliteration": {
+   "S3": 4,
+   "S2": 1
+  },
+  "address variation": {
+   "S2": 356,
+   "S3": 767
+  },
+  "blocking collision": {
+   "S2": 1590,
+   "S3": 1766
+  },
+  "missing name": {},
+  "country variation": {},
+  "other": {
+   "S2": 284,
+   "S3": 566
+  }
+ },
+ "signals_by_cause": {
+  "missing address": {
+   "n": 7286,
+   "name_ratio_median": 81.81818181818181,
+   "addr_jac_median": 0.0,
+   "retr_rank_in_top100": 2917,
+   "retr_cos_median": 0.2895548343658447,
+   "pairs_with_pruned_shared_tokens": 3481,
+   "pairs_with_no_kept_shared_token": 904,
+   "indic": 46,
+   "domain_style": 47,
+   "alias_form": 556,
+   "house_equal": 0,
+   "city_equal": 0,
+   "state_conflict": 0,
+   "name_block_dropped": 820,
+   "city_block_dropped": 0
+  },
+  "retrieval failure": {
+   "n": 829,
+   "name_ratio_median": 86.66666666666667,
+   "addr_jac_median": 0.375,
+   "retr_rank_in_top100": 4,
+   "retr_cos_median": 0.2525712847709656,
+   "pairs_with_pruned_shared_tokens": 785,
+   "pairs_with_no_kept_shared_token": 55,
+   "indic": 3,
+   "domain_style": 252,
+   "alias_form": 46,
+   "house_equal": 245,
+   "city_equal": 331,
+   "state_conflict": 93,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "candidate limit too small": {
+   "n": 5530,
+   "name_ratio_median": 80.0,
+   "addr_jac_median": 0.3076923076923077,
+   "retr_rank_in_top100": 5530,
+   "retr_cos_median": 0.35470184683799744,
+   "pairs_with_pruned_shared_tokens": 4853,
+   "pairs_with_no_kept_shared_token": 0,
+   "indic": 1219,
+   "domain_style": 940,
+   "alias_form": 185,
+   "house_equal": 994,
+   "city_equal": 3337,
+   "state_conflict": 406,
+   "name_block_dropped": 1327,
+   "city_block_dropped": 425
+  },
+  "name variation": {
+   "n": 2113,
+   "name_ratio_median": 42.10526315789473,
+   "addr_jac_median": 0.3333333333333333,
+   "retr_rank_in_top100": 5,
+   "retr_cos_median": 0.22347532212734222,
+   "pairs_with_pruned_shared_tokens": 1940,
+   "pairs_with_no_kept_shared_token": 183,
+   "indic": 0,
+   "domain_style": 0,
+   "alias_form": 120,
+   "house_equal": 386,
+   "city_equal": 976,
+   "state_conflict": 188,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "typo": {
+   "n": 53,
+   "name_ratio_median": 72.72727272727273,
+   "addr_jac_median": 0.2857142857142857,
+   "retr_rank_in_top100": null,
+   "retr_cos_median": 0.23018690943717957,
+   "pairs_with_pruned_shared_tokens": 45,
+   "pairs_with_no_kept_shared_token": 6,
+   "indic": 0,
+   "domain_style": 0,
+   "alias_form": 1,
+   "house_equal": 3,
+   "city_equal": 25,
+   "state_conflict": 1,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "abbreviation": {
+   "n": 1463,
+   "name_ratio_median": 62.22222222222222,
+   "addr_jac_median": 0.2727272727272727,
+   "retr_rank_in_top100": 3,
+   "retr_cos_median": 0.19814077019691467,
+   "pairs_with_pruned_shared_tokens": 1202,
+   "pairs_with_no_kept_shared_token": 227,
+   "indic": 0,
+   "domain_style": 1248,
+   "alias_form": 7,
+   "house_equal": 191,
+   "city_equal": 959,
+   "state_conflict": 80,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "transliteration": {
+   "n": 5,
+   "name_ratio_median": 47.05882352941176,
+   "addr_jac_median": 0.2,
+   "retr_rank_in_top100": null,
+   "retr_cos_median": 0.22864922881126404,
+   "pairs_with_pruned_shared_tokens": 4,
+   "pairs_with_no_kept_shared_token": 0,
+   "indic": 5,
+   "domain_style": 1,
+   "alias_form": 0,
+   "house_equal": 1,
+   "city_equal": 2,
+   "state_conflict": 0,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "address variation": {
+   "n": 1123,
+   "name_ratio_median": 87.5,
+   "addr_jac_median": 0.18181818181818182,
+   "retr_rank_in_top100": 1,
+   "retr_cos_median": 0.21136540174484253,
+   "pairs_with_pruned_shared_tokens": 933,
+   "pairs_with_no_kept_shared_token": 144,
+   "indic": 3,
+   "domain_style": 246,
+   "alias_form": 53,
+   "house_equal": 0,
+   "city_equal": 315,
+   "state_conflict": 49,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  },
+  "blocking collision": {
+   "n": 3356,
+   "name_ratio_median": 100.0,
+   "addr_jac_median": 0.22727272727272727,
+   "retr_rank_in_top100": 20,
+   "retr_cos_median": 0.2100597769021988,
+   "pairs_with_pruned_shared_tokens": 3270,
+   "pairs_with_no_kept_shared_token": 436,
+   "indic": 2228,
+   "domain_style": 233,
+   "alias_form": 72,
+   "house_equal": 420,
+   "city_equal": 2633,
+   "state_conflict": 415,
+   "name_block_dropped": 2505,
+   "city_block_dropped": 892
+  },
+  "other": {
+   "n": 850,
+   "name_ratio_median": 23.166368515205722,
+   "addr_jac_median": 0.21052631578947367,
+   "retr_rank_in_top100": 2,
+   "retr_cos_median": 0.15530794858932495,
+   "pairs_with_pruned_shared_tokens": 604,
+   "pairs_with_no_kept_shared_token": 177,
+   "indic": 0,
+   "domain_style": 0,
+   "alias_form": 0,
+   "house_equal": 0,
+   "city_equal": 508,
+   "state_conflict": 35,
+   "name_block_dropped": 0,
+   "city_block_dropped": 0
+  }
+ },
+ "retrieval_rank_of_misses": {
+  "rank_21_30": 2286,
+  "rank_31_50": 2719,
+  "rank_51_100": 3332,
+  "not_in_top_100": 14126,
+  "cosine_below_0.2_threshold": 6246
+ },
+ "recovered_by_existing_strategy": {
+  "missing address": {
+   "1_exact_name_core": 753,
+   "1_exact_name_core_sorted": 778,
+   "1_exact_name_compact": 753,
+   "1_exact_name_translit_core_sorted": 820,
+   "2_name_token_df200_rarest2": 297,
+   "2_name_token_df500_rarest2": 577,
+   "2_name_token_df1000_rarest2": 792,
+   "3_name_ngram_top20": 538,
+   "8_sn_name_core_sorted_w3": 210
+  },
+  "retrieval failure": {
+   "2_name_token_df200_rarest2": 4,
+   "2_name_token_df500_rarest2": 9,
+   "2_name_token_df1000_rarest2": 16,
+   "3_name_ngram_top20": 102,
+   "4_addr_token_df100_rarest3": 23,
+   "4_addr_token_df200_rarest3": 37,
+   "4_addr_token_df500_rarest3": 64,
+   "5_city_house_number": 80,
+   "8_sn_name_core_sorted_w3": 27,
+   "8_acronym_city": 46,
+   "9_numsig": 123,
+   "9_addr_token_top20": 87
+  },
+  "candidate limit too small": {
+   "1_exact_name_core": 16,
+   "1_exact_name_core_sorted": 16,
+   "1_exact_name_compact": 113,
+   "1_exact_name_translit_core_sorted": 1230,
+   "2_name_token_df200_rarest2": 216,
+   "2_name_token_df500_rarest2": 344,
+   "2_name_token_df1000_rarest2": 422,
+   "3_name_ngram_top20": 560,
+   "4_addr_token_df100_rarest3": 482,
+   "4_addr_token_df200_rarest3": 734,
+   "4_addr_token_df500_rarest3": 1247,
+   "5_city_name_first": 341,
+   "5_city_house_number": 640,
+   "8_sn_name_core_sorted_w3": 122,
+   "8_acronym_city": 988,
+   "9_numsig": 556,
+   "9_addr_token_top20": 1357
+  },
+  "name variation": {
+   "2_name_token_df200_rarest2": 32,
+   "2_name_token_df500_rarest2": 69,
+   "2_name_token_df1000_rarest2": 99,
+   "3_name_ngram_top20": 93,
+   "4_addr_token_df100_rarest3": 69,
+   "4_addr_token_df200_rarest3": 95,
+   "4_addr_token_df500_rarest3": 168,
+   "5_city_house_number": 193,
+   "8_sn_name_core_sorted_w3": 24,
+   "8_acronym_city": 30,
+   "9_numsig": 279,
+   "9_addr_token_top20": 212
+  },
+  "typo": {
+   "3_name_ngram_top20": 1,
+   "4_addr_token_df200_rarest3": 1,
+   "4_addr_token_df500_rarest3": 5,
+   "8_acronym_city": 1,
+   "9_numsig": 11,
+   "9_addr_token_top20": 2
+  },
+  "abbreviation": {
+   "2_name_token_df500_rarest2": 1,
+   "2_name_token_df1000_rarest2": 1,
+   "3_name_ngram_top20": 178,
+   "4_addr_token_df100_rarest3": 40,
+   "4_addr_token_df200_rarest3": 62,
+   "4_addr_token_df500_rarest3": 131,
+   "5_city_house_number": 127,
+   "8_sn_name_core_sorted_w3": 3,
+   "9_numsig": 184,
+   "9_addr_token_top20": 211
+  },
+  "transliteration": {},
+  "address variation": {
+   "2_name_token_df200_rarest2": 34,
+   "2_name_token_df500_rarest2": 63,
+   "2_name_token_df1000_rarest2": 81,
+   "3_name_ngram_top20": 140,
+   "4_addr_token_df100_rarest3": 20,
+   "4_addr_token_df200_rarest3": 27,
+   "4_addr_token_df500_rarest3": 59,
+   "8_sn_name_core_sorted_w3": 53,
+   "8_acronym_city": 77,
+   "9_numsig": 123,
+   "9_addr_token_top20": 23
+  },
+  "blocking collision": {
+   "1_exact_name_core": 39,
+   "1_exact_name_core_sorted": 39,
+   "1_exact_name_compact": 278,
+   "1_exact_name_translit_core_sorted": 2266,
+   "2_name_token_df200_rarest2": 3,
+   "2_name_token_df500_rarest2": 14,
+   "2_name_token_df1000_rarest2": 24,
+   "3_name_ngram_top20": 158,
+   "4_addr_token_df100_rarest3": 110,
+   "4_addr_token_df200_rarest3": 121,
+   "4_addr_token_df500_rarest3": 155,
+   "5_city_name_first": 701,
+   "5_city_house_number": 321,
+   "8_sn_name_core_sorted_w3": 21,
+   "8_acronym_city": 1554,
+   "9_numsig": 228,
+   "9_addr_token_top20": 52
+  },
+  "other": {
+   "4_addr_token_df100_rarest3": 25,
+   "4_addr_token_df200_rarest3": 36,
+   "4_addr_token_df500_rarest3": 73,
+   "9_numsig": 85,
+   "9_addr_token_top20": 53
+  }
+ },
+ "cheap_keys": {
+  "name_any_house_number": {
+   "pairs": 617737,
+   "mean": 1.4,
+   "p95": 4.0,
+   "max": 20,
+   "recall_alone": 0.39352,
+   "misses_recovered": 554,
+   "misses_recovered_by_cause": {
+    "candidate limit too small": 268,
+    "blocking collision": 286
+   }
+  },
+  "name_any_city": {
+   "pairs": 1186089,
+   "mean": 2.687,
+   "p95": 7.0,
+   "max": 100,
+   "recall_alone": 0.51103,
+   "misses_recovered": 2729,
+   "misses_recovered_by_cause": {
+    "candidate limit too small": 956,
+    "blocking collision": 1773
+   }
+  },
+  "compact_name_state": {
+   "pairs": 2270002,
+   "mean": 5.143,
+   "p95": 19.0,
+   "max": 294,
+   "recall_alone": 0.54496,
+   "misses_recovered": 333,
+   "misses_recovered_by_cause": {
+    "candidate limit too small": 96,
+    "blocking collision": 237
+   }
+  },
+  "house_street_city": {
+   "pairs": 871435,
+   "mean": 1.974,
+   "p95": 6.0,
+   "max": 182,
+   "recall_alone": 0.37316,
+   "misses_recovered": 20,
+   "misses_recovered_by_cause": {
+    "retrieval failure": 2,
+    "candidate limit too small": 8,
+    "name variation": 2,
+    "abbreviation": 1,
+    "blocking collision": 7
+   }
+  }
+ },
+ "examples": {
+  "missing address": [
+   {
+    "business_name_1": "Rapid Bnb Inc",
+    "business_address_1": "1945 Shirley Drive, Burlington, NC",
+    "business_name_2": "Rapid Inc Service",
+    "business_address_2": null,
+    "retr_rank": 49,
+    "retr_cos": 0.3411528170108795,
+    "name_ratio": 54.54545454545454,
+    "addr_jac": 0.0
+   },
+   {
+    "business_name_1": "Apex Alpine",
+    "business_address_1": "Upper Allen Township, PA, 2427 Bumble Bee Hollow Road",
+    "business_name_2": "Apex [Services]",
+    "business_address_2": null,
+    "retr_rank": -1,
+    "retr_cos": 0.24400915205478668,
+    "name_ratio": 58.33333333333333,
+    "addr_jac": 0.0
+   },
+   {
+    "business_name_1": "Bureau of Finance",
+    "business_address_1": "2032 Mallard Lane, Montgomery, AL",
+    "business_name_2": "Bureau of Center Trading",
+    "business_address_2": null,
+    "retr_rank": -1,
+    "retr_cos": 0.29540640115737915,
+    "name_ratio": 63.41463414634146,
+    "addr_jac": 0.0
+   },
+   {
+    "business_name_1": "Hargett Charter School Corp",
+    "business_address_1": "1700 Midland Trail, VA, Alleghany County",
+    "business_name_2": "Hargett Charter Sool Corp",
+    "business_address_2": null,
+    "retr_rank": 21,
+    "retr_cos": 0.40554115176200867,
+    "name_ratio": 95.23809523809523,
+    "addr_jac": 0.0
+   },
+   {
+    "business_name_1": "BJ Automobiles Private Limited",
+    "business_address_1": "9A-102, Floor 1, M9/A, Press Enclave Aarambh Chs Ltd, Sion Transit Camp Road, Pratiksha Nagar, Sion (E), Mumbai, Maharashtra",
+    "business_name_2": "BJ MOTORS PRIVATE LIMITED",
+    "business_address_2": null,
+    "retr_rank": -1,
+    "retr_cos": 0.27878251671791077,
+    "name_ratio": 52.17391304347826,
+    "addr_jac": 0.0
+   },
+   {
+    "business_name_1": "St. Synagogue",
+    "business_address_1": "621 Western Avenue, Fl 1, Grants Pass, OR",
+    "business_name_2": "St. Synagogue Enterprises",
+    "business_address_2": null,
+    "retr_rank": -1,
+    "retr_cos": 0.3276578485965729,
+    "name_ratio": 66.66666666666667,
+    "addr_jac": 0.0
+   }
+  ],
+  "retrieval failure": [
+   {
+    "business_name_1": "Alta Olivares Pgim LLC",
+    "business_address_1": "1502 108th Street, Tacoma, WA",
+    "business_name_2": "olivarespgim.com",
+    "business_address_2": "1502 108RD STREET, TACMA, WA",
+    "retr_rank": -1,
+    "retr_cos": 0.21122989058494568,
+    "name_ratio": 80.0,
+    "addr_jac": 0.42857142857142855
+   },
+   {
+    "business_name_1": "Super Infotech Private Limited",
+    "business_address_1": "Flat No.502, Patel Residency, Masab Tank, Hyderabad, Rangareddy, Telangana",
+    "business_name_2": "*** superinfotech.com",
+    "business_address_2": "Telangana, RANGAREDDY, HYDERABAD, 502",
+    "retr_rank": -1,
+    "retr_cos": 0.26504480838775635,
+    "name_ratio": 83.87096774193549,
+    "addr_jac": 0.4
+   },
+   {
+    "business_name_1": "Guzman Computing",
+    "business_address_1": "10706 227th Avenue, Vancouver, WA",
+    "business_name_2": "6uzman Cssmutig",
+    "business_address_2": "010706 227ST AVE, VANCOVER CITY, WA",
+    "retr_rank": -1,
+    "retr_cos": 0.1421663910150528,
+    "name_ratio": 83.87096774193549,
+    "addr_jac": 0.1
+   },
+   {
+    "business_name_1": "Painters Local 284",
+    "business_address_1": "35 Maple Avenue, NY, Brookhaven",
+    "business_name_2": "#painterslocal",
+    "business_address_2": "MAPLE AVE, BROOKHAVEN, NY",
+    "retr_rank": -1,
+    "retr_cos": 0.31688785552978516,
+    "name_ratio": 83.87096774193549,
+    "addr_jac": 0.5
+   },
+   {
+    "business_name_1": "Integrity & Co",
+    "business_address_1": "11, Howrah, Kolkata, West Bengal, Clive Row 4Th Floor, Room No-02, Kolkata",
+    "business_name_2": "INCETGRCTY & CO",
+    "business_address_2": "11, N/A, HOWRAH, পশ্চিমবঙ্গ",
+    "retr_rank": -1,
+    "retr_cos": 0.28381508588790894,
+    "name_ratio": 81.4814814814815,
+    "addr_jac": 0.16666666666666666
+   },
+   {
+    "business_name_1": "Future & Brothers Private Limited",
+    "business_address_1": "Uttar Pradesh, Noida, C-55 Sector-63 Noida Uttar Pradesh, Gautam Buddha Nagar",
+    "business_name_2": "futurebrothers.com",
+    "business_address_2": "Uttar Pradesh, C-C-55 SECTOR-63 NOIDA UTTAR PRADESH, NOIDA",
+    "retr_rank": -1,
+    "retr_cos": 0.1987370252609253,
+    "name_ratio": 84.84848484848484,
+    "addr_jac": 0.4444444444444444
+   }
+  ],
+  "candidate limit too small": [
+   {
+    "business_name_1": "Colonial Family Practice Group",
+    "business_address_1": "6905 Darmstadt Road, Evansville, IN",
+    "business_name_2": "Dovakor",
+    "business_address_2": "EVANSVILLE, IN, 6905-C DARMSTADT RD",
+    "retr_rank": 26,
+    "retr_cos": 0.4043010473251343,
+    "name_ratio": 16.216216216216218,
+    "addr_jac": 0.42857142857142855
+   },
+   {
+    "business_name_1": "Peridora Restaurant Inc",
+    "business_address_1": "WA, Tacoma, 5519 23rd Avenue",
+    "business_name_2": "Peridora Inc Services",
+    "business_address_2": "23TH AVE, TCAOMA, WA",
+    "retr_rank": 27,
+    "retr_cos": 0.3254131078720093,
+    "name_ratio": 66.66666666666667,
+    "addr_jac": 0.125
+   },
+   {
+    "business_name_1": "White Trading Private Limited",
+    "business_address_1": "K.No 69/458/69 Bellary Rd, 10Th Fl, Near Godrej Apt, Bangalore North, Bangalore, Karnataka",
+    "business_name_2": "ವೈಟ್ ಟ್ರೇಡಿಂಗ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+    "business_address_2": "BANGALORE, HN C-692 K.NO 69/458/69 BLLARY RD, ಕರ್ನಾಟಕ",
+    "retr_rank": 32,
+    "retr_cos": 0.4389951527118683,
+    "name_ratio": 100.0,
+    "addr_jac": 0.29411764705882354
+   },
+   {
+    "business_name_1": "Direct Agricultural Union",
+    "business_address_1": "9025 Washington Henry Drive, Hanover County, VA",
+    "business_name_2": "Direct Agrcutlurl Union",
+    "business_address_2": "9025-9029 WASHINGTON HENRY DR, MECHANICSVILLE, VA",
+    "retr_rank": 39,
+    "retr_cos": 0.3342118561267853,
+    "name_ratio": 91.66666666666666,
+    "addr_jac": 0.3
+   },
+   {
+    "business_name_1": "Alpha Projects Private Limited",
+    "business_address_1": "42/A, Rafi Ahmed Kidwai Road, Kolkata, Kolkata, Howrah, West Bengal",
+    "business_name_2": "আলফা প্রজেক্টস প্রাইভেট লিমিটেড",
+    "business_address_2": "HN 511 42/A, KOLKATA, HOWRAH, West Bengal",
+    "retr_rank": 30,
+    "retr_cos": 0.5820537209510803,
+    "name_ratio": 100.0,
+    "addr_jac": 0.45454545454545453
+   },
+   {
+    "business_name_1": "Green Foundation Private Limited",
+    "business_address_1": "Lo39/Awing, Express Zone Mall, Next To Patel Vanik, W E Highway, Goregaon East, Mumbai, Mumbai City, Maharashtra",
+    "business_name_2": "ग्रीन फाउंडेशन प्राइवेट लिमिटेड",
+    "business_address_2": "H.NO 164 LO39/AWING, MUMBAI, MUMBAI CITY, Maharashtra",
+    "retr_rank": 29,
+    "retr_cos": 0.43370968103408813,
+    "name_ratio": 100.0,
+    "addr_jac": 0.21052631578947367
+   }
+  ],
+  "name variation": [
+   {
+    "business_name_1": "RM Functional Corporation",
+    "business_address_1": "No. 56, K No 105, Raghavendra Nagar, 2Nd Cr, Bangalore South, Bangalore, Karnataka",
+    "business_name_2": "Iriarc",
+    "business_address_2": "H.NO 56, BANGALORE SOUTH, BANGALORE, Karnataka",
+    "retr_rank": -1,
+    "retr_cos": 0.159824401140213,
+    "name_ratio": 31.57894736842105,
+    "addr_jac": 0.4166666666666667
+   },
+   {
+    "business_name_1": "Economic Development League",
+    "business_address_1": "114 Lodge Drive, Irondequoit, NY",
+    "business_name_2": "League Dvee1poebmnt Economic",
+    "business_address_2": "114- LODGE DRIVE, ROCHESTER, NY",
+    "retr_rank": -1,
+    "retr_cos": 0.283441424369812,
+    "name_ratio": 43.63636363636364,
+    "addr_jac": 0.2857142857142857
+   },
+   {
+    "business_name_1": "1 800 Flowers",
+    "business_address_1": "5735 75, North Vernon, IN",
+    "business_name_2": "Rizanylaflux",
+    "business_address_2": "75, NORTH VERNON, IN",
+    "retr_rank": -1,
+    "retr_cos": 0.30344170331954956,
+    "name_ratio": 16.000000000000004,
+    "addr_jac": 0.8
+   },
+   {
+    "business_name_1": "Pediatric Partners LLC",
+    "business_address_1": "2566 Hazelwood Street, MN, Maplewood",
+    "business_name_2": "PEDIATRIC LLC SERVICES",
+    "business_address_2": "MN, NULL, 566 HAZELWOOD SAINT, ST. PAUL",
+    "retr_rank": -1,
+    "retr_cos": 0.32361701130867004,
+    "name_ratio": 72.22222222222221,
+    "addr_jac": 0.2222222222222222
+   },
+   {
+    "business_name_1": "Chennai Fincap LLP",
+    "business_address_1": "New No. 182, Old No. 87 Coral Merchant Street, Mannady, Chennai, Tamil Nadu",
+    "business_name_2": "Deltavera",
+    "business_address_2": "NEW NO. 00182, CHENNAI, Tamil Nadu",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 26.086956521739136,
+    "addr_jac": 0.38461538461538464
+   },
+   {
+    "business_name_1": "Zadyne Paloma LLC",
+    "business_address_1": "1732 13th Street, Fort Smith, AR",
+    "business_name_2": "Gildcalo",
+    "business_address_2": "1732- 13RD ST, FORT SMITH, AR",
+    "retr_rank": -1,
+    "retr_cos": 0.1566203385591507,
+    "name_ratio": 38.095238095238095,
+    "addr_jac": 0.375
+   }
+  ],
+  "typo": [
+   {
+    "business_name_1": "Nisa & Co",
+    "business_address_1": "B-31, Okhla Industrial Area, Phase-1, New Delhi, South Delhi, Delhi",
+    "business_name_2": "Mr Ncba & (Co)",
+    "business_address_2": "B-031, SOUTH DELHI, NEW DELHI, Delhi",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 75.0,
+    "addr_jac": 0.3333333333333333
+   },
+   {
+    "business_name_1": "Citadel Inc",
+    "business_address_1": "1524 10th Street, Unit Apartment A4, Anniston, AL",
+    "business_name_2": "Inc Ciaded",
+    "business_address_2": "1524A TENTH STREET, ANNISTON, AL",
+    "retr_rank": -1,
+    "retr_cos": 0.17902113497257233,
+    "name_ratio": 76.92307692307692,
+    "addr_jac": 0.3
+   },
+   {
+    "business_name_1": "Baify, Inc",
+    "business_address_1": "Kent, 20745 295th Street, WA",
+    "business_name_2": "Baic, Inc",
+    "business_address_2": "20745-B 295ND ST, KENT, WA",
+    "retr_rank": -1,
+    "retr_cos": 0.12400372326374054,
+    "name_ratio": 66.66666666666667,
+    "addr_jac": 0.25
+   },
+   {
+    "business_name_1": "Nonadyne, LLC",
+    "business_address_1": "554 Gilbert Avenue, Orangetown, NY",
+    "business_name_2": "Nogadrne, LLC",
+    "business_address_2": "554-C GILBERT AVE, PEARL RIVER, NY",
+    "retr_rank": -1,
+    "retr_cos": 0.1352834850549698,
+    "name_ratio": 75.0,
+    "addr_jac": 0.2222222222222222
+   },
+   {
+    "business_name_1": "Star Corporation",
+    "business_address_1": "6100 Aurora Way, Unit Unit 4904C, Amherst, NY",
+    "business_name_2": "Sthr Corporation",
+    "business_address_2": "null, GETZILLE, NY, 5100 AURORA WAY",
+    "retr_rank": -1,
+    "retr_cos": 0.07281861454248428,
+    "name_ratio": 75.0,
+    "addr_jac": 0.3333333333333333
+   },
+   {
+    "business_name_1": "Cedar LLC",
+    "business_address_1": "735 Main Street, Antioch, IL",
+    "business_name_2": "Corar LLC",
+    "business_address_2": "IL, 735-A MAIN ST, ANTIOCH",
+    "retr_rank": -1,
+    "retr_cos": 0.24296939373016357,
+    "name_ratio": 60.0,
+    "addr_jac": 0.42857142857142855
+   }
+  ],
+  "abbreviation": [
+   {
+    "business_name_1": "Fuentes, Chandal, CPA",
+    "business_address_1": "256 46th Place, Chicago, IL",
+    "business_name_2": "CHANDALFUENTESCPA.COM",
+    "business_address_2": "256 46ND PL, CHHICAGO, IL",
+    "retr_rank": -1,
+    "retr_cos": 0.2082109898328781,
+    "name_ratio": 56.25,
+    "addr_jac": 0.25
+   },
+   {
+    "business_name_1": "Nrg Trust",
+    "business_address_1": "5F, Everest 46/C, Chowringhee Road, Kolkata, Kolkata, Howrah, West Bengal",
+    "business_name_2": "Sri NTRUST.COM",
+    "business_address_2": "5-5F, KOLKATA, CHOWRINGHEE, West Bengal",
+    "retr_rank": -1,
+    "retr_cos": 0.19723887741565704,
+    "name_ratio": 66.66666666666667,
+    "addr_jac": 0.4
+   },
+   {
+    "business_name_1": "Banyan Plastics Limited",
+    "business_address_1": "Tasgaon, Sangli, Bansode At Post A/P, Maharashtra, C/O Sou Sushil Nivrutti",
+    "business_name_2": "pbanyan.com",
+    "business_address_2": "PLOT 371 C/O SOU SUSHIL NIVRUTTI, SANGLI, TASGAON, Maharashtra",
+    "retr_rank": -1,
+    "retr_cos": 0.2639842629432678,
+    "name_ratio": 54.54545454545454,
+    "addr_jac": 0.23076923076923078
+   },
+   {
+    "business_name_1": "North & Brothers Private Limited",
+    "business_address_1": "Unit No. 21, Second Floor, Plot No 8, Eros Metro Mall, Sector-14, Dwarka, New Delhi, South West Delhi, Delhi",
+    "business_name_2": "nbrothers.com",
+    "business_address_2": "NEW DELHI, UNIT NO. 21, Delhi",
+    "retr_rank": -1,
+    "retr_cos": 0.20847192406654358,
+    "name_ratio": 66.66666666666667,
+    "addr_jac": 0.3125
+   },
+   {
+    "business_name_1": "Foot & Ankle Health",
+    "business_address_1": "2552 Arthur Avenue, Sykesville, MD",
+    "business_name_2": "FOOTANKLE.COM",
+    "business_address_2": "2552-B ARTHUR AVE, SYKESVILLE, MD",
+    "retr_rank": -1,
+    "retr_cos": 0.38964736461639404,
+    "name_ratio": 60.0,
+    "addr_jac": 0.42857142857142855
+   },
+   {
+    "business_name_1": "Nabh Seva Samiti",
+    "business_address_1": "D 27, Magic Mantra, Gat No 789, Alandi Road, Chimbali, Khed, Khed, Pune, Maharashtra",
+    "business_name_2": "sevasamiti.com",
+    "business_address_2": "D 27, KHED, PUNE, Maharashtra",
+    "retr_rank": -1,
+    "retr_cos": 0.27653568983078003,
+    "name_ratio": 76.92307692307692,
+    "addr_jac": 0.38461538461538464
+   }
+  ],
+  "transliteration": [
+   {
+    "business_name_1": "O & T Sound LLC",
+    "business_address_1": "2700 Hayden Road, Unit APT 2003, Scottsdale, AZ",
+    "business_name_2": "@ó",
+    "business_address_2": "2700- HAYDEN ROAD, PO BOX 9632, SOCTTSDALE CDP, AZ",
+    "retr_rank": -1,
+    "retr_cos": 0.06857097893953323,
+    "name_ratio": 14.28571428571429,
+    "addr_jac": 0.18181818181818182
+   },
+   {
+    "business_name_1": "1 800 Flowers",
+    "business_address_1": "1318 Highland Avenue, Knoxville, TN",
+    "business_name_2": "@1800",
+    "business_address_2": "1318- Highland Avenue, Knoxville, Tennessee",
+    "retr_rank": -1,
+    "retr_cos": 0.22529363632202148,
+    "name_ratio": 47.05882352941176,
+    "addr_jac": 0.2857142857142857
+   },
+   {
+    "business_name_1": "1 800 Flowers Inc",
+    "business_address_1": "111 Sunflower Lane, Beebe, AR",
+    "business_name_2": "@1800",
+    "business_address_2": "111- Sunflower Ln, Beebe, Arkansas",
+    "retr_rank": -1,
+    "retr_cos": 0.23429058492183685,
+    "name_ratio": 47.05882352941176,
+    "addr_jac": 0.125
+   },
+   {
+    "business_name_1": "1 800 Flowers",
+    "business_address_1": "8230 Meadow Lark Road, Arkwright, NY",
+    "business_name_2": "#1800",
+    "business_address_2": "823 Meadow Lark Road, Cassadaga CITY, New York",
+    "retr_rank": -1,
+    "retr_cos": 0.25621193647384644,
+    "name_ratio": 47.05882352941176,
+    "addr_jac": 0.2727272727272727
+   },
+   {
+    "business_name_1": "1 800 Movers",
+    "business_address_1": "221 Scotland Avenue, Raeford, NC",
+    "business_name_2": "1 800",
+    "business_address_2": "221 Sctoland Avenue, Raefor DCDP, North Carolina",
+    "retr_rank": -1,
+    "retr_cos": 0.22864922881126404,
+    "name_ratio": 58.82352941176471,
+    "addr_jac": 0.2
+   }
+  ],
+  "address variation": [
+   {
+    "business_name_1": "Chiropractic Associates",
+    "business_address_1": "10306 270th Street, Stanwood, WA",
+    "business_name_2": "CHIROPRACTICASSOC.COM",
+    "business_address_2": "270RD ST, PMB 3976, STANWOOD, WA",
+    "retr_rank": -1,
+    "retr_cos": 0.2262653112411499,
+    "name_ratio": 85.0,
+    "addr_jac": 0.2857142857142857
+   },
+   {
+    "business_name_1": "Youth Chiropractic",
+    "business_address_1": "14324 Compton Road, Fairfax County, VA",
+    "business_name_2": "YCHIROPRACTIC.COM",
+    "business_address_2": "14324- COMPTON ROAD, CENTREVILLE, VA",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 83.87096774193549,
+    "addr_jac": 0.25
+   },
+   {
+    "business_name_1": "Smart Ridge Soulpower Inc",
+    "business_address_1": "7918 Lynette Street, Houston, TX",
+    "business_name_2": "Smart Rcirce Soulpower Inc",
+    "business_address_2": "7918- LYNETTE SAINT, <NULL>, HOUTON, TX",
+    "retr_rank": -1,
+    "retr_cos": 0.2854123115539551,
+    "name_ratio": 88.37209302325581,
+    "addr_jac": 0.125
+   },
+   {
+    "business_name_1": "P+ Harmony Inc",
+    "business_address_1": "4360 63rd Street, Unit 17, Sacramento, CA",
+    "business_name_2": "Inc P+ Hammony",
+    "business_address_2": "4360- 63RD STREET, SACRAMNTO, CA",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 88.88888888888889,
+    "addr_jac": 0.2222222222222222
+   },
+   {
+    "business_name_1": "Foot & Ankle Golden Care LLC",
+    "business_address_1": "7 Stolp Avenue, Unit #1802, Aurora, IL",
+    "business_name_2": "The Foot & Ankle Golden Care LLC",
+    "business_address_2": "7- STOLP AVE, AURORA, IL",
+    "retr_rank": -1,
+    "retr_cos": 0.35657596588134766,
+    "name_ratio": 92.85714285714286,
+    "addr_jac": 0.2222222222222222
+   },
+   {
+    "business_name_1": "Pediatric Partners LLC",
+    "business_address_1": "49 Magnolia Road, Milford, CT",
+    "business_name_2": "THE PEDIATRIC PARTNERS (LLC)",
+    "business_address_2": "49- Magnolia Rd, MILFORD, CT",
+    "retr_rank": -1,
+    "retr_cos": 0.28022855520248413,
+    "name_ratio": 90.0,
+    "addr_jac": 0.2857142857142857
+   }
+  ],
+  "blocking collision": [
+   {
+    "business_name_1": "Shiva Power Limited",
+    "business_address_1": "No.70, Rajanarayan Towers Race Course Road, Coimbatore, Tamil Nadu",
+    "business_name_2": "சிவா பவர் லிமிடெட்",
+    "business_address_2": "#2-70, COIMBATORE, Tamil Nadu",
+    "retr_rank": -1,
+    "retr_cos": 0.2114131599664688,
+    "name_ratio": 100.0,
+    "addr_jac": 0.2727272727272727
+   },
+   {
+    "business_name_1": "All Foods Private Limited",
+    "business_address_1": "S-24, First Floor, Tirupati Plaza, Palanpur, Banas Kantha, Gujarat",
+    "business_name_2": "ઓલ ફૂડ્સ પ્રાઇવેટ લિમિટેડ",
+    "business_address_2": "S-22, FIRST FLOOR, TIRUPATI PLAZA, BANASKANTHA, PALANPUR, Gujarat",
+    "retr_rank": -1,
+    "retr_cos": 0.3759858012199402,
+    "name_ratio": 100.0,
+    "addr_jac": 0.5454545454545454
+   },
+   {
+    "business_name_1": "My It",
+    "business_address_1": "New Delhi, 1214, South West Delhi, 12Th Floor 38, Ansal Tower, Nehru Place, Delhi",
+    "business_name_2": "माय आईटी",
+    "business_address_2": "C-1214, NEW DELHI, SOUTH WEST DELHI, दिल्ली",
+    "retr_rank": -1,
+    "retr_cos": 0.21547728776931763,
+    "name_ratio": 100.0,
+    "addr_jac": 0.2857142857142857
+   },
+   {
+    "business_name_1": "Super Care Private Limited",
+    "business_address_1": "S/F Backside, T-Extn., Part-Iii Jain Colony, H.No.2, Delhi, West Delhi, New Delhi",
+    "business_name_2": "सुपर केयर प्राइवेट लिमिटेड",
+    "business_address_2": "NO 2, Delhi, BINDAPUR, NEW DELHI",
+    "retr_rank": -1,
+    "retr_cos": 0.14846795797348022,
+    "name_ratio": 100.0,
+    "addr_jac": 0.3076923076923077
+   },
+   {
+    "business_name_1": "Balaji Care Private Limited",
+    "business_address_1": "701, Garden Crest, West Avenue Rd, Santacruz, Mumbai, Mumbai City, Maharashtra",
+    "business_name_2": "बालाजी केयर प्राइवेट लिमिटेड",
+    "business_address_2": "MUMBAI, 701/5, Maharashtra, MUMBAI (SUBURBAN)",
+    "retr_rank": -1,
+    "retr_cos": 0.12833774089813232,
+    "name_ratio": 100.0,
+    "addr_jac": 0.16666666666666666
+   },
+   {
+    "business_name_1": "Laxmi & Sons Private Limited",
+    "business_address_1": "11/12A Tilak Nagar, West Delhi, New Delhi, Delhi",
+    "business_name_2": "Laxmi  + Sons Private",
+    "business_address_2": "DOOR NO 11/12A- TILAK NAGAR, NEW DELHI, Delhi",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 85.71428571428572,
+    "addr_jac": 0.3333333333333333
+   }
+  ],
+  "other": [
+   {
+    "business_name_1": "Prudent Affiliate Pvt. Ltd.",
+    "business_address_1": "Plot No-143, Khata No-15, Ramachandrapur Back Side Of Police Station, Jatani, Bhubaneswar, Khordha, Orissa",
+    "business_name_2": "Tavozeph",
+    "business_address_2": "PLOT NO-6-143, BHUBANESWAR, KHORDHA, Orissa",
+    "retr_rank": -1,
+    "retr_cos": 0.1669951230287552,
+    "name_ratio": 24.0,
+    "addr_jac": 0.26666666666666666
+   },
+   {
+    "business_name_1": "Career Services Limited",
+    "business_address_1": "#37/1, 3Rd Floor, Adams Corner, Coles Road, Frazer Town, Bangalore, Karnataka",
+    "business_name_2": "CS",
+    "business_address_2": "NO 037/1, BANGALORE, Karnataka",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 23.529411764705888,
+    "addr_jac": 0.15384615384615385
+   },
+   {
+    "business_name_1": "Highland Steel Pvt. Ltd.",
+    "business_address_1": "Zone-Ii, Second Floor, M.P Nagar, Bhopal, Madhya Pradesh, 213",
+    "business_name_2": "Pyrakor",
+    "business_address_2": "21, BHOPAL, मध्य प्रदेश",
+    "retr_rank": -1,
+    "retr_cos": 0.13258293271064758,
+    "name_ratio": 9.523809523809524,
+    "addr_jac": 0.2727272727272727
+   },
+   {
+    "business_name_1": "CR Starlink, L.L.C.",
+    "business_address_1": "4318 Gifford Place, Washougal, WA",
+    "business_name_2": "Beloxylo",
+    "business_address_2": "4318- GIFFORD PLACE, WASHOUGAAL, WA",
+    "retr_rank": -1,
+    "retr_cos": 0.06883884221315384,
+    "name_ratio": 10.526315789473683,
+    "addr_jac": 0.2857142857142857
+   },
+   {
+    "business_name_1": "Human Rights Charities",
+    "business_address_1": "118 14th Street, Tempe, AZ",
+    "business_name_2": "Viozetafaye",
+    "business_address_2": "AZ, TEME, 118B FOURTEENTH ST",
+    "retr_rank": -1,
+    "retr_cos": 0.0,
+    "name_ratio": 24.242424242424242,
+    "addr_jac": 0.1111111111111111
+   },
+   {
+    "business_name_1": "Ujjaesh Medicare Ltd",
+    "business_address_1": "No.19B, Round Road Pudur Balakrishnapuram Pudur Post, Dindigul, Tamil Nadu",
+    "business_name_2": "Deltatavo",
+    "business_address_2": "#19, DINDIGUL, Tamil Nadu",
+    "retr_rank": -1,
+    "retr_cos": 0.14416448771953583,
+    "name_ratio": 16.000000000000004,
+    "addr_jac": 0.2727272727272727
+   }
+  ]
+ }
+}

@@ -1,0 +1,579 @@
+{
+ "greedy_from_composite": {
+  "order": [
+   "D8",
+   "R1s",
+   "R8u",
+   "R7",
+   "D2",
+   "D7",
+   "D5",
+   "D6",
+   "D4",
+   "D1",
+   "R8"
+  ],
+  "steps": [
+   {
+    "added": "D2",
+    "macro_f05": 0.70807,
+    "gain": 0.09607,
+    "pairs": 914183,
+    "pair_precision": 0.91261,
+    "pair_recall": 0.54613,
+    "singleton_false_positives": 6057,
+    "entities_with_false_merge": 74341,
+    "by_country": {
+     "India": 0.67697,
+     "US": 0.72883
+    }
+   },
+   {
+    "added": "D7",
+    "macro_f05": 0.76458,
+    "gain": 0.05651,
+    "pairs": 1094762,
+    "pair_precision": 0.91598,
+    "pair_recall": 0.65642,
+    "singleton_false_positives": 6720,
+    "entities_with_false_merge": 83909,
+    "by_country": {
+     "India": 0.68694,
+     "US": 0.81639
+    }
+   },
+   {
+    "added": "D5",
+    "macro_f05": 0.77945,
+    "gain": 0.01487,
+    "pairs": 1155414,
+    "pair_precision": 0.90289,
+    "pair_recall": 0.68289,
+    "singleton_false_positives": 7985,
+    "entities_with_false_merge": 100302,
+    "by_country": {
+     "India": 0.71856,
+     "US": 0.82008
+    }
+   },
+   {
+    "added": "D6",
+    "macro_f05": 0.78791,
+    "gain": 0.00846,
+    "pairs": 1173672,
+    "pair_precision": 0.90299,
+    "pair_recall": 0.69375,
+    "singleton_false_positives": 8041,
+    "entities_with_false_merge": 101279,
+    "by_country": {
+     "India": 0.73957,
+     "US": 0.82016
+    }
+   },
+   {
+    "added": "D4",
+    "macro_f05": 0.79463,
+    "gain": 0.00672,
+    "pairs": 1194478,
+    "pair_precision": 0.90053,
+    "pair_recall": 0.70413,
+    "singleton_false_positives": 8401,
+    "entities_with_false_merge": 105870,
+    "by_country": {
+     "India": 0.7554,
+     "US": 0.8208
+    }
+   },
+   {
+    "added": "D1",
+    "macro_f05": 0.79889,
+    "gain": 0.00426,
+    "pairs": 1242329,
+    "pair_precision": 0.88794,
+    "pair_recall": 0.7221,
+    "singleton_false_positives": 8684,
+    "entities_with_false_merge": 112077,
+    "by_country": {
+     "India": 0.76264,
+     "US": 0.82308
+    }
+   },
+   {
+    "added": "R8",
+    "macro_f05": 0.7989,
+    "gain": 1e-05,
+    "pairs": 1242336,
+    "pair_precision": 0.88794,
+    "pair_recall": 0.7221,
+    "singleton_false_positives": 8684,
+    "entities_with_false_merge": 112077,
+    "by_country": {
+     "India": 0.76265,
+     "US": 0.82308
+    }
+   }
+  ],
+  "final_macro_f05": 0.7989,
+  "rejected": [
+   "R1",
+   "R6c",
+   "R7s",
+   "D3"
+  ]
+ },
+ "greedy_from_scratch_all_rules": {
+  "order": [
+   "D8",
+   "D2",
+   "D7",
+   "D5",
+   "D6",
+   "D4",
+   "D1",
+   "R1s",
+   "R8u"
+  ],
+  "steps": [
+   {
+    "added": "D8",
+    "macro_f05": 0.59151,
+    "gain": 0.53558,
+    "pairs": 601743,
+    "pair_precision": 0.99499,
+    "pair_recall": 0.39193,
+    "singleton_false_positives": 241,
+    "entities_with_false_merge": 2731,
+    "by_country": {
+     "India": 0.46488,
+     "US": 0.676
+    }
+   },
+   {
+    "added": "D2",
+    "macro_f05": 0.70129,
+    "gain": 0.10978,
+    "pairs": 907797,
+    "pair_precision": 0.91205,
+    "pair_recall": 0.54198,
+    "singleton_false_positives": 6052,
+    "entities_with_false_merge": 74299,
+    "by_country": {
+     "India": 0.66098,
+     "US": 0.72818
+    }
+   },
+   {
+    "added": "D7",
+    "macro_f05": 0.75856,
+    "gain": 0.05727,
+    "pairs": 1089139,
+    "pair_precision": 0.91559,
+    "pair_recall": 0.65277,
+    "singleton_false_positives": 6716,
+    "entities_with_false_merge": 83872,
+    "by_country": {
+     "India": 0.67238,
+     "US": 0.81607
+    }
+   },
+   {
+    "added": "D5",
+    "macro_f05": 0.77611,
+    "gain": 0.01755,
+    "pairs": 1151959,
+    "pair_precision": 0.90264,
+    "pair_recall": 0.68065,
+    "singleton_false_positives": 7983,
+    "entities_with_false_merge": 100270,
+    "by_country": {
+     "India": 0.71047,
+     "US": 0.81992
+    }
+   },
+   {
+    "added": "D6",
+    "macro_f05": 0.78657,
+    "gain": 0.01046,
+    "pairs": 1171940,
+    "pair_precision": 0.90288,
+    "pair_recall": 0.69265,
+    "singleton_false_positives": 8039,
+    "entities_with_false_merge": 101247,
+    "by_country": {
+     "India": 0.73643,
+     "US": 0.82002
+    }
+   },
+   {
+    "added": "D4",
+    "macro_f05": 0.79388,
+    "gain": 0.00731,
+    "pairs": 1193462,
+    "pair_precision": 0.90047,
+    "pair_recall": 0.70348,
+    "singleton_false_positives": 8400,
+    "entities_with_false_merge": 105844,
+    "by_country": {
+     "India": 0.75353,
+     "US": 0.8208
+    }
+   },
+   {
+    "added": "D1",
+    "macro_f05": 0.79816,
+    "gain": 0.00428,
+    "pairs": 1241332,
+    "pair_precision": 0.88788,
+    "pair_recall": 0.72147,
+    "singleton_false_positives": 8683,
+    "entities_with_false_merge": 112051,
+    "by_country": {
+     "India": 0.76081,
+     "US": 0.82308
+    }
+   },
+   {
+    "added": "R1s",
+    "macro_f05": 0.79862,
+    "gain": 0.00046,
+    "pairs": 1241849,
+    "pair_precision": 0.88792,
+    "pair_recall": 0.7218,
+    "singleton_false_positives": 8683,
+    "entities_with_false_merge": 112053,
+    "by_country": {
+     "India": 0.76196,
+     "US": 0.82308
+    }
+   },
+   {
+    "added": "R8u",
+    "macro_f05": 0.79889,
+    "gain": 0.00027,
+    "pairs": 1242317,
+    "pair_precision": 0.88794,
+    "pair_recall": 0.72209,
+    "singleton_false_positives": 8684,
+    "entities_with_false_merge": 112076,
+    "by_country": {
+     "India": 0.76263,
+     "US": 0.82308
+    }
+   }
+  ],
+  "final_macro_f05": 0.79889,
+  "rejected": [
+   "R1",
+   "R6c",
+   "R7",
+   "R7s",
+   "R8",
+   "D3"
+  ]
+ },
+ "composite_false_merges": {
+  "false_merge_pairs": 3079,
+  "singleton_entity_pairs": 273,
+  "record_has_no_owner_anywhere": 2460,
+  "owner_same_name_core": 516,
+  "owner_same_name_and_house_number": 17,
+  "owner_same_name_house_number_street": 0,
+  "owner_same_name_house_number_street_city": 0,
+  "owner_same_full_address_text": 0,
+  "owner_in_fold0": 529,
+  "by_country": {
+   "India": 2689,
+   "US": 390
+  }
+ },
+ "false_merge_examples": [
+  {
+   "source1_entity_id": "S1-509277982",
+   "business_name_1": "Supreme Agro Limited",
+   "business_address_1": "Behind Panchayat Samiti, Ward No. 14, Mul, Chandrapur, Maharashtra",
+   "matched_id": "S3-14230716",
+   "business_name_2": "सुप्रीम एग्रो Private Limited",
+   "business_address_2": "No #34 Behind Panchayat Samiti, Ward No. 14, Chandrapur, महाराष्ट्र, Mul",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 4
+  },
+  {
+   "source1_entity_id": "S1-94253552",
+   "business_name_1": "RM Estate Limited",
+   "business_address_1": "Hydari Complex, 2Nd Floor, D.No 5-5-109/132 & 142 And 145, Ranigunj, Secunderabad, Hyderabad, Telangana",
+   "matched_id": "S2-530794804",
+   "business_name_2": "RM Estate Pvt Ltd",
+   "business_address_2": "4-34 HYDARI COMPLEX, 2ND FLOOR, D.NO 5-5-109/132 & 142 AND 145, RANIGUNJ, SECUNDERABAD, Telangana",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 6
+  },
+  {
+   "source1_entity_id": "S1-49586755",
+   "business_name_1": "Blue Care Private Limited",
+   "business_address_1": "C/O Santosh Devi, Bhalothiya, Ward No.-22, Chirawa, Jhujhunu, Rajasthan",
+   "matched_id": "S2-278452507",
+   "business_name_2": "ब्लू केयर लिमिटेड",
+   "business_address_2": "###74 C/O SANTOSH DEVI, BHALOTHIYA, WARD NO.-22, CHIRAWA, JHUJHUNU, Rajasthan",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 4
+  },
+  {
+   "source1_entity_id": "S1-162691829",
+   "business_name_1": "Fortune Software Private Limited",
+   "business_address_1": "A-34, Third Floor, Gali No-1 Kotla Village, Delhi, East Delhi, Delhi",
+   "matched_id": "S3-45066005",
+   "business_name_2": "Fortune Sóftware",
+   "business_address_2": "Guntur, Thurpu Bazar, Ramalayam Street Gorantla, Guntur, No. 01, AP",
+   "owner_id": "S1-920651515",
+   "business_name_o": "Fortune Software Private Limited",
+   "business_address_o": "No. 101, Guntur, Andhra Pradesh, Thurpu Bazar, Ramalayam Street Gorantla",
+   "n_true_1": 2
+  },
+  {
+   "source1_entity_id": "S1-261493094",
+   "business_name_1": "South Infrastructure Pvt Ltd",
+   "business_address_1": "Sun8-2707, Migsun Twiinz, Plot-Gh-1B(1), Sec.-Eta-2, Noida, Gautam Buddha Nagar, Uttar Pradesh",
+   "matched_id": "S2-169013111",
+   "business_name_2": "साउथ इंफ्रास्ट्रक्चर लिमिटेड",
+   "business_address_2": "SUN8-2714, MIGSUN TWIINZ, PLOT-GH-1B(1), SEC.-ETA-2, NOIDA, GAUTAM BUDDHA NAGAR, Uttar Pradesh",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 2
+  },
+  {
+   "source1_entity_id": "S1-211862811",
+   "business_name_1": "Shree Developers Pvt Ltd",
+   "business_address_1": "Mumbai City, 16 Shalimar Co Op H S Ltd L T Road, Babhai, Maharashtra, Borivali",
+   "matched_id": "S3-506951717",
+   "business_name_2": "Shree Developers [Pvt]",
+   "business_address_2": "16, MH, Mumbai, Behind Willson Collage",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 8
+  },
+  {
+   "source1_entity_id": "S1-202226824",
+   "business_name_1": "Mohan Infrastructure Private Limited",
+   "business_address_1": "Flat No.701, Maharashtra, Nagpur, P.No.129/3, Shreemohiniraj Apartment",
+   "matched_id": "S3-249568037",
+   "business_name_2": "Mohan Infrastructure Limited",
+   "business_address_2": "#D/708, P.no.129/3, Shreemohiniraj Apartment, Nagpur, MH",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 2
+  },
+  {
+   "source1_entity_id": "S1-875480414",
+   "business_name_1": "Dental Center Inc",
+   "business_address_1": "500 825 University Parkway, Bldg University Parkway Apts, Yakima, WA",
+   "matched_id": "S3-864070618",
+   "business_name_2": "Dental Center Ltd",
+   "business_address_2": "500 827 University Pkwy, N/A, Yakima, Washington",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 2
+  },
+  {
+   "source1_entity_id": "S1-752217813",
+   "business_name_1": "Tricolor Industries Group",
+   "business_address_1": "22, 23 Panchsheel Enclave Market, New Delhi, Delhi",
+   "matched_id": "S3-699826372",
+   "business_name_2": "Sri Tricolor Industries Group  Group",
+   "business_address_2": "27, 23 Panchsheel Enclave Market, New Delhi, DL",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 3
+  },
+  {
+   "source1_entity_id": "S1-184745126",
+   "business_name_1": "Bombay Energy Private Limited",
+   "business_address_1": "85/19 Block No. 9 Govind Nagar, Kanpur, Uttar Pradesh",
+   "matched_id": "S2-891515729",
+   "business_name_2": "बॉम्बे एनर्जी एलएलपी",
+   "business_address_2": "5/22 BLOCK NO. 9 GOVIND NAGAR, KANPUR, Uttar Pradesh",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 6
+  },
+  {
+   "source1_entity_id": "S1-886085160",
+   "business_name_1": "Sapphire",
+   "business_address_1": "1026 Carlisle Avenue, OH, Dayton",
+   "matched_id": "S2-153413782",
+   "business_name_2": "Sapphire  Inc",
+   "business_address_2": "1026 ASPHA ST, MASSILLON, OH",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 4
+  },
+  {
+   "source1_entity_id": "S1-281136494",
+   "business_name_1": "Star Tech Limited",
+   "business_address_1": "Lucknow, Uttar Pradesh, Tower No. 7 Flat No. 105 Saubhagyam Apartment Sector-9 Virindavan Housing",
+   "matched_id": "S2-67469002",
+   "business_name_2": "स्टार टेक प्राइवेट लिमिटेड",
+   "business_address_2": "TOWER NO. 7  FLAT NO. 105 SAUBHAGYAM APARTMENT SECTOR-10 VIRINDAVAN HOUSING, LUCKNOW, उत्तर प्रदेश",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 4
+  }
+ ],
+ "singleton_fp_examples": [
+  {
+   "source1_entity_id": "S1-482985328",
+   "business_name_1": "Foot & Ankle Optimal Clinic LLC",
+   "business_address_1": "1499 130 Evenstar Boulevard, Unit APT, Carmel, IN",
+   "matched_id": "S2-115886428",
+   "business_name_2": "foot & ankle optimal clinic corp",
+   "business_address_2": "1499 134 EVENSTAR BLVD, CARMEL, IN",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-373708725",
+   "business_name_1": "Bhuvaneshwara Nagara Mercantile Private Limited",
+   "business_address_1": "8, 15Th Crs, 15Th Crs, Near Magadi Rd, Bhuvaneshwara Nagara, Bangalore, Karnataka",
+   "matched_id": "S2-226890154",
+   "business_name_2": "Bhuvaneshwara Nagara Mercantile LLP",
+   "business_address_2": "11, 15TH CRS, 15TH CRS, NEAR MAGADI RD, BHUVANESHWARA NAGARA, Karnataka",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-667984062",
+   "business_name_1": "Kk Manufacturing Clinic",
+   "business_address_1": "C/O Pradeep Kumar, Gali No-4, Arya Nagar, Bahadurgarh, Jhajjar, Haryana",
+   "matched_id": "S3-727805447",
+   "business_name_2": "Kk Manufacturing Clinic Private Limited",
+   "business_address_2": "#47 C/o Pradeep Kumar, Gali No-4, Arya Nagar, Bahadurgarh, HR",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-756552016",
+   "business_name_1": "Southern Vanguard Source Inc.",
+   "business_address_1": "24W 679 Meadow Lake Drive, Naperville, IL",
+   "matched_id": "S2-315576646",
+   "business_name_2": "Southern Vanguard Source Ltd",
+   "business_address_2": "24W 680 MEADOW LAKE DR, NAPERVILLE, IL",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-114421045",
+   "business_name_1": "Mane Institute of Technology",
+   "business_address_1": "C28, 10Th Floor, Dwarka, G.No. 122 To 123 & 89 To 97, Chakan, Pune, Maharashtra",
+   "matched_id": "S3-593342419",
+   "business_name_2": "Mane Institute of Technology Pvt Ltd",
+   "business_address_2": "C41, 10Th Floor, Dwarka, G.no. 122 To 123 & 89 To 97, Chakan, Pune, Waki Khurd, MH",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-82994850",
+   "business_name_1": "Sunrise Properties Private Limited",
+   "business_address_1": "5Th Floor, 25/424, Trilokpuri, New Delhi New Delhi, New Delhi, East Delhi, Delhi",
+   "matched_id": "S3-503497255",
+   "business_name_2": "सनराइज प्रॉपर्टीज एलएलपी",
+   "business_address_2": "010Th Floor, 25/424, Trilokpuri, New Delhi New Delhi, New Delhi, Delhi, दिल्ली",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-760331900",
+   "business_name_1": "Margeaux Hawthorne Metals Inc",
+   "business_address_1": "Bldg MABLE SWAN MANOR, 10 419 8th Avenue, Yakima, WA",
+   "matched_id": "S3-561987348",
+   "business_name_2": "margeaux hawthorne metals ltd",
+   "business_address_2": "Building Mable SWAN Manor, Washington, Yakima, 10 430 8th Avenue",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  },
+  {
+   "source1_entity_id": "S1-850703612",
+   "business_name_1": "Intellectual Oil Private Limited",
+   "business_address_1": "Nagpur, Maharashtra, Honey Indra Tower, Plot 3, Shop No. 105, Shastri Nag",
+   "matched_id": "S3-843101566",
+   "business_name_2": "Intellectual Limited Oil",
+   "business_address_2": "No ##42 Honey Indra Tower, Plot 3, Shop No. 105, Shastri Nag, Wardhaman Nagar, MH",
+   "owner_id": null,
+   "business_name_o": null,
+   "business_address_o": null,
+   "n_true_1": 0
+  }
+ ],
+ "rule8_refinements": {
+  "R7": {
+   "pairs": 404193,
+   "pair_precision": 0.99807,
+   "pair_recall": 0.26407,
+   "macro_f05": 0.44835,
+   "singleton_false_positives": 65,
+   "entities_with_false_merge": 780,
+   "by_country": {
+    "India": 0.22327,
+    "US": 0.59853
+   }
+  },
+  "R7 + no state conflict": {
+   "pairs": 404089,
+   "pair_precision": 0.99807,
+   "pair_recall": 0.26401,
+   "macro_f05": 0.44827,
+   "singleton_false_positives": 65,
+   "entities_with_false_merge": 779,
+   "by_country": {
+    "India": 0.22327,
+    "US": 0.5984
+   }
+  },
+  "R7 + no state conflict + city agrees": {
+   "pairs": 351440,
+   "pair_precision": 0.99853,
+   "pair_recall": 0.22971,
+   "macro_f05": 0.40566,
+   "singleton_false_positives": 37,
+   "entities_with_false_merge": 515,
+   "by_country": {
+    "India": 0.17485,
+    "US": 0.55967
+   }
+  },
+  "R8 street on both sides": {
+   "pairs": 362595,
+   "pair_precision": 0.99805
+  },
+  "R8 street missing on a side": {
+   "pairs": 41751,
+   "pair_precision": 0.99214
+  }
+ }
+}

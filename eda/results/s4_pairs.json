@@ -1,0 +1,1186 @@
+{
+ "n_pos": 865446,
+ "n_rand_neg": 749999,
+ "n_hard_neg_sampled": 600000,
+ "n_hard_neg_total_for_250k_S1": 10226382,
+ "hard_neg_per_S1_entity": 40.905528,
+ "positives": {
+  "all": {
+   "name_exact": 4.64,
+   "name_norm_eq": 25.81,
+   "name_core_eq": 48.12,
+   "name_core_sorted_eq": 50.46,
+   "name_first_tok_eq": 72.79,
+   "name_pre3_eq": 80.89,
+   "name_any_tok": 85.33,
+   "addr_norm_eq": 8.28,
+   "addr_sorted_eq": 11.66,
+   "addr_any_tok": 95.58,
+   "addr_last_eq": 33.72,
+   "addr_missing_2": 4.41,
+   "script_mismatch": 4.08,
+   "dev_2": 4.08,
+   "addr_num_overlap": 79.92,
+   "name_jac_mean": 0.689,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.605,
+   "addr_jac_p10": 0.25,
+   "addr_jac_p50": 0.636,
+   "name_jac_ge_0.5": 74.14,
+   "name_jac_ge_0.3": 84.01,
+   "addr_jac_ge_0.5": 68.22,
+   "addr_jac_ge_0.3": 87.34,
+   "name_or_addr_jac_ge_0.3": 98.43,
+   "n": 865446
+  },
+  "US": {
+   "name_exact": 5.93,
+   "name_norm_eq": 30.46,
+   "name_core_eq": 51.14,
+   "name_core_sorted_eq": 54.43,
+   "name_first_tok_eq": 81.33,
+   "name_pre3_eq": 89.46,
+   "name_any_tok": 91.81,
+   "addr_norm_eq": 8.73,
+   "addr_sorted_eq": 12.51,
+   "addr_any_tok": 95.25,
+   "addr_last_eq": 37.28,
+   "addr_missing_2": 4.73,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 78.06,
+   "name_jac_mean": 0.749,
+   "name_jac_p10": 0.333,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.555,
+   "addr_jac_p10": 0.25,
+   "addr_jac_p50": 0.556,
+   "name_jac_ge_0.5": 82.41,
+   "name_jac_ge_0.3": 91.01,
+   "addr_jac_ge_0.5": 61.55,
+   "addr_jac_ge_0.3": 86.89,
+   "name_or_addr_jac_ge_0.3": 99.17,
+   "n": 519278
+  },
+  "India": {
+   "name_exact": 2.72,
+   "name_norm_eq": 18.83,
+   "name_core_eq": 43.6,
+   "name_core_sorted_eq": 44.52,
+   "name_first_tok_eq": 59.99,
+   "name_pre3_eq": 68.04,
+   "name_any_tok": 75.62,
+   "addr_norm_eq": 7.59,
+   "addr_sorted_eq": 10.4,
+   "addr_any_tok": 96.07,
+   "addr_last_eq": 28.38,
+   "addr_missing_2": 3.92,
+   "script_mismatch": 10.19,
+   "dev_2": 10.19,
+   "addr_num_overlap": 82.7,
+   "name_jac_mean": 0.597,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.667,
+   "addr_jac_mean": 0.68,
+   "addr_jac_p10": 0.263,
+   "addr_jac_p50": 0.75,
+   "name_jac_ge_0.5": 61.72,
+   "name_jac_ge_0.3": 73.49,
+   "addr_jac_ge_0.5": 78.24,
+   "addr_jac_ge_0.3": 88.01,
+   "name_or_addr_jac_ge_0.3": 97.33,
+   "n": 346168
+  },
+  "srcS2": {
+   "name_exact": 4.73,
+   "name_norm_eq": 25.27,
+   "name_core_eq": 48.94,
+   "name_core_sorted_eq": 51.39,
+   "name_first_tok_eq": 73.39,
+   "name_pre3_eq": 81.51,
+   "name_any_tok": 83.46,
+   "addr_norm_eq": 12.49,
+   "addr_sorted_eq": 17.48,
+   "addr_any_tok": 95.54,
+   "addr_last_eq": 63.95,
+   "addr_missing_2": 4.46,
+   "script_mismatch": 5.28,
+   "dev_2": 5.28,
+   "addr_num_overlap": 79.17,
+   "name_jac_mean": 0.685,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.687,
+   "addr_jac_p10": 0.364,
+   "addr_jac_p50": 0.714,
+   "name_jac_ge_0.5": 73.68,
+   "name_jac_ge_0.3": 82.37,
+   "addr_jac_ge_0.5": 81.42,
+   "addr_jac_ge_0.3": 93.06,
+   "name_or_addr_jac_ge_0.3": 99.01,
+   "n": 418866
+  },
+  "srcS3": {
+   "name_exact": 4.56,
+   "name_norm_eq": 26.31,
+   "name_core_eq": 47.36,
+   "name_core_sorted_eq": 49.59,
+   "name_first_tok_eq": 72.23,
+   "name_pre3_eq": 80.31,
+   "name_any_tok": 87.09,
+   "addr_norm_eq": 4.33,
+   "addr_sorted_eq": 6.2,
+   "addr_any_tok": 95.61,
+   "addr_last_eq": 5.36,
+   "addr_missing_2": 4.36,
+   "script_mismatch": 2.94,
+   "dev_2": 2.94,
+   "addr_num_overlap": 80.62,
+   "name_jac_mean": 0.691,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.529,
+   "addr_jac_p10": 0.222,
+   "addr_jac_p50": 0.5,
+   "name_jac_ge_0.5": 74.56,
+   "name_jac_ge_0.3": 85.54,
+   "addr_jac_ge_0.5": 55.84,
+   "addr_jac_ge_0.3": 81.97,
+   "name_or_addr_jac_ge_0.3": 97.9,
+   "n": 446580
+  }
+ },
+ "random_negatives": {
+  "all": {
+   "name_exact": 0.0,
+   "name_norm_eq": 0.0,
+   "name_core_eq": 0.0,
+   "name_core_sorted_eq": 0.0,
+   "name_first_tok_eq": 0.1,
+   "name_pre3_eq": 0.23,
+   "name_any_tok": 1.44,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 20.99,
+   "addr_last_eq": 2.2,
+   "addr_missing_2": 3.34,
+   "script_mismatch": 4.14,
+   "dev_2": 4.14,
+   "addr_num_overlap": 2.74,
+   "name_jac_mean": 0.003,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.0,
+   "addr_jac_mean": 0.015,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 0.01,
+   "name_jac_ge_0.3": 0.17,
+   "addr_jac_ge_0.5": 0.0,
+   "addr_jac_ge_0.3": 0.02,
+   "name_or_addr_jac_ge_0.3": 0.19,
+   "n": 749999
+  },
+  "US": {
+   "name_exact": 0.0,
+   "name_norm_eq": 0.0,
+   "name_core_eq": 0.0,
+   "name_core_sorted_eq": 0.0,
+   "name_first_tok_eq": 0.1,
+   "name_pre3_eq": 0.23,
+   "name_any_tok": 1.55,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 9.66,
+   "addr_last_eq": 1.7,
+   "addr_missing_2": 3.58,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 0.24,
+   "name_jac_mean": 0.003,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.0,
+   "addr_jac_mean": 0.009,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 0.01,
+   "name_jac_ge_0.3": 0.09,
+   "addr_jac_ge_0.5": 0.0,
+   "addr_jac_ge_0.3": 0.01,
+   "name_or_addr_jac_ge_0.3": 0.1,
+   "n": 450263
+  },
+  "India": {
+   "name_exact": 0.0,
+   "name_norm_eq": 0.0,
+   "name_core_eq": 0.0,
+   "name_core_sorted_eq": 0.0,
+   "name_first_tok_eq": 0.09,
+   "name_pre3_eq": 0.24,
+   "name_any_tok": 1.27,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 38.01,
+   "addr_last_eq": 2.95,
+   "addr_missing_2": 2.98,
+   "script_mismatch": 10.37,
+   "dev_2": 10.37,
+   "addr_num_overlap": 6.5,
+   "name_jac_mean": 0.003,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.0,
+   "addr_jac_mean": 0.024,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 0.01,
+   "name_jac_ge_0.3": 0.3,
+   "addr_jac_ge_0.5": 0.0,
+   "addr_jac_ge_0.3": 0.03,
+   "name_or_addr_jac_ge_0.3": 0.34,
+   "n": 299736
+  },
+  "srcS2": {
+   "name_exact": 0.0,
+   "name_norm_eq": 0.0,
+   "name_core_eq": 0.0,
+   "name_core_sorted_eq": 0.0,
+   "name_first_tok_eq": 0.1,
+   "name_pre3_eq": 0.23,
+   "name_any_tok": 1.4,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 22.94,
+   "addr_last_eq": 4.25,
+   "addr_missing_2": 3.34,
+   "script_mismatch": 5.36,
+   "dev_2": 5.36,
+   "addr_num_overlap": 2.86,
+   "name_jac_mean": 0.003,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.0,
+   "addr_jac_mean": 0.017,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 0.01,
+   "name_jac_ge_0.3": 0.15,
+   "addr_jac_ge_0.5": 0.0,
+   "addr_jac_ge_0.3": 0.03,
+   "name_or_addr_jac_ge_0.3": 0.19,
+   "n": 365706
+  },
+  "srcS3": {
+   "name_exact": 0.0,
+   "name_norm_eq": 0.0,
+   "name_core_eq": 0.0,
+   "name_core_sorted_eq": 0.0,
+   "name_first_tok_eq": 0.1,
+   "name_pre3_eq": 0.24,
+   "name_any_tok": 1.47,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 19.14,
+   "addr_last_eq": 0.25,
+   "addr_missing_2": 3.33,
+   "script_mismatch": 2.99,
+   "dev_2": 2.99,
+   "addr_num_overlap": 2.63,
+   "name_jac_mean": 0.003,
+   "name_jac_p10": 0.0,
+   "name_jac_p50": 0.0,
+   "addr_jac_mean": 0.013,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 0.01,
+   "name_jac_ge_0.3": 0.19,
+   "addr_jac_ge_0.5": 0.0,
+   "addr_jac_ge_0.3": 0.01,
+   "name_or_addr_jac_ge_0.3": 0.2,
+   "n": 384293
+  }
+ },
+ "hard_negatives_same_name": {
+  "all": {
+   "name_exact": 8.91,
+   "name_norm_eq": 25.13,
+   "name_core_eq": 97.24,
+   "name_core_sorted_eq": 100.0,
+   "name_first_tok_eq": 93.26,
+   "name_pre3_eq": 98.9,
+   "name_any_tok": 100.0,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 16.96,
+   "addr_last_eq": 2.39,
+   "addr_missing_2": 2.83,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 1.8,
+   "name_jac_mean": 1.0,
+   "name_jac_p10": 1.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.016,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 100.0,
+   "name_jac_ge_0.3": 100.0,
+   "addr_jac_ge_0.5": 0.19,
+   "addr_jac_ge_0.3": 0.41,
+   "name_or_addr_jac_ge_0.3": 100.0,
+   "n": 600000
+  },
+  "US": {
+   "name_exact": 10.33,
+   "name_norm_eq": 27.74,
+   "name_core_eq": 96.76,
+   "name_core_sorted_eq": 100.0,
+   "name_first_tok_eq": 93.84,
+   "name_pre3_eq": 98.86,
+   "name_any_tok": 100.0,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 10.01,
+   "addr_last_eq": 1.9,
+   "addr_missing_2": 2.53,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 0.32,
+   "name_jac_mean": 1.0,
+   "name_jac_p10": 1.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.011,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 100.0,
+   "name_jac_ge_0.3": 100.0,
+   "addr_jac_ge_0.5": 0.18,
+   "addr_jac_ge_0.3": 0.41,
+   "name_or_addr_jac_ge_0.3": 100.0,
+   "n": 465547
+  },
+  "India": {
+   "name_exact": 4.0,
+   "name_norm_eq": 16.12,
+   "name_core_eq": 98.89,
+   "name_core_sorted_eq": 100.0,
+   "name_first_tok_eq": 91.23,
+   "name_pre3_eq": 99.03,
+   "name_any_tok": 100.0,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 41.02,
+   "addr_last_eq": 4.09,
+   "addr_missing_2": 3.88,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 6.9,
+   "name_jac_mean": 1.0,
+   "name_jac_p10": 1.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.031,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 100.0,
+   "name_jac_ge_0.3": 100.0,
+   "addr_jac_ge_0.5": 0.26,
+   "addr_jac_ge_0.3": 0.39,
+   "name_or_addr_jac_ge_0.3": 100.0,
+   "n": 134453
+  },
+  "srcS2": {
+   "name_exact": 8.78,
+   "name_norm_eq": 25.31,
+   "name_core_eq": 97.15,
+   "name_core_sorted_eq": 100.0,
+   "name_first_tok_eq": 93.45,
+   "name_pre3_eq": 98.92,
+   "name_any_tok": 100.0,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 17.7,
+   "addr_last_eq": 4.93,
+   "addr_missing_2": 3.12,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 1.62,
+   "name_jac_mean": 1.0,
+   "name_jac_p10": 1.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.018,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 100.0,
+   "name_jac_ge_0.3": 100.0,
+   "addr_jac_ge_0.5": 0.3,
+   "addr_jac_ge_0.3": 0.53,
+   "name_or_addr_jac_ge_0.3": 100.0,
+   "n": 284735
+  },
+  "srcS3": {
+   "name_exact": 9.03,
+   "name_norm_eq": 24.97,
+   "name_core_eq": 97.32,
+   "name_core_sorted_eq": 100.0,
+   "name_first_tok_eq": 93.08,
+   "name_pre3_eq": 98.88,
+   "name_any_tok": 100.0,
+   "addr_norm_eq": 0.0,
+   "addr_sorted_eq": 0.0,
+   "addr_any_tok": 16.29,
+   "addr_last_eq": 0.09,
+   "addr_missing_2": 2.57,
+   "script_mismatch": 0.0,
+   "dev_2": 0.0,
+   "addr_num_overlap": 1.96,
+   "name_jac_mean": 1.0,
+   "name_jac_p10": 1.0,
+   "name_jac_p50": 1.0,
+   "addr_jac_mean": 0.014,
+   "addr_jac_p10": 0.0,
+   "addr_jac_p50": 0.0,
+   "name_jac_ge_0.5": 100.0,
+   "name_jac_ge_0.3": 100.0,
+   "addr_jac_ge_0.5": 0.1,
+   "addr_jac_ge_0.3": 0.3,
+   "name_or_addr_jac_ge_0.3": 100.0,
+   "n": 315265
+  }
+ },
+ "hard_neg_addr_jac_dist": {
+  "addr_jac<0.1": 94.3,
+  "addr_jac<0.2": 99.15,
+  "addr_jac<0.3": 99.59,
+  "addr_jac<0.5": 99.81
+ },
+ "pos_addr_jac_dist": {
+  "addr_jac<0.1": 4.62,
+  "addr_jac<0.2": 6.37,
+  "addr_jac<0.3": 12.66,
+  "addr_jac<0.5": 31.78
+ },
+ "pos_no_name_tok_and_no_addr_tok_pct": 0.003,
+ "pos_no_name_tok_pct": 14.666,
+ "pos_no_name_tok_by_script_mismatch": {
+  "script_mismatch": [
+   false,
+   true
+  ],
+  "no_name_tok": [
+   0.11302677146384799,
+   0.9381928496498539
+  ],
+  "len": [
+   830175,
+   35271
+  ]
+ },
+ "examples_pos_no_name_token_overlap": [
+  {
+   "business_name_1": "Real Modern Food Limited",
+   "business_address_1": "Thane, Shop No. 4, Maharashtra, Plot No. 19, Sector 42, Nerul, Navi Mumbai",
+   "business_name_2": "रियल मॉडर्न फूड लिमिटेड",
+   "business_address_2": "SHP NO. G-4, PLOT NO. 19, SECTOR 42, NERUL, THANE, NAVI MUMBAI, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Alpha Al Technologies Private Limited",
+   "business_address_1": "C-2 Greater Kailash Enclave Part-Ii, New Delhi, South Delhi, Delhi",
+   "business_name_2": "अल्फा अल टेक्नोलॉजीज प्राइवेट लिमिटेड",
+   "business_address_2": "NO 990 C-2 GREATER KAILASH ENCLAVE PART-II, NEW DELHI, SOUTH DELHI, Delhi",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Chandra Fund (India) Pvt Ltd",
+   "business_address_1": "262A, Sodepur 1St Lane, Kolkata, Kolkata, Howrah, West Bengal",
+   "business_name_2": "chandraindiafund.com",
+   "business_address_2": "262A, SODEPUR 1ST LANE, KOLKATA, KOLKATA, পশ্চিমবঙ্গ",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Maa Infra Private Limited",
+   "business_address_1": "Thane, Maharashtra, Vasai, Pavansut-1, Salasar Park-A, Taki Road, Flat No. 101",
+   "business_name_2": "मां इंफ्रा प्राइवेट लिमिटेड",
+   "business_address_2": "DOOR NO 101, PAVANSUT-1, SALASAR PARK-A, TAKI ROAD, THANE, VASAI, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Modern Consultants Private Limited",
+   "business_address_1": "125, 7Th Cross Rd, Off Bannerghatta Road, Dollar Layout, Btm 2Nd Stage, Bilekahalli, Bangalore South, Bangalore, Karnataka",
+   "business_name_2": "ಮಾಡರ್ನ್ ಕನ್ಸಲ್ಟೆಂಟ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+   "business_address_2": "125, 7TH CROSS RD, OFF BANNERGHATTA ROAD, DOLLAR LAYOUT, BTM 2ND STAGE, BILEKAHALLI, BANGALORE, BANGALORE SOUTH, ಕರ್ನಾಟಕ",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Blue Tex Private Limited",
+   "business_address_1": "301 305 3Rd Floor Surbhi Complex Near Municipal Market C G Road Navrangpu, Ra, Ahmedabad, Gujarat",
+   "business_name_2": "btprivate.com",
+   "business_address_2": "301 305 3RD FLOOR SURBHI COMPLEX NEAR MUNICIPAL MARKET C G ROAD NAVRANGPU, RA, AHMEDABAD, Gujarat",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Anand Ventures",
+   "business_address_1": "Delhi, 311, New Delhi, Vishwasadan",
+   "business_name_2": "आनंद वेंचर्स",
+   "business_address_2": "NEW DELHI, Delhi, 00311",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "North Estate Private Limited",
+   "business_address_1": "Telangana, Hyderabad, Vasanth Nagar Kukatpally, Plot No.124",
+   "business_name_2": "నార్త్ ఎస్టేట్ ప్రైవేట్ లిమిటెడ్",
+   "business_address_2": "DOOR NO 12, HYDERABAD, VASANTH NAGAR KUKATPALLY, తెలంగాణ",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "RM Functional Corporation",
+   "business_address_1": "No. 56, K No 105, Raghavendra Nagar, 2Nd Cr, Bangalore South, Bangalore, Karnataka",
+   "business_name_2": "Iriarc",
+   "business_address_2": "H.NO 56, BANGALORE SOUTH, BANGALORE, Karnataka",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Sky Technology",
+   "business_address_1": "1200 B, 28Th Main, 35Th C, Cross Rd, 4Th T Block, Bangalore South, Bangalore, Karnataka",
+   "business_name_2": "ಸ್ಕೈ ಟೆಕ್ನಾಲಜಿ",
+   "business_address_2": "D/1200 B, 28TH MAIN, 35TH C, CROSS RD, 4TH T BLOCK, BANGALORE SOUTH, BANGALORE, ಕರ್ನಾಟಕ",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Square Park Private Limited",
+   "business_address_1": "316, 3Rd Floor, Ratnanjali Square, Near Gloriya Restaurant, Prenatirth Derasar Road, Satellite, Ahmadabad City, Ahmedabad, Gujarat",
+   "business_name_2": "privateparksquare.com",
+   "business_address_2": "3RD FLOOR, RATNANJALI SQUARE, NEAR GLORIYA RESTAURANT, PRENATIRTH DERASAR ROAD, SATELLITE, AHMEDABAD, GANDHINAGAR, ગુજરાત, 316",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Pediatric Dental Specialists LLC",
+   "business_address_1": "8636 Den Bark Drive, Chesterfield County, VA",
+   "business_name_2": "pediatricdentalspecialists.com",
+   "business_address_2": "8636 DEN BALK DRIVE, CHESTERFIELD COUNTY, VA",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Colonial Family Practice Group",
+   "business_address_1": "6905 Darmstadt Road, Evansville, IN",
+   "business_name_2": "Dovakor",
+   "business_address_2": "EVANSVILLE, IN, 6905-C DARMSTADT RD",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Quick Stock Private Limited",
+   "business_address_1": "65/23, Bsr Carthik Enclave, 4Th Cross, Ssi Area, Bangalore North, Bangalore, Karnataka",
+   "business_name_2": "Mirabelozeph",
+   "business_address_2": "65/2, BSR CARTHIK ENCLAVE, 4TH CROSS, SSI AREA, BANGALORE NORTH, BANGALORE, Karnataka",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "O 2 O Biopharmaceuticals",
+   "business_address_1": "156 Towering Oak Court, Burleson, TX",
+   "business_name_2": "o2ocom",
+   "business_address_2": "156 TOWERING OAK COURT, BURLESON, TX",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Apex Projects Private Limited",
+   "business_address_1": "Barrister Nath Pal Marg Near Ray Road Railway Station, Mazgaon, Mumbai City, 136, Mumbai, Maharashtra",
+   "business_name_2": "एपेक्स प्रोजेक्ट्स प्राइवेट लिमिटेड",
+   "business_address_2": "PLOT 626 136, BARRISTER NATH PAL MARG NEAR RAY ROAD RAILWAY STATION, MAZGAON, MUMBAI, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Eastern Consultants Pvt Ltd",
+   "business_address_1": "Plot No.09, Sutrali Bunglows, L.P. Savani Road, Surat, Gujarat",
+   "business_name_2": "ઈસ્ટર્ન કન્સલ્ટન્ટ્સ પ્રા. લિ.",
+   "business_address_2": "DOOR NO 11, SURAT, Gujarat",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Indigo Marketing Limited",
+   "business_address_1": "Plot No 2, 1St Floor, Dlf Industrial, Area, Najafgarh Road, Moti Nagar, New Delhi, West Delhi, Delhi",
+   "business_name_2": "indigomarketing.com",
+   "business_address_2": "Delhi, 2 , 1ST FLOOR, DLF INDUSTRIAL, AREA, NAJAFGARH ROAD, MOTI NAGAR, NEW DELHI",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Stag LLC",
+   "business_address_1": "211 Discovery Road, Unit STE 2, Martinsburg, WV",
+   "business_name_2": "Sag LLC",
+   "business_address_2": "211 DISCOVERY RD, MARTINSBURG, WV",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Unique Software Private Limited",
+   "business_address_1": "92/S-3; Devar Puram Road Sri Subramanisamy Mahamai Building (1St, Floor), Thoothukudi, Tamil Nadu",
+   "business_name_2": "யுனிக் சாஃப்ட்வேர் பிரைவேட் லிமிடெட்",
+   "business_address_2": "THOOTHUKUDI, Tamil Nadu, 92/S-3; DEVAR PURAM ROAD SRI SUBRAMANISAMY MAHAMAI BUILDING (1ST, THOOTHUKUDI",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Astha Based Private Limited",
+   "business_address_1": "Rajasthan, Khasra No. 265, Alwar, Bhiwadi, 266 & 277 Ghatal Industrial Area, Phool Bagh",
+   "business_name_2": "asthabased.com",
+   "business_address_2": "#B3/265 , 266 & 277 GHATAL INDUSTRIAL AREA, PHOOL BAGH, BHIWADI, Rajasthan",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Russell, Rodriguez and Sullivan LLC",
+   "business_address_1": "141 Illinois Street, Momence, IL",
+   "business_name_2": "russellrodriguezsullivan.com",
+   "business_address_2": "141 1/2 ILLINOIS ST, MOMENCE, IL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Sunrise Logistics Pvt Ltd",
+   "business_address_1": "5, Bentick Street, Kolkata, Howrah, West Bengal",
+   "business_name_2": "সানরাইজ লজিস্টিকস প্রাইভেট লিমিটেড",
+   "business_address_2": "5, HOWRAH, পশ্চিমবঙ্গ, KOLKATA WEST",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Adarsh Seeds",
+   "business_address_1": "1681/29/2, F Floor Mangal Market, Bhagirath Place, Delhi, North Delhi, Delhi",
+   "business_name_2": "adarshseeds.com",
+   "business_address_2": "A-1681/29/2, F FLOOR MANGAL MARKET, BHAGIRATH PLACE, DELHI, NULL, दिल्ली",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Guru Engineering Private Limited",
+   "business_address_1": "No.2M-429, 2Nd Floor, 2Nd Main Road, Kasturingar, Bangalore, Karnataka",
+   "business_name_2": "ಗುರು ಇಂಜಿನಿಯರಿಂಗ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+   "business_address_2": "H.NO 2M-429, 2ND FLOOR, 2ND MAIN ROAD, KASTURINGAR, BANGALORE, BENGALURU, Karnataka",
+   "country_1": "India"
+  }
+ ],
+ "examples_pos_low_name_jac": [
+  {
+   "business_name_1": "Royal Industries Pvt Ltd",
+   "business_address_1": "Gujarat, Rajkot, Chaitanya Ind Area, Ganga Forging Gate, Plot 8, Kotda Sanghani",
+   "business_name_2": "Royal Pvt Ltd Center",
+   "business_address_2": "PLOT 008, CHAITANYA IND AREA, GANGA FORGING GATE, KOTDA SANGHANI, ગુજરાત",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Enlino Spartacus",
+   "business_address_1": "6383 Electric Railway, Cicero, NY",
+   "business_name_2": "*** Enlino Services",
+   "business_address_2": "6381 ELECTRIC RAILWAY, CICERO, NY",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Classic Management Private Limited",
+   "business_address_1": "Spectrum Education D/7, Pleasant Park, Above Dr Electricwala Hospital, Opp Big Bazar, Wa, Nworie, Pune, Maharashtra",
+   "business_name_2": "क्लासिक Management Private Limited",
+   "business_address_2": "SPECTRUM EDUCATION D/7, PLEASANT PARK, ABOVE DR ELECTRICWALA HOSPITAL, OPP BIG BAZAR, WA, PUNE, CHAKATI  MH, महाराष्ट्र",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "White Agro",
+   "business_address_1": "H.No. 1-98/5/2A, K.V.Rangareddy, Serilingampally, Sy No 85, Serilingampally, Telangana",
+   "business_name_2": "White Aaebgor",
+   "business_address_2": "H.NO. 1-98/5/2A/2 , SY NO 85, SERILINGAMPALLY, SERILINGAMPALLY, Telangana",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Regional Superior Electronics Inc",
+   "business_address_1": "6220 Newport Avenue, Chicago, IL",
+   "business_name_2": "INC REGI0NAL SFHPEIOR ELECTRONICS",
+   "business_address_2": "6220 NEWPORT AVE, CHICAGO, IL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Cancer Trust LLC",
+   "business_address_1": "801 Firewood Way, Anna, TX",
+   "business_name_2": "Cancer Truet LLC",
+   "business_address_2": "FIREWOOD WAY, ANNA, TX",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Willow L.L.C.",
+   "business_address_1": "1208 Broad Street, Mobile, AL",
+   "business_name_2": "Willow",
+   "business_address_2": "120 BROAD ST, MOBILE, AL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Frontier Xsolla LLC",
+   "business_address_1": "701 Alta Street, Unit 307, Olympia, WA",
+   "business_name_2": "Frontier LLC Service",
+   "business_address_2": "701  ALTA STREET, OLYMPIA, WA",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Aglow Habitat Limited",
+   "business_address_1": "B -106, Arjun Centre, Govandi Station Road, Bsd Marg Deonar, Govandi -East, Mumbai, Mumbai, Mumbai City, Maharashtra",
+   "business_name_2": "Aglow Haaemt Limited",
+   "business_address_2": "B -##106, ARJUN CENTRE, GOVANDI STATION ROAD, BSD MARG DEONAR, GOVANDI -EAST, MUMBAI, MUMBAI, महाराष्ट्र",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Best Colombier",
+   "business_address_1": "Westfield, IN, 851 Wendover Avenue",
+   "business_name_2": "Best C0lombier",
+   "business_address_2": "851 WENDOVER AVENUE, IN, WESTFIELD",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Interstate Ridge Tsakos LLC",
+   "business_address_1": "309 Fir Lane, Joliet, IL",
+   "business_name_2": "Interstate Ridge Tsak0s L.L.C.",
+   "business_address_2": "09 FIR LN, INCORPORATED, IL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Chennai India LLP",
+   "business_address_1": "Tamil Nadu, Chennai, New No 5 Ii Floor Palat Sankaran Road Mahalingapuram, Chennai",
+   "business_name_2": "Chennai Idia LLP",
+   "business_address_2": "NEW NO 5 II FLOOR PALAT SANKARAN ROAD MAHALINGAPURAM, CHENNAI, தமிழ்நாடு",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Regional League",
+   "business_address_1": "150 Brown Street, Appomattox Town, VA",
+   "business_name_2": "Regiona1 League",
+   "business_address_2": "150  BROWN ST, <NULL>, APPOMATTOX TOWN, VA",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "EK Tech Limited",
+   "business_address_1": "B 1 / 125, Majholi Kothi Assi Varana, Varanasi, Uttar Pradesh",
+   "business_name_2": "EK Teh  Limited",
+   "business_address_2": "DOOR NO 262 B 1 / 125, MAJHOLI KOTHI ASSI VARANA, VARANASI, उत्तर प्रदेश",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Vibrant Ventures",
+   "business_address_1": "Flat No-1002, 10Th Floor, Plot No-16, Rajkamal Park Co-Op Housing Society Ltd, Sanewadi, Haveli, Pune, Maharashtra",
+   "business_name_2": "VIBRANT  CENTER",
+   "business_address_2": "FLAT NO-1002, 10TH FLOOR, PLOT NO-16, RAJKAMAL PARK CO-OP HOUSING SOCIETY LTD, SANEWADI, HAVELI, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Royal Hospitality Private Limited",
+   "business_address_1": "First Floor, Shoplet No. 12, N-8, K-Sector Cidco, Aurangabad, Maharashtra",
+   "business_name_2": "Royal हॉस्पिटैलिटी Private Limited",
+   "business_address_2": "H.NO 761 FIRST FLOOR, SHOPLET NO. 12, N-8, K-SECTOR CIDCO, AURANGABAD, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Youth Charities Inc",
+   "business_address_1": "3715 17th Avenue, Portland, OR",
+   "business_name_2": "Youth Inc Service",
+   "business_address_2": "3715 17TH AVE, PORTAND, OR",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Blue Network",
+   "business_address_1": "315 Polk Street, Raleigh, NC",
+   "business_name_2": "Blue Partners",
+   "business_address_2": "POLK ST, RALEIGH, NC",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Urology Physicians",
+   "business_address_1": "509 South Street, Lynn Center, IL",
+   "business_name_2": "UROLOGY CENTER",
+   "business_address_2": "509 SOUTH ST, LYNN  CENTER, IL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "VV Mining Pvt Ltd",
+   "business_address_1": "Plot No A4, A5, A6 Apparel Park Ind. Area Arehalli Guddadahalli, Kasaba Hobli, Doddaballapura, Bangalore Rural, Karnataka",
+   "business_name_2": "VV Pvt Ltd Partners",
+   "business_address_2": "NO 842 PLOT NO A4, A5, A6 APPAREL PARK IND. AREA AREHALLI GUDDADAHALLI, KASABA HOBLI, DODDABALLAPURA, Karnataka",
+   "country_1": "India"
+  }
+ ],
+ "examples_hard_neg_same_name_similar_addr": [
+  {
+   "business_name_1": "Universal Network Worldwide Associates",
+   "business_address_1": "8208 Flicker Pl, Louisville, KY",
+   "business_name_2": "Universal Network Worldwide Associates Co",
+   "business_address_2": "8212 Flicker Pl, LOUISVILLE, KY",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Aggarwal & Co",
+   "business_address_1": "70 A Jaybharat Society3Rd Rd., Mumbai, Maharashtra, Khar",
+   "business_name_2": "Aggarwal & Co LLP",
+   "business_address_2": "Maharashtra, 81 A JLYBHARAT SOCIETY3RD RD., KHAR",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Fricke Clear Marketing",
+   "business_address_1": "3511 Ward Road, Cambridge, ID",
+   "business_name_2": "Fricke Clear Marketing  Corp",
+   "business_address_2": "3515 Ward Road, ID, CAMBRIDGE",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Quality Infrastructure Corporation",
+   "business_address_1": "3608 Holly Circle, Indianapolis, IN",
+   "business_name_2": "Quality Infrastructure Corporation Corp",
+   "business_address_2": "3609 HOLLY CIRCLE, <NULL>, INDIANAPOLIS, IN",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "You and Brackett Webster LLC",
+   "business_address_1": "426 Lazy Creek Lane, Nashville, TN",
+   "business_name_2": "You and Brackett Webster Ltd",
+   "business_address_2": "433 LAZY CREEK LN, NASHVILLE, TN",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Dash Mobility Private Limited",
+   "business_address_1": "Parkview City 2 Sohna Road, Sector-49, G-1204, Gurgaon, Haryana",
+   "business_name_2": "DASH MOBILITY LLP",
+   "business_address_2": "G-01213, PARKVIEW CITY 2 SOHNA ROAD, SECTOR-49, GURGAON, Haryana",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Hernandez Natural LLC",
+   "business_address_1": "Sacramento, 8353 Folsom Boulevard, CA",
+   "business_name_2": "Hernandez Co Natural",
+   "business_address_2": "8374 FOLSOM BOULEVARD, SACRAMENTO, CA",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Rutherford and Ortiz",
+   "business_address_1": "1522 Spruce St, Iowa City, IA",
+   "business_name_2": "Co Rutherford and Ortiz",
+   "business_address_2": "001535 SPRUCE ST, IOWA CITY, IA",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Orthopedic Physicians LLC",
+   "business_address_1": "34 Wright Avenue, Staten Island, NY",
+   "business_name_2": "Orthopedic Physícians Ltd",
+   "business_address_2": "41-A WRIGHT AVENUE, STATEN ISLAND, NY",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Dreddy Bocanegra, D.C.",
+   "business_address_1": "8527 Salter Drive, Peoria, AZ",
+   "business_name_2": "Dreddy Bocanegra, D.C. Ltd",
+   "business_address_2": "PEORIA, 8532  SALTER DRIVE, AZ",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Mumbai Sai Private Limited",
+   "business_address_1": "1303 Shivshakti Apartment, Sundervan Cmx Shastri Ngr, Mumbai, Maharashtra",
+   "business_name_2": "MUMBAI LIMITED SAI",
+   "business_address_2": "#1304 SHIVSHAKTI APARTMENT, SUNDERVAN CMX SHASTRI NGR, MUMBAI, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Envaor Family Office Inc",
+   "business_address_1": "9800 Daphne Court, City Of El Paso, TX",
+   "business_name_2": "Envaor Family Office Ltd",
+   "business_address_2": "9811 DAPHNE CT, CITY OF EL PASO, TX",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Orthopedic Superior Center",
+   "business_address_1": "1200 Downtain Street, Junction City, KS",
+   "business_name_2": "Orthopedic Superior Center Corp",
+   "business_address_2": "1221 DOWNTAIN ST, JUNCTION CITY, KS",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Pediatric Dentistry Silver Health Inc",
+   "business_address_1": "1041 Mariana Street, Tempe, AZ, Unit 2",
+   "business_name_2": "Pediatric Dentistry Sílver Health Corp",
+   "business_address_2": "1042. MARIANA STREET, TEMPE, AZ",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Dermatology Health",
+   "business_address_1": "923 Sherron Road, Durham, NC",
+   "business_name_2": "Dermatology Health Inc",
+   "business_address_2": "926 SHERRON ROAD, DURHAM, NC",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Smart Mobility Innovations, LLC",
+   "business_address_1": "7 Delehunt Drive, East Greenbush, NY",
+   "business_name_2": "Smart Mobility Innovations, Inc",
+   "business_address_2": "11 DELEHUNT DRIVE, EAST GREENBUSH, NY",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "United Clear Alibaba Inc",
+   "business_address_1": "3200 REAR Van Buren Street, Unit REAR, Amarillo, TX",
+   "business_name_2": "United Clear Alibaba Co",
+   "business_address_2": "#3221 REAR VAN BUREN ST, AMARILLO, TX",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Polaris Ltd",
+   "business_address_1": "11617 Minetz Court, Orland Park, IL",
+   "business_name_2": "Polaris Co",
+   "business_address_2": "11622 MINETZ COURT, ORLAND PARK, IL",
+   "country_1": "US"
+  },
+  {
+   "business_name_1": "Sunshine Agro Limited",
+   "business_address_1": "#18, Akshaya Ngr, 2Nd Blk R.M Ngr, Bengaluru, Bangalore, Karnataka",
+   "business_name_2": "Sunshine Agro Private Limited",
+   "business_address_2": "DOOR NO G-20 , AKSHAYA NGR, 2ND BLK R.M NGR, BENGALURU, Karnataka",
+   "country_1": "India"
+  },
+  {
+   "business_name_1": "Boddy Keystone Parts LLC",
+   "business_address_1": "Prescott, 618 Vista Del Cerro Street, AZ",
+   "business_name_2": "Boddy Keystone Parts Inc",
+   "business_address_2": "621 VISTA DEL CERRO ST, PRESCOTT, AZ",
+   "country_1": "US"
+  }
+ ],
+ "examples_random_positives": [
+  {
+   "src": "S2",
+   "business_name_1": "La Verne Payne Prairie Granite",
+   "business_address_1": "TN, 228 Jarrell Drive, Bluff City",
+   "business_name_2": "La Verne Payne Prairie (Granite)",
+   "business_address_2": "228 JARRELL DR, TN, BLUFF CITY",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Morton Crown LLC",
+   "business_address_1": "4410 Opal Cliff Drive, Santa Cruz, CA",
+   "business_name_2": "Arcnylakelo fka Morton Crown LLC",
+   "business_address_2": "4410 Opal Cliff Drive, Santa Cruz, CA",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "E 5 E Manulife Partners",
+   "business_address_1": "611 Southampton Drive, Caroline County, VA",
+   "business_name_2": "E 5 E  Manulife Prtnrs",
+   "business_address_2": "611 Southampton Drive, Caroline County, Virginia",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Mountain Alliance LLC",
+   "business_address_1": "7578 Orchid Court, Prince William County, VA",
+   "business_name_2": "Mountain  Alliance",
+   "business_address_2": "7578 Orchid Ct, Prince William County, Virginia",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Bangalore Planner Corp",
+   "business_address_1": "No. 18/1, 1St Main Road Govindarajanagar, Bangalore, Karnataka",
+   "business_name_2": "Bangalore-Planner-Corp",
+   "business_address_2": "<NULL>, Door No 8/1, Bangalore, ಕರ್ನಾಟಕ",
+   "country_1": "India"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Supreme Network Group",
+   "business_address_1": "17814 Tanglewood Court, Hazel Crest, IL",
+   "business_name_2": "Supreme Netwrrk Group",
+   "business_address_2": "<NULL>, IL, 17814. TANGLEWOOD COURT, HAZEL CREST",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Future Developers",
+   "business_address_1": "R No 7, Ground Flr, Shivaji Ngr Gate No2 Sur No 21, Hissa No 1, Cts 881, Malad (W), Mumbai, Mumbai City, Maharashtra",
+   "business_name_2": "Smt FUTURE FUTURE DEVELOPERS LTD",
+   "business_address_2": "R NO 7, GROUND FLR, SHIVAJI NGR GATE NO2 SUR NO 21, HISSA NO 1, CTS 881, MALAD (W), MUMBAI, महाराष्ट्र",
+   "country_1": "India"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Beth Cathedral",
+   "business_address_1": "207 Front Street, Arp, TX",
+   "business_name_2": "Beth-Cathedra1",
+   "business_address_2": "207 Front St, ARP, Texas",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Woodfield, Barr & Baker Chase",
+   "business_address_1": "320 Franklin Street, Pratt, WV",
+   "business_name_2": "Woodfield, Chase & Baker Barr",
+   "business_address_2": "Pratt, West Virginia, 320-324 Franklin Street",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Pettitt Gulf Regional Inc",
+   "business_address_1": "208 Huxley Drive, Cheektowaga, NY",
+   "business_name_2": "Pettitt Gulf Regional",
+   "business_address_2": "208 HUXLEY DR, CHEEKTOWAGA, NY",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Great Services Private Limited",
+   "business_address_1": "Plot No-9904/13157, Erabang, Nimapara, Puri, Orissa",
+   "business_name_2": "Great Services Private",
+   "business_address_2": "Plot No-9904/13157, Erabang, Nimapara, Puri, OD",
+   "country_1": "India"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Balaji Management Pvt Ltd",
+   "business_address_1": "A-108, 1St Floor Knox Plaza, Chincholi Bunder Road Malad West, Mumbai-400 064, Maharashtra, India, Mumbai, Maharashtra",
+   "business_name_2": "बालाजी मैनेजमेंट प्रा. लि.",
+   "business_address_2": "BLOCK E-707  A-108, MUMBAI (SUBURBAN), INDIA, Maharashtra",
+   "country_1": "India"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Giovanni, Parlato and Morgan LLC",
+   "business_address_1": "811 Kear Road, Unit 2, Van Wert, OH",
+   "business_name_2": "GIOVANNI, PARLATO AND MORGAN",
+   "business_address_2": null,
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Clear River",
+   "business_address_1": "1103 Harrison Avenue, Cincinnati, OH",
+   "business_name_2": "Clear Ríver",
+   "business_address_2": "110 HARRISON AVENUE, OH, CINCINNATI",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Lova LLC",
+   "business_address_1": "286 Elmwood Drive, Unit 3, Radcliff, KY",
+   "business_name_2": "Lova-LLC",
+   "business_address_2": "0286 ELMWOOD DRIVE, PO BOX 5961, RADCLIFF, KY",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Frontier Esports",
+   "business_address_1": "4406 108th Street, Village Of Pleasant Prairie, WI",
+   "business_name_2": "Frontieresports.Com",
+   "business_address_2": "4406 108th Street, Village Of Pleasant Prairie, Wisconsin",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "City Industries",
+   "business_address_1": "Village, Nadiad, Diwali Pol Dabhan Bhagol, Kheda, C/O Patel Hirenkumar Jayantibhai, Gujarat, Nadiad",
+   "business_name_2": "સિટી ઇન્ડસ્ટ્રીઝ",
+   "business_address_2": "C/O PATEL HIRENKUMAR JAYANTIBHAI, KHEDA, ANAND, Gujarat",
+   "country_1": "India"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Perfect International School",
+   "business_address_1": "Shop No. 139 1St Floor, Vardhman Fortune Mall Community Centre, G.T.Karnal Road, Polic, E Colony, Gujrawala Town, North West, Delhi",
+   "business_name_2": "Arianovi t/a Perfect International School",
+   "business_address_2": "Vardhman Fortune Mall Community Centre, G.T.Karnal Road, Polic, E Colony, Delhi, North West, Shop No. 139 1St Floor, Gujrawala Town",
+   "country_1": "India"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Shelton & Dixon Providence Inc",
+   "business_address_1": "NC, Whittier, 3634 Union Hill Road",
+   "business_name_2": "Shelton & Dixon  Providence (Inc)",
+   "business_address_2": "3634 Union Hill Rd, Whittier, North Carolina",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "South Legacy Resilience Inc",
+   "business_address_1": "323 Lopez Street, Raton, NM",
+   "business_name_2": "South Legacy Resilience Incorporated",
+   "business_address_2": "00323 Lopez St, Raton, New Mexico",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Anchor Unified Pineapple LP",
+   "business_address_1": "23683 Yuma Road, Unit C211, Buckeye, AZ",
+   "business_name_2": "Anchor Unified Pineapple LLC",
+   "business_address_2": "23683  YUMA ROAD, BUCCKEYE CDP, AZ",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Kinney Living of South Middleton Township",
+   "business_address_1": "514 Whiskey Springs Road, South Middleton Township, PA",
+   "business_name_2": "Kinney Living of South Middleton",
+   "business_address_2": "514 WHISKEY SPRINGS RD, BOILING SPRINGS CITY, PA",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Anchor Partners",
+   "business_address_1": "256 Kelley Avenue, Jayton, TX",
+   "business_name_2": "Anchor Partners Ltd",
+   "business_address_2": "56 KELLEY AVE, JAYTON, TX",
+   "country_1": "US"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Empire Equity Partners LLC",
+   "business_address_1": "10871 64, Unit 8, Tyler, TX",
+   "business_name_2": "Empire Equity Partners",
+   "business_address_2": "10871 64, null, TYLER, TX",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "L/B Multimedia Inc",
+   "business_address_1": "15341 Meadow Court, Oak Forest, IL",
+   "business_name_2": "Violum aka L/B Multimedia Inc",
+   "business_address_2": "15341 Meadow Court, Oak Forest, IL",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Cozy Nails",
+   "business_address_1": "3825 Fern Hill Drive, Mishawaka, IN",
+   "business_name_2": "Cozy Nails",
+   "business_address_2": "3825 Fern Hill Drive, Mishawaka, Indiana",
+   "country_1": "US"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Great Management Private Limited",
+   "business_address_1": "Sub Plot 65, Brahman Mitra Mandal Co-Op H Soc. Ltd Nr Jalaram Mandir Railway Crossing, Pald, I, Ahmedabad, Gujarat",
+   "business_name_2": "Great Management Private",
+   "business_address_2": "Sub Plot 6-5, Brahman Mitra Mandal Co-op H Soc. Ltd Nr Jalaram Mandir Railway Crossing, Pald, I, Ahmedabad Hq Region, Ahmedabad, GJ",
+   "country_1": "India"
+  },
+  {
+   "src": "S3",
+   "business_name_1": "Madhuram Vidyalaya",
+   "business_address_1": "23 Hatim Munshi Lane, Kolkata, Calcutta, West Bengal",
+   "business_name_2": "Madhuram [Vídyalaya]",
+   "business_address_2": "23 Hatim Munshi Lane, Kolkata, WB",
+   "country_1": "India"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Prime Consultancy Pvt Ltd",
+   "business_address_1": "G-12/295, Gali No. 08 Khasra No. 174, Wazirabad Village, Delhi, North Delhi, Delhi",
+   "business_name_2": "PRIME CONSULTANCY  PVT LTD",
+   "business_address_2": "HN 924 G-12/295, GALI NO. 08 KHASRA NO. 174, WAZIRABAD VILLAGE, DELHI, दिल्ली",
+   "country_1": "India"
+  },
+  {
+   "src": "S2",
+   "business_name_1": "Scruggs Star Alussa",
+   "business_address_1": "Ferris, TX, 103 Jimmie Birdw Boulevard",
+   "business_name_2": "Scruggs Star Alussa LP",
+   "business_address_2": "103-C JIMMIE BIRDW BLVD, FERRIS, TX",
+   "country_1": "US"
+  }
+ ],
+ "sibling_pairs_same_source": 642262,
+ "sibling_same_raw_name_pct": 4.69,
+ "sibling_same_name_core_sorted_pct": 30.22,
+ "sibling_same_addr_sorted_pct": 26.24,
+ "entities_all_matches_name_core_sorted_eq_pct": 14.5,
+ "entities_all_matches_name_any_tok_pct": 63.82,
+ "entities_all_matches_jac03_pct": 95.02
+}

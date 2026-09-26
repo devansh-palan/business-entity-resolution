@@ -1,0 +1,11 @@
+[16:09:56] 1/5 preprocess test with the all-train dictionaries
+  S3: 4,962,316/5,082,316 rows, 31,807 rows/s
+test_source3: 5,082,316 rows in 170s -> artifacts/preprocessed/test\test_source3.parquet
+[16:16:59] 2/5 candidate generation (13 strategies)
+[16:54:15] candidates FAILED
+[ 1099s]   addr_token_retrieval_top5    pairs=  17,302,118  [1099s]
+[ 1110s]     retrieval France/S2: 259,452 queries x 703,378 pool, 62,289 features -> 5,179,042 pairs
+[ 1122s]     retrieval France/S3: 259,452 queries x 731,615 pool, 63,528 features -> 5,179,743 pairs
+[ 1565s]     retrieval India/S2: 809,986 queries x 2,312,565 pool, 531,230 features -> 16,187,588 pairs
+[ 2107s]     retrieval India/S3: 809,986 queries x 2,405,000 pool, 504,219 features -> 16,193,735 pairs
+exit 1

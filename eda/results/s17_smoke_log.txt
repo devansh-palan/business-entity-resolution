@@ -1,0 +1,10 @@
+[    0s] 40,233,392 pairs; pool 10,320,219 records; 1 bucket(s) of 32, 1 worker process(es)
+[stats   19s]   token vocabulary name_addr: 2,641,115  [15s] rss 2.44 GB peak 4.19 GB
+[stats   30s]   token vocabulary addr: 1,421,432  [27s] rss 2.61 GB peak 4.19 GB
+[stats   37s]   token vocabulary name: 1,329,579  [34s] rss 1.59 GB peak 4.19 GB
+[stats   62s]   name 3-gram features 28,239  [59s] rss 1.71 GB peak 4.19 GB
+[stats   65s]   pool frequencies: 5,177,771 names, 8,724,107 addresses  [61s] rss 3.10 GB peak 4.19 GB
+[   67s]   pool statistics fitted in 66s (child peak 4.19 GB): name_addr 2,641,115, addr 1,421,432, name 1,329,579, name_ngram 28,239
+[  110s]   bucket  0: 1,254,403 pairs, 157 features, 47,287 positives  [42s, child peak 5.14 GB, total 110s, 1/1 done]
+[  110s] done: 157 features, 1,254,403 pairs in 110s -> artifacts/features/fold0_smoke
+exit 0

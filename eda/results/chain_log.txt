@@ -1,0 +1,14 @@
+[06:35:31] 1/6 preprocess train with fold-0 dictionaries
+  S3: 4,000,000/5,285,603 rows, 28,720 rows/s
+  S3: 5,000,000/5,285,603 rows, 29,475 rows/s
+train_source3: 5,285,603 rows in 188s -> artifacts/preprocessed/fold0\train_source3.parquet
+[06:43:12] 2/6 candidate strategies (name n-gram retrieval kept, everything else recomputed)
+[  1510s] U_final                      pairs=  35,911,531 recall=0.9852 (S2 0.9859 S3 0.9845 | US 0.9883 IN 0.9806) all-found=0.9512 mean=81.4 p50=51 p95=233 p99=279 max=689
+[  1551s] final {"path": "artifacts/candidates/fold0\\candidate_pairs.tsv", "rows": 441365, "bytes": 468556613, "ids": 35911531, "empty_rows": 0, "problems": [], "valid": true}
+[07:09:05] 3/6 union selection
+[07:12:31] 4/6 CLI reproduction on fold-0 entities
+[07:23:06] CLI file IDENTICAL to the measured file
+[07:23:06] 5/6 rule baseline on the corrected tables
+[07:38:04] 6/6 reports
+[07:38:04] CHAIN DONE
+exit 0

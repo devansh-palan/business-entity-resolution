@@ -1,0 +1,46 @@
+[    1s] queries 441,365, pool 10,320,219, positives 1,527,650
+[   91s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 462,371 features -> 8,790,532 pairs
+[  211s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 437,089 features -> 8,812,259 pairs
+[  396s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 292,625 features -> 13,235,600 pairs
+[  620s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 301,339 features -> 13,235,978 pairs
+[  643s]     retrieval India/S2: 176,638 queries x 57,846 pool, 9,919 features -> 879,416 pairs
+[  647s]     retrieval India/S3: 176,638 queries x 64,948 pool, 10,035 features -> 879,713 pairs
+[  663s]     retrieval US/S2: 264,727 queries x 111,121 pool, 11,716 features -> 1,319,684 pairs
+[  679s]     retrieval US/S3: 264,727 queries x 110,968 pool, 11,687 features -> 1,319,601 pairs
+[  684s]     retrieval India/S2: 176,638 queries x 69,317 pool, 10,809 features -> 528,350 pairs
+[  688s]     retrieval India/S3: 176,638 queries x 77,990 pool, 10,758 features -> 528,326 pairs
+[  707s]     retrieval US/S2: 264,727 queries x 136,819 pool, 14,015 features -> 789,997 pairs
+[  726s]     retrieval US/S3: 264,727 queries x 138,277 pool, 14,039 features -> 790,092 pairs
+[ 1036s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 462,495 features -> 3,530,147 pairs
+[ 1365s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 437,208 features -> 3,531,525 pairs
+[ 1795s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 292,674 features -> 5,294,532 pairs
+[ 2266s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 301,392 features -> 5,294,532 pairs
+[ 2288s]   OLD final                          pairs= 35,911,531 recall=0.9852 (US 0.9883 IN 0.9806) mean=81.4 p95=233 max=689
+[ 2302s]   fix x_name_addr_top30              + 19.65 cand/entity  recovers  2,441 misses (+0.160 pts)  gain/cand=0.000081  {'candidate limit too small': 1713, 'missing address': 699, 'blocking collision': 17, 'name variation': 4, 'other': 2, 'address variation': 1, 'abbreviation': 2, 'retrieval failure': 3}
+[ 2323s]   fix x_name_addr_top50              + 58.49 cand/entity  recovers  5,128 misses (+0.336 pts)  gain/cand=0.000057  {'candidate limit too small': 3524, 'missing address': 1571, 'blocking collision': 19, 'name variation': 4, 'other': 2, 'address variation': 1, 'abbreviation': 3, 'retrieval failure': 4}
+[ 2333s]   fix x_name_addr_adaptive50_s20ge50 +  3.88 cand/entity  recovers    781 misses (+0.051 pts)  gain/cand=0.000132  {'candidate limit too small': 578, 'blocking collision': 11, 'missing address': 187, 'name variation': 1, 'abbreviation': 2, 'other': 1, 'retrieval failure': 1}
+[ 2342s]   fix x_name_addr_adaptive50_s20ge60 +  1.51 cand/entity  recovers    299 misses (+0.020 pts)  gain/cand=0.000130  {'candidate limit too small': 171, 'blocking collision': 10, 'missing address': 115, 'other': 1, 'retrieval failure': 1, 'abbreviation': 1}
+[ 2352s]   fix x_name_addr_adaptive50_s20ge70 +  1.07 cand/entity  recovers    183 misses (+0.012 pts)  gain/cand=0.000112  {'candidate limit too small': 65, 'blocking collision': 10, 'missing address': 105, 'other': 1, 'retrieval failure': 1, 'abbreviation': 1}
+[ 2356s]   fix x_addrless_name_ngram_top5     +  7.08 cand/entity  recovers  2,733 misses (+0.179 pts)  gain/cand=0.000253  {'missing address': 2733}
+[ 2360s]   fix x_domain_name_ngram_top3       +  5.21 cand/entity  recovers  1,157 misses (+0.076 pts)  gain/cand=0.000145  {'abbreviation': 400, 'retrieval failure': 132, 'candidate limit too small': 402, 'address variation': 153, 'blocking collision': 41, 'missing address': 29}
+[ 2365s]   fix x_addr_token_top5              +  2.42 cand/entity  recovers    875 misses (+0.057 pts)  gain/cand=0.000237  {'candidate limit too small': 616, 'name variation': 73, 'abbreviation': 103, 'other': 16, 'blocking collision': 21, 'retrieval failure': 37, 'address variation': 8, 'typo': 1}
+[ 2371s]   fix x_addr_token_top10             +  7.84 cand/entity  recovers  1,393 misses (+0.091 pts)  gain/cand=0.000116  {'candidate limit too small': 952, 'abbreviation': 160, 'name variation': 135, 'address variation': 16, 'other': 30, 'blocking collision': 37, 'retrieval failure': 61, 'typo': 2}
+[ 2381s]   fix x_name_addr_top20_maxdf3       +  8.34 cand/entity  recovers  3,935 misses (+0.258 pts)  gain/cand=0.000309  {'candidate limit too small': 2235, 'retrieval failure': 67, 'missing address': 979, 'name variation': 90, 'blocking collision': 491, 'address variation': 29, 'abbreviation': 37, 'other': 4, 'typo': 3}
+[ 2384s]   fix x_name_any_house_number        +  0.01 cand/entity  recovers    554 misses (+0.036 pts)  gain/cand=0.025887  {'blocking collision': 286, 'candidate limit too small': 268}
+[ 2387s]   fix x_name_any_city                +  0.19 cand/entity  recovers  2,729 misses (+0.179 pts)  gain/cand=0.009566  {'candidate limit too small': 956, 'blocking collision': 1773}
+[ 2391s]   fix x_compact_name_state           +  0.06 cand/entity  recovers    333 misses (+0.022 pts)  gain/cand=0.003417  {'candidate limit too small': 96, 'blocking collision': 237}
+[ 2394s]   fix x_house_street_city            +  0.03 cand/entity  recovers     20 misses (+0.001 pts)  gain/cand=0.000492  {'candidate limit too small': 8, 'name variation': 2, 'blocking collision': 7, 'abbreviation': 1, 'retrieval failure': 2}
+[ 2403s]   fix 9_addr_token_top20             + 22.60 cand/entity  recovers  1,997 misses (+0.131 pts)  gain/cand=0.000058  {'candidate limit too small': 1357, 'abbreviation': 211, 'name variation': 212, 'address variation': 23, 'other': 53, 'blocking collision': 52, 'retrieval failure': 87, 'typo': 2}
+[ 2411s]   fix 3_name_ngram_top20             + 29.92 cand/entity  recovers  1,770 misses (+0.116 pts)  gain/cand=0.000039  {'missing address': 538, 'abbreviation': 178, 'name variation': 93, 'candidate limit too small': 560, 'retrieval failure': 102, 'blocking collision': 158, 'address variation': 140, 'typo': 1}
+[ 2419s]   fix 8_acronym_city                 + 29.10 cand/entity  recovers  2,696 misses (+0.176 pts)  gain/cand=0.000061  {'blocking collision': 1554, 'candidate limit too small': 988, 'address variation': 77, 'name variation': 30, 'retrieval failure': 46, 'typo': 1}
+[ 2500s]   chosen +x_name_any_house_number: +0.036 pts for +0.01 cand/entity
+[ 2577s]   chosen +x_name_any_city: +0.154 pts for +0.19 cand/entity
+[ 2653s]   chosen +x_compact_name_state: +0.007 pts for +0.06 cand/entity
+[ 2727s]   chosen +x_house_street_city: +0.001 pts for +0.03 cand/entity
+[ 2798s]   chosen +x_addrless_name_ngram_top5: +0.179 pts for +7.08 cand/entity
+[ 2869s]   chosen +x_addr_token_top5: +0.053 pts for +2.42 cand/entity
+[ 2939s]   NEW final                          pairs= 40,233,392 recall=0.9895 (US 0.9909 IN 0.9875) mean=91.2 p95=241 max=696
+[ 3020s] comparison {"old_recall": 0.9852, "new_recall": 0.9895, "old_mean": 81.365, "new_mean": 91.157, "old_p95": 233.0, "new_p95": 241.0, "old_pairs": 35911531, "new_pairs": 40233392, "old_by_country": {"India": 0.98062, "US": 0.98827}, "new_by_country": {"India": 0.98748, "US": 0.99085}, "old_all_found": 0.95123, "new_all_found": 0.96426}
+[ 3020s] file {"path": "artifacts/candidates/fold0\\candidate_pairs.tsv", "rows": 441365, "bytes": 524266254, "ids": 40233392, "empty_rows": 0, "problems": [], "valid": true}
+[ 3020s] saved eda/results/s16b_candidate_rerun.json
+exit 0

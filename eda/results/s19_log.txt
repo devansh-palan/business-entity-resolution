@@ -1,0 +1,24 @@
+[    2s] model lightgbm: tune half 5,021,353 pairs / 55,171 entities, report half 5,020,256 / 55,170
+[    2s]   tune t=0.01: macro F0.5 0.7628, P 0.73453, R 0.98692, singletons 0.282, zero-pred 1.6%, mean pred 4.92, false merges 82,999
+[   14s]   tune t=0.21: macro F0.5 0.9474, P 0.94765, R 0.97146, singletons 0.781, zero-pred 4.6%, mean pred 3.54, false merges 9,702
+[   26s]   tune t=0.41: macro F0.5 0.9633, P 0.97011, R 0.96225, singletons 0.869, zero-pred 5.2%, mean pred 3.43, false merges 5,188
+[   31s]   tune t=0.50: macro F0.5 0.9666, P 0.97588, R 0.9577, singletons 0.891, zero-pred 5.3%, mean pred 3.39, false merges 4,063
+[   38s]   tune t=0.61: macro F0.5 0.9687, P 0.98124, R 0.95106, singletons 0.911, zero-pred 5.5%, mean pred 3.35, false merges 3,051
+[   47s]   tune t=0.75: macro F0.5 0.9700, P 0.98759, R 0.93948, singletons 0.938, zero-pred 5.8%, mean pred 3.29, false merges 1,935
+[   51s]   tune t=0.81: macro F0.5 0.9689, P 0.99, R 0.93126, singletons 0.949, zero-pred 5.9%, mean pred 3.25, false merges 1,525
+[   62s]   report t=0.01: macro F0.5 0.7630, P 0.73488, R 0.98625, singletons 0.285, zero-pred 1.7%, mean pred 4.89, false merges 81,792
+[   74s]   report t=0.21: macro F0.5 0.9476, P 0.9481, R 0.9709, singletons 0.794, zero-pred 4.7%, mean pred 3.53, false merges 9,474
+[   86s]   report t=0.41: macro F0.5 0.9629, P 0.96989, R 0.96181, singletons 0.867, zero-pred 5.2%, mean pred 3.41, false merges 5,104
+[   92s]   report t=0.50: macro F0.5 0.9661, P 0.97558, R 0.95724, singletons 0.889, zero-pred 5.4%, mean pred 3.38, false merges 4,032
+[   98s]   report t=0.61: macro F0.5 0.9687, P 0.98131, R 0.95087, singletons 0.916, zero-pred 5.6%, mean pred 3.34, false merges 3,014
+[  106s]   report t=0.75: macro F0.5 0.9698, P 0.98766, R 0.93951, singletons 0.945, zero-pred 5.9%, mean pred 3.28, false merges 1,926
+[  109s]   report t=0.81: macro F0.5 0.9689, P 0.99006, R 0.93156, singletons 0.954, zero-pred 6.0%, mean pred 3.24, false merges 1,513
+[  116s] global threshold: best on the tune half 0.75 -> 0.9700; on the report half 0.9698 (the report half's own optimum 0.7 gives 0.9699); plateau [0.63, 0.8]
+[  117s]   segment thresholds by country: India 0.74, US 0.75 -> report macro F0.5 0.9697 (global 0.9698, gain -0.0001)
+[  117s]   segment thresholds by n_cand: 121+ 0.72, 21-60 0.75, 61-120 0.68 -> report macro F0.5 0.9699 (global 0.9698, gain +0.0000)
+[  117s]   segment thresholds by max_p: 0.5-0.9 0.75, 0.9-0.99 0.51, <0.5 0.5, >=0.99 0.72 -> report macro F0.5 0.9701 (global 0.9698, gain +0.0003)
+[  117s]   segment thresholds by n_true(oracle): 0 0.99, 1 0.68, 2-5 0.69, 6+ 0.47 -> report macro F0.5 0.9737 (global 0.9698, gain +0.0038)
+[  144s]   source thresholds: S2 0.75, S3 0.75 -> report 0.9698 (gain -0.0000)
+[  144s] saved eda/results/s19_threshold_sweep.json
+[  144s] wrote eda/threshold_sweep.md
+exit 0

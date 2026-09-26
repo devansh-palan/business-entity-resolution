@@ -1,0 +1,13 @@
+[17:22:47] 2/5 candidate generation (13 strategies)
+[ 2882s]   union: 161,857,954 pairs, mean 93.4, p95 239, max 829, 0 entities without candidates
+[ 3018s]   wrote output/candidate_pairs.tsv: {'rows': 1732544, 'ids': 161857954, 'empty_rows': 0, 'problems': [], 'valid': True, 'path': 'output/candidate_pairs.tsv'}
+[18:13:06] 3/5 features + LightGBM scoring per bucket
+[ 9548s]   bucket 127: 1,272,266 pairs, 157 features  [72s, child peak 6.74 GB, total 9548s, 128/128 done]
+[ 9549s] done: 157 features, 161,857,954 pairs in 9549s -> artifacts/scores/test
+[20:52:16] 4/5 matching_results.tsv (threshold 0.75 + pool uniqueness)
+[   2s] 161,857,954 scored pairs; mean p 0.0379, share >= 0.75: 0.0356
+[   9s] wrote output/matching_results.tsv: {'path': 'output/matching_results.tsv', 'entities': 1732544, 'pairs': 5724338, 'entities_with_matches': 1634982, 'singleton_share': 0.05631, 'mean_matches': 3.304, 'median_matches': 3.0, 'max_matches': 12, 'matches_s2': 2789727, 'matches_s3': 2934611, 'bytes': 96209089, 'threshold': 0.75, 'unique_pool': True, 'seconds': 8.8}
+[20:52:26] 5/5 organisers' validator
+validator exit 1
+[20:55:54] PIPELINE DONE
+exit 0

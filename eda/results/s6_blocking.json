@@ -1,0 +1,621 @@
+{
+ "recall_per_key_pct": {
+  "k_name": 50.47,
+  "k_first": 72.79,
+  "k_pre4": 80.07,
+  "k_addr": 12.2,
+  "k_numsig": 66.81,
+  "k_num_long": 54.56,
+  "k_long": 71.35,
+  "k_first_long": 51.17
+ },
+ "volume_per_key": {
+  "k_name": {
+   "mean": 42.7,
+   "p50": 4.0,
+   "p90": 83.0,
+   "p99": 690.0,
+   "max": 1501,
+   "pct_S1_with_zero_cands": 6.54,
+   "pct_S1_block_gt_5000": 0.0
+  },
+  "k_first": {
+   "mean": 5426.5,
+   "p50": 1764.0,
+   "p90": 14692.0,
+   "p99": 27973.0,
+   "max": 91094,
+   "pct_S1_with_zero_cands": 0.01,
+   "pct_S1_block_gt_5000": 42.78
+  },
+  "k_pre4": {
+   "mean": 7607.9,
+   "p50": 4185.0,
+   "p90": 20683.0,
+   "p99": 58150.0,
+   "max": 91340,
+   "pct_S1_with_zero_cands": 0.18,
+   "pct_S1_block_gt_5000": 47.95
+  },
+  "k_addr": {
+   "mean": 0.5,
+   "p50": 0.0,
+   "p90": 1.0,
+   "p99": 4.0,
+   "max": 22,
+   "pct_S1_with_zero_cands": 67.44,
+   "pct_S1_block_gt_5000": 0.0
+  },
+  "k_numsig": {
+   "mean": 2299.1,
+   "p50": 216.0,
+   "p90": 6632.0,
+   "p99": 33449.0,
+   "max": 43500,
+   "pct_S1_with_zero_cands": 7.16,
+   "pct_S1_block_gt_5000": 12.96
+  },
+  "k_num_long": {
+   "mean": 228.1,
+   "p50": 3.0,
+   "p90": 159.0,
+   "p99": 6934.0,
+   "max": 11400,
+   "pct_S1_with_zero_cands": 14.21,
+   "pct_S1_block_gt_5000": 1.41
+  },
+  "k_long": {
+   "mean": 28889.0,
+   "p50": 1330.0,
+   "p90": 49466.0,
+   "p99": 298354.0,
+   "max": 298354,
+   "pct_S1_with_zero_cands": 0.17,
+   "pct_S1_block_gt_5000": 30.56
+  },
+  "k_first_long": {
+   "mean": 46.6,
+   "p50": 3.0,
+   "p90": 34.0,
+   "p99": 588.0,
+   "max": 5997,
+   "pct_S1_with_zero_cands": 7.17,
+   "pct_S1_block_gt_5000": 0.24
+  }
+ },
+ "union_recall": {
+  "name": {
+   "pair_recall": 50.47,
+   "entity_all_matches_recalled": 14.51,
+   "approx_volume_mean(sum of block sizes)": 42.7
+  },
+  "name+addr": {
+   "pair_recall": 58.82,
+   "entity_all_matches_recalled": 21.58,
+   "approx_volume_mean(sum of block sizes)": 43.2
+  },
+  "name+addr+numsig": {
+   "pair_recall": 84.82,
+   "entity_all_matches_recalled": 65.29,
+   "approx_volume_mean(sum of block sizes)": 2342.3
+  },
+  "name+addr+numsig+num_long": {
+   "pair_recall": 87.93,
+   "entity_all_matches_recalled": 71.96,
+   "approx_volume_mean(sum of block sizes)": 2570.4
+  },
+  "name+pre4+addr+numsig+num_long": {
+   "pair_recall": 95.05,
+   "entity_all_matches_recalled": 87.0,
+   "approx_volume_mean(sum of block sizes)": 10178.3
+  },
+  "name+first+addr+numsig+num_long": {
+   "pair_recall": 93.79,
+   "entity_all_matches_recalled": 83.62,
+   "approx_volume_mean(sum of block sizes)": 7996.9
+  },
+  "all keys": {
+   "pair_recall": 97.89,
+   "entity_all_matches_recalled": 93.8,
+   "approx_volume_mean(sum of block sizes)": 44540.4
+  }
+ },
+ "rare_name_token_blocking": {
+  "df<=500": {
+   "pair_recall": 39.63,
+   "entity_all_recalled": 29.76,
+   "vol_mean": 77.9,
+   "vol_p50": 0.0,
+   "vol_p99": 533.0
+  },
+  "df<=2000": {
+   "pair_recall": 52.79,
+   "entity_all_recalled": 38.86,
+   "vol_mean": 572.1,
+   "vol_p50": 91.0,
+   "vol_p99": 3144.0100000000093
+  },
+  "df<=5000": {
+   "pair_recall": 57.96,
+   "entity_all_recalled": 42.68,
+   "vol_mean": 1124.7,
+   "vol_p50": 223.0,
+   "vol_p99": 6462.020000000019
+  },
+  "df<=20000": {
+   "pair_recall": 75.73,
+   "entity_all_recalled": 52.62,
+   "vol_mean": 7333.1,
+   "vol_p50": 3584.5,
+   "vol_p99": 33461.0
+  }
+ },
+ "rare_addr_token_blocking": {
+  "df<=200": {
+   "pair_recall": 42.36,
+   "entity_all_recalled": 30.92,
+   "vol_mean": 46.9,
+   "vol_p50": 2.0,
+   "vol_p99": 309.0
+  },
+  "df<=1000": {
+   "pair_recall": 68.87,
+   "entity_all_recalled": 52.33,
+   "vol_mean": 446.7,
+   "vol_p50": 305.0,
+   "vol_p99": 1963.0
+  },
+  "df<=3000": {
+   "pair_recall": 83.83,
+   "entity_all_recalled": 67.21,
+   "vol_mean": 1807.9,
+   "vol_p50": 1469.0,
+   "vol_p99": 6832.0
+  },
+  "df<=10000": {
+   "pair_recall": 91.16,
+   "entity_all_recalled": 76.76,
+   "vol_mean": 7020.4,
+   "vol_p50": 5804.0,
+   "vol_p99": 25788.02000000002
+  }
+ },
+ "grand_union name_df<=2000 addr_df<=1000": {
+  "pair_recall": 97.13,
+  "entity_all_recalled": 92.34
+ },
+ "grand_union name_df<=5000 addr_df<=3000": {
+  "pair_recall": 98.37,
+  "entity_all_recalled": 95.54
+ },
+ "examples_missed_by_grand_union_5000_3000": [
+  {
+   "n1": "alpha al technologies",
+   "a1": "c 2 greater kailash enclave part ii new delhi south delhi delhi",
+   "n2": "अलफ अल टकनलजज परइवट लमटड",
+   "a2": "no 990 c 2 greater kailash enclave part ii new delhi south delhi delhi"
+  },
+  {
+   "n1": "anand ventures",
+   "a1": "delhi 311 new delhi vishwasadan",
+   "n2": "आनद वचरस",
+   "a2": "new delhi delhi 00311"
+  },
+  {
+   "n1": "rm functional",
+   "a1": "no 56 k no 105 raghavendra nagar 2nd cr bangalore south bangalore karnataka",
+   "n2": "iriarc",
+   "a2": "h no 56 bangalore south bangalore karnataka"
+  },
+  {
+   "n1": "eastern consultants",
+   "a1": "plot no 09 sutrali bunglows l p savani road surat gujarat",
+   "n2": "ઈસટરન કનસલટનટસ પર લ",
+   "a2": "door no 11 surat gujarat"
+  },
+  {
+   "n1": "jain tech",
+   "a1": "g 1 room no 03 sarvodaya society nere road near vitthal mandir sukapur panvel raigarh maharashtra",
+   "n2": "जन टक परइवट लमटड",
+   "a2": "g 1 raigarh महरषटर"
+  },
+  {
+   "n1": "prudent affiliate",
+   "a1": "plot no 143 khata no 15 ramachandrapur back side of police station jatani bhubaneswar khordha orissa",
+   "n2": "tavozeph",
+   "a2": "plot no 6 143 bhubaneswar khordha orissa"
+  },
+  {
+   "n1": "jay properties",
+   "a1": "old no 61 2b new no 67 visaga thottam west saidapet chennai tamil nadu",
+   "n2": "ஜய பரபபரடடஸ பரவட லமடட",
+   "a2": "chennai madras old no 61 2b tamil nadu"
+  },
+  {
+   "n1": "apex tech",
+   "a1": "new delhi s 24 delhi second floor m b road south delhi",
+   "n2": "apex service",
+   "a2": "दलल no 199 s 24 second floor m b road new delhi"
+  },
+  {
+   "n1": "east galaxy solutions",
+   "a1": "survey block no 192 old survey no 451 taluka prantij village salal gujarat sabar kantha gujarat",
+   "n2": "ઈસટ ગલકસ સલયશનસ લમટડ",
+   "a2": "survey block no 192 gujarat"
+  },
+  {
+   "n1": "shakti al engineering",
+   "a1": "flat no 317 m v v residency new venkoji palem h b colony visakhapatnam vishakhapatnam andhra pradesh",
+   "n2": "శకత అల ఇజనరగ పరవట లమటడ",
+   "a2": "flat no 31 vishakhapatnam null andhra pradesh"
+  },
+  {
+   "n1": "best food",
+   "a1": "maharashtra gala residency haji bapu road malad east mumbai 402 mumbai city",
+   "n2": "बसट फड पर ल",
+   "a2": "02 n a mumbai mumbai suburban maharashtra"
+  },
+  {
+   "n1": "shivam producer",
+   "a1": "p 211 212 metro tower vijay nagar indore madhya pradesh",
+   "n2": "शवम परडयसर लमटड",
+   "a2": "h no 778 p 211 212 metro tower vijay nagar indore madhya pradesh"
+  },
+  {
+   "n1": "value realty digital",
+   "a1": "3606 glenwood avenue tx wichita falls",
+   "n2": "valuerealtydigital com",
+   "a2": "360 glenwood ave wichita falls tx"
+  },
+  {
+   "n1": "om constructions",
+   "a1": "plot no f222 phase 8b s a s nagar mohali rupnagar punjab",
+   "n2": "om c0nstructions",
+   "a2": "plot no fb3 222 phase 8b s a s nagar mohali punjab"
+  },
+  {
+   "n1": "cardiology regional center",
+   "a1": "mattawa 411 1st street wa",
+   "n2": "cardiology regional center l l c",
+   "a2": "wa 411 first st incorporated n a"
+  },
+  {
+   "n1": "vision global",
+   "a1": "house no 01 block c1 gali number 4 shyam kunj near maruti kunj bhondasi gurgaon haryana",
+   "n2": "वजन गलबल परइवट लमटड",
+   "a2": "house no 01 gurgaon haryana"
+  },
+  {
+   "n1": "eye star care associates",
+   "a1": "unit apartment b2 15 franklin street ny hempstead",
+   "n2": "eye care associates center",
+   "a2": "15 1 2 franklin st franklin square ny"
+  },
+  {
+   "n1": "global rajdarbar marketing",
+   "a1": "45 pocket e mayur vihar phase ii delhi",
+   "n2": "globalrajdarbarmarketingcom",
+   "a2": "block b 977 45 pocket e mayur vihar phase ii delhi"
+  },
+  {
+   "n1": "alexander and strunk",
+   "a1": "47 hammond street unit 804 boston ma",
+   "n2": "alexanderstrunk com",
+   "a2": "47 hamond st roxbury cossing ma"
+  },
+  {
+   "n1": "creative classic investments",
+   "a1": "52 601 a tolaram smruti chs chembur colony chembur mumbai mumbai city maharashtra",
+   "n2": "करएटव कलसक इनवसटमटस",
+   "a2": "601 a mumbai maharashtra"
+  },
+  {
+   "n1": "apex developers",
+   "a1": "d 300 ff defence colony 20 new delhi south delhi delhi",
+   "n2": "एपकस डवलपरस परइवट लमटड",
+   "a2": "दलल new delhi south delhi d 301 ff defence colony 20"
+  },
+  {
+   "n1": "royal technologies",
+   "a1": "4th floor hari om commercial comple bihar phulwari office no 409 patna",
+   "n2": "रयल टकनलजज परइवट लमटड",
+   "a2": "office no 409 phulwari dak bunglow bihar"
+  },
+  {
+   "n1": "cure massage",
+   "a1": "2314 80th street vancouver wa",
+   "n2": "cure msage",
+   "a2": "002314 80rd st wa vancouver"
+  },
+  {
+   "n1": "hari systems",
+   "a1": "56 6 26 1 t 7 sri sai nilaya apartment high school road patamata vijayawada krishna andhra pradesh",
+   "n2": "హర ససటమస పరవట లమటడ",
+   "a2": "773 56 6 26 1 vijayawada krishna andhra pradesh"
+  },
+  {
+   "n1": "classic ventures",
+   "a1": "n 149 ground floor greater kailash i new delhi delhi",
+   "n2": "कलसक वचरस परइवट लमटड",
+   "a2": "new delhi n 14 delhi new delhi"
+  }
+ ],
+ "grand_union name_df<=20000 addr_df<=10000": {
+  "pair_recall": 99.33,
+  "entity_all_recalled": 98.02
+ },
+ "no_name_token_overlap_categories": {
+  "indic_script": [
+   58630,
+   6.77
+  ],
+  "domain_style": [
+   40872,
+   4.72
+  ],
+  "other_rename_or_typo": [
+   27416,
+   3.17
+  ]
+ },
+ "examples_other_rename": [
+  {
+   "n1": "rm functional",
+   "business_name": "Iriarc",
+   "a1": "no 56 k no 105 raghavendra nagar 2nd cr bangalore south bangalore karnataka",
+   "a2": "h no 56 bangalore south bangalore karnataka"
+  },
+  {
+   "n1": "colonial family practice group",
+   "business_name": "Dovakor",
+   "a1": "6905 darmstadt road evansville in",
+   "a2": "evansville in 6905 c darmstadt rd"
+  },
+  {
+   "n1": "quick stock",
+   "business_name": "Mirabelozeph",
+   "a1": "65 23 bsr carthik enclave 4th cross ssi area bangalore north bangalore karnataka",
+   "a2": "65 2 bsr carthik enclave 4th cross ssi area bangalore north bangalore karnataka"
+  },
+  {
+   "n1": "o 2 o biopharmaceuticals",
+   "business_name": "o2ocom",
+   "a1": "156 towering oak court burleson tx",
+   "a2": "156 towering oak court burleson tx"
+  },
+  {
+   "n1": "stag",
+   "business_name": "Sag LLC",
+   "a1": "211 discovery road unit ste 2 martinsburg wv",
+   "a2": "211 discovery rd martinsburg wv"
+  },
+  {
+   "n1": "pacific materials dynamics",
+   "business_name": "pacificmaterialsdynamics.c0m",
+   "a1": "3135 27th street brownsville tx",
+   "a2": "3135 27th street brownsville tx"
+  },
+  {
+   "n1": "kokan india agro",
+   "business_name": "#KOKANINDIA",
+   "a1": "122 12th floor yugdharma chs ltd g m link rd opp inorbit mall goregaon west mumbai mumbai city maharashtra",
+   "a2": "1 22 12th floor yugdharma chs ltd g m link rd opp inorbit mall goregaon west mumbai maharashtra"
+  },
+  {
+   "n1": "anoop system",
+   "business_name": "Ectowexbelo",
+   "a1": "plot no 1 road no 82 above bank of india filmnagar jubliee hills hyderabad telangana",
+   "a2": "telangana hyderabad road no 82 above bank of india filmnagar jubliee hills hyderabad plot no 1"
+  },
+  {
+   "n1": "solance pet care",
+   "business_name": "Wexnovi",
+   "a1": "mt butte silver bow 1511 gaylord street",
+   "a2": "151 gaylord st butte mt"
+  },
+  {
+   "n1": "sharp fresh physical",
+   "business_name": "Zetazetaquo",
+   "a1": "26 ripple way clayton nc",
+   "a2": "96 ripple way pmb 311 clayton nc"
+  },
+  {
+   "n1": "yoga village",
+   "business_name": "#yogavillage",
+   "a1": "bangalore 1st floor ganesh layout kaggalipura karnataka no 1",
+   "a2": "no 1 1st floor ganesh layout kaggalipura bangalore karnataka"
+  },
+  {
+   "n1": "bhiwadi trading",
+   "business_name": "bhiwaditrading.c0m",
+   "a1": "c o annapurna jaiswal akhileshpur kandawa varanasi uttar pradesh",
+   "a2": "block f 892 c o annapurna jaiswal akhileshpur kandawa varanasi uttar pradesh"
+  },
+  {
+   "n1": "p t creative",
+   "business_name": "Umbrasol",
+   "a1": "8135 buffalo road oneida tn",
+   "a2": "8135 buffalo rd oneida tn"
+  },
+  {
+   "n1": "prudent affiliate",
+   "business_name": "Tavozeph",
+   "a1": "plot no 143 khata no 15 ramachandrapur back side of police station jatani bhubaneswar khordha orissa",
+   "a2": "plot no 6 143 bhubaneswar khordha orissa"
+  },
+  {
+   "n1": "ioa krakacquisition",
+   "business_name": "#ioakrakacquisition",
+   "a1": "4895 10 laurel mt",
+   "a2": "4895 10 laurel mt"
+  },
+  {
+   "n1": "a cure 7 all",
+   "business_name": "#cure7",
+   "a1": "tx mckinney 903 hills creek drive",
+   "a2": "903 hills creek drive mckinney tx"
+  },
+  {
+   "n1": "indian services",
+   "business_name": "Mr Quoevo",
+   "a1": "c o ajeet kumar village lahargawa p op s kesariya east champaran bihar east champaran",
+   "a2": "c o ajeet kumar village lahargawa p op s kesariya east champaran bihar"
+  },
+  {
+   "n1": "dental great clinic",
+   "business_name": "DOVAZETATAVO",
+   "a1": "4520 mimosa tree lane unit 1013 raleigh nc",
+   "a2": "4520 4524 mimosa tree ln raleigh nc"
+  },
+  {
+   "n1": "pinnacle harbor bce",
+   "business_name": "#pinnacleharbor",
+   "a1": "4963 4750 west haven ut",
+   "a2": "4963 4750 ut ogden"
+  },
+  {
+   "n1": "jacquez",
+   "business_name": "Jitqz Corporation Corp",
+   "a1": "buxton 30003 47 or",
+   "a2": "30003 47 buxton or"
+  }
+ ],
+ "orphans_total": 2681854,
+ "orphan_sample": {
+  "n": 200000,
+  "pct_with_same_name_S1": 21.21,
+  "pct_with_same_name_S1_and_addr_jac>=0.5": 5.83,
+  "pct_with_same_name_S1_and_addr_jac>=0.3": 11.56,
+  "pct_with_same_name_S1_and_shared_number": 4.93,
+  "mean_same_name_S1_per_orphan(when>0)": 14.4
+ },
+ "examples_orphan_near_miss": [
+  {
+   "name_core_sorted": "group louisa s",
+   "ao": "620 mountain shadow lane maryville tennessee",
+   "a1": "599 mountain shadow lane maryville tn"
+  },
+  {
+   "name_core_sorted": "l md roberts val",
+   "ao": "3936 michael john dr swansea il",
+   "a1": "il swansea 3933 michael john drive"
+  },
+  {
+   "name_core_sorted": "robichaud voya",
+   "ao": "95 erobi ln iowa city ia",
+   "a1": "82 erobi ln iowa city ia"
+  },
+  {
+   "name_core_sorted": "drinks saini",
+   "ao": "d 36 pocket c mayur vihar phase ii delhi",
+   "a1": "d 35 pocket c mayur vihar phase ii east delhi delhi"
+  },
+  {
+   "name_core_sorted": "dds helge w white",
+   "ao": "12008 rock spring dr coldstream ky",
+   "a1": "12007 rock spring dr coldstream ky"
+  },
+  {
+   "name_core_sorted": "bebe blackstone empire singletary",
+   "ao": "00151 forest oaks lane lake jackson tx",
+   "a1": "146 forest oaks lane lake jackson tx"
+  },
+  {
+   "name_core_sorted": "cruz rare",
+   "ao": "tn 08131 holly crest drive chattanooga",
+   "a1": "8120 holly crest drive chattanooga tn"
+  },
+  {
+   "name_core_sorted": "health jodhpur",
+   "ao": "b 35 49 industry estate jodhpur rajasthan",
+   "a1": "b 35 36 industry estate jodhpur rajasthan jodhpur"
+  },
+  {
+   "name_core_sorted": "dev enterprises",
+   "ao": "hn 304 plot no 1 2 3 annta enclave pol no 1 15 bulandshahar bulandshahr up",
+   "a1": "plot no 1 2 3 annta enclave pol no 1 13 bulandshahar up bulandshahar bulandshahr uttar pradesh"
+  },
+  {
+   "name_core_sorted": "exchange johnson",
+   "ao": "158 ice house canyon road globe arizona",
+   "a1": "8145 ice house canyon road globe az"
+  },
+  {
+   "name_core_sorted": "benton wholesale",
+   "ao": "8447 old ski run circle co sterling ranch",
+   "a1": "sterling ranch 8445 old ski run circle unit 102 co"
+  },
+  {
+   "name_core_sorted": "consultants devsons",
+   "ao": "flat no 208 plot no 189 kvk classic homes venture 3 kalyan nagar hyderabad tg",
+   "a1": "flat no 205 plot no 189 kvk classic homes venture 3 kalyan nagar hyderabad telangana"
+  },
+  {
+   "name_core_sorted": "digital marketing",
+   "ao": "door no 62 41 19th main bangalore karnataka",
+   "a1": "no 62 38 19th main padmanabhanagar bangalore karnataka"
+  },
+  {
+   "name_core_sorted": "greenfire teraor",
+   "ao": "209 high meadow dr mckinney tx",
+   "a1": "204 high meadow drive mckinney tx"
+  },
+  {
+   "name_core_sorted": "elite guinn royalty",
+   "ao": "7926 heim road chandler in",
+   "a1": "7922 heim road chandler in"
+  }
+ ],
+ "S1_entities_with_near_miss_orphan_in_200k_orphan_sample": 11648,
+ "scaled_estimate_pct_S1_with_near_miss_orphan": 7.08,
+ "train S2+S3 India: pct names by script": {
+  "devanagari": 10.34,
+  "bengali": 1.18,
+  "gurmukhi": 0.26,
+  "gujarati": 1.18,
+  "oriya": 0.29,
+  "tamil": 1.3,
+  "telugu": 1.51,
+  "kannada": 1.43,
+  "malayalam": 0.72,
+  "latin_accented": 4.86
+ },
+ "train S2+S3 India: pct addresses by script": {
+  "devanagari": 13.39,
+  "bengali": 1.53,
+  "gurmukhi": 0.35,
+  "gujarati": 1.53,
+  "oriya": 0.3,
+  "tamil": 1.69,
+  "telugu": 1.66,
+  "kannada": 1.88,
+  "malayalam": 0.75,
+  "latin_accented": 0.05
+ },
+ "train S2+S3 India: pct name entirely non-Latin (no a-z)": 16.92,
+ "test S2+S3 India: pct names by script": {
+  "devanagari": 10.39,
+  "bengali": 1.2,
+  "gurmukhi": 0.27,
+  "gujarati": 1.18,
+  "oriya": 0.29,
+  "tamil": 1.31,
+  "telugu": 1.52,
+  "kannada": 1.48,
+  "malayalam": 0.74,
+  "latin_accented": 4.44
+ },
+ "test S2+S3 India: pct addresses by script": {
+  "devanagari": 13.51,
+  "bengali": 1.55,
+  "gurmukhi": 0.34,
+  "gujarati": 1.56,
+  "oriya": 0.3,
+  "tamil": 1.72,
+  "telugu": 1.68,
+  "kannada": 1.91,
+  "malayalam": 0.76,
+  "latin_accented": 0.05
+ },
+ "test S2+S3 India: pct name entirely non-Latin (no a-z)": 17.1
+}

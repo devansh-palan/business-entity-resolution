@@ -1,0 +1,39 @@
+[    1s] queries 441,365 from train_source1; pool files ['artifacts/preprocessed/fold0\\train_source2.parquet', 'artifacts/preprocessed/fold0\\train_source3.parquet']
+[    9s]   exact_name_core_cap200       pairs=   8,895,298  [9s]
+[   15s]   name_core_house_number       pairs=     512,704  [15s]
+[   22s]   name_core_city_cap100        pairs=     875,357  [22s]
+[   30s]   exact_name_core_sorted_cap200 pairs=   8,926,535  [30s]
+[   36s]   name_core_sorted_house_number pairs=     537,426  [36s]
+[   43s]   name_core_sorted_city_cap100 pairs=     904,978  [43s]
+[   52s]   exact_name_compact_cap200    pairs=   9,182,949  [52s]
+[   57s]   name_compact_house_number    pairs=     542,302  [57s]
+[   65s]   name_compact_city_cap100     pairs=     909,351  [65s]
+[   72s]   exact_name_translit_core_sorted_cap200 pairs=  10,092,531  [72s]
+[   78s]   name_translit_core_sorted_house_number pairs=     588,140  [78s]
+[   86s]   name_translit_core_sorted_city_cap100 pairs=   1,135,534  [86s]
+[   93s]   state_house_street           pairs=   1,255,658  [93s]
+[  100s]   state_name_sorted            pairs=   2,228,451  [100s]
+[  109s]   city_name_first_cap100       pairs=   4,175,964  [109s]
+[  116s]   compact_name_state           pairs=   2,270,002  [116s]
+[  122s]   house_street_city_cap200     pairs=     871,435  [122s]
+[  128s]   sn_name_compact_w3           pairs=   2,648,190  [128s]
+[  136s]   sn_addr_sorted_w3            pairs=   2,648,190  [136s]
+[  141s]     retrieval India/S2: 176,638 queries x 57,846 pool, 9,919 features -> 879,416 pairs
+[  146s]     retrieval India/S3: 176,638 queries x 64,948 pool, 10,035 features -> 879,713 pairs
+[  163s]     retrieval US/S2: 264,727 queries x 111,121 pool, 11,716 features -> 1,319,684 pairs
+[  180s]     retrieval US/S3: 264,727 queries x 110,968 pool, 11,687 features -> 1,319,601 pairs
+[  180s]   addrless_name_ngram_top5     pairs=   4,398,414  [180s]
+[  236s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 422,394 features -> 3,520,779 pairs
+[  302s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 391,803 features -> 3,523,914 pairs
+[  369s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 213,973 features -> 5,294,447 pairs
+[  472s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 220,612 features -> 5,294,447 pairs
+[  472s]   addr_token_retrieval_top5    pairs=   4,410,414  [472s]
+[  565s]     retrieval India/S2: 176,638 queries x 2,017,799 pool, 462,371 features -> 3,530,656 pairs
+[  676s]     retrieval India/S3: 176,638 queries x 2,115,547 pool, 437,089 features -> 3,531,610 pairs
+[  837s]     retrieval US/S2: 264,727 queries x 3,016,817 pool, 292,625 features -> 5,294,533 pairs
+[ 1030s]     retrieval US/S3: 264,727 queries x 3,170,056 pool, 301,339 features -> 5,294,540 pairs
+[ 1030s]   name_addr_retrieval_top20    pairs=  17,651,339  [1030s]
+[ 1037s]   union: 40,233,392 pairs, mean 91.2, p95 241, max 696, 0 entities without candidates
+[ 1078s]   wrote artifacts/candidates/fold0/candidate_pairs_cli.tsv: {'rows': 441365, 'ids': 40233392, 'empty_rows': 0, 'problems': [], 'valid': True, 'path': 'artifacts/candidates/fold0/candidate_pairs_cli.tsv'}
+exit 0
+CLI file IDENTICAL to the measured file

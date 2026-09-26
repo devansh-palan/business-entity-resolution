@@ -1,0 +1,16 @@
+{
+ "path": "output/matching_results.tsv",
+ "entities": 1732544,
+ "pairs": 5724338,
+ "entities_with_matches": 1634982,
+ "singleton_share": 0.05631,
+ "mean_matches": 3.304,
+ "median_matches": 3.0,
+ "max_matches": 12,
+ "matches_s2": 2789727,
+ "matches_s3": 2934611,
+ "bytes": 96209089,
+ "threshold": 0.75,
+ "unique_pool": true,
+ "seconds": 8.8
+}

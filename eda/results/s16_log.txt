@@ -1,0 +1,15 @@
+[    1s] missed pairs 22,608 of 1,527,650 (positions verified)
+[    7s] pair table (22608, 81)
+[   15s] block sizes attached
+[   26s]   retrieval diagnosis India/S2: 4,988 pairs, 2,017,799 pool, in top-100: 1,722
+[   39s]   retrieval diagnosis US/S2: 5,421 pairs, 3,016,817 pool, in top-100: 2,308
+[   50s]   retrieval diagnosis India/S3: 6,880 pairs, 2,115,547 pool, in top-100: 2,254
+[   63s]   retrieval diagnosis US/S3: 5,319 pairs, 3,170,056 pool, in top-100: 2,198
+[   65s] causes {"missing address": 7286, "retrieval failure": 829, "candidate limit too small": 5530, "name variation": 2113, "typo": 53, "abbreviation": 1463, "transliteration": 5, "address variation": 1123, "blocking collision": 3356, "missing name": 0, "country variation": 0, "other": 850}
+[   65s] ranks {"rank_21_30": 2286, "rank_31_50": 2719, "rank_51_100": 3332, "not_in_top_100": 14126, "cosine_below_0.2_threshold": 6246}
+[   92s]   key name_any_house_number            mean=1.4 p95=4 recovers 554 misses
+[  130s]   key name_any_city                    mean=2.7 p95=7 recovers 2,729 misses
+[  141s]   key compact_name_state               mean=5.1 p95=19 recovers 333 misses
+[  148s]   key house_street_city                mean=2.0 p95=6 recovers 20 misses
+[  149s] saved eda/results/s16_miss_analysis.json
+exit 0

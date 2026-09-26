@@ -1,0 +1,20 @@
+{
+ "ens2": {
+  "rule": "p>=0.70 +unique",
+  "tune": 0.97029,
+  "report": 0.97015,
+  "singletons_empty": 0.93937,
+  "one": 0.91628,
+  "multi": 0.97547,
+  "fp_entities": 1928
+ },
+ "ens3": {
+  "rule": "p>=0.60 +unique",
+  "tune": 0.96782,
+  "report": 0.96802,
+  "singletons_empty": 0.93016,
+  "one": 0.91523,
+  "multi": 0.97374,
+  "fp_entities": 2182
+ }
+}

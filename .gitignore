@@ -1,0 +1,29 @@
+# secrets (copy the .example files and fill in your own account)
+sagemaker/.env
+sagemaker/remote.env
+sagemaker/config.json
+sagemaker/.console_login.txt
+
+# organisers' data (2.2 GB) and everything regenerable from it
+student_resource/dataset/
+artifacts/_scratch/
+artifacts/preprocessed/
+artifacts/scores/
+artifacts/features/**/part_*.parquet
+artifacts/features/**/_pool_stats/
+artifacts/candidates/**/candidate_pairs*.tsv
+artifacts/candidates/**/candidate_pairs*.parquet
+artifacts/candidates/**/final_pairs.parquet
+artifacts/candidates/**/strategies/
+artifacts/models/**/val_scores.parquet
+artifacts/validation/entity_folds.parquet
+artifacts/validation/positive_pairs.parquet
+artifacts/validation/*_ground_truth.tsv
+artifacts/cloud/
+output/
+
+# python
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store

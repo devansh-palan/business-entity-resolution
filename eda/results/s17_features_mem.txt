@@ -1,0 +1,1 @@
+﻿peak total python working set GB: 5.18; min free RAM GB: 1.41

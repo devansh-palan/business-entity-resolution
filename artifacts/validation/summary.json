@@ -1,0 +1,140 @@
+{
+ "n_entities": 2206821,
+ "n_folds": 5,
+ "seed": 0,
+ "clusters": {
+  "merge_address": true,
+  "addr_max_group": 3,
+  "n_clusters": 1276462,
+  "max_cluster": 6531,
+  "clusters_size_1": 1072762,
+  "entities_in_clusters_ge_10": 578193
+ },
+ "folds": {
+  "0": {
+   "entities": 441365,
+   "positives": 1527650,
+   "country_pct": {
+    "India": 40.021,
+    "US": 59.979
+   },
+   "k_class_pct": {
+    "0": 5.593,
+    "1": 5.413,
+    "2": 17.079,
+    "3+": 71.916
+   },
+   "pattern_pct": {
+    "none": 5.593,
+    "S2 only": 6.494,
+    "S3 only": 7.501,
+    "both": 80.412
+   },
+   "mean_n_true": 3.4612,
+   "mean_n_s2": 1.6729,
+   "mean_n_s3": 1.7883,
+   "max_cluster_size": 6531,
+   "pct_in_clusters_ge_10": 26.201
+  },
+  "1": {
+   "entities": 441365,
+   "positives": 1529961,
+   "country_pct": {
+    "India": 40.021,
+    "US": 59.979
+   },
+   "k_class_pct": {
+    "0": 5.553,
+    "1": 5.32,
+    "2": 16.92,
+    "3+": 72.207
+   },
+   "pattern_pct": {
+    "none": 5.553,
+    "S2 only": 6.437,
+    "S3 only": 7.373,
+    "both": 80.637
+   },
+   "mean_n_true": 3.4664,
+   "mean_n_s2": 1.677,
+   "mean_n_s3": 1.7895,
+   "max_cluster_size": 3174,
+   "pct_in_clusters_ge_10": 26.199
+  },
+  "2": {
+   "entities": 441365,
+   "positives": 1527378,
+   "country_pct": {
+    "India": 40.021,
+    "US": 59.979
+   },
+   "k_class_pct": {
+    "0": 5.634,
+    "1": 5.418,
+    "2": 16.979,
+    "3+": 71.969
+   },
+   "pattern_pct": {
+    "none": 5.634,
+    "S2 only": 6.476,
+    "S3 only": 7.412,
+    "both": 80.479
+   },
+   "mean_n_true": 3.4606,
+   "mean_n_s2": 1.6739,
+   "mean_n_s3": 1.7867,
+   "max_cluster_size": 3157,
+   "pct_in_clusters_ge_10": 26.199
+  },
+  "3": {
+   "entities": 441363,
+   "positives": 1527765,
+   "country_pct": {
+    "India": 40.021,
+    "US": 59.979
+   },
+   "k_class_pct": {
+    "0": 5.561,
+    "1": 5.388,
+    "2": 16.968,
+    "3+": 72.083
+   },
+   "pattern_pct": {
+    "none": 5.561,
+    "S2 only": 6.508,
+    "S3 only": 7.45,
+    "both": 80.482
+   },
+   "mean_n_true": 3.4615,
+   "mean_n_s2": 1.675,
+   "mean_n_s3": 1.7865,
+   "max_cluster_size": 2917,
+   "pct_in_clusters_ge_10": 26.199
+  },
+  "4": {
+   "entities": 441363,
+   "positives": 1525611,
+   "country_pct": {
+    "India": 40.021,
+    "US": 59.979
+   },
+   "k_class_pct": {
+    "0": 5.584,
+    "1": 5.46,
+    "2": 17.065,
+    "3+": 71.891
+   },
+   "pattern_pct": {
+    "none": 5.584,
+    "S2 only": 6.491,
+    "S3 only": 7.535,
+    "both": 80.39
+   },
+   "mean_n_true": 3.4566,
+   "mean_n_s2": 1.6699,
+   "mean_n_s3": 1.7867,
+   "max_cluster_size": 2532,
+   "pct_in_clusters_ge_10": 26.203
+  }
+ }
+}

@@ -1,0 +1,8 @@
+[16:58:32] 2/5 candidate generation (13 strategies)
+[17:11:31] candidates FAILED
+[  344s]     retrieval US/S3: 663,106 queries x 55,317 pool, 9,824 features -> 3,284,518 pairs
+[  344s]   addrless_name_ngram_top5     pairs=  17,193,741  [344s]
+[  351s]     retrieval France/S2: 259,452 queries x 703,378 pool, 31,119 features -> 5,128,125 pairs
+[  359s]     retrieval France/S3: 259,452 queries x 731,615 pool, 31,123 features -> 5,131,682 pairs
+[  657s]     retrieval India/S2: 809,986 queries x 2,312,565 pool, 491,262 features -> 16,144,152 pairs
+exit 1

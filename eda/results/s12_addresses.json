@@ -1,0 +1,3882 @@
+{
+ "A_S1": {
+  "India": {
+   "n": 883188,
+   "components_mean": 5.66,
+   "components_dist_pct": {
+    "2": 0.1,
+    "3": 7.0,
+    "4": 19.2,
+    "5": 23.8,
+    "6": 21.8,
+    "7": 15.1,
+    "8": 7.8,
+    "9": 5.3
+   },
+   "last_component_top": [
+    [
+     "Maharashtra",
+     161430
+    ],
+    [
+     "Delhi",
+     103887
+    ],
+    [
+     "Uttar Pradesh",
+     62138
+    ],
+    [
+     "Karnataka",
+     58993
+    ],
+    [
+     "Tamil Nadu",
+     53208
+    ],
+    [
+     "Gujarat",
+     48340
+    ],
+    [
+     "West Bengal",
+     47987
+    ],
+    [
+     "Telangana",
+     47118
+    ],
+    [
+     "Haryana",
+     30235
+    ],
+    [
+     "Kerala",
+     29716
+    ],
+    [
+     "Rajasthan",
+     27137
+    ],
+    [
+     "Bihar",
+     19176
+    ],
+    [
+     "Madhya Pradesh",
+     18970
+    ],
+    [
+     "Andhra Pradesh",
+     14638
+    ],
+    [
+     "Orissa",
+     11740
+    ],
+    [
+     "Punjab",
+     10949
+    ],
+    [
+     "Mumbai",
+     4430
+    ],
+    [
+     "New Delhi",
+     3580
+    ],
+    [
+     "Bangalore",
+     3337
+    ],
+    [
+     "Pune",
+     2684
+    ],
+    [
+     "Hyderabad",
+     2541
+    ],
+    [
+     "Kolkata",
+     2398
+    ],
+    [
+     "Chennai",
+     1975
+    ],
+    [
+     "Thane",
+     1580
+    ],
+    [
+     "Ahmedabad",
+     1505
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 26.67,
+   "last_component_2_capitals_pct": 0.0
+  },
+  "US": {
+   "n": 1323633,
+   "components_mean": 3.16,
+   "components_dist_pct": {
+    "2": 0.0,
+    "3": 84.2,
+    "4": 15.8
+   },
+   "last_component_top": [
+    [
+     "TX",
+     115380
+    ],
+    [
+     "NY",
+     88423
+    ],
+    [
+     "NC",
+     81671
+    ],
+    [
+     "OH",
+     73740
+    ],
+    [
+     "IL",
+     65443
+    ],
+    [
+     "TN",
+     51545
+    ],
+    [
+     "VA",
+     51494
+    ],
+    [
+     "MA",
+     48921
+    ],
+    [
+     "AZ",
+     48646
+    ],
+    [
+     "IN",
+     42758
+    ],
+    [
+     "WA",
+     36511
+    ],
+    [
+     "MD",
+     35030
+    ],
+    [
+     "CA",
+     32176
+    ],
+    [
+     "AL",
+     28185
+    ],
+    [
+     "WI",
+     27140
+    ],
+    [
+     "MN",
+     26963
+    ],
+    [
+     "OR",
+     25781
+    ],
+    [
+     "KY",
+     25353
+    ],
+    [
+     "AR",
+     23311
+    ],
+    [
+     "MO",
+     22356
+    ],
+    [
+     "UT",
+     19993
+    ],
+    [
+     "OK",
+     19607
+    ],
+    [
+     "IA",
+     19494
+    ],
+    [
+     "CT",
+     15922
+    ],
+    [
+     "WV",
+     13815
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 85.97,
+   "last_component_2_capitals_pct": 86.39
+  }
+ },
+ "A_S2": {
+  "India": {
+   "n": 1959953,
+   "components_mean": 4.98,
+   "components_dist_pct": {
+    "2": 0.1,
+    "3": 17.8,
+    "4": 27.8,
+    "5": 20.8,
+    "6": 16.5,
+    "7": 9.7,
+    "8": 4.5,
+    "9": 2.8
+   },
+   "last_component_top": [
+    [
+     "Maharashtra",
+     280302
+    ],
+    [
+     "Delhi",
+     172523
+    ],
+    [
+     "Uttar Pradesh",
+     107449
+    ],
+    [
+     "Karnataka",
+     103049
+    ],
+    [
+     "महाराष्ट्र",
+     94232
+    ],
+    [
+     "Tamil Nadu",
+     92822
+    ],
+    [
+     "Gujarat",
+     84129
+    ],
+    [
+     "West Bengal",
+     83869
+    ],
+    [
+     "Telangana",
+     66205
+    ],
+    [
+     "दिल्ली",
+     58974
+    ],
+    [
+     "Haryana",
+     52309
+    ],
+    [
+     "Rajasthan",
+     47222
+    ],
+    [
+     "Andhra Pradesh",
+     47018
+    ],
+    [
+     "Kerala",
+     41614
+    ],
+    [
+     "उत्तर प्रदेश",
+     36157
+    ],
+    [
+     "ಕರ್ನಾಟಕ",
+     34055
+    ],
+    [
+     "Bihar",
+     33760
+    ],
+    [
+     "Madhya Pradesh",
+     32964
+    ],
+    [
+     "தமிழ்நாடு",
+     30610
+    ],
+    [
+     "পশ্চিমবঙ্গ",
+     28072
+    ],
+    [
+     "ગુજરાત",
+     27752
+    ],
+    [
+     "తెలంగాణ",
+     22022
+    ],
+    [
+     "Punjab",
+     18861
+    ],
+    [
+     "हरियाणा",
+     17361
+    ],
+    [
+     "Odisha",
+     16408
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 24.85,
+   "last_component_2_capitals_pct": 0.01
+  },
+  "US": {
+   "n": 2905696,
+   "components_mean": 3.07,
+   "components_dist_pct": {
+    "2": 0.0,
+    "3": 92.5,
+    "4": 7.5
+   },
+   "last_component_top": [
+    [
+     "TX",
+     253091
+    ],
+    [
+     "NY",
+     194856
+    ],
+    [
+     "NC",
+     179658
+    ],
+    [
+     "OH",
+     162105
+    ],
+    [
+     "IL",
+     143415
+    ],
+    [
+     "VA",
+     113661
+    ],
+    [
+     "TN",
+     113357
+    ],
+    [
+     "AZ",
+     107782
+    ],
+    [
+     "MA",
+     107752
+    ],
+    [
+     "IN",
+     93562
+    ],
+    [
+     "WA",
+     80031
+    ],
+    [
+     "MD",
+     76855
+    ],
+    [
+     "CA",
+     71083
+    ],
+    [
+     "AL",
+     61806
+    ],
+    [
+     "WI",
+     59697
+    ],
+    [
+     "MN",
+     59007
+    ],
+    [
+     "OR",
+     56855
+    ],
+    [
+     "KY",
+     56010
+    ],
+    [
+     "AR",
+     51320
+    ],
+    [
+     "MO",
+     49480
+    ],
+    [
+     "UT",
+     43749
+    ],
+    [
+     "OK",
+     43151
+    ],
+    [
+     "IA",
+     42469
+    ],
+    [
+     "CT",
+     35149
+    ],
+    [
+     "WV",
+     30257
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 80.48,
+   "last_component_2_capitals_pct": 86.52
+  }
+ },
+ "A_S3": {
+  "India": {
+   "n": 2050599,
+   "components_mean": 4.85,
+   "components_dist_pct": {
+    "1": 0.0,
+    "2": 0.1,
+    "3": 20.1,
+    "4": 34.3,
+    "5": 15.3,
+    "6": 13.1,
+    "7": 9.1,
+    "8": 4.7,
+    "9": 3.2
+   },
+   "last_component_top": [
+    [
+     "MH",
+     268344
+    ],
+    [
+     "DL",
+     170479
+    ],
+    [
+     "UP",
+     103243
+    ],
+    [
+     "KA",
+     98030
+    ],
+    [
+     "महाराष्ट्र",
+     89606
+    ],
+    [
+     "TN",
+     88283
+    ],
+    [
+     "WB",
+     80634
+    ],
+    [
+     "GJ",
+     80490
+    ],
+    [
+     "TG",
+     62614
+    ],
+    [
+     "दिल्ली",
+     56638
+    ],
+    [
+     "HR",
+     50384
+    ],
+    [
+     "RJ",
+     44914
+    ],
+    [
+     "KL",
+     39614
+    ],
+    [
+     "उत्तर प्रदेश",
+     34513
+    ],
+    [
+     "ಕರ್ನಾಟಕ",
+     32880
+    ],
+    [
+     "MP",
+     31774
+    ],
+    [
+     "BR",
+     31683
+    ],
+    [
+     "தமிழ்நாடு",
+     29662
+    ],
+    [
+     "ગુજરાત",
+     26715
+    ],
+    [
+     "পশ্চিমবঙ্গ",
+     26546
+    ],
+    [
+     "AP",
+     24330
+    ],
+    [
+     "Andhra Pradesh",
+     22791
+    ],
+    [
+     "తెలంగాణ",
+     21155
+    ],
+    [
+     "Maharashtra",
+     18461
+    ],
+    [
+     "PB",
+     18272
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 24.17,
+   "last_component_2_capitals_pct": 58.94
+  },
+  "US": {
+   "n": 3059088,
+   "components_mean": 3.19,
+   "components_dist_pct": {
+    "2": 0.0,
+    "3": 80.4,
+    "4": 19.5
+   },
+   "last_component_top": [
+    [
+     "Texas",
+     253243
+    ],
+    [
+     "New York",
+     194160
+    ],
+    [
+     "North Carolina",
+     179426
+    ],
+    [
+     "Ohio",
+     161661
+    ],
+    [
+     "Illinois",
+     143592
+    ],
+    [
+     "Virginia",
+     113194
+    ],
+    [
+     "Tennessee",
+     113021
+    ],
+    [
+     "Massachusetts",
+     107566
+    ],
+    [
+     "Arizona",
+     107208
+    ],
+    [
+     "Indiana",
+     93802
+    ],
+    [
+     "Washington",
+     80994
+    ],
+    [
+     "Maryland",
+     77194
+    ],
+    [
+     "California",
+     71005
+    ],
+    [
+     "Alabama",
+     61879
+    ],
+    [
+     "Wisconsin",
+     59959
+    ],
+    [
+     "Minnesota",
+     59127
+    ],
+    [
+     "Oregon",
+     56389
+    ],
+    [
+     "Kentucky",
+     55893
+    ],
+    [
+     "Arkansas",
+     51509
+    ],
+    [
+     "Missouri",
+     48710
+    ],
+    [
+     "Utah",
+     43647
+    ],
+    [
+     "Oklahoma",
+     42952
+    ],
+    [
+     "Iowa",
+     42615
+    ],
+    [
+     "Connecticut",
+     34841
+    ],
+    [
+     "West Virginia",
+     30050
+    ]
+   ],
+   "first_component_starts_with_digit_pct": 80.82,
+   "last_component_2_capitals_pct": 4.26
+  }
+ },
+ "B_state_alias_from_pairs": {
+  "India|Maharashtra": {
+   "pairs": 21134,
+   "match_last_component_top": [
+    [
+     "Maharashtra",
+     34.9
+    ],
+    [
+     "MH",
+     30.6
+    ],
+    [
+     "महाराष्ट्र",
+     21.0
+    ],
+    [
+     "MUMBAI",
+     1.2
+    ],
+    [
+     "Mumbai",
+     1.1
+    ],
+    [
+     "Pune",
+     0.6
+    ]
+   ]
+  },
+  "US|TX": {
+   "pairs": 14778,
+   "match_last_component_top": [
+    [
+     "TX",
+     44.9
+    ],
+    [
+     "Texas",
+     41.3
+    ],
+    [
+     "Houston",
+     0.3
+    ],
+    [
+     "HOUSTON",
+     0.3
+    ],
+    [
+     "DALLAS",
+     0.2
+    ],
+    [
+     "AUSTIN",
+     0.1
+    ]
+   ]
+  },
+  "India|Delhi": {
+   "pairs": 13437,
+   "match_last_component_top": [
+    [
+     "Delhi",
+     34.3
+    ],
+    [
+     "DL",
+     30.7
+    ],
+    [
+     "दिल्ली",
+     20.8
+    ],
+    [
+     "DELHI",
+     2.1
+    ],
+    [
+     "NEW DELHI",
+     1.8
+    ],
+    [
+     "New Delhi",
+     1.4
+    ]
+   ]
+  },
+  "US|NY": {
+   "pairs": 11568,
+   "match_last_component_top": [
+    [
+     "NY",
+     45.0
+    ],
+    [
+     "New York",
+     41.5
+    ],
+    [
+     "BROOKLYN",
+     0.2
+    ],
+    [
+     "Brooklyn",
+     0.2
+    ],
+    [
+     "BUFFALO",
+     0.1
+    ],
+    [
+     "ROCHESTER",
+     0.1
+    ]
+   ]
+  },
+  "US|NC": {
+   "pairs": 10711,
+   "match_last_component_top": [
+    [
+     "NC",
+     44.6
+    ],
+    [
+     "North Carolina",
+     42.0
+    ],
+    [
+     "Charlotte",
+     0.3
+    ],
+    [
+     "CHARLOTTE",
+     0.2
+    ],
+    [
+     "Raleigh",
+     0.2
+    ],
+    [
+     "Greensboro",
+     0.1
+    ]
+   ]
+  },
+  "US|OH": {
+   "pairs": 9678,
+   "match_last_component_top": [
+    [
+     "OH",
+     44.0
+    ],
+    [
+     "Ohio",
+     42.1
+    ],
+    [
+     "COLUMBUS",
+     0.3
+    ],
+    [
+     "Columbus",
+     0.2
+    ],
+    [
+     "CINCINNATI",
+     0.2
+    ],
+    [
+     "Cincinnati",
+     0.1
+    ]
+   ]
+  },
+  "US|IL": {
+   "pairs": 8444,
+   "match_last_component_top": [
+    [
+     "IL",
+     44.1
+    ],
+    [
+     "Illinois",
+     41.6
+    ],
+    [
+     "CHICAGO",
+     0.3
+    ],
+    [
+     "Chicago",
+     0.3
+    ],
+    [
+     "Springfield",
+     0.1
+    ],
+    [
+     "ELGIN",
+     0.1
+    ]
+   ]
+  },
+  "India|Uttar Pradesh": {
+   "pairs": 8202,
+   "match_last_component_top": [
+    [
+     "Uttar Pradesh",
+     34.4
+    ],
+    [
+     "UP",
+     30.8
+    ],
+    [
+     "उत्तर प्रदेश",
+     21.1
+    ],
+    [
+     "LUCKNOW",
+     0.8
+    ],
+    [
+     "Lucknow",
+     0.7
+    ],
+    [
+     "NOIDA",
+     0.6
+    ]
+   ]
+  },
+  "India|Karnataka": {
+   "pairs": 7599,
+   "match_last_component_top": [
+    [
+     "Karnataka",
+     34.8
+    ],
+    [
+     "KA",
+     31.6
+    ],
+    [
+     "ಕರ್ನಾಟಕ",
+     20.0
+    ],
+    [
+     "Bangalore",
+     2.0
+    ],
+    [
+     "BANGALORE",
+     1.7
+    ],
+    [
+     "BANGALORE SOUTH",
+     0.7
+    ]
+   ]
+  },
+  "India|Tamil Nadu": {
+   "pairs": 7008,
+   "match_last_component_top": [
+    [
+     "Tamil Nadu",
+     34.1
+    ],
+    [
+     "TN",
+     31.1
+    ],
+    [
+     "தமிழ்நாடு",
+     20.9
+    ],
+    [
+     "CHENNAI",
+     1.4
+    ],
+    [
+     "Chennai",
+     1.4
+    ],
+    [
+     "Coimbatore",
+     0.5
+    ]
+   ]
+  },
+  "US|VA": {
+   "pairs": 6773,
+   "match_last_component_top": [
+    [
+     "VA",
+     44.5
+    ],
+    [
+     "Virginia",
+     42.6
+    ],
+    [
+     "Fairfax County",
+     0.1
+    ],
+    [
+     "FAIRFAX COUNTY",
+     0.1
+    ],
+    [
+     "VIRGINIA BEACH CITY",
+     0.1
+    ],
+    [
+     "Chesterfield County",
+     0.1
+    ]
+   ]
+  },
+  "US|TN": {
+   "pairs": 6580,
+   "match_last_component_top": [
+    [
+     "TN",
+     44.0
+    ],
+    [
+     "Tennessee",
+     42.2
+    ],
+    [
+     "Nashville",
+     0.3
+    ],
+    [
+     "NASHVILLE",
+     0.3
+    ],
+    [
+     "KNOXVILLE",
+     0.2
+    ],
+    [
+     "Knoxville",
+     0.2
+    ]
+   ]
+  },
+  "US|MA": {
+   "pairs": 6351,
+   "match_last_component_top": [
+    [
+     "MA",
+     44.5
+    ],
+    [
+     "Massachusetts",
+     41.3
+    ],
+    [
+     "BOSTON",
+     0.2
+    ],
+    [
+     "Boston",
+     0.2
+    ],
+    [
+     "LOWELL",
+     0.1
+    ],
+    [
+     "Worcester",
+     0.1
+    ]
+   ]
+  },
+  "India|Gujarat": {
+   "pairs": 6344,
+   "match_last_component_top": [
+    [
+     "Gujarat",
+     35.0
+    ],
+    [
+     "GJ",
+     29.9
+    ],
+    [
+     "ગુજરાત",
+     20.6
+    ],
+    [
+     "Ahmedabad",
+     1.5
+    ],
+    [
+     "AHMEDABAD",
+     1.2
+    ],
+    [
+     "Vadodara",
+     0.5
+    ]
+   ]
+  },
+  "US|AZ": {
+   "pairs": 6331,
+   "match_last_component_top": [
+    [
+     "AZ",
+     44.5
+    ],
+    [
+     "Arizona",
+     42.2
+    ],
+    [
+     "PHOENIX",
+     0.4
+    ],
+    [
+     "Tucson",
+     0.2
+    ],
+    [
+     "Phoenix",
+     0.2
+    ],
+    [
+     "TUCSON",
+     0.2
+    ]
+   ]
+  },
+  "India|West Bengal": {
+   "pairs": 6270,
+   "match_last_component_top": [
+    [
+     "West Bengal",
+     34.7
+    ],
+    [
+     "WB",
+     30.9
+    ],
+    [
+     "পশ্চিমবঙ্গ",
+     20.8
+    ],
+    [
+     "KOLKATA",
+     2.8
+    ],
+    [
+     "Kolkata",
+     1.6
+    ],
+    [
+     "Howrah",
+     1.0
+    ]
+   ]
+  },
+  "India|Telangana": {
+   "pairs": 6237,
+   "match_last_component_top": [
+    [
+     "Telangana",
+     29.2
+    ],
+    [
+     "TG",
+     24.5
+    ],
+    [
+     "తెలంగాణ",
+     16.9
+    ],
+    [
+     "Andhra Pradesh",
+     15.9
+    ],
+    [
+     "HYDERABAD",
+     2.3
+    ],
+    [
+     "Hyderabad",
+     2.0
+    ]
+   ]
+  },
+  "US|IN": {
+   "pairs": 5466,
+   "match_last_component_top": [
+    [
+     "IN",
+     44.3
+    ],
+    [
+     "Indiana",
+     42.9
+    ],
+    [
+     "INDIANAPOLIS",
+     0.4
+    ],
+    [
+     "Indianapolis",
+     0.3
+    ],
+    [
+     "MUNCIE",
+     0.1
+    ],
+    [
+     "EVANSVILLE",
+     0.1
+    ]
+   ]
+  },
+  "US|WA": {
+   "pairs": 4866,
+   "match_last_component_top": [
+    [
+     "WA",
+     44.4
+    ],
+    [
+     "Washington",
+     41.3
+    ],
+    [
+     "Seattle",
+     0.3
+    ],
+    [
+     "SEATTLE",
+     0.2
+    ],
+    [
+     "Spokane",
+     0.2
+    ],
+    [
+     "TACOMA",
+     0.1
+    ]
+   ]
+  },
+  "US|MD": {
+   "pairs": 4496,
+   "match_last_component_top": [
+    [
+     "MD",
+     44.4
+    ],
+    [
+     "Maryland",
+     42.3
+    ],
+    [
+     "BALTIMORE",
+     0.3
+    ],
+    [
+     "Baltimore",
+     0.2
+    ],
+    [
+     "UPPER MARLBORO",
+     0.1
+    ],
+    [
+     "Silver Spring",
+     0.1
+    ]
+   ]
+  },
+  "US|CA": {
+   "pairs": 4083,
+   "match_last_component_top": [
+    [
+     "CA",
+     43.9
+    ],
+    [
+     "California",
+     42.3
+    ],
+    [
+     "Sacramento",
+     0.5
+    ],
+    [
+     "SACRAMENTO",
+     0.3
+    ],
+    [
+     "NULL",
+     0.1
+    ],
+    [
+     "COSTA MESA",
+     0.1
+    ]
+   ]
+  },
+  "India|Haryana": {
+   "pairs": 4019,
+   "match_last_component_top": [
+    [
+     "Haryana",
+     34.8
+    ],
+    [
+     "HR",
+     31.0
+    ],
+    [
+     "हरियाणा",
+     20.5
+    ],
+    [
+     "Gurgaon",
+     1.2
+    ],
+    [
+     "GURGAON",
+     1.0
+    ],
+    [
+     "Faridabad",
+     0.7
+    ]
+   ]
+  },
+  "India|Kerala": {
+   "pairs": 3849,
+   "match_last_component_top": [
+    [
+     "Kerala",
+     28.3
+    ],
+    [
+     "KL",
+     25.6
+    ],
+    [
+     "Keralam",
+     16.3
+    ],
+    [
+     "കേരളം",
+     16.1
+    ],
+    [
+     "ERNAKULAM",
+     0.8
+    ],
+    [
+     "Ernakulam",
+     0.8
+    ]
+   ]
+  },
+  "US|AL": {
+   "pairs": 3655,
+   "match_last_component_top": [
+    [
+     "AL",
+     43.9
+    ],
+    [
+     "Alabama",
+     42.7
+    ],
+    [
+     "MOBILE",
+     0.3
+    ],
+    [
+     "Mobile",
+     0.2
+    ],
+    [
+     "Huntsville",
+     0.2
+    ],
+    [
+     "MONTGOMERY",
+     0.2
+    ]
+   ]
+  },
+  "US|WI": {
+   "pairs": 3490,
+   "match_last_component_top": [
+    [
+     "Wisconsin",
+     43.2
+    ],
+    [
+     "WI",
+     42.0
+    ],
+    [
+     "NULL",
+     0.1
+    ],
+    [
+     "CITY OF OSHKOSH",
+     0.1
+    ],
+    [
+     "City Of Kenosha",
+     0.1
+    ],
+    [
+     "City Of Janesville",
+     0.1
+    ]
+   ]
+  },
+  "India|Rajasthan": {
+   "pairs": 3470,
+   "match_last_component_top": [
+    [
+     "Rajasthan",
+     36.0
+    ],
+    [
+     "RJ",
+     29.8
+    ],
+    [
+     "राजस्थान",
+     20.0
+    ],
+    [
+     "Jaipur",
+     2.2
+    ],
+    [
+     "JAIPUR",
+     2.1
+    ],
+    [
+     "UDAIPUR",
+     0.3
+    ]
+   ]
+  },
+  "US|OR": {
+   "pairs": 3465,
+   "match_last_component_top": [
+    [
+     "OR",
+     43.6
+    ],
+    [
+     "Oregon",
+     41.3
+    ],
+    [
+     "PORTLAND",
+     0.5
+    ],
+    [
+     "Portland",
+     0.4
+    ],
+    [
+     "BEAVERTON",
+     0.3
+    ],
+    [
+     "Salem",
+     0.3
+    ]
+   ]
+  },
+  "US|MN": {
+   "pairs": 3407,
+   "match_last_component_top": [
+    [
+     "MN",
+     45.2
+    ],
+    [
+     "Minnesota",
+     41.6
+    ],
+    [
+     "Minneapolis",
+     0.3
+    ],
+    [
+     "MINNEAPOLIS",
+     0.2
+    ],
+    [
+     "SAINT PAUL",
+     0.2
+    ],
+    [
+     "WOODBURY",
+     0.1
+    ]
+   ]
+  },
+  "US|KY": {
+   "pairs": 3281,
+   "match_last_component_top": [
+    [
+     "KY",
+     44.7
+    ],
+    [
+     "Kentucky",
+     42.0
+    ],
+    [
+     "Louisville",
+     0.7
+    ],
+    [
+     "LOUISVILLE",
+     0.2
+    ],
+    [
+     "Owensboro",
+     0.2
+    ],
+    [
+     "Bowling Green",
+     0.2
+    ]
+   ]
+  },
+  "US|AR": {
+   "pairs": 3034,
+   "match_last_component_top": [
+    [
+     "AR",
+     43.6
+    ],
+    [
+     "Arkansas",
+     43.0
+    ],
+    [
+     "LITTLE ROCK",
+     0.2
+    ],
+    [
+     "Little Rock",
+     0.2
+    ],
+    [
+     "Benton",
+     0.2
+    ],
+    [
+     "BENTONVILLE",
+     0.1
+    ]
+   ]
+  },
+  "US|MO": {
+   "pairs": 2993,
+   "match_last_component_top": [
+    [
+     "MO",
+     45.4
+    ],
+    [
+     "Missouri",
+     40.1
+    ],
+    [
+     "Saint Louis",
+     0.4
+    ],
+    [
+     "SAINT LOUIS",
+     0.3
+    ],
+    [
+     "KANSAS CITY",
+     0.3
+    ],
+    [
+     "Kansas City",
+     0.3
+    ]
+   ]
+  },
+  "US|UT": {
+   "pairs": 2596,
+   "match_last_component_top": [
+    [
+     "UT",
+     47.1
+    ],
+    [
+     "Utah",
+     39.4
+    ],
+    [
+     "Salt Lake City",
+     0.3
+    ],
+    [
+     "Clearfield",
+     0.2
+    ],
+    [
+     "Provo",
+     0.2
+    ],
+    [
+     "SALT LAKE CITY",
+     0.2
+    ]
+   ]
+  },
+  "India|Madhya Pradesh": {
+   "pairs": 2566,
+   "match_last_component_top": [
+    [
+     "Madhya Pradesh",
+     35.9
+    ],
+    [
+     "MP",
+     29.8
+    ],
+    [
+     "मध्य प्रदेश",
+     20.5
+    ],
+    [
+     "Indore",
+     1.4
+    ],
+    [
+     "INDORE",
+     1.3
+    ],
+    [
+     "BHOPAL",
+     0.8
+    ]
+   ]
+  },
+  "India|Bihar": {
+   "pairs": 2519,
+   "match_last_component_top": [
+    [
+     "Bihar",
+     35.6
+    ],
+    [
+     "BR",
+     30.6
+    ],
+    [
+     "बिहार",
+     19.5
+    ],
+    [
+     "Patna",
+     1.3
+    ],
+    [
+     "PATNA",
+     1.2
+    ],
+    [
+     "PHULWARI",
+     0.2
+    ]
+   ]
+  },
+  "US|OK": {
+   "pairs": 2467,
+   "match_last_component_top": [
+    [
+     "OK",
+     45.4
+    ],
+    [
+     "Oklahoma",
+     41.7
+    ],
+    [
+     "TULSA",
+     0.4
+    ],
+    [
+     "Tulsa",
+     0.4
+    ],
+    [
+     "BARTLESVILLE",
+     0.2
+    ],
+    [
+     "EDMOND",
+     0.2
+    ]
+   ]
+  },
+  "US|IA": {
+   "pairs": 2444,
+   "match_last_component_top": [
+    [
+     "IA",
+     45.0
+    ],
+    [
+     "Iowa",
+     41.9
+    ],
+    [
+     "WATERLOO",
+     0.2
+    ],
+    [
+     "DES MOINES",
+     0.2
+    ],
+    [
+     "Des Moines",
+     0.2
+    ],
+    [
+     "DAVENPORT",
+     0.1
+    ]
+   ]
+  },
+  "US|CT": {
+   "pairs": 2032,
+   "match_last_component_top": [
+    [
+     "CT",
+     45.8
+    ],
+    [
+     "Connecticut",
+     41.1
+    ],
+    [
+     "STAMFORD",
+     0.2
+    ],
+    [
+     "MERIDEN",
+     0.1
+    ],
+    [
+     "Bridgeport",
+     0.1
+    ],
+    [
+     "Fairfield",
+     0.1
+    ]
+   ]
+  },
+  "India|Andhra Pradesh": {
+   "pairs": 1847,
+   "match_last_component_top": [
+    [
+     "Andhra Pradesh",
+     36.5
+    ],
+    [
+     "AP",
+     29.8
+    ],
+    [
+     "ఆంధ్రప్రదేశ్",
+     20.8
+    ],
+    [
+     "VISAKHAPATNAM",
+     0.8
+    ],
+    [
+     "Guntur",
+     0.6
+    ],
+    [
+     "Vishakhapatnam",
+     0.5
+    ]
+   ]
+  },
+  "US|WV": {
+   "pairs": 1760,
+   "match_last_component_top": [
+    [
+     "WV",
+     45.0
+    ],
+    [
+     "West Virginia",
+     41.8
+    ],
+    [
+     "NULL",
+     0.2
+    ],
+    [
+     "MARTINSBURG",
+     0.2
+    ],
+    [
+     "Morgantown",
+     0.2
+    ],
+    [
+     "Clarksburg",
+     0.2
+    ]
+   ]
+  },
+  "US|KS": {
+   "pairs": 1714,
+   "match_last_component_top": [
+    [
+     "KS",
+     45.3
+    ],
+    [
+     "Kansas",
+     42.2
+    ],
+    [
+     "WICHITA",
+     0.6
+    ],
+    [
+     "Kansas City",
+     0.4
+    ],
+    [
+     "Wichita",
+     0.4
+    ],
+    [
+     "Ottawa",
+     0.2
+    ]
+   ]
+  },
+  "India|Orissa": {
+   "pairs": 1543,
+   "match_last_component_top": [
+    [
+     "Odisha",
+     26.7
+    ],
+    [
+     "OD",
+     24.3
+    ],
+    [
+     "Orissa",
+     18.5
+    ],
+    [
+     "ଓଡ଼ିଶା",
+     17.4
+    ],
+    [
+     "BHUBANESWAR",
+     1.9
+    ],
+    [
+     "Khordha",
+     0.8
+    ]
+   ]
+  },
+  "India|Punjab": {
+   "pairs": 1418,
+   "match_last_component_top": [
+    [
+     "Punjab",
+     33.7
+    ],
+    [
+     "PB",
+     29.2
+    ],
+    [
+     "ਪੰਜਾਬ",
+     23.2
+    ],
+    [
+     "LUDHIANA",
+     0.8
+    ],
+    [
+     "Ludhiana",
+     0.8
+    ],
+    [
+     "Mohali",
+     0.8
+    ]
+   ]
+  },
+  "US|ME": {
+   "pairs": 1326,
+   "match_last_component_top": [
+    [
+     "ME",
+     43.8
+    ],
+    [
+     "Maine",
+     43.7
+    ],
+    [
+     "<NULL>",
+     0.2
+    ],
+    [
+     "SCARBOROUGH",
+     0.2
+    ],
+    [
+     "Rockland",
+     0.2
+    ],
+    [
+     "Kittery",
+     0.2
+    ]
+   ]
+  },
+  "US|NM": {
+   "pairs": 1289,
+   "match_last_component_top": [
+    [
+     "NM",
+     46.4
+    ],
+    [
+     "New Mexico",
+     40.1
+    ],
+    [
+     "ALBUQUERQUE",
+     1.0
+    ],
+    [
+     "Albuquerque",
+     0.9
+    ],
+    [
+     "RIO RANCHO",
+     0.5
+    ],
+    [
+     "NULL",
+     0.2
+    ]
+   ]
+  },
+  "US|PA": {
+   "pairs": 1284,
+   "match_last_component_top": [
+    [
+     "PA",
+     44.2
+    ],
+    [
+     "Pennsylvania",
+     41.7
+    ],
+    [
+     "Altoona",
+     0.3
+    ],
+    [
+     "CAMP HILL",
+     0.2
+    ],
+    [
+     "MECHANICSBURG",
+     0.2
+    ],
+    [
+     "NEW CUMBERLAND BOROUGH",
+     0.2
+    ]
+   ]
+  }
+ },
+ "B_S1_state_position_in_match_pct": {
+  "last": 66.52,
+  "middle": 13.58,
+  "absent": 8.79,
+  "first": 6.7,
+  "no address": 4.4
+ },
+ "C_abbreviation_pairs_top": [
+  [
+   "US",
+   "street",
+   "st",
+   16883
+  ],
+  [
+   "US",
+   "road",
+   "rd",
+   16535
+  ],
+  [
+   "US",
+   "drive",
+   "dr",
+   15178
+  ],
+  [
+   "US",
+   "avenue",
+   "ave",
+   12373
+  ],
+  [
+   "India",
+   "maharashtra",
+   "mh",
+   8909
+  ],
+  [
+   "US",
+   "lane",
+   "ln",
+   6365
+  ],
+  [
+   "US",
+   "court",
+   "ct",
+   3910
+  ],
+  [
+   "India",
+   "karnataka",
+   "ka",
+   3304
+  ],
+  [
+   "India",
+   "gujarat",
+   "gj",
+   2667
+  ],
+  [
+   "US",
+   "circle",
+   "cir",
+   1862
+  ],
+  [
+   "US",
+   "place",
+   "pl",
+   1732
+  ],
+  [
+   "India",
+   "haryana",
+   "hr",
+   1650
+  ],
+  [
+   "India",
+   "rajasthan",
+   "rj",
+   1492
+  ],
+  [
+   "US",
+   "boulevard",
+   "blvd",
+   1458
+  ],
+  [
+   "India",
+   "bihar",
+   "br",
+   1067
+  ],
+  [
+   "US",
+   "trail",
+   "trl",
+   839
+  ],
+  [
+   "US",
+   "parkway",
+   "pkwy",
+   421
+  ],
+  [
+   "US",
+   "terrace",
+   "ter",
+   370
+  ],
+  [
+   "US",
+   "saint",
+   "st",
+   270
+  ],
+  [
+   "India",
+   "delhi",
+   "dl",
+   249
+  ],
+  [
+   "US",
+   "fort",
+   "ft",
+   226
+  ],
+  [
+   "US",
+   "county",
+   "city",
+   175
+  ],
+  [
+   "US",
+   "cove",
+   "cv",
+   164
+  ],
+  [
+   "US",
+   "mount",
+   "mt",
+   130
+  ],
+  [
+   "US",
+   "atlanta",
+   "atl",
+   110
+  ],
+  [
+   "India",
+   "north",
+   "no",
+   100
+  ],
+  [
+   "US",
+   "city",
+   "ct",
+   86
+  ],
+  [
+   "US",
+   "square",
+   "sq",
+   82
+  ],
+  [
+   "US",
+   "ridge",
+   "rdg",
+   52
+  ],
+  [
+   "US",
+   "point",
+   "pt",
+   49
+  ],
+  [
+   "India",
+   "floor",
+   "flor",
+   44
+  ],
+  [
+   "US",
+   "road",
+   "rad",
+   41
+  ],
+  [
+   "India",
+   "plot",
+   "pot",
+   34
+  ],
+  [
+   "US",
+   "drive",
+   "drve",
+   33
+  ],
+  [
+   "US",
+   "port",
+   "pt",
+   32
+  ],
+  [
+   "India",
+   "plot",
+   "plt",
+   30
+  ],
+  [
+   "US",
+   "road",
+   "rod",
+   30
+  ],
+  [
+   "US",
+   "alley",
+   "aly",
+   29
+  ],
+  [
+   "US",
+   "east",
+   "st",
+   28
+  ],
+  [
+   "India",
+   "flat",
+   "flt",
+   28
+  ],
+  [
+   "US",
+   "suite",
+   "st",
+   27
+  ],
+  [
+   "US",
+   "city",
+   "ciy",
+   25
+  ],
+  [
+   "India",
+   "flat",
+   "fat",
+   25
+  ],
+  [
+   "India",
+   "road",
+   "rod",
+   22
+  ],
+  [
+   "India",
+   "road",
+   "rad",
+   19
+  ],
+  [
+   "US",
+   "ste",
+   "st",
+   19
+  ],
+  [
+   "US",
+   "san",
+   "sa",
+   17
+  ],
+  [
+   "US",
+   "city",
+   "cty",
+   16
+  ],
+  [
+   "India",
+   "dlf",
+   "dl",
+   16
+  ],
+  [
+   "US",
+   "south",
+   "st",
+   15
+  ],
+  [
+   "US",
+   "new",
+   "ne",
+   15
+  ],
+  [
+   "India",
+   "mahavir",
+   "mh",
+   15
+  ],
+  [
+   "US",
+   "mesa",
+   "msa",
+   13
+  ],
+  [
+   "US",
+   "north",
+   "no",
+   12
+  ],
+  [
+   "India",
+   "road",
+   "roa",
+   12
+  ],
+  [
+   "India",
+   "shop",
+   "shp",
+   12
+  ],
+  [
+   "US",
+   "city",
+   "cit",
+   12
+  ],
+  [
+   "India",
+   "room",
+   "rom",
+   11
+  ],
+  [
+   "India",
+   "noida",
+   "no",
+   11
+  ],
+  [
+   "US",
+   "main",
+   "min",
+   11
+  ],
+  [
+   "US",
+   "ridge",
+   "rd",
+   11
+  ],
+  [
+   "India",
+   "rangareddy",
+   "ranga",
+   11
+  ],
+  [
+   "India",
+   "mhada",
+   "mh",
+   11
+  ],
+  [
+   "US",
+   "falls",
+   "fals",
+   10
+  ],
+  [
+   "US",
+   "hill",
+   "hil",
+   10
+  ],
+  [
+   "India",
+   "dilshad",
+   "dl",
+   10
+  ],
+  [
+   "US",
+   "lasalle",
+   "la",
+   9
+  ],
+  [
+   "US",
+   "river",
+   "rver",
+   9
+  ],
+  [
+   "US",
+   "lane",
+   "lne",
+   9
+  ],
+  [
+   "India",
+   "bazar",
+   "br",
+   9
+  ]
+ ],
+ "D_number_relation_positives": {
+  "exact": [
+   197654,
+   65.88
+  ],
+  "S1 has no number": [
+   38132,
+   12.71
+  ],
+  "absent or different": [
+   21924,
+   7.31
+  ],
+  "one digit changed/dropped/added": [
+   15151,
+   5.05
+  ],
+  "match has no address": [
+   11523,
+   3.84
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   10022,
+   3.34
+  ],
+  "two digit edits": [
+   3086,
+   1.03
+  ],
+  "equal as a part of a compound number": [
+   2508,
+   0.84
+  ]
+ },
+ "D_number_relation_positives_examples": {
+  "exact": [],
+  "match has no address": [
+   [
+    "304 Shadowbend Avenue, Friendswood, TX",
+    null
+   ],
+   [
+    "Pt No. E-35, G/F, Kh No-68/4, Kolta Vihar Chanchal Pk, Phase-4, Nangloi, Newdelhi, West Delhi, Delhi",
+    null
+   ],
+   [
+    "11635 Halsey Street, Portland, OR",
+    null
+   ]
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   [
+    "Plot No.169, Rsc Ii S.N. 120, Versova, Andheri (West), Mumbai, Mumbai City, Maharashtra",
+    "0169, MUMBAI, MUMBAI CITY, महाराष्ट्र"
+   ],
+   [
+    "1419 Skywater Road, Gravois Mills, MO",
+    "001419 SKYWATER ROAD, GRAVOIS MILLS, MO"
+   ],
+   [
+    "1360 Jacobsen Boulevard, Bremerton, WA",
+    "001360 JACOBSEN BLVD, BREMERTON, WA"
+   ]
+  ],
+  "S1 has no number": [
+   [
+    "Morristown, TN, 1907 Links Boulevard",
+    "MORRISTOWN, TN, 1907 LINKS BOULEVARD"
+   ],
+   [
+    "OR, 5033 38th Place, Portland",
+    "OR, 5033 38TH PL, PORTLAND"
+   ],
+   [
+    "AR, Jacksonville, 1993 Arnold Drive",
+    "AR, LITTLE ROCK AIR FORCE BASE, 1993 ARNOLD DR"
+   ]
+  ],
+  "absent or different": [
+   [
+    "1406 Mills Street, Sandusky, OH",
+    "458 MILLS STREET, SANDUSKY, OH"
+   ],
+   [
+    "2277 Hughes Branch Road, WV, Huntington",
+    "HUNTINGTON, WV, HUGHES BRANCH ROAD"
+   ],
+   [
+    "209 Sunset Lane, Fort Worth, TX",
+    "SUNSET LANE, FORT WORTH, TX"
+   ]
+  ],
+  "one digit changed/dropped/added": [
+   [
+    "4388 Highland Drive, Unit 4, Millcreek, UT",
+    "5388 HIGHLAND DRIVE, SALT LAKE CITY, UT"
+   ],
+   [
+    "85 Shekomeko Lane, North East, NY",
+    "84 SHEKOMEKO LANE, PINE PLAINS, NY"
+   ],
+   [
+    "327 Riverside Drive, NY, Riverhead",
+    "32 Riverside Dr, RIVERHEAD, NY"
+   ]
+  ],
+  "equal as a part of a compound number": [
+   [
+    "Plot No. 6, Flat No. S-1, Second Floor George Rathinam St, Golden George Nagar, Nerkundram, Chennai, Tamil Nadu",
+    "PLOT NO. B3/6 , FLAT NO. S-1, SECOND FLOOR GEORGE RATHINAM ST, GOLDEN GEORGE NAGAR, NERKUNDRAM, Tamil Nadu"
+   ],
+   [
+    "Rajasthan, Khasra No. 265, Alwar, Bhiwadi, 266 & 277 Ghatal Industrial Area, Phool Bagh",
+    "#B3/265 , 266 & 277 GHATAL INDUSTRIAL AREA, PHOOL BAGH, BHIWADI, Rajasthan"
+   ],
+   [
+    "Mumbai, 1-Chateau Windsor86 Veer Nariman Rd Nariman Point, Mumabi, Maharashtra",
+    "MUMABI, MUMBAI, B3/1-CHATEAU WINDSOR86 VEER NARIMAN RD NARIMAN POINT, Maharashtra"
+   ]
+  ],
+  "two digit edits": [
+   [
+    "75 Northgate Road, Burlington, VT",
+    "VT, #1 NORTHGATE ROAD, BURLINGTON CITY"
+   ],
+   [
+    "481 Buffalo Street, Rowlesburg, WV",
+    "ROWLESBURG, WV, 475 1/2 BUFFALO ST"
+   ],
+   [
+    "17022 Enchanted Cir E, Sugar Land, TX",
+    "17018 ENCHNATED CIR E, SUGAR LAND, TX"
+   ]
+  ]
+ },
+ "D_number_relation_positives_US": {
+  "exact": [
+   112438,
+   62.52
+  ],
+  "S1 has no number": [
+   25264,
+   14.05
+  ],
+  "absent or different": [
+   17738,
+   9.86
+  ],
+  "one digit changed/dropped/added": [
+   9010,
+   5.01
+  ],
+  "match has no address": [
+   7250,
+   4.03
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   6477,
+   3.6
+  ],
+  "two digit edits": [
+   1667,
+   0.93
+  ]
+ },
+ "D_number_relation_positives_US_examples": {
+  "exact": [],
+  "match has no address": [
+   [
+    "304 Shadowbend Avenue, Friendswood, TX",
+    null
+   ],
+   [
+    "11635 Halsey Street, Portland, OR",
+    null
+   ],
+   [
+    "1010 Union Street, Ashland, OH",
+    null
+   ]
+  ],
+  "S1 has no number": [
+   [
+    "Morristown, TN, 1907 Links Boulevard",
+    "MORRISTOWN, TN, 1907 LINKS BOULEVARD"
+   ],
+   [
+    "OR, 5033 38th Place, Portland",
+    "OR, 5033 38TH PL, PORTLAND"
+   ],
+   [
+    "AR, Jacksonville, 1993 Arnold Drive",
+    "AR, LITTLE ROCK AIR FORCE BASE, 1993 ARNOLD DR"
+   ]
+  ],
+  "absent or different": [
+   [
+    "1406 Mills Street, Sandusky, OH",
+    "458 MILLS STREET, SANDUSKY, OH"
+   ],
+   [
+    "2277 Hughes Branch Road, WV, Huntington",
+    "HUNTINGTON, WV, HUGHES BRANCH ROAD"
+   ],
+   [
+    "209 Sunset Lane, Fort Worth, TX",
+    "SUNSET LANE, FORT WORTH, TX"
+   ]
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   [
+    "1419 Skywater Road, Gravois Mills, MO",
+    "001419 SKYWATER ROAD, GRAVOIS MILLS, MO"
+   ],
+   [
+    "1360 Jacobsen Boulevard, Bremerton, WA",
+    "001360 JACOBSEN BLVD, BREMERTON, WA"
+   ],
+   [
+    "99 Garden Street, Lockport, NY",
+    "0099 GARDEN STREET, LOCKPRT, NY"
+   ]
+  ],
+  "one digit changed/dropped/added": [
+   [
+    "4388 Highland Drive, Unit 4, Millcreek, UT",
+    "5388 HIGHLAND DRIVE, SALT LAKE CITY, UT"
+   ],
+   [
+    "85 Shekomeko Lane, North East, NY",
+    "84 SHEKOMEKO LANE, PINE PLAINS, NY"
+   ],
+   [
+    "327 Riverside Drive, NY, Riverhead",
+    "32 Riverside Dr, RIVERHEAD, NY"
+   ]
+  ],
+  "two digit edits": [
+   [
+    "75 Northgate Road, Burlington, VT",
+    "VT, #1 NORTHGATE ROAD, BURLINGTON CITY"
+   ],
+   [
+    "481 Buffalo Street, Rowlesburg, WV",
+    "ROWLESBURG, WV, 475 1/2 BUFFALO ST"
+   ],
+   [
+    "17022 Enchanted Cir E, Sugar Land, TX",
+    "17018 ENCHNATED CIR E, SUGAR LAND, TX"
+   ]
+  ]
+ },
+ "D_number_relation_positives_India": {
+  "exact": [
+   85216,
+   70.92
+  ],
+  "S1 has no number": [
+   12868,
+   10.71
+  ],
+  "one digit changed/dropped/added": [
+   6141,
+   5.11
+  ],
+  "match has no address": [
+   4273,
+   3.56
+  ],
+  "absent or different": [
+   4186,
+   3.48
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   3545,
+   2.95
+  ],
+  "equal as a part of a compound number": [
+   2508,
+   2.09
+  ],
+  "two digit edits": [
+   1419,
+   1.18
+  ]
+ },
+ "D_number_relation_positives_India_examples": {
+  "equal after stripping leading zeros / trailing dot": [
+   [
+    "Plot No.169, Rsc Ii S.N. 120, Versova, Andheri (West), Mumbai, Mumbai City, Maharashtra",
+    "0169, MUMBAI, MUMBAI CITY, महाराष्ट्र"
+   ],
+   [
+    "Flat No 402 Floor 4 Wing E, Neelambuj-E, Kandivali (W), Kandivali West, Mumbai, Maharashtra",
+    "DOOR NO 0402 FLOOR 4 WING E, NEELAMBUJ-E, KANDIVALI (W), KANDIVALI WEST, महाराष्ट्र"
+   ],
+   [
+    "16, Gangadhar Babu Lane 2Nd Floor, Kolkata, Howrah, West Bengal",
+    "016, GANGADHAR BABU LANE 2ND FLOOR, KOLKATA, West Bengal"
+   ]
+  ],
+  "exact": [],
+  "match has no address": [
+   [
+    "Pt No. E-35, G/F, Kh No-68/4, Kolta Vihar Chanchal Pk, Phase-4, Nangloi, Newdelhi, West Delhi, Delhi",
+    null
+   ],
+   [
+    "Venkatadri Colony, Chandanagar, Tirumalagiri, Hyderabad, 6-47/6, Telangana, Tirumalagiri",
+    null
+   ],
+   [
+    "Plot No. 08, Vishwas Apartment, H.B. Town, Bhandara Road, Nagpur, Maharashtra",
+    null
+   ]
+  ],
+  "equal as a part of a compound number": [
+   [
+    "Plot No. 6, Flat No. S-1, Second Floor George Rathinam St, Golden George Nagar, Nerkundram, Chennai, Tamil Nadu",
+    "PLOT NO. B3/6 , FLAT NO. S-1, SECOND FLOOR GEORGE RATHINAM ST, GOLDEN GEORGE NAGAR, NERKUNDRAM, Tamil Nadu"
+   ],
+   [
+    "Rajasthan, Khasra No. 265, Alwar, Bhiwadi, 266 & 277 Ghatal Industrial Area, Phool Bagh",
+    "#B3/265 , 266 & 277 GHATAL INDUSTRIAL AREA, PHOOL BAGH, BHIWADI, Rajasthan"
+   ],
+   [
+    "Mumbai, 1-Chateau Windsor86 Veer Nariman Rd Nariman Point, Mumabi, Maharashtra",
+    "MUMABI, MUMBAI, B3/1-CHATEAU WINDSOR86 VEER NARIMAN RD NARIMAN POINT, Maharashtra"
+   ]
+  ],
+  "S1 has no number": [
+   [
+    "Haritha Priya Restaurant, Near Pondurthi X Road, Narasannapally Mandal, Kamareddy District, Nizamabad, Telangana",
+    "NIZAMABAD, HARITHA PRIYA RESTAURANT, NIZAMABAD, Telangana, NEAR PONDURTHI X ROAD, NARASANNAPALLY MANDAL, KAMAREDDY DISTRICT"
+   ],
+   [
+    "Sundargarh, Orissa, Civil Township, Rourkela, Ff/2",
+    "FF/2 , CIVLI TOWNSHIP, ROURKELA, Orissa"
+   ],
+   [
+    "K Jacob Thomas Memorial Sahrudaya Public Library, Hospital Jn, Kerala, Mannarkkad, Palakkad",
+    null
+   ]
+  ],
+  "one digit changed/dropped/added": [
+   [
+    "699 Sector A Pocket Cvasant Kunj, New Delhi, North Delhi, Delhi",
+    "H.NO 99 SECTOR A POCKET CVASANT KUNO, NEW DELHI, Delhi"
+   ],
+   [
+    "Rz B1/A, Sita Puri Extn. Part-I, Street No.2 Near Nehru Academy Public School, New Delhi, West Delhi, Delhi",
+    "RZ B1/A, WEST DELHI, Delhi"
+   ],
+   [
+    "Bangalore, #26, 2Nd Croos, Sandyagappa Layout H. A.F Post, Kempapura Hebbal, Karnataka, Bangalore",
+    "35, 2ND CROOS, SANDYAGAPPA LAYOUT H. A.F POST, KEMPAPURA HEBBAL, BANGALORE, Karnataka"
+   ]
+  ],
+  "absent or different": [
+   [
+    "Pl No69 70 Kh No 135, Lucknow, Uttar Pradesh",
+    "PL NO69 70 KH NO 135, LUCKNOW, Uttar Pradesh"
+   ],
+   [
+    "C 19/40, Fatman Road Sbi Building, Varanasi, Uttar Pradesh",
+    "C D/19/40, FATMAN ROAD SBI BUILDING, Uttar Pradesh"
+   ],
+   [
+    "Em Bypass, Silver Spring, Flat No. 11C, Block No. 5, Kolkata, Kolkata, Howrah, West Bengal",
+    "HOWRAH, EM BYPASS, West Bengal"
+   ]
+  ],
+  "two digit edits": [
+   [
+    "Haryana, Kurukshetra, H.No. 1792, W No-41, Railway Road",
+    "H.NO. 17-92 , W NO-41, RAILWAY ROAD, KURUKSHETRA, Haryana"
+   ],
+   [
+    "C.S.No. 2104/15, E Ward Dyp City Mall Hvac Load 02, Kawala Naka, Maharashtra, Kolhapur",
+    "KOLHAPUR, E WARD DYP CITY MALL HVAC LOAD 02, KAWALA NAKA, KOLHAPUR, C.S.NO. 21-04/15, महाराष्ट्र"
+   ],
+   [
+    "Rz-366/8, G/F, Kh No-365, 366 Dayal Park Block-P, West Sagarpur, New Delhi, West Delhi, Delhi",
+    "Delhi, WEST DELHI, RZ-368/8"
+   ]
+  ]
+ },
+ "D_number_relation_hard_negatives": {
+  "absent or different": [
+   127582,
+   63.79
+  ],
+  "two digit edits": [
+   32459,
+   16.23
+  ],
+  "S1 has no number": [
+   26040,
+   13.02
+  ],
+  "one digit changed/dropped/added": [
+   8440,
+   4.22
+  ],
+  "match has no address": [
+   4788,
+   2.39
+  ],
+  "exact": [
+   462,
+   0.23
+  ],
+  "equal as a part of a compound number": [
+   202,
+   0.1
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   27,
+   0.01
+  ]
+ },
+ "D_number_relation_hard_negatives_examples": {
+  "S1 has no number": [
+   [
+    "CT, Milford, 45 Wildflower Drive",
+    "GREENSBORO, NC, 19 1/2 STARDUST TRAIL"
+   ],
+   [
+    "Jefferson, NC, 765 Little Peak Creek Road",
+    "948 CARSWELL AEVNUE, ELK GROVE VILLAGE, IL"
+   ],
+   [
+    "MT, 116 Travois, Missoula",
+    "320 BLAIR RD, DRY RIDGE, KY"
+   ]
+  ],
+  "absent or different": [
+   [
+    "630 Mastermind, 4, Aarey Colony, Royal Palms, Goregaon East., Mumbai, Mumbai City, Maharashtra",
+    "Rajasthan, HN G-103 113, VRINDAVAN VIHAR, DCM, AJMER ROAD, JAIPUR"
+   ],
+   [
+    "5150 Inspirian Parkway, Unit 1132, AZ, Mesa",
+    "303 MCCORD ROAD, ROUNDUP, MT"
+   ],
+   [
+    "466 Woodhaven Drive, Vacaville, CA",
+    "303 MCCORD ROAD, ROUNDUP, MT"
+   ]
+  ],
+  "two digit edits": [
+   [
+    "Ludhiana, House No. 186, New Sunder Nagar, Punjab",
+    "HN #242 E-20, SHOP NO.24/85, 11 NO. STPO, ARERA COLONY, HUZUR, Madhya Pradesh"
+   ],
+   [
+    "165 Bea Street, Connersville, IN",
+    "ME, RAYMOND, 1269 Roosevelt Trail"
+   ],
+   [
+    "197 Constitution Avenue, MA, Unit 1, Revere",
+    "1621 1/2 11TH STREET, ANACORTES, WA"
+   ]
+  ],
+  "one digit changed/dropped/added": [
+   [
+    "179 Mead Cemetery Road, Mead, OK",
+    "PERINTON, 19 BLACK WATCH TRL, NY"
+   ],
+   [
+    "235-47 147 Drive, Rosedale, NY",
+    "2235 ST JAMES DRIVE, WILMINGTON, DE"
+   ],
+   [
+    "B-11, Poonam Market, Ring Road, Sahara Darwaja, Surat, Gujarat",
+    "113L, NEW COLONY DR. LAL PATH LAB, OPP. XEN OFFICE, PALWAL, Haryana"
+   ]
+  ],
+  "match has no address": [
+   [
+    "4347 Kerrick Hollow Road, Hornby, NY",
+    null
+   ],
+   [
+    "1126 Lombard Avenue, Everett, WA",
+    null
+   ],
+   [
+    "228 Edgewood Drive, Peters Township, PA",
+    null
+   ]
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   [
+    "118/119 2Nd Floormangaldas Bldg No 2 9Th Mangaldas Road, Maharashtra, Mumbai",
+    "G-1001/  02, LOTUS CORPORATE PARK, OFF JAY COACH FLYOVER, WESTERN EXPRESS HIGHWAY, GOREGA, ON (EAST), MUMBAI, Maharashtra"
+   ],
+   [
+    "6 Price Street, Redlands, CA",
+    "255-06 37 AVE, LITTLE NECK, NY"
+   ],
+   [
+    "Eco-018, Udoyg Vihar Building, Material Market, Greater Noida, Gautam Budh Nagar, Uttar Pradesh, East Delhi, Delhi",
+    "0018-204/2/161B/A/1, ESHWAR COLONY, SHADNAGAR, Telangana"
+   ]
+  ],
+  "exact": [],
+  "equal as a part of a compound number": [
+   [
+    "S/O Dharmveer Sharma, D-6 S/F, New Ashok Nagar, East Delhi, Delhi",
+    "SHOP NO. K/6, PRATHANA ELEGANCE NEAR VANDEMATRAM ICON, NEW CHANDLODIA, AHMEDABAD, ગુજરાત"
+   ],
+   [
+    "Achheja, Gautam Buddha Nagar, Uttar Pradesh, Plot No. 1, Khasra No. 1399M, Dadri Tehsil",
+    "NO 112/1/2 JESSORE ROAD, KOLKATA, West Bengal"
+   ],
+   [
+    "A-4, Bhimasena 3 Murrays Gateroad Alwarpet Chennai 18 Tam, Ilnadu, Tamilnadu, Tamil Nadu",
+    "2-125/1/2/4, GOWLIDODDI, GOPANPALLY VILLAGE, SERI LINGAMPALLY, తెలంగాణ"
+   ]
+  ]
+ },
+ "D_number_relation_near_miss_negatives": {
+  "two digit edits": [
+   486,
+   41.75
+  ],
+  "one digit changed/dropped/added": [
+   354,
+   30.41
+  ],
+  "S1 has no number": [
+   147,
+   12.63
+  ],
+  "exact": [
+   91,
+   7.82
+  ],
+  "absent or different": [
+   84,
+   7.22
+  ],
+  "equal as a part of a compound number": [
+   1,
+   0.09
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   1,
+   0.09
+  ]
+ },
+ "D_number_relation_near_miss_negatives_examples": {
+  "two digit edits": [
+   [
+    "8208 Flicker Pl, Louisville, KY",
+    "8212 Flicker Pl, LOUISVILLE, KY"
+   ],
+   [
+    "70 A Jaybharat Society3Rd Rd., Mumbai, Maharashtra, Khar",
+    "Maharashtra, 81 A JLYBHARAT SOCIETY3RD RD., KHAR"
+   ],
+   [
+    "426 Lazy Creek Lane, Nashville, TN",
+    "433 LAZY CREEK LN, NASHVILLE, TN"
+   ]
+  ],
+  "one digit changed/dropped/added": [
+   [
+    "3511 Ward Road, Cambridge, ID",
+    "3515 Ward Road, ID, CAMBRIDGE"
+   ],
+   [
+    "3608 Holly Circle, Indianapolis, IN",
+    "3609 HOLLY CIRCLE, <NULL>, INDIANAPOLIS, IN"
+   ],
+   [
+    "1303 Shivshakti Apartment, Sundervan Cmx Shastri Ngr, Mumbai, Maharashtra",
+    "#1304 SHIVSHAKTI APARTMENT, SUNDERVAN CMX SHASTRI NGR, MUMBAI, Maharashtra"
+   ]
+  ],
+  "exact": [],
+  "S1 has no number": [
+   [
+    "Sacramento, 8353 Folsom Boulevard, CA",
+    "8374 FOLSOM BOULEVARD, SACRAMENTO, CA"
+   ],
+   [
+    "Prescott, 618 Vista Del Cerro Street, AZ",
+    "621 VISTA DEL CERRO ST, PRESCOTT, AZ"
+   ],
+   [
+    "Arnold, 2006 Dohack Drive, MO",
+    "MO, 2013C DOHACK DRIVE, ARNOLD"
+   ]
+  ],
+  "absent or different": [
+   [
+    "1522 Spruce St, Iowa City, IA",
+    "001535 SPRUCE ST, IOWA CITY, IA"
+   ],
+   [
+    "739 Outer Drive, Lenoir City, TN",
+    "0740 OUTER DRIVE, LENOIR CITY  CDP, TN"
+   ],
+   [
+    "1011 Pt Higgins Road, Ketchikan Gateway Borough, AK",
+    "024 PT HIGGINS ROAD, KETCHIKAN, AK"
+   ]
+  ],
+  "equal as a part of a compound number": [
+   [
+    "6, Brabourne Road 1St Floor, Kolkata, Kolkata, Howrah, West Bengal",
+    "24, BELILIUSUS ROAD, 1ST FLOOR ROOM NOI.-1/6, HOWRAH, West Bengal"
+   ]
+  ],
+  "equal after stripping leading zeros / trailing dot": [
+   [
+    "Maharashtra, Chavanngr Kharadi, Pune, Sno 47/5B Sai Nagar Galli 13, Pune",
+    "SNO 0047/5B SAI NAGAR GALLI 14, CHAVANNGR KHARADI, PUNE, Maharashtra"
+   ]
+  ]
+ },
+ "D_near_miss_US_abs_number_difference": {
+  "n": 629,
+  "pct_equal": 0.8,
+  "pct_1_to_10": 64.1,
+  "pct_11_to_100": 27.8,
+  "pct_gt_100": 7.3
+ },
+ "E_units": {
+  "S1 has unit": [
+   73629,
+   24.54
+  ],
+  "match has a unit component": [
+   44701,
+   14.9
+  ],
+  "unit value kept": [
+   38494,
+   12.83
+  ]
+ },
+ "F_city": {
+  "S1 city tokens all present in match": [
+   223154,
+   74.38
+  ],
+  "absent": [
+   57785,
+   19.26
+  ],
+  "partly present": [
+   19061,
+   6.35
+  ],
+  "match adds city/township/cdp/county word": [
+   8436,
+   2.81
+  ]
+ },
+ "G_landmarks": {
+  "S1 has landmark": [
+   16869,
+   5.62
+  ],
+  "match has landmark component": [
+   12489,
+   4.16
+  ],
+  "landmark tokens mostly kept": [
+   12563,
+   4.19
+  ]
+ },
+ "H_component_survival_pct": {
+  "US first": {
+   "n": 179844,
+   "kept>=50%": 81.2,
+   "kept=100%": 39.6
+  },
+  "US second last(city)": {
+   "n": 179844,
+   "kept>=50%": 80.4,
+   "kept=100%": 74.7
+  },
+  "US last(state)": {
+   "n": 179844,
+   "kept>=50%": 53.4,
+   "kept=100%": 50.0
+  },
+  "US middle": {
+   "n": 28420,
+   "kept>=50%": 44.4,
+   "kept=100%": 27.5
+  },
+  "India first": {
+   "n": 120101,
+   "kept>=50%": 88.7,
+   "kept=100%": 75.3
+  },
+  "India middle": {
+   "n": 319076,
+   "kept>=50%": 75.1,
+   "kept=100%": 73.4
+  },
+  "India second last(city)": {
+   "n": 120156,
+   "kept>=50%": 78.8,
+   "kept=100%": 73.9
+  },
+  "India last(state)": {
+   "n": 120156,
+   "kept>=50%": 51.4,
+   "kept=100%": 50.4
+  }
+ },
+ "K_reordering": {
+  "components differ": [
+   233490,
+   77.83
+  ],
+  "identical components": [
+   24772,
+   8.26
+  ],
+  "match components subset of S1 (drops)": [
+   14049,
+   4.68
+  ],
+  "same components, different order": [
+   9870,
+   3.29
+  ],
+  "S1 components all present, extra in match": [
+   4605,
+   1.53
+  ]
+ },
+ "L_tiny_components_per_pair": {
+  "match tiny alpha component": 0.4369,
+  "S1 tiny alpha component": 0.6081
+ },
+ "I_indic_placement_S2_India": {
+  "no Indic": 75.69,
+  "only last component (state) in Indic script": 21.45,
+  "only non-last components": 2.86
+ },
+ "I_indic_placement_S3_India": {
+  "no Indic": 76.88,
+  "only last component (state) in Indic script": 19.58,
+  "only non-last components": 3.54
+ },
+ "J_punct_S1": [
+  [
+   ",",
+   300000
+  ],
+  [
+   "-",
+   48311
+  ],
+  [
+   ".",
+   44164
+  ],
+  [
+   "/",
+   41197
+  ],
+  [
+   "(",
+   6307
+  ],
+  [
+   ")",
+   6278
+  ],
+  [
+   "&",
+   2576
+  ],
+  [
+   "#",
+   2235
+  ],
+  [
+   ":",
+   1991
+  ],
+  [
+   "'",
+   726
+  ],
+  [
+   ";",
+   103
+  ],
+  [
+   "",
+   77
+  ],
+  [
+   "",
+   54
+  ],
+  [
+   "?",
+   41
+  ],
+  [
+   "+",
+   40
+  ],
+  [
+   "\\",
+   29
+  ],
+  [
+   "]",
+   25
+  ],
+  [
+   "[",
+   24
+  ],
+  [
+   "~",
+   24
+  ],
+  [
+   "`",
+   22
+  ],
+  [
+   "",
+   22
+  ],
+  [
+   "\u001a",
+   14
+  ]
+ ],
+ "J_punct_S23": [
+  [
+   ",",
+   300000
+  ],
+  [
+   "-",
+   63491
+  ],
+  [
+   "/",
+   48630
+  ],
+  [
+   ".",
+   46386
+  ],
+  [
+   "#",
+   27910
+  ],
+  [
+   "(",
+   5339
+  ],
+  [
+   ")",
+   5311
+  ],
+  [
+   ">",
+   2614
+  ],
+  [
+   "<",
+   2614
+  ],
+  [
+   "&",
+   2316
+  ],
+  [
+   ":",
+   1679
+  ],
+  [
+   "'",
+   617
+  ],
+  [
+   ";",
+   73
+  ],
+  [
+   "",
+   61
+  ],
+  [
+   "",
+   44
+  ],
+  [
+   "+",
+   29
+  ],
+  [
+   "]",
+   26
+  ],
+  [
+   "[",
+   25
+  ],
+  [
+   "`",
+   25
+  ],
+  [
+   "?",
+   25
+  ],
+  [
+   "\\",
+   21
+  ],
+  [
+   "",
+   16
+  ]
+ ],
+ "L_split_concat_postal_S1": {
+  "India: 5-digit token at the very end": 0.003,
+  "India: 5-digit token not at the start": 0.09,
+  "India: NULL token": 0.057,
+  "India: c/o s/o d/o w/o": 2.414,
+  "India: component of 1-2 letters": 0.795,
+  "India: country word inside address": 0.127,
+  "India: token of 15+ letters": 1.348,
+  "US: 5-digit token at the very end": 0.004,
+  "US: 5-digit token not at the start": 0.926,
+  "US: 6-digit token": 0.086,
+  "US: NULL token": 0.001,
+  "US: component of 1-2 letters": 60.049,
+  "US: country word inside address": 0.005,
+  "US: token of 15+ letters": 0.031
+ },
+ "L_split_concat_postal_S1_examples": {
+  "tiny": [
+   "1722 156th Avenue, Portland, OR",
+   "5335 17th Avenue, Seattle, WA",
+   "OH, Unit 1~4, Toledo, 5742 Ryewyck Drive",
+   "TX, 17 Oakleigh Boulevard, Beaumont",
+   "1570 Hartmann Plantation Circle, Lebanon, TN"
+  ],
+  "long": [
+   "Chennai, Noa17, Flatnoa2, Suraksha, Venkatesansalaiperiyar Nagar, Chennai, Tamil Nadu",
+   "Flat No:201, Fortune Heights, Mahadasuramarao Street Vidhyadharapuram, Kamakoti Nagar, Vijayawada, Krishna, Andhra Pradesh",
+   "201 Mewad E S Patnwalacompound L B S Marg Opp Shreyas Talkies, Ghatkopar (W), Mumbai, Maharashtra",
+   "Sy.No. 11, Vattinagulpally, Rajendra Nagar, Rajendranagar, K.V.Rangareddy, Telangana",
+   "Rev Plot No-324 & 326 Chandrasekharpur, Unit No-41, Ground Floor, Bhubaneswar, Orissa, Khordha"
+  ]
+ },
+ "L_split_concat_postal_S23": {
+  "India: 5-digit token at the very end": 0.005,
+  "India: 5-digit token not at the start": 0.341,
+  "India: NULL token": 1.192,
+  "India: c/o s/o d/o w/o": 2.448,
+  "India: component of 1-2 letters": 14.736,
+  "India: country word inside address": 0.101,
+  "India: token of 15+ letters": 1.293,
+  "US: 5-digit token at the very end": 0.001,
+  "US: 5-digit token not at the start": 0.968,
+  "US: 6-digit token": 0.847,
+  "US: NULL token": 2.34,
+  "US: component of 1-2 letters": 30.501,
+  "US: country word inside address": 0.008,
+  "US: token of 15+ letters": 0.059
+ },
+ "L_split_concat_postal_S23_examples": {
+  "tiny": [
+   "3056 1/2 SWEITZER ST, OH, UNIONTOWN",
+   "64 CASTLE MOUNTAIN ES ROAD, WHITE SLPHUR SPRINGS, MT",
+   "6940 DELMAR BOLEVARD, ST LOUIS, MO",
+   "00407, AP, Vijayawada, Guntur, Gvs Heights Rajarajeswaripet",
+   "6262 MEADOW DR, WINTON DP, CA"
+  ],
+  "long": [
+   "00407, AP, Vijayawada, Guntur, Gvs Heights Rajarajeswaripet",
+   "193, GANESH NAGAR, OPP., BALAJI ENGINEERINGCOLLEGE, AMBER, BANSKHO DIST JAIPUR, राजस्थान",
+   "Door No 121 Somnath Chs Neelkanthvalley 7Th Road Rajawadi Ghatkopar East, Mumbai, Mumbai (SUBURBAN), MH",
+   "#147 LEYLAND CIRCLE, HENDERSONVILLLE CITY, NC",
+   "Unit No.tf-b-017, 3Rd Floor, Bwing, Lbs, Marg, Artguildhouse, Phoenixmarketcity, Mumbai, MH"
+  ]
+ },
+ "N_France_test_unsupervised": {
+  "S1": {
+   "n": 150000,
+   "components_mean": 3.04,
+   "last_component_top": [
+    [
+     "Hauts-de-France",
+     50896
+    ],
+    [
+     "Nouvelle-Aquitaine",
+     42656
+    ],
+    [
+     "Pays de la Loire",
+     36303
+    ],
+    [
+     "Bordeaux",
+     1681
+    ],
+    [
+     "Nantes",
+     1420
+    ],
+    [
+     "Lille",
+     1263
+    ],
+    [
+     "Tourcoing",
+     701
+    ],
+    [
+     "Calais",
+     647
+    ],
+    [
+     "Dunkerque",
+     640
+    ],
+    [
+     "Roubaix",
+     615
+    ],
+    [
+     "Saint-Nazaire",
+     513
+    ],
+    [
+     "Pessac",
+     469
+    ],
+    [
+     "La Teste-de-Buch",
+     467
+    ],
+    [
+     "Mérignac",
+     415
+    ],
+    [
+     "Pornic",
+     310
+    ],
+    [
+     "Lège-Cap-Ferret",
+     307
+    ],
+    [
+     "Saint-Herblain",
+     259
+    ],
+    [
+     "La Baule-Escoublac",
+     252
+    ]
+   ],
+   "street_type_after_number_top": [
+    [
+     "rue",
+     83403
+    ],
+    [
+     "avenue",
+     14914
+    ],
+    [
+     "allee",
+     5957
+    ],
+    [
+     "boulevard",
+     4487
+    ],
+    [
+     "impasse",
+     2480
+    ],
+    [
+     "route",
+     2150
+    ],
+    [
+     "place",
+     1614
+    ],
+    [
+     "chemin",
+     1607
+    ],
+    [
+     "cour",
+     1075
+    ],
+    [
+     "cours",
+     1055
+    ],
+    [
+     "av",
+     972
+    ],
+    [
+     "bd",
+     901
+    ],
+    [
+     "quai",
+     858
+    ],
+    [
+     "b",
+     743
+    ],
+    [
+     "cite",
+     627
+    ]
+   ],
+   "features_pct": {
+    "starts with number": 85.98,
+    "full street type": 94.31,
+    "abbreviated street type": 2.49,
+    "bis/ter": 4.99,
+    "5-digit token": 0.41,
+    "cedex": 0.01
+   }
+  },
+  "S2": {
+   "n": 150000,
+   "components_mean": 2.69,
+   "last_component_top": [
+    [
+     "Hauts-de-France",
+     17029
+    ],
+    [
+     "Gironde",
+     14393
+    ],
+    [
+     "Nord",
+     14150
+    ],
+    [
+     "Nouvelle-Aquitaine",
+     14099
+    ],
+    [
+     "Loire-Atlantique",
+     12014
+    ],
+    [
+     "Pays de la Loire",
+     11962
+    ],
+    [
+     "BORDEAUX",
+     7692
+    ],
+    [
+     "NANTES",
+     6633
+    ],
+    [
+     "LILLE",
+     6033
+    ],
+    [
+     "TOURCOING",
+     3195
+    ],
+    [
+     "DUNKERQUE",
+     2928
+    ],
+    [
+     "ROUBAIX",
+     2902
+    ],
+    [
+     "CALAIS",
+     2715
+    ],
+    [
+     "Pas-de-Calais",
+     2660
+    ],
+    [
+     "PESSAC",
+     2318
+    ],
+    [
+     "SAINT-NAZAIRE",
+     1832
+    ],
+    [
+     "LA TESTE-DE-BUCH",
+     1734
+    ],
+    [
+     "PORNIC",
+     1398
+    ]
+   ],
+   "street_type_after_number_top": [
+    [
+     "rue",
+     41911
+    ],
+    [
+     "r",
+     27911
+    ],
+    [
+     "avenue",
+     7147
+    ],
+    [
+     "av",
+     4361
+    ],
+    [
+     "allee",
+     3099
+    ],
+    [
+     "boulevard",
+     2241
+    ],
+    [
+     "all",
+     2031
+    ],
+    [
+     "bd",
+     1813
+    ],
+    [
+     "b",
+     1709
+    ],
+    [
+     "ave",
+     1686
+    ],
+    [
+     "impasse",
+     1189
+    ],
+    [
+     "route",
+     1010
+    ],
+    [
+     "imp",
+     969
+    ],
+    [
+     "pl",
+     915
+    ],
+    [
+     "rte",
+     894
+    ]
+   ],
+   "features_pct": {
+    "starts with number": 73.5,
+    "abbreviated street type": 37.07,
+    "full street type": 55.96,
+    "bis/ter": 3.93,
+    "5-digit token": 0.52,
+    "cedex": 0.01
+   }
+  },
+  "S3": {
+   "n": 150000,
+   "components_mean": 2.71,
+   "last_component_top": [
+    [
+     "Hauts-de-France",
+     18087
+    ],
+    [
+     "Nouvelle-Aquitaine",
+     15205
+    ],
+    [
+     "Gironde",
+     13911
+    ],
+    [
+     "Nord",
+     13848
+    ],
+    [
+     "Pays de la Loire",
+     13059
+    ],
+    [
+     "Loire-Atlantique",
+     11667
+    ],
+    [
+     "Bordeaux",
+     8170
+    ],
+    [
+     "Nantes",
+     7235
+    ],
+    [
+     "Lille",
+     6570
+    ],
+    [
+     "Tourcoing",
+     3414
+    ],
+    [
+     "Dunkerque",
+     3238
+    ],
+    [
+     "Roubaix",
+     3129
+    ],
+    [
+     "Calais",
+     3056
+    ],
+    [
+     "Pessac",
+     2575
+    ],
+    [
+     "Pas-de-Calais",
+     2506
+    ],
+    [
+     "Saint-nazaire",
+     1678
+    ],
+    [
+     "La Teste-de-buch",
+     1662
+    ],
+    [
+     "Pornic",
+     1437
+    ]
+   ],
+   "street_type_after_number_top": [
+    [
+     "rue",
+     43763
+    ],
+    [
+     "r",
+     26864
+    ],
+    [
+     "avenue",
+     7538
+    ],
+    [
+     "av",
+     4185
+    ],
+    [
+     "allee",
+     3187
+    ],
+    [
+     "boulevard",
+     2263
+    ],
+    [
+     "all",
+     2027
+    ],
+    [
+     "bd",
+     1772
+    ],
+    [
+     "ave",
+     1684
+    ],
+    [
+     "b",
+     1667
+    ],
+    [
+     "impasse",
+     1217
+    ],
+    [
+     "route",
+     1017
+    ],
+    [
+     "imp",
+     906
+    ],
+    [
+     "pl",
+     902
+    ],
+    [
+     "cour",
+     835
+    ]
+   ],
+   "features_pct": {
+    "starts with number": 74.12,
+    "abbreviated street type": 35.55,
+    "full street type": 57.6,
+    "5-digit token": 0.5,
+    "bis/ter": 3.81,
+    "cedex": 0.01
+   }
+  }
+ }
+}

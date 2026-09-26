@@ -1,0 +1,68 @@
+{
+ "x_name_addr_top30": {
+  "candidates_added_per_entity": 18.71,
+  "misses_recovered": 1503,
+  "recall_gain_points": 0.098,
+  "gain_per_candidate": 5.3e-05
+ },
+ "x_name_addr_top50": {
+  "candidates_added_per_entity": 56.46,
+  "misses_recovered": 3257,
+  "recall_gain_points": 0.213,
+  "gain_per_candidate": 3.8e-05
+ },
+ "x_name_addr_adaptive50_s20ge50": {
+  "candidates_added_per_entity": 3.76,
+  "misses_recovered": 439,
+  "recall_gain_points": 0.029,
+  "gain_per_candidate": 7.6e-05
+ },
+ "x_name_addr_adaptive50_s20ge60": {
+  "candidates_added_per_entity": 1.45,
+  "misses_recovered": 168,
+  "recall_gain_points": 0.011,
+  "gain_per_candidate": 7.6e-05
+ },
+ "x_name_addr_adaptive50_s20ge70": {
+  "candidates_added_per_entity": 1.02,
+  "misses_recovered": 98,
+  "recall_gain_points": 0.006,
+  "gain_per_candidate": 6.3e-05
+ },
+ "x_domain_name_ngram_top3": {
+  "candidates_added_per_entity": 5.16,
+  "misses_recovered": 1012,
+  "recall_gain_points": 0.066,
+  "gain_per_candidate": 0.000128
+ },
+ "x_addr_token_top10": {
+  "candidates_added_per_entity": 5.42,
+  "misses_recovered": 487,
+  "recall_gain_points": 0.032,
+  "gain_per_candidate": 5.9e-05
+ },
+ "x_name_addr_top20_maxdf3": {
+  "candidates_added_per_entity": 7.6,
+  "misses_recovered": 2132,
+  "recall_gain_points": 0.14,
+  "gain_per_candidate": 0.000184
+ },
+ "9_addr_token_top20": {
+  "candidates_added_per_entity": 20.18,
+  "misses_recovered": 1044,
+  "recall_gain_points": 0.068,
+  "gain_per_candidate": 3.4e-05
+ },
+ "3_name_ngram_top20": {
+  "candidates_added_per_entity": 29.55,
+  "misses_recovered": 1101,
+  "recall_gain_points": 0.072,
+  "gain_per_candidate": 2.4e-05
+ },
+ "8_acronym_city": {
+  "candidates_added_per_entity": 28.99,
+  "misses_recovered": 705,
+  "recall_gain_points": 0.046,
+  "gain_per_candidate": 1.6e-05
+ }
+}

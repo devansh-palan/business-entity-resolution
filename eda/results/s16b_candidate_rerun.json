@@ -1,0 +1,506 @@
+{
+ "old_final": [
+  "9_name_addr_token_top20",
+  "1_exact_name_any_cap200",
+  "5_state_house_street",
+  "5_state_name_sorted",
+  "5_city_name_first_cap100",
+  "8_sn_name_compact_w3",
+  "9_sn_addr_sorted_w3"
+ ],
+ "maxdf3_seconds": 1544.3,
+ "old": {
+  "pairs": 35911531,
+  "recall": 0.9852,
+  "true_pairs_found": 1505042,
+  "true_pairs_missed": 22608,
+  "entity_all_matches_found": 0.95123,
+  "recall_by_source": {
+   "S2": 0.9859,
+   "S3": 0.98454
+  },
+  "recall_by_country": {
+   "India": 0.98062,
+   "US": 0.98827
+  },
+  "mean": 81.365,
+  "median": 51.0,
+  "p95": 233.0,
+  "max": 689,
+  "entities_with_candidates": 441365,
+  "reduction_ratio": 0.999992,
+  "pairs_by_source": {
+   "S2": 17316962,
+   "S3": 18594569
+  }
+ },
+ "fixes": {
+  "x_name_addr_top30": {
+   "description": "name + address token retrieval, top 30 per source (was 20)",
+   "pairs": 26470555,
+   "recall_alone": 0.96565,
+   "mean_alone": 59.974,
+   "max_alone": 60,
+   "new_candidates_per_entity": 19.65,
+   "misses_recovered": 2441,
+   "recall_gain": 0.0016,
+   "by_cause": {
+    "candidate limit too small": 1713,
+    "missing address": 699,
+    "blocking collision": 17,
+    "name variation": 4,
+    "retrieval failure": 3,
+    "other": 2,
+    "abbreviation": 2,
+    "address variation": 1
+   },
+   "gain_per_candidate": 8.1e-05
+  },
+  "x_name_addr_top50": {
+   "description": "name + address token retrieval, top 50 per source (was 20)",
+   "pairs": 44074369,
+   "recall_alone": 0.97138,
+   "mean_alone": 99.859,
+   "max_alone": 100,
+   "new_candidates_per_entity": 58.49,
+   "misses_recovered": 5128,
+   "recall_gain": 0.00336,
+   "by_cause": {
+    "candidate limit too small": 3524,
+    "missing address": 1571,
+    "blocking collision": 19,
+    "name variation": 4,
+    "retrieval failure": 4,
+    "abbreviation": 3,
+    "other": 2,
+    "address variation": 1
+   },
+   "gain_per_candidate": 5.7e-05
+  },
+  "x_name_addr_adaptive50_s20ge50": {
+   "description": "name + address retrieval: ranks 21-50 added only when the 20th score is >= 0.5",
+   "pairs": 19034821,
+   "recall_alone": 0.96196,
+   "mean_alone": 43.127,
+   "max_alone": 100,
+   "new_candidates_per_entity": 3.88,
+   "misses_recovered": 781,
+   "recall_gain": 0.00051,
+   "by_cause": {
+    "candidate limit too small": 578,
+    "missing address": 187,
+    "blocking collision": 11,
+    "abbreviation": 2,
+    "name variation": 1,
+    "other": 1,
+    "retrieval failure": 1
+   },
+   "gain_per_candidate": 0.000132
+  },
+  "x_name_addr_adaptive50_s20ge60": {
+   "description": "name + address retrieval: ranks 21-50 added only when the 20th score is >= 0.6",
+   "pairs": 17909519,
+   "recall_alone": 0.96062,
+   "mean_alone": 40.578,
+   "max_alone": 100,
+   "new_candidates_per_entity": 1.51,
+   "misses_recovered": 299,
+   "recall_gain": 0.0002,
+   "by_cause": {
+    "candidate limit too small": 171,
+    "missing address": 115,
+    "blocking collision": 10,
+    "other": 1,
+    "retrieval failure": 1,
+    "abbreviation": 1
+   },
+   "gain_per_candidate": 0.00013
+  },
+  "x_name_addr_adaptive50_s20ge70": {
+   "description": "name + address retrieval: ranks 21-50 added only when the 20th score is >= 0.7",
+   "pairs": 17702009,
+   "recall_alone": 0.96023,
+   "mean_alone": 40.107,
+   "max_alone": 100,
+   "new_candidates_per_entity": 1.07,
+   "misses_recovered": 183,
+   "recall_gain": 0.00012,
+   "by_cause": {
+    "missing address": 105,
+    "candidate limit too small": 65,
+    "blocking collision": 10,
+    "other": 1,
+    "retrieval failure": 1,
+    "abbreviation": 1
+   },
+   "gain_per_candidate": 0.000112
+  },
+  "x_addrless_name_ngram_top5": {
+   "description": "name 3-gram retrieval against the address-less pool records, top 5 per source",
+   "pairs": 4398414,
+   "recall_alone": 0.03935,
+   "mean_alone": 9.965,
+   "max_alone": 10,
+   "new_candidates_per_entity": 7.08,
+   "misses_recovered": 2733,
+   "recall_gain": 0.00179,
+   "by_cause": {
+    "missing address": 2733
+   },
+   "gain_per_candidate": 0.000253
+  },
+  "x_domain_name_ngram_top3": {
+   "description": "name 3-gram retrieval against the domain-style pool names (dentalcare.com, nbrothers.com), top 3 per source",
+   "pairs": 2636765,
+   "recall_alone": 0.03888,
+   "mean_alone": 5.974,
+   "max_alone": 6,
+   "new_candidates_per_entity": 5.21,
+   "misses_recovered": 1157,
+   "recall_gain": 0.00076,
+   "by_cause": {
+    "candidate limit too small": 402,
+    "abbreviation": 400,
+    "address variation": 153,
+    "retrieval failure": 132,
+    "blocking collision": 41,
+    "missing address": 29
+   },
+   "gain_per_candidate": 0.000145
+  },
+  "x_addr_token_top5": {
+   "description": "address token retrieval limited to the top 5 per source",
+   "pairs": 4410414,
+   "recall_alone": 0.77004,
+   "mean_alone": 9.993,
+   "max_alone": 10,
+   "new_candidates_per_entity": 2.42,
+   "misses_recovered": 875,
+   "recall_gain": 0.00057,
+   "by_cause": {
+    "candidate limit too small": 616,
+    "abbreviation": 103,
+    "name variation": 73,
+    "retrieval failure": 37,
+    "blocking collision": 21,
+    "other": 16,
+    "address variation": 8,
+    "typo": 1
+   },
+   "gain_per_candidate": 0.000237
+  },
+  "x_addr_token_top10": {
+   "description": "address token retrieval limited to the top 10 per source",
+   "pairs": 8819153,
+   "recall_alone": 0.81759,
+   "mean_alone": 19.982,
+   "max_alone": 20,
+   "new_candidates_per_entity": 7.84,
+   "misses_recovered": 1393,
+   "recall_gain": 0.00091,
+   "by_cause": {
+    "candidate limit too small": 952,
+    "abbreviation": 160,
+    "name variation": 135,
+    "retrieval failure": 61,
+    "blocking collision": 37,
+    "other": 30,
+    "address variation": 16,
+    "typo": 2
+   },
+   "gain_per_candidate": 0.000116
+  },
+  "x_name_addr_top20_maxdf3": {
+   "description": "name + address retrieval, top 20, tokens pruned above 3% df instead of 1% (compute cost only)",
+   "pairs": 17650736,
+   "recall_alone": 0.96884,
+   "mean_alone": 39.991,
+   "max_alone": 40,
+   "new_candidates_per_entity": 8.34,
+   "misses_recovered": 3935,
+   "recall_gain": 0.00258,
+   "by_cause": {
+    "candidate limit too small": 2235,
+    "missing address": 979,
+    "blocking collision": 491,
+    "name variation": 90,
+    "retrieval failure": 67,
+    "abbreviation": 37,
+    "address variation": 29,
+    "other": 4,
+    "typo": 3
+   },
+   "gain_per_candidate": 0.000309
+  },
+  "x_name_any_house_number": {
+   "description": "cheap key from the miss analysis: name_any_house_number",
+   "pairs": 617737,
+   "recall_alone": 0.39352,
+   "mean_alone": 1.4,
+   "max_alone": 20,
+   "new_candidates_per_entity": 0.01,
+   "misses_recovered": 554,
+   "recall_gain": 0.00036,
+   "by_cause": {
+    "blocking collision": 286,
+    "candidate limit too small": 268
+   },
+   "gain_per_candidate": 0.025887
+  },
+  "x_name_any_city": {
+   "description": "cheap key from the miss analysis: name_any_city",
+   "pairs": 1186089,
+   "recall_alone": 0.51103,
+   "mean_alone": 2.687,
+   "max_alone": 100,
+   "new_candidates_per_entity": 0.19,
+   "misses_recovered": 2729,
+   "recall_gain": 0.00179,
+   "by_cause": {
+    "blocking collision": 1773,
+    "candidate limit too small": 956
+   },
+   "gain_per_candidate": 0.009566
+  },
+  "x_compact_name_state": {
+   "description": "cheap key from the miss analysis: compact_name_state",
+   "pairs": 2270002,
+   "recall_alone": 0.54496,
+   "mean_alone": 5.143,
+   "max_alone": 294,
+   "new_candidates_per_entity": 0.06,
+   "misses_recovered": 333,
+   "recall_gain": 0.00022,
+   "by_cause": {
+    "blocking collision": 237,
+    "candidate limit too small": 96
+   },
+   "gain_per_candidate": 0.003417
+  },
+  "x_house_street_city": {
+   "description": "cheap key from the miss analysis: house_street_city",
+   "pairs": 871435,
+   "recall_alone": 0.37316,
+   "mean_alone": 1.974,
+   "max_alone": 182,
+   "new_candidates_per_entity": 0.03,
+   "misses_recovered": 20,
+   "recall_gain": 1e-05,
+   "by_cause": {
+    "candidate limit too small": 8,
+    "blocking collision": 7,
+    "name variation": 2,
+    "retrieval failure": 2,
+    "abbreviation": 1
+   },
+   "gain_per_candidate": 0.000492
+  },
+  "9_addr_token_top20": {
+   "description": "address token retrieval, top 20 per source",
+   "pairs": 17633587,
+   "recall_alone": 0.8473,
+   "mean_alone": 39.952,
+   "max_alone": 40,
+   "new_candidates_per_entity": 22.6,
+   "misses_recovered": 1997,
+   "recall_gain": 0.00131,
+   "by_cause": {
+    "candidate limit too small": 1357,
+    "name variation": 212,
+    "abbreviation": 211,
+    "retrieval failure": 87,
+    "other": 53,
+    "blocking collision": 52,
+    "address variation": 23,
+    "typo": 2
+   },
+   "gain_per_candidate": 5.8e-05
+  },
+  "3_name_ngram_top20": {
+   "description": "name 3-gram retrieval, top 20 per source",
+   "pairs": 17432120,
+   "recall_alone": 0.61015,
+   "mean_alone": 39.496,
+   "max_alone": 40,
+   "new_candidates_per_entity": 29.92,
+   "misses_recovered": 1770,
+   "recall_gain": 0.00116,
+   "by_cause": {
+    "candidate limit too small": 560,
+    "missing address": 538,
+    "abbreviation": 178,
+    "blocking collision": 158,
+    "address variation": 140,
+    "retrieval failure": 102,
+    "name variation": 93,
+    "typo": 1
+   },
+   "gain_per_candidate": 3.9e-05
+  },
+  "8_acronym_city": {
+   "description": "name acronym + city",
+   "pairs": 13912558,
+   "recall_alone": 0.49785,
+   "mean_alone": 31.522,
+   "max_alone": 500,
+   "new_candidates_per_entity": 29.1,
+   "misses_recovered": 2696,
+   "recall_gain": 0.00176,
+   "by_cause": {
+    "blocking collision": 1554,
+    "candidate limit too small": 988,
+    "address variation": 77,
+    "retrieval failure": 46,
+    "name variation": 30,
+    "typo": 1
+   },
+   "gain_per_candidate": 6.1e-05
+  }
+ },
+ "selection": {
+  "threshold_gain_per_candidate": 0.0002,
+  "chosen": [
+   "x_name_any_house_number",
+   "x_name_any_city",
+   "x_compact_name_state",
+   "x_house_street_city",
+   "x_addrless_name_ngram_top5",
+   "x_addr_token_top5"
+  ],
+  "steps": [
+   {
+    "added": "x_name_any_house_number",
+    "recall_gain": 0.00036,
+    "candidates_added_per_entity": 0.01,
+    "gain_per_candidate": 0.025887
+   },
+   {
+    "added": "x_name_any_city",
+    "recall_gain": 0.00154,
+    "candidates_added_per_entity": 0.19,
+    "gain_per_candidate": 0.008275
+   },
+   {
+    "added": "x_compact_name_state",
+    "recall_gain": 7e-05,
+    "candidates_added_per_entity": 0.06,
+    "gain_per_candidate": 0.001076
+   },
+   {
+    "added": "x_house_street_city",
+    "recall_gain": 1e-05,
+    "candidates_added_per_entity": 0.03,
+    "gain_per_candidate": 0.000419
+   },
+   {
+    "added": "x_addrless_name_ngram_top5",
+    "recall_gain": 0.00179,
+    "candidates_added_per_entity": 7.08,
+    "gain_per_candidate": 0.000253
+   },
+   {
+    "added": "x_addr_token_top5",
+    "recall_gain": 0.00053,
+    "candidates_added_per_entity": 2.42,
+    "gain_per_candidate": 0.00022
+   }
+  ],
+  "rejected": [
+   "x_name_addr_top30",
+   "x_name_addr_top50",
+   "x_name_addr_adaptive50_s20ge50",
+   "x_name_addr_adaptive50_s20ge60",
+   "x_name_addr_adaptive50_s20ge70",
+   "x_domain_name_ngram_top3",
+   "x_addr_token_top10",
+   "x_name_addr_top20_maxdf3",
+   "9_addr_token_top20",
+   "3_name_ngram_top20",
+   "8_acronym_city"
+  ]
+ },
+ "new": {
+  "pairs": 40233392,
+  "recall": 0.9895,
+  "true_pairs_found": 1511611,
+  "true_pairs_missed": 16039,
+  "entity_all_matches_found": 0.96426,
+  "recall_by_source": {
+   "S2": 0.9907,
+   "S3": 0.98838
+  },
+  "recall_by_country": {
+   "India": 0.98748,
+   "US": 0.99085
+  },
+  "mean": 91.157,
+  "median": 62.0,
+  "p95": 241.0,
+  "max": 696,
+  "entities_with_candidates": 441365,
+  "reduction_ratio": 0.999991,
+  "pairs_by_source": {
+   "S2": 19492000,
+   "S3": 20741392
+  }
+ },
+ "new_final": [
+  "9_name_addr_token_top20",
+  "1_exact_name_any_cap200",
+  "5_state_house_street",
+  "5_state_name_sorted",
+  "5_city_name_first_cap100",
+  "8_sn_name_compact_w3",
+  "9_sn_addr_sorted_w3",
+  "x_name_any_house_number",
+  "x_name_any_city",
+  "x_compact_name_state",
+  "x_house_street_city",
+  "x_addrless_name_ngram_top5",
+  "x_addr_token_top5"
+ ],
+ "remaining_misses": {
+  "n": 16039,
+  "by_cause": {
+   "missing address": 4553,
+   "address variation": 1115,
+   "name variation": 2038,
+   "candidate limit too small": 3903,
+   "typo": 52,
+   "abbreviation": 1359,
+   "retrieval failure": 790,
+   "other": 834,
+   "blocking collision": 1390,
+   "transliteration": 5
+  }
+ },
+ "file": {
+  "path": "artifacts/candidates/fold0\\candidate_pairs.tsv",
+  "rows": 441365,
+  "bytes": 524266254,
+  "ids": 40233392,
+  "empty_rows": 0,
+  "problems": [],
+  "valid": true
+ },
+ "comparison": {
+  "old_recall": 0.9852,
+  "new_recall": 0.9895,
+  "old_mean": 81.365,
+  "new_mean": 91.157,
+  "old_p95": 233.0,
+  "new_p95": 241.0,
+  "old_pairs": 35911531,
+  "new_pairs": 40233392,
+  "old_by_country": {
+   "India": 0.98062,
+   "US": 0.98827
+  },
+  "new_by_country": {
+   "India": 0.98748,
+   "US": 0.99085
+  },
+  "old_all_found": 0.95123,
+  "new_all_found": 0.96426
+ }
+}

@@ -1,0 +1,751 @@
+{
+ "train_source1": {
+  "path": "student_resource/dataset/train/train_source1.tsv",
+  "size_bytes": 210069713,
+  "encoding": "utf8",
+  "n_rows": 2206821,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 1.7,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 0,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 0,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 2206821,
+  "id_prefix_counts": {
+   "p": [
+    "S1-"
+   ],
+   "len": [
+    2206821
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    4,
+    20,
+    203,
+    2072,
+    19912,
+    198190,
+    1986420
+   ]
+  },
+  "id_numeric_min": 217,
+  "id_numeric_max": 999998822,
+  "id_numeric_n_unique": 2206821,
+  "country_counts": {
+   "country": [
+    "US",
+    "India"
+   ],
+   "len": [
+    1323633,
+    883188
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S1-925783039",
+    "S1-773889195",
+    "S1-377745466",
+    "S1-133037285",
+    "S1-755362802",
+    "S1-851869949"
+   ],
+   "business_name": [
+    "Orelee's Barbershop",
+    "Prime Money",
+    "B+ Retail Inc",
+    "Christ Chapel",
+    "Prabhav Business Center",
+    "Custom Wealth Services LLC"
+   ],
+   "business_address": [
+    "1795 Westchester Drive, High Point, NC",
+    "17560 Ellis Road, Tahlequah, OK",
+    "1712 Montebello Avenue, Phoenix, AZ",
+    "2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD",
+    "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+    "OH, Columbus, 5559 Orville Avenue"
+   ],
+   "country": [
+    "US",
+    "US",
+    "US",
+    "US",
+    "India",
+    "US"
+   ]
+  }
+ },
+ "train_source2": {
+  "path": "student_resource/dataset/train/train_source2.tsv",
+  "size_bytes": 489301488,
+  "encoding": "utf8",
+  "n_rows": 5034616,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.5,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 168967,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 168967,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 5034616,
+  "id_prefix_counts": {
+   "p": [
+    "S2-"
+   ],
+   "len": [
+    5034616
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    3,
+    40,
+    469,
+    4404,
+    45433,
+    453700,
+    4530567
+   ]
+  },
+  "id_numeric_min": 576,
+  "id_numeric_max": 999999727,
+  "id_numeric_n_unique": 5034616,
+  "country_counts": {
+   "country": [
+    "US",
+    "India"
+   ],
+   "len": [
+    3016817,
+    2017799
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S2-166376419",
+    "S2-764573417",
+    "S2-639257739",
+    "S2-163963287",
+    "S2-49942811",
+    "S2-138046867"
+   ],
+   "business_name": [
+    "राम मार्केटिंग प्राइवेट लिमिटेड",
+    "-- Holloway Peak Inc Seafood",
+    "आदित्य प्रॉपर्टीज एलएलपी",
+    "Summit Inc",
+    "Delta Tetlecommunication Inc",
+    "Lee and Lawson"
+   ],
+   "business_address": [
+    "KH NO. -570/13, NEW DELHI, WEST DELHI, Delhi",
+    "105 ELM ST, MORGANTON, NC",
+    "G-3/571, GULMOHAR COLONY, BHOPAL, Madhya Pradesh",
+    "GREENSBORO, NC, 19 1/2 STARDUST TRAIL",
+    "914 PIERPONT AVE, CLEVELAND, OH",
+    "1702 Pine Avenue, CITY OF MENOMONIE, WI"
+   ],
+   "country": [
+    "India",
+    "US",
+    "India",
+    "US",
+    "US",
+    "US"
+   ]
+  }
+ },
+ "train_source3": {
+  "path": "student_resource/dataset/train/train_source3.tsv",
+  "size_bytes": 503705637,
+  "encoding": "utf8",
+  "n_rows": 5285603,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.5,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 175916,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 175916,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 5285603,
+  "id_prefix_counts": {
+   "p": [
+    "S3-"
+   ],
+   "len": [
+    5285603
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    1,
+    2,
+    47,
+    462,
+    4682,
+    47337,
+    477291,
+    4755781
+   ]
+  },
+  "id_numeric_min": 10,
+  "id_numeric_max": 999999866,
+  "id_numeric_n_unique": 5285603,
+  "country_counts": {
+   "country": [
+    "US",
+    "India"
+   ],
+   "len": [
+    3170056,
+    2115547
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S3-202863386",
+    "S3-859268022",
+    "S3-22467283",
+    "S3-671162755",
+    "S3-960981775",
+    "S3-578159284"
+   ],
+   "business_name": [
+    "wilfordhancock.com",
+    "International South Consultants Private Ltd",
+    "LLC Moncada Léarning Center",
+    "Moyna's Coffee",
+    "Pvt. EFS Print Ventures Ltd.",
+    "LLC Hernandez Colonial Redwood"
+   ],
+   "business_address": [
+    "Mack Rd, Haltom City, Texas",
+    null,
+    "5780 Fawn Ct, Fort Worth, Texas",
+    "1 Ivanhoe Ave, PO Box 6009, Cincinnati, Ohio",
+    "Door No 183, 41St Cross, 22Nd Main 9Th Block Jayanagar, Bengaluru Urban, Bangalore, ಕರ್ನಾಟಕ",
+    "2260- Housecreek Trail, Unit 407, Raleigh, North Carolina"
+   ],
+   "country": [
+    "US",
+    "India",
+    "US",
+    "US",
+    "India",
+    "US"
+   ]
+  }
+ },
+ "train_ground_truth": {
+  "path": "student_resource/dataset/train/train_ground_truth.tsv",
+  "size_bytes": 127015583,
+  "encoding": "utf8",
+  "n_rows": 2206821,
+  "n_cols": 2,
+  "columns": [
+   "source1_entity_id",
+   "matched_entity_ids"
+  ],
+  "dtypes": [
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.1,
+  "null_counts": {
+   "source1_entity_id": 0,
+   "matched_entity_ids": 123247
+  },
+  "null_or_blank_counts": {
+   "source1_entity_id": 0,
+   "matched_entity_ids": 123247
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 2206821,
+  "id_prefix_counts": {
+   "p": [
+    "S1-"
+   ],
+   "len": [
+    2206821
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    4,
+    20,
+    203,
+    2072,
+    19912,
+    198190,
+    1986420
+   ]
+  },
+  "id_numeric_min": 217,
+  "id_numeric_max": 999998822,
+  "id_numeric_n_unique": 2206821,
+  "gt_empty_lists": 123247,
+  "gt_lists_with_space": 0,
+  "gt_lists_with_quote": 0,
+  "head": {
+   "source1_entity_id": [
+    "S1-965667",
+    "S1-55344266",
+    "S1-343815751",
+    "S1-656753428",
+    "S1-102811957",
+    "S1-18727616"
+   ],
+   "matched_entity_ids": [
+    "S2-681193310,S2-743505751,S3-775321672,S3-11291185,S3-860443364",
+    "S2-249013014,S2-197070651,S3-478195123,S3-384364074",
+    "S2-790675320,S2-479876582,S3-878454467",
+    "S2-153058913,S2-24659151,S3-679606215",
+    "S2-478959098,S2-553508714,S2-625774905,S3-728090388,S3-928796641,S3-449308785",
+    "S2-755677256,S3-187831601,S3-641489370,S3-476250621"
+   ]
+  }
+ },
+ "test_source1": {
+  "path": "student_resource/dataset/test/test_source1.tsv",
+  "size_bytes": 175022086,
+  "encoding": "utf8",
+  "n_rows": 1732544,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.2,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 0,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 0,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 1732544,
+  "id_prefix_counts": {
+   "p": [
+    "S1-"
+   ],
+   "len": [
+    1732544
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    3,
+    15,
+    154,
+    1524,
+    15466,
+    155513,
+    1559869
+   ]
+  },
+  "id_numeric_min": 401,
+  "id_numeric_max": 999998909,
+  "id_numeric_n_unique": 1732544,
+  "country_counts": {
+   "country": [
+    "India",
+    "US",
+    "France"
+   ],
+   "len": [
+    809986,
+    663106,
+    259452
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S1-714132312",
+    "S1-106407869",
+    "S1-156285671",
+    "S1-689823050",
+    "S1-921369899",
+    "S1-481669221"
+   ],
+   "business_name": [
+    "Zephay Labs Inc",
+    "Vision Partners Corp",
+    "<< Team Ecole",
+    "Red Perfect Trading",
+    "ZNB Club SARL",
+    "Nandlal Kisan LLP"
+   ],
+   "business_address": [
+    "2621 Cotten Road, Tyler, TX",
+    "IA, Iowa City, 1064 Newton Rd, Unit 11",
+    "175 Boulevard du Président Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine",
+    "Mirzapur, Ews 12, Uttar Pradesh, Mirzapursadar, Awas Vikas Colony",
+    "Nouvelle-Aquitaine, La Teste-de-Buch, 5 bis Rue Pierre Dignac",
+    "D-61 Ifs Apartmentmayur Vihar I, New Delhi, East Delhi, Delhi"
+   ],
+   "country": [
+    "US",
+    "US",
+    "France",
+    "India",
+    "France",
+    "India"
+   ]
+  }
+ },
+ "test_source2": {
+  "path": "student_resource/dataset/test/test_source2.tsv",
+  "size_bytes": 509456422,
+  "encoding": "utf8",
+  "n_rows": 4887273,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.5,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 129408,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 129408,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 4887273,
+  "id_prefix_counts": {
+   "p": [
+    "S2-"
+   ],
+   "len": [
+    4887273
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    3,
+    28,
+    426,
+    4500,
+    43823,
+    439602,
+    4398891
+   ]
+  },
+  "id_numeric_min": 208,
+  "id_numeric_max": 999999982,
+  "id_numeric_n_unique": 4887273,
+  "country_counts": {
+   "country": [
+    "India",
+    "US",
+    "France"
+   ],
+   "len": [
+    2312565,
+    1871330,
+    703378
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S2-192345572",
+    "S2-566025912",
+    "S2-158121477",
+    "S2-89663826",
+    "S2-884102769",
+    "S2-910351373"
+   ],
+   "business_name": [
+    "Brahma Infosoft",
+    "Marina Ecole France Sarl",
+    "SCI Ptit Àmicale",
+    "Apex Summit",
+    "Fresh Truist",
+    "PVT. INDUSTRIES PMB LEASING LIMITED"
+   ],
+   "business_address": [
+    "COIMATORE COLONY, HUNSUR TQMYSORE DIST., Karnataka",
+    "63 R. DE DIEPPE, LILLE, Hauts-de-France",
+    "18 RUE JEN ZAY, Dunkerque, Nord",
+    "67 KENTUCKY ST, SALYERSVILLE, KY",
+    "8264 FILLY COURT, ROANOKE COUNTY, VA",
+    "SURAT, OFFICE NO. 03038, TRADE HOUSE, NEAR RUSHABH PETROL PUMP, RING ROAD, Gujarat, SURAT"
+   ],
+   "country": [
+    "India",
+    "France",
+    "France",
+    "US",
+    "US",
+    "India"
+   ]
+  }
+ },
+ "test_source3": {
+  "path": "student_resource/dataset/test/test_source3.tsv",
+  "size_bytes": 506002772,
+  "encoding": "utf8",
+  "n_rows": 5082316,
+  "n_cols": 4,
+  "columns": [
+   "entity_id",
+   "business_name",
+   "business_address",
+   "country"
+  ],
+  "dtypes": [
+   "String",
+   "String",
+   "String",
+   "String"
+  ],
+  "read_seconds": 0.5,
+  "null_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 136098,
+   "country": 0
+  },
+  "null_or_blank_counts": {
+   "entity_id": 0,
+   "business_name": 0,
+   "business_address": 136098,
+   "country": 0
+  },
+  "rows_with_CR_in_last_col": 0,
+  "id_n_unique": 5082316,
+  "id_prefix_counts": {
+   "p": [
+    "S3-"
+   ],
+   "len": [
+    5082316
+   ]
+  },
+  "id_regex_nonmatch": 0,
+  "id_numeric_len_counts": {
+   "L": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "len": [
+    1,
+    8,
+    49,
+    453,
+    4691,
+    45776,
+    457859,
+    4573479
+   ]
+  },
+  "id_numeric_min": 5,
+  "id_numeric_max": 999999995,
+  "id_numeric_n_unique": 5082316,
+  "country_counts": {
+   "country": [
+    "India",
+    "US",
+    "France"
+   ],
+   "len": [
+    2405000,
+    1945701,
+    731615
+   ]
+  },
+  "head": {
+   "entity_id": [
+    "S3-462677478",
+    "S3-374810425",
+    "S3-198586129",
+    "S3-10300249",
+    "S3-604980231",
+    "S3-577972146"
+   ],
+   "business_name": [
+    "मॉडर्न फाइनेंस",
+    "Shri Sai Infratech Co",
+    "Fractales Amis Groupe S.A.S",
+    "Shri Supreme Consulting Private  (Limited)",
+    "Prime Realty Ventures Public Limited",
+    "Perfect Investments Private"
+   ],
+   "business_address": [
+    "No 10 Enkay Square, 448A, Udyog Vihar Phase V, Gurugram, Gurgaon, HR",
+    "3/115, East Delhi, DL",
+    "23 Rue Icmre, La Teste-de-buch, Gironde",
+    "H.no 910 A 3503, Mumbai, महाराष्ट्र",
+    "G.t. Karnal Road, Industrial Area, New Delhi, null, A-68, दिल्ली",
+    "Plot No.99, Flat No.201, Sri Dhama Apts., Road No.4, Shaikpet, Hyderabad, TG"
+   ],
+   "country": [
+    "India",
+    "India",
+    "France",
+    "India",
+    "India",
+    "India"
+   ]
+  }
+ }
+}

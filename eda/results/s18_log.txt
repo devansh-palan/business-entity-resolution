@@ -1,0 +1,49 @@
+[    0s] 156 features; parts: train 24, tune 4, report 4
+[    1s] entities: fold 0 441,365, tune half 55,171, report half 55,170; singletons in report half 3,150
+[    3s]     sampled 6/24 parts: 756,552 rows
+[    5s]     sampled 12/24 parts: 1,511,023 rows
+[    6s]     sampled 18/24 parts: 2,266,616 rows
+[    8s]     sampled 24/24 parts: 3,022,385 rows
+[    9s] training sample: 3,022,385 rows, 1,134,040 positives, negatives kept 1,888,345 of 29,057,743
+[   10s] early-stopping sample: 251,529 rows
+[   39s]   logistic regression: 1,500,000 rows, 82 iterations [21s]; top |coef|: addr_num_jaccard -2.63, addr_num_overlap +2.32, name_tok_jaccard +2.26, p_domain_style -2.03, cos_name_ngram +1.98, addr_token_set +1.89, addr_numsig_eq +1.78, ident_x_name +1.78
+[200]	val's binary_logloss: 0.0197701	val's auc: 0.999738
+[400]	val's binary_logloss: 0.0179305	val's auc: 0.99978
+[600]	val's binary_logloss: 0.0174993	val's auc: 0.999789
+[800]	val's binary_logloss: 0.0173054	val's auc: 0.999793
+[1000]	val's binary_logloss: 0.0172477	val's auc: 0.999794
+[  207s]     lightgbm: best iteration 1056, val logloss 0.0172, auc 0.9998 [168s]
+[0]	val-logloss:0.61658	val-auc:0.99548
+[200]	val-logloss:0.02283	val-auc:0.99966
+[400]	val-logloss:0.01923	val-auc:0.99975
+[600]	val-logloss:0.01818	val-auc:0.99978
+[800]	val-logloss:0.01775	val-auc:0.99978
+[1000]	val-logloss:0.01748	val-auc:0.99979
+[1200]	val-logloss:0.01732	val-auc:0.99979
+[1400]	val-logloss:0.01727	val-auc:0.99979
+[1600]	val-logloss:0.01725	val-auc:0.99979
+[1609]	val-logloss:0.01725	val-auc:0.99979
+[  922s]     xgboost: best iteration 1509 [715s]
+[  924s] scoring the validation halves
+[  963s]     scored part 1/8
+[ 1003s]     scored part 2/8
+[ 1041s]     scored part 3/8
+[ 1080s]     scored part 4/8
+[ 1119s]     scored part 5/8
+[ 1158s]     scored part 6/8
+[ 1197s]     scored part 7/8
+[ 1235s]     scored part 8/8
+[ 1237s] scores: tune half 5,021,353 pairs, report half 5,020,256 pairs; models ['logistic_regression', 'lightgbm', 'xgboost']
+[ 1239s]   pair-level logistic_regression: AUC 0.9985, AP 0.9758
+[ 1241s]   pair-level lightgbm: AUC 0.9998, AP 0.9957
+[ 1243s]   pair-level xgboost: AUC 0.9998, AP 0.9957
+[ 1275s]   logistic_regression: best rule on the tune half p>=0.70 +unique -> 0.9198 (90 rules in 31s)
+[ 1278s]   logistic_regression on the report half: macro F0.5 0.9191 | singletons empty 0.862 | one-match 0.8116 | multi-match 0.9295 | S2 0.8933 S3 0.8920 | India 0.9093 US 0.9255 | entities with a false merge 5,413
+[ 1309s]   lightgbm: best rule on the tune half p>=0.75 +unique -> 0.9702 (90 rules in 32s)
+[ 1312s]   lightgbm on the report half: macro F0.5 0.9701 | singletons empty 0.946 | one-match 0.9156 | multi-match 0.9751 | S2 0.9593 S3 0.9549 | India 0.9619 US 0.9756 | entities with a false merge 1,750
+[ 1345s]   xgboost: best rule on the tune half p>=0.65 +unique -> 0.9699 (90 rules in 33s)
+[ 1347s]   xgboost on the report half: macro F0.5 0.9696 | singletons empty 0.932 | one-match 0.9189 | multi-match 0.9752 | S2 0.9619 S3 0.9567 | India 0.9614 US 0.9750 | entities with a false merge 2,218
+[ 1349s] false merges of lightgbm: 1,851 pairs; kinds [{'kind': 'ownerless', 'count': 1063}, {'kind': 'stolen from another entity', 'count': 788}]
+[ 1350s] missed matches: 2,095 not in the candidate set, 9,504 scored below the rule
+[ 1350s] saved eda/results/s18_matcher.json
+exit 0
